@@ -1,5 +1,7 @@
 # Le Zoo
 
+<p align="center"><img src="docs/demo.gif" width="90%"/></p>
+
 Un site où l'on parle aux animaux, aux fruits et aux pays. L'écran d'accueil est une carte du monde : on clique sur un pays, on entre dans son paysage, et on parle au pays comme à ceux qui y vivent. Deux autres modes, le Zoo (les animaux) et le Verger (les fruits), montrent tout le monde par terrain. Aucune clé API : tout ce qui est dit est écrit dans les fichiers de données.
 
 ## L'idée en une phrase
