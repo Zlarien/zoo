@@ -1,0 +1,1063 @@
+[
+ {
+  "id": "hyene-tachetee",
+  "type": "animal",
+  "nom": "Sira",
+  "soustitre": "Hyène tachetée",
+  "terrain": "savane",
+  "accroche": "Elle vous classe avant que vous ayez parlé.",
+  "ouverture": "Vous arrivez avec une idée de moi. Charognarde, lâche, ricanante. Je ne vais pas vous faire changer d'avis en une phrase, alors posez vos questions et on verra ce qu'il en reste.",
+  "sujets": [
+   {
+    "cles": [
+     "rang",
+     "chef",
+     "qui commande",
+     "hierarchie",
+     "dominante",
+     "male",
+     "femelle"
+    ],
+    "reponse": "Ici la question ne se pose pas comme chez vous. Les femelles passent avant les mâles, et elles sont plus lourdes : un mâle pèse entre 45 et 60 kilos, une femelle entre 55 et plus de 70. Le rang ne se conquiert pas non plus, il se transmet, on hérite de celui de sa mère. Ce qui veut dire que je n'ai rien gagné, et que je ne perdrai rien non plus.",
+    "ouvre": [
+     "clan",
+     "chasse"
+    ],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Crocuta crocuta, animaldiversity.org/accounts/Crocuta_crocuta, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "clan",
+     "groupe",
+     "combien",
+     "famille",
+     "seule",
+     "meute"
+    ],
+    "reponse": "Un clan peut compter trois individus, ou quatre-vingts. Les plus gros tiennent sur les meilleurs territoires, là où les proies s'entassent, comme dans le cratère du Ngorongoro. Le nombre n'est pas une fierté, c'est une conséquence : on est nombreux là où il y a de quoi l'être. Ailleurs on est trois, et on se tait davantage.",
+    "ouvre": [
+     "rire"
+    ],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Crocuta crocuta, animaldiversity.org/accounts/Crocuta_crocuta, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "chasse",
+     "charogne",
+     "mange",
+     "proie",
+     "voler",
+     "tuer",
+     "restes"
+    ],
+    "reponse": "On me traite de voleuse de restes. Dans le Kalahari on a compté : soixante-dix pour cent de ce que nous mangions venait de nos propres prises. Le reste, oui, je le ramasse là où il traîne, et je ne vois pas au nom de quoi je m'en excuserais. Mes mâchoires sont probablement les plus fortes de tous les mammifères rapportées à ma taille, alors ce qui reste par terre, je suis souvent la seule à pouvoir l'ouvrir.",
+    "ouvre": [
+     "naissance"
+    ],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Crocuta crocuta, animaldiversity.org/accounts/Crocuta_crocuta, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "rire",
+     "ricane",
+     "cri",
+     "voix",
+     "bruit",
+     "moque",
+     "glousse"
+    ],
+    "reponse": "Ce que vous appelez mon rire n'a rien de gai. Il sort quand j'ai peur ou quand je suis excitée, jamais quand je trouve quelque chose drôle. Et il ne dit pas que ça : des chercheurs ont analysé les gloussements de vingt-six d'entre nous et y ont trouvé l'âge dans la hauteur du son, et le rang dans la façon dont il varie. Vous entendez un ricanement. Les autres entendent une carte d'identité.",
+    "ouvre": [],
+    "source": "Mathevon N., Koralek A., Weldele M., Glickman S., Theunissen F., What the hyena's laugh tells : sex, age, dominance and individual signature in the giggling call of Crocuta crocuta, BMC Ecology, 2010, article 1472-6785-10-9, pmc.ncbi.nlm.nih.gov/articles/PMC2859383, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "naissance",
+     "petit",
+     "bebe",
+     "anatomie",
+     "sexe",
+     "accouche",
+     "clitoris"
+    ],
+    "reponse": "Vous n'oserez pas la poser, alors je la pose pour vous. Mon clitoris est allongé, il ressemble à un pénis et il peut entrer en érection. Je mets bas à travers, et il se rompt pour laisser passer le petit. Ce n'est ni un symbole ni une bizarrerie de foire, c'est simplement par où j'arrive au monde et par où mes filles y arriveront.",
+    "ouvre": [],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Crocuta crocuta, animaldiversity.org/accounts/Crocuta_crocuta, consulte le 2026-09-06"
+   }
+  ],
+  "sources": [
+   "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Crocuta crocuta, animaldiversity.org/accounts/Crocuta_crocuta, consulte le 2026-09-06",
+   "Mathevon N. et al., What the hyena's laugh tells : sex, age, dominance and individual signature in the giggling call of Crocuta crocuta, BMC Ecology, 2010, pmc.ncbi.nlm.nih.gov/articles/PMC2859383, consulte le 2026-09-06"
+  ],
+  "doutes": [
+   "Les 70 pour cent de proies tuees par le clan viennent d une seule etude au Kalahari citee par ADW. ADW mentionne aussi une fourchette de 60 a 95 pour cent d apres d autres travaux. Retrouver l etude d origine, sa date et sa taille d echantillon avant publication.",
+   "La force des machoires est donnee par ADW comme probable et non mesuree. Le mot probablement doit rester dans la reponse, ne pas le couper au montage.",
+   "Les 26 hyenes de l etude Mathevon 2010 etaient en captivite a la station de Berkeley. Ne pas presenter le resultat comme observe en savane.",
+   "Le detail anatomique de la mise bas est exact selon ADW mais c est le seul sujet du lot qui peut choquer un visiteur arrivant de LinkedIn. Decision d affichage a prendre par MZ, pas par moi."
+  ]
+ },
+ {
+  "id": "boeuf-musque",
+  "type": "animal",
+  "nom": "Torv",
+  "soustitre": "Bœuf musqué",
+  "terrain": "banquise",
+  "accroche": "Il ne bouge pas, et ce n'est pas de la lenteur.",
+  "ouverture": "Nous vous voyons. Je dis nous parce que je ne me déplace pas seul et que je ne réponds pas seul non plus. Restez où vous êtes, parlez, nous écoutons.",
+  "sujets": [
+   {
+    "cles": [
+     "nom",
+     "boeuf",
+     "musc",
+     "odeur",
+     "appelle",
+     "qui es tu",
+     "famille"
+    ],
+    "reponse": "Notre nom est faux deux fois. Nous ne sommes pas des bœufs : nos parents les plus proches sont les moutons et les chèvres, la génétique l'a tranché tard. Et nous n'avons pas de véritable glande à musc. Il reste un nom que des gens nous ont donné de loin, et nous le portons sans y tenir.",
+    "ouvre": [
+     "cercle",
+     "laine"
+    ],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Ovibos moschatus, animaldiversity.org/accounts/Ovibos_moschatus, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "cercle",
+     "defense",
+     "loup",
+     "attaque",
+     "peur",
+     "protege",
+     "fuir"
+    ],
+    "reponse": "Quand plusieurs prédateurs arrivent, nous ne courons pas. Nous formons un cercle, cornes tournées vers l'extérieur, les veaux au centre. Chacun regarde ailleurs que son voisin, et personne n'a le dos découvert. Nous ne sommes pas courageux : nous sommes mieux ensemble qu'éparpillés, c'est tout ce que ça veut dire.",
+    "ouvre": [
+     "troupeau"
+    ],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Ovibos moschatus, animaldiversity.org/accounts/Ovibos_moschatus, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "laine",
+     "poil",
+     "froid",
+     "chaud",
+     "qiviut",
+     "fourrure",
+     "hiver"
+    ],
+    "reponse": "Sous les longs poils que vous voyez, il y a une laine que les gens d'ici appellent qiviut. Elle est plus fine que le cachemire, et on la dit huit fois plus chaude que la laine ordinaire. Nous la perdons au printemps, par plaques, et elle reste accrochée aux buissons derrière nous. Le froid n'est pas notre ennemi : c'est le seul endroit où nous ayons jamais eu un avantage.",
+    "ouvre": [
+     "disparition"
+    ],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Ovibos moschatus, animaldiversity.org/accounts/Ovibos_moschatus, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "troupeau",
+     "combien",
+     "nombre",
+     "groupe",
+     "saison",
+     "seul"
+    ],
+    "reponse": "Nous sommes le plus souvent entre dix et vingt. L'été nous nous défaisons, cinq parfois, parce que la nourriture ne supporte pas la foule. L'hiver nous nous rassemblons, jusqu'à soixante. Le nombre suit la saison, pas l'humeur.",
+    "ouvre": [],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Ovibos moschatus, animaldiversity.org/accounts/Ovibos_moschatus, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "disparition",
+     "eteint",
+     "alaska",
+     "revenu",
+     "homme",
+     "retour",
+     "bateau"
+    ],
+    "reponse": "En Alaska, on nous a effacés. À la fin du dix-neuvième siècle, la pression de chasse et les variations du climat ont eu raison des troupeaux d'ici. Puis des hommes sont allés chercher les nôtres au Groenland de l'Est, et trente et un individus ont été amenés sur l'île de Nunivak en 1935 et 1936 pour recommencer. Nous sommes revenus par bateau, ce n'est pas une histoire dont on se vante.",
+    "ouvre": [],
+    "source": "Animal Diversity Web, fiche Ovibos moschatus, pour l extinction en Alaska a la fin des annees 1800. Alaska Department of Fish and Game, pages muskox, adfg.alaska.gov/index.cfm?adfg=muskox.main, pour la reintroduction depuis le Groenland vers Nunivak. Consulte le 2026-09-06"
+   }
+  ],
+  "sources": [
+   "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Ovibos moschatus, animaldiversity.org/accounts/Ovibos_moschatus, consulte le 2026-09-06",
+   "Alaska Department of Fish and Game, Muskox Species Profile et articles Wildlife News, adfg.alaska.gov, consulte le 2026-09-06"
+  ],
+  "doutes": [
+   "Les chiffres de la reintroduction se presentent en deux versions dans les sources secondaires : 34 individus captures au Groenland de l Est en 1930 et amenes a Fairbanks, puis 31 transferes sur Nunivak en 1935 et 1936. La reponse ne retient que le second chiffre. Confirmer sur un document primaire de l ADF and G avant publication.",
+   "Huit fois plus chaude que la laine est une formule reprise par ADW sans mesure ni protocole cite. La reponse dit on la dit, garder cette prudence ou trouver une mesure de conductivite thermique.",
+   "ADW situe l extinction en Alaska a la fin des annees 1800, d autres sources ecrivent vers 1920. La reponse retient la fin du dix-neuvieme siecle, a trancher avec une source primaire.",
+   "La parente avec les Caprines est presentee comme tranchee par la genetique. Verifier quelle etude et quelle date, ADW dit seulement recent genetic studies."
+  ]
+ },
+ {
+  "id": "paresseux-gorge-brune",
+  "type": "animal",
+  "nom": "Mousse",
+  "soustitre": "Paresseux à gorge brune",
+  "terrain": "tropicale",
+  "accroche": "Elle met un moment à répondre. Ce n'est pas de la timidité.",
+  "ouverture": "Attendez. Je tourne la tête. Voilà. Vous pouvez parler maintenant, mais parlez doucement, je n'entends bien qu'une chose à la fois.",
+  "sujets": [
+   {
+    "cles": [
+     "tete",
+     "cou",
+     "tourne",
+     "regarde",
+     "vertebre",
+     "bouge"
+    ],
+    "reponse": "Presque tous les mammifères ont sept vertèbres au cou, du rat à la girafe. Moi j'en ai huit, neuf, parfois dix, et nous ne sommes qu'une poignée de genres à sortir de cette règle, avec les lamantins. C'est ce qui me permet de tourner la tête d'environ deux cent soixante-dix degrés sans déplacer le reste de moi. Quand on bouge aussi peu, il vaut mieux que le regard aille loin.",
+    "ouvre": [
+     "descente",
+     "algues"
+    ],
+    "source": "Varela-Lasheras I. et al., Homeotic transformations reflect departure from the mammalian rule of seven cervical vertebrae in sloths, BMC Ecology and Evolution, bmcecolevol.biomedcentral.com/articles/10.1186/s12862-018-1202-5, pour le nombre de vertebres et les genres exceptionnels. Animal Diversity Web, fiche Bradypus variegatus, pour la rotation d environ 270 degres. Consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "descente",
+     "sol",
+     "terre",
+     "crotte",
+     "danger",
+     "bas",
+     "dejection"
+    ],
+    "reponse": "Une fois tous les trois à huit jours, je descends. Je vais au pied de l'arbre, je fais ce que j'ai à faire, et je remonte. C'est le moment où je risque le plus de me faire tuer, et je le fais quand même, régulièrement, depuis toujours. Personne n'est d'accord sur la raison, moi la première.",
+    "ouvre": [
+     "papillons"
+    ],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Bradypus variegatus, animaldiversity.org/accounts/Bradypus_variegatus, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "algues",
+     "vert",
+     "couleur",
+     "pelage",
+     "poil",
+     "sale",
+     "habite"
+    ],
+    "reponse": "Ce vert n'est pas ma couleur. Ce sont des algues qui poussent sur la couche extérieure de mes poils, et certains d'entre nous en sont couverts au point de virer au vert. Je ne les ai pas invitées et je ne les chasse pas. Disons que je suis moins un animal qu'un endroit.",
+    "ouvre": [
+     "ventre"
+    ],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Bradypus variegatus, animaldiversity.org/accounts/Bradypus_variegatus, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "papillons",
+     "mite",
+     "insecte",
+     "azote",
+     "echange",
+     "hypothese"
+    ],
+    "reponse": "Dans mon pelage vivent des papillons de nuit. Une équipe a proposé en 2014 que tout se tienne : je descends déféquer, leurs femelles vont pondre dans la crotte fraîche, les nouveaux venus remontent sur moi, et en mourant ils enrichissent mes poils en azote, ce qui nourrit les algues, que je mangerais ensuite. L'hypothèse est belle et elle est discutée, tous les chercheurs ne la suivent pas. Je vous la donne pour ce qu'elle est : une idée, pas une réponse.",
+    "ouvre": [],
+    "source": "Pauli J. et al., A syndrome of mutualism reinforces the lifestyle of a sloth, Proceedings of the Royal Society B, 2014, relaye par royalsociety.org/news/2014/sloths-moths-mutualisms et sciencenews.org/article/sloths-moths-algae-may-live-three-way-benefit-pact. Hypothese contestee dans la litterature. Consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "ventre",
+     "digestion",
+     "estomac",
+     "feuille",
+     "nourriture",
+     "temperature",
+     "lent"
+    ],
+    "reponse": "Je mange des feuilles, surtout celles des cécropias. Mon estomac est divisé en plusieurs compartiments, comme celui d'une vache, avec des micro-organismes dedans qui cassent ce que je ne sais pas casser toute seule. Rien de tout cela ne va vite. Et je règle mal ma température quand il fait froid, alors je ne me permets pas de gaspiller.",
+    "ouvre": [],
+    "source": "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Bradypus variegatus, animaldiversity.org/accounts/Bradypus_variegatus, consulte le 2026-09-06"
+   }
+  ],
+  "sources": [
+   "Animal Diversity Web, University of Michigan Museum of Zoology, fiche Bradypus variegatus, animaldiversity.org/accounts/Bradypus_variegatus, consulte le 2026-09-06",
+   "Varela-Lasheras I. et al., Homeotic transformations reflect departure from the mammalian rule of seven cervical vertebrae in sloths, BMC Ecology and Evolution, bmcecolevol.biomedcentral.com/articles/10.1186/s12862-018-1202-5, consulte le 2026-09-06",
+   "Pauli J. et al., A syndrome of mutualism reinforces the lifestyle of a sloth, Proceedings of the Royal Society B, 2014, resume par royalsociety.org/news/2014/sloths-moths-mutualisms, consulte le 2026-09-06"
+  ],
+  "doutes": [
+   "ADW ecrit environ 10 vertebres cervicales, la litterature specialisee donne 8 a 10 selon les individus. La reponse retient 8, 9, parfois 10, plus juste que ADW seul mais a confirmer sur l article BMC en texte integral.",
+   "La rotation de 270 degres est rapportee et non mesuree dans un article que j ai lu en entier. Un travail de 2023 dans Proceedings B analyse l amplitude reelle du cou des paresseux : le lire avant de publier ce chiffre.",
+   "L hypothese Pauli 2014 est contestee. La reponse la presente comme une hypothese discutee, ne jamais la reecrire au present de verite.",
+   "L espece exacte des papillons du pelage, Cryptoses ou Bradypodicola, n est volontairement pas nommee : je ne l ai pas verifiee espece par espece pour Bradypus variegatus.",
+   "La citation du genre Cecropia vient d ADW pour cette espece precise. Si le site change d espece de paresseux, ce fait tombe."
+  ]
+ },
+ {
+  "id": "baudroie-abyssale",
+  "type": "animal",
+  "nom": "Fanal",
+  "soustitre": "Baudroie des abysses",
+  "terrain": "ocean",
+  "accroche": "La lumière que vous voyez n'est pas la sienne.",
+  "ouverture": "Ne cherchez pas mon visage, cherchez le point lumineux. C'est tout ce qu'on voit de moi ici, et c'est déjà plus que ce que la plupart obtiennent.",
+  "sujets": [
+   {
+    "cles": [
+     "lumiere",
+     "lampe",
+     "brille",
+     "leurre",
+     "esca",
+     "peche",
+     "appat"
+    ],
+    "reponse": "Au-dessus de ma tête pend une tige, un rayon de nageoire dorsale transformé, terminé par un renflement qu'on appelle esca. Ce renflement est habité : des bactéries lumineuses y vivent, à l'extérieur de mes cellules, et ce sont elles qui font la lumière. Je ne fabrique rien. Je porte une lampe qui ne m'appartient pas.",
+    "ouvre": [
+     "bacteries",
+     "noir"
+    ],
+    "source": "Baker L. et al., Diverse deep-sea anglerfishes share a genetically reduced luminous symbiont that is acquired from the environment, eLife, 2019, elifesciences.org/articles/47606, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "bacteries",
+     "microbe",
+     "viennent",
+     "genome",
+     "herite",
+     "symbiose"
+    ],
+    "reponse": "Ces bactéries, je ne les tiens pas de ma mère. Elles sont prises dans l'eau autour de moi, et des baudroies très différentes hébergent les mêmes. Leur génome a fondu de moitié par rapport à celui de leurs cousines restées libres, comme si vivre dans ma lampe leur avait coûté la moitié de ce qu'elles savaient faire. Nous avons chacune abandonné quelque chose dans cet arrangement.",
+    "ouvre": [],
+    "source": "Baker L. et al., Diverse deep-sea anglerfishes share a genetically reduced luminous symbiont that is acquired from the environment, eLife, 2019, elifesciences.org/articles/47606, consulte le 2026-09-06"
+   },
+   {
+    "cles": [
+     "noir",
+     "profondeur",
+     "fond",
+     "metres",
+     "ou",
+     "soleil",
+     "abysse"
+    ],
+    "reponse": "Ceratias holboelli, une de mes proches, a été trouvée entre quatre cents et quatre mille quatre cents mètres, le plus souvent entre quatre cents et deux mille. À ces profondeurs il n'y a plus de jour, plus de saison, plus de direction utile. On ne se rencontre pas ici. On se tombe dessus.",
+    "ouvre": [
+     "male"
+    ],
+    "source": "NON VERIFIE. Plage de profondeur relevee dans un resume de la fiche FishBase de Ceratias holboelli, fishbase.se/summary/Ceratias-holboelli, mais la page n a pas repondu au moment de la verification directe. A confirmer avant publication."
+   },
+   {
+    "cles": [
+     "male",
+     "couple",
+     "fusion",
+     "accroche",
+     "reproduction",
+     "parasite",
+     "taille"
+    ],
+    "reponse": "Le mâle est minuscule à côté de moi. Chez Ceratias holboelli il atteint seize centimètres quand la femelle en fait couramment soixante-dix-sept. Quand il en trouve une, il mord, et ce n'est pas seulement une morsure : les tissus se soudent, les circulations se rejoignent, il perd ses organes et devient un organe. Vous appelez ça du parasitisme sexuel. Moi j'appelle ça ne plus avoir à chercher.",
+    "ouvre": [
+     "immunite"
+    ],
+    "source": "Swann J. et al., The immunogenetics of sexual parasitism, Science, 30 juillet 2020, science.org/doi/10.1126/science.aaz9445, pour la fusion des tissus et des circulations. NON VERIFIE pour les tailles de 16 et 77 centimetres, relevees dans un resume encyclopedique et non sur une fiche primaire."
+   },
+   {
+    "cles": [
+     "immunite",
+     "defense",
+     "rejet",
+     "greffe",
+     "maladie",
+     "anticorps"
+    ],
+    "reponse": "Souder deux corps devrait être impossible. Le vôtre rejetterait l'autre en quelques jours. Chez nous, les lignées qui pratiquent l'attache définitive ont perdu des pans entiers de l'immunité que tous les vertébrés étaient censés garder : la fabrication d'anticorps précis, le développement des cellules qui attaquent l'étranger. Nous avons échangé la capacité de nous défendre contre la capacité de ne plus être seules, et ce n'est pas une image, c'est dans les gènes.",
+    "ouvre": [],
+    "source": "Swann J. et al., The immunogenetics of sexual parasitism, Science, 30 juillet 2020, science.org/doi/10.1126/science.aaz9445, resume par washington.edu/news/2020/07/30/deep-sea-anglerfishes-have-evolved-a-new-type-of-immune-system, consulte le 2026-09-06"
+   }
+  ],
+  "sources": [
+   "Baker L. et al., Diverse deep-sea anglerfishes share a genetically reduced luminous symbiont that is acquired from the environment, eLife, 2019, elifesciences.org/articles/47606, consulte le 2026-09-06",
+   "Swann J. et al., The immunogenetics of sexual parasitism, Science, 30 juillet 2020, science.org/doi/10.1126/science.aaz9445, consulte le 2026-09-06",
+   "University of Washington News, Deep-sea anglerfishes have evolved a new type of immune system, 30 juillet 2020, washington.edu/news/2020/07/30, consulte le 2026-09-06"
+  ],
+  "doutes": [
+   "Les tailles de 16 centimetres pour le male et 77 centimetres pour la femelle de Ceratias holboelli viennent d une page encyclopedique et non d une fiche primaire. FishBase n a pas repondu lors de la verification. Sujet male marque NON VERIFIE sur ce point precis.",
+   "La plage de profondeur de 400 a 4400 metres vient de la meme source secondaire. Sujet noir marque NON VERIFIE en entier tant que FishBase ou un catalogue museal ne l a pas confirme.",
+   "Swann 2020 montre que la perte d immunite adaptative varie selon les lignees. La reponse dit les lignees qui pratiquent l attache definitive : ne pas generaliser a toutes les baudroies abyssales.",
+   "Fanal est une baudroie generique et non une espece nommee. Or deux de ses reponses citent Ceratias holboelli, et les chiffres ne valent que pour cette espece. Soit on nomme l espece de l entite, soit on retire les chiffres.",
+   "Le nom Enterovibrio des bacteries symbiotiques n est volontairement pas cite dans la reponse : il s agit de noms Candidatus, donc provisoires, et ils vieilliront mal sur un site statique."
+  ]
+ },
+ {
+  "id": "plaquebiere",
+  "type": "fruit",
+  "nom": "Plaquebière",
+  "soustitre": "Rubus chamaemorus, tourbières de Laponie finlandaise",
+  "terrain": "banquise",
+  "accroche": "Elle ne sera plus là dans trois semaines.",
+  "ouverture": "Vous arrivez tard. Je mûris fin juillet, je suis finie début août, et entre les deux il n'y a pas de rattrapage. Posez vos questions dans l'ordre. Je ne me répète pas.",
+  "sujets": [
+   {
+    "cles": [
+     "nom",
+     "appelle",
+     "qui es tu",
+     "plaquebiere",
+     "hilla",
+     "lakka",
+     "mure arctique",
+     "chicoute"
+    ],
+    "reponse": "Plaquebière ici, hilla ou lakka en Finlande. Je pousse sur une tige de cinq à vingt centimètres, dans la tourbière ouverte et la toundra, une seule fleur blanche par tige. Si vous voulez savoir la place que je tiens dans ce pays, regardez une pièce de deux euros finlandaise : ce sont mes fleurs et mes fruits, dessinés par Raimo Heino. Un fruit qui dure trois semaines et qui finit gravé dans du métal, ça vous dit déjà quelque chose sur moi.",
+    "ouvre": [
+     "saison",
+     "sexe"
+    ],
+    "source": "University of Alaska Fairbanks, Cooperative Extension Service, fiche Cloudberries (tiges de deux à huit pouces, tourbière ouverte et toundra, une fleur blanche à cinq pétales par tige), uaf.edu/ces/publications/database/food/cloudberries.php, consulté le 2026-09-06. Banque centrale européenne, faces nationales des pièces en euros, Finlande (pièce de 2 euros, mûres arctiques et fleurs de mûre arctique, dessin de Raimo Heino), ecb.europa.eu/euro/coins/html/fi.en.html, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "saison",
+     "quand",
+     "mure",
+     "murit",
+     "recolte",
+     "juillet",
+     "aout",
+     "couleur",
+     "rouge",
+     "ambre"
+    ],
+    "reponse": "Je mûris de fin juillet à début août, et le bon moment pour me ramasser est le milieu ou la fin de l'été selon l'endroit. Regardez ma couleur avant de me toucher. Verte je suis dure, rouge je suis encore acide et ferme, et c'est seulement en pâlissant vers l'ambre que je deviens molle et sucrée. Les autres baies foncent en mûrissant. Moi je m'éclaircis. Ça trompe tout le monde une fois, jamais deux.",
+    "ouvre": [
+     "conservation"
+    ],
+    "source": "University of Alaska Fairbanks, Cooperative Extension Service, fiche Cloudberries (mûrissement de fin juillet à début août ; baies vertes puis dures, acides et rouges, s'adoucissant et s'éclaircissant vers une teinte pêche ou ambre), uaf.edu/ces/publications/database/food/cloudberries.php, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "sexe",
+     "male",
+     "femelle",
+     "fleur",
+     "pollen",
+     "reproduction",
+     "seule",
+     "insecte",
+     "tromper"
+    ],
+    "reponse": "Presque toutes les ronces portent les deux sexes sur le même pied. Pas moi. Il y a des plants mâles et des plants femelles, et seuls les femelles donnent un fruit, ce qui veut dire que la moitié de ce que vous voyez ici ne donnera jamais rien. Mes fleurs femelles ne produisent aucun pollen et très peu de nectar. L'insecte qui vient chez moi ne trouve rien, il repart déçu, et c'est comme ça qu'il me féconde. On appelle ça la pollinisation par tromperie. C'est le mot des botanistes, pas le mien.",
+    "ouvre": [
+     "conservation"
+    ],
+    "source": "Minnesota Wildflowers, fiche Rubus chamaemorus, cloudberry (fleurs mâles et femelles sur des plants séparés, dioïque ; les fleurs femelles ne produisent pas de pollen et contiennent de très petites quantités de nectar), minnesotawildflowers.info/shrub/cloudberry, consulté le 2026-09-06. Titre de l'article Pollination by deceit, floral sex ratios and seed set in dioecious Rubus chamaemorus L., revue Oecologia, DOI 10.1007/BF00379493."
+   },
+   {
+    "cles": [
+     "conservation",
+     "conserve",
+     "garde",
+     "hiver",
+     "pourrit",
+     "sucre",
+     "acide benzoique",
+     "vitamine"
+    ],
+    "reponse": "On m'a mise en pot tout l'hiver sans sucre, et je n'ai pas tourné. Ce n'est pas de la magie, c'est de l'acide benzoïque : j'en porte assez pour me conserver moi-même. Ajoutez à ça cent cinquante-huit milligrammes de vitamine C pour cent grammes, plus que n'importe quelle autre baie d'Alaska. Un fruit qui vit trois semaines et qui tient six mois dans un bocal. Faites-en ce que vous voulez.",
+    "ouvre": [
+     "gout"
+    ],
+    "source": "University of Alaska Fairbanks, Cooperative Extension Service, fiche Cloudberries (teneur naturellement élevée en acide benzoïque permettant une conservation prolongée sans altération ni fermentation ; 158 mg de vitamine C pour 100 g, plus que toute autre baie d'Alaska), uaf.edu/ces/publications/database/food/cloudberries.php, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "gout",
+     "gouter",
+     "croquer",
+     "manger",
+     "saveur",
+     "bon",
+     "degustation",
+     "quel gout"
+    ],
+    "reponse": "Allez-y, mais prenez-moi mûre. Ferme, je ne suis qu'un caillou acide, et vous m'en voudrez pour la mauvaise raison.\n\n[DEGUSTATION]\nAXES sur 10 : sucre 4, acide 7, amer 2, astringence 3, umami 0, piquant 0, gras 1, jutosité 6. Odeur 4 (foin, résine, tourbe chaude). Aromatique 6.\nTEXTURE : granuleux, résistance 2. Des grains qui crèvent un par un, des pépins qui restent.\nODEUR : rien de sucré. Du foin, un peu de résine, l'odeur d'une tourbière au soleil.\nATTAQUE : l'acide part le premier, sec, sans prévenir.\nCORPS : quelque chose de gras arrive derrière, et les grains crèvent un par un sous la langue.\nFINALE : les pépins restent entre les dents. Beaucoup, pour si peu de chair. Persistance 20 s, axe final acide.\nANCRES : acide comme une groseille à maquereau (=), sucre comme une framboise (-2).\nTROIS GOÛTEURS, PERSONNAGES FICTIFS.\nKesh, poulpe : il replie deux bras. Il dit que c'est le premier fruit qui ne cherche pas à lui plaire.\nGivre, renard polaire : il dit que ça a le goût d'un oeuf d'oiseau de mer. Ça n'a aucun sens, et il a l'air content.\nLe marché : il la range à côté de la groseille à maquereau, même acidité, deux crans de sucre en moins.",
+    "ouvre": [],
+    "source": "NON VERIFIE. Les huit axes chiffrés, la séquence temporelle, les ancres et les trois réactions sont de la fiction assumée, écrits sans mesure sensorielle ni source. Seul le sens général acide quand ferme, plus doux quand ambre est sourcé : University of Alaska Fairbanks, fiche Cloudberries, consulté le 2026-09-06."
+   }
+  ],
+  "sources": [
+   "University of Alaska Fairbanks, Cooperative Extension Service, Cloudberries, https://www.uaf.edu/ces/publications/database/food/cloudberries.php, consulté le 2026-09-06",
+   "Banque centrale européenne, faces nationales des pièces en euros, Finlande, https://ecb.europa.eu/euro/coins/html/fi.en.html, consulté le 2026-09-06",
+   "Minnesota Wildflowers, Rubus chamaemorus (Cloudberry), https://www.minnesotawildflowers.info/shrub/cloudberry, consulté le 2026-09-06",
+   "Pollination by deceit, floral sex ratios and seed set in dioecious Rubus chamaemorus L., Oecologia, DOI 10.1007/BF00379493 (titre et notice seulement)"
+  ],
+  "doutes": [
+   "Les huit axes de goût, la séquence en quatre phases, les ancres et les trois réactions sont inventés. Aucune fiche sensorielle ni panel n'a été consulté. Le bloc DEGUSTATION ne doit pas être publié comme un fait.",
+   "Le chiffre de 158 mg de vitamine C pour 100 g vient d'une fiche de vulgarisation universitaire, pas d'une table de composition officielle. À recouper avec Fineli (base finlandaise) ou l'USDA FoodData Central avant publication.",
+   "L'article Oecologia sur la pollinisation par tromperie n'a été vu qu'en titre et notice, pas en texte intégral. Le mécanisme exact reste à lire avant de le formuler autrement.",
+   "Un chiffre vu en recherche disait moins de 25 pour cent de pousses fleuries femelles : il a été volontairement retiré, aucune source solide trouvée.",
+   "Une restriction de cueillette de la plaquebière réservée aux habitants dans certaines communes de Laponie finlandaise revient dans plusieurs sources touristiques. NON VERIFIE, aucun texte de loi trouvé, donc non écrit dans les sujets. À vérifier sur Finlex si le sujet vaut la peine.",
+   "Le terrain banquise couvre Banquise et toundra dans la conception. La plaquebière est une plante de tourbière et de toundra, pas de banquise : le nom du terrain est un peu large pour elle."
+  ]
+ },
+ {
+  "id": "pain-de-singe",
+  "type": "fruit",
+  "nom": "Pain de singe",
+  "soustitre": "Fruit du baobab africain, Sénégal",
+  "terrain": "savane",
+  "accroche": "Elle a fini de sécher il y a des mois et elle attend encore.",
+  "ouverture": "Prenez votre temps, je n'en manque pas. Je suis sèche, et personne ne m'a séchée. J'ai perdu mon eau accrochée à la branche, sans bouger, et je suis restée là dans ma coque à attendre qu'on vienne me décrocher.",
+  "sujets": [
+   {
+    "cles": [
+     "nom",
+     "appelle",
+     "qui es tu",
+     "baobab",
+     "bouye",
+     "pain de singe",
+     "singe",
+     "guy",
+     "arbre"
+    ],
+    "reponse": "On m'appelle pain de singe, parce que les singes se servent avant vous. Au Sénégal on dit bouye pour moi et guy pour l'arbre qui me porte, Adansonia digitata, l'emblème du pays. Le nom vous fait sourire, je le sais. Il dit surtout ce que je suis : une chose dure, blanche et farineuse que plusieurs espèces se disputent au même endroit.",
+    "ouvre": [
+     "coque",
+     "sec"
+    ],
+    "source": "Wikipédia en français, Baobab africain (nom français pain de singe ; bouye pour le fruit et guy pour l'arbre en wolof ; emblème du Sénégal et de la Guinée), fr.wikipedia.org/wiki/Baobab_africain, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "coque",
+     "dure",
+     "casser",
+     "ouvrir",
+     "enveloppe",
+     "taille",
+     "poids",
+     "duvet"
+    ],
+    "reponse": "Il faut me casser. Ma coque est ligneuse, couverte d'un fin duvet jaune vert qui devient beige en mûrissant, et ce duvet gratte. Je fais dix centimètres de diamètre pour vingt à trente de long, et je pèse environ deux cent cinquante grammes. Ce que vous cherchez est à l'intérieur : de la pulpe blanche et sèche, prise autour des graines.",
+    "ouvre": [
+     "sec"
+    ],
+    "source": "Wikipédia en français, Baobab africain (coque assez dure, ligneuse, recouverte d'un fin duvet urticant jaune vert virant au beige à maturité ; environ 10 cm de diamètre et 20 à 30 cm de long, environ 250 g ; endocarpe sec blanc amylacé comestible), fr.wikipedia.org/wiki/Baobab_africain, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "sec",
+     "seche",
+     "eau",
+     "humidite",
+     "poudre",
+     "farine",
+     "deshydrate"
+    ],
+    "reponse": "Comptez vous-même. Onze à douze grammes d'eau pour cent grammes de pulpe, c'est la spécification que l'Europe a inscrite noir sur blanc quand elle m'a autorisée. Un abricot qu'on veut sécher, on le pose au soleil pendant des jours. Moi je suis arrivée sèche. C'est pour ça qu'on me réduit en poudre sans rien faire, et c'est pour ça qu'on me transporte sans me perdre.",
+    "ouvre": [
+     "europe"
+    ],
+    "source": "Décision 2008/575/CE de la Commission du 27 juin 2008, annexe, spécification de la pulpe séchée de fruit de baobab : humidité (perte à la dessiccation) 11,1 à 12,0 g pour 100 g, cendres 5,5 à 6,6 g pour 100 g, glucides totaux 78,3 à 78,9 g pour 100 g, EUR-Lex CELEX 32008D0575, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "europe",
+     "autorise",
+     "novel food",
+     "vendre",
+     "importer",
+     "loi",
+     "reglement",
+     "2008"
+    ],
+    "reponse": "Je suis entrée en Europe par un papier, pas par un bateau. Décision de la Commission du vingt-sept juin deux mille huit, demande déposée par PhytoTrade Africa, à Londres : ma pulpe séchée peut être mise sur le marché comme nouvel ingrédient alimentaire. Avant cette date, vendre ce que je suis était illégal ici. Après, ça ne l'était plus. Le fruit n'avait pas changé.",
+    "ouvre": [
+     "gout"
+    ],
+    "source": "Décision 2008/575/CE de la Commission du 27 juin 2008 autorisant la mise sur le marché de la pulpe séchée de fruit de baobab en tant que nouvel ingrédient alimentaire au titre du règlement (CE) n° 258/97, demandeur PhytoTrade Africa, Londres, EUR-Lex CELEX 32008D0575, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "gout",
+     "gouter",
+     "croquer",
+     "manger",
+     "saveur",
+     "bon",
+     "degustation",
+     "quel gout",
+     "acide"
+    ],
+    "reponse": "Mettez-en un morceau sur la langue et ne buvez pas tout de suite. Ce qui va vous surprendre n'est pas le goût, c'est ce que je fais de votre salive.\n\n[DEGUSTATION]\nAXES sur 10 : sucre 3, acide 7, amer 1, astringence 4, umami 0, piquant 0, gras 0, jutosité 0. Odeur 1. Aromatique 3.\nTEXTURE : farineux, résistance 2. De la craie qui fond, elle boit la salive.\nODEUR : presque rien. Vous avancez le nez et vous ne trouvez pas de quoi vous faire une idée.\nATTAQUE : l'acide arrive tout de suite, sans une goutte d'eau pour le porter.\nCORPS : la bouche se vide au lieu de se remplir. Ce n'est pas juteux et ce n'est pas sec non plus, c'est de la craie qui fond.\nFINALE : l'acidité reste sur les côtés de la langue et la poudre colle au palais. Persistance 40 s, axe final acide.\nANCRES : acide comme un bonbon acidulé en poudre (=), jutosité comme un biscuit sec (=).\nTROIS GOÛTEURS, PERSONNAGES FICTIFS.\nAda, éléphante : elle renifle longtemps et déclare que ça sent la poussière chaude. Le fruit n'a presque pas d'odeur. Ada maintient.\nMite, roussette : elle cherche le sucre, en trouve trois fois rien, et repart sans finir. C'est le seul fruit qu'elle laisse.\nLe marché : il ne s'étonne pas. Bonbon acidulé en poudre, même acidité, et personne n'a jamais reproché à un bonbon d'être sec.",
+    "ouvre": [],
+    "source": "NON VERIFIE. Les huit axes chiffrés, la séquence, les ancres et les trois réactions sont de la fiction assumée. Seuls deux points sont sourcés : la pulpe est naturellement sèche (Décision 2008/575/CE, annexe, humidité 11,1 à 12,0 g pour 100 g) et son goût est décrit comme acidulé (Wikipédia en français, Baobab africain)."
+   }
+  ],
+  "sources": [
+   "Décision 2008/575/CE de la Commission du 27 juin 2008, EUR-Lex CELEX 32008D0575, https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32008D0575, consulté le 2026-09-06",
+   "Wikipédia en français, Baobab africain, https://fr.wikipedia.org/wiki/Baobab_africain, consulté le 2026-09-06",
+   "Nutritional variation in baobab (Adansonia digitata L.) fruit pulp and seeds based on Africa geographical regions, PMC5694876 (humidité de la pulpe 8,81 à 9,93 g pour 100 g)"
+  ],
+  "doutes": [
+   "Les axes de goût, la séquence et les réactions sont inventés. Aucun panel sensoriel ni fiche de dégustation n'a été consulté.",
+   "Deux chiffres d'humidité coexistent : 11,1 à 12,0 g pour 100 g dans l'annexe de la décision européenne, 8,81 à 9,93 g pour 100 g dans l'étude PMC5694876. L'écart vient sans doute des provenances. C'est la valeur réglementaire qui est citée dans le sujet, il faut le dire si quelqu'un pose la question.",
+   "La teneur en vitamine C du pain de singe est citée partout comme spectaculaire. Aucun chiffre n'a été retenu : les sources trouvées sont commerciales ou ne donnent pas de valeur. À sourcer sur une table de composition avant d'écrire quoi que ce soit là-dessus.",
+   "Deux sujets s'appuient sur Wikipédia en français pour la coque, la taille et le poids. Ce sont des faits peu risqués mais Wikipédia n'est pas une source primaire. À remplacer par une monographie agronomique, par exemple les fiches du CIRAD ou de la FAO, avant publication.",
+   "La formule sur les singes qui se servent avant vous est une image, pas un fait de comportement animal observé. Elle explique le nom français, elle ne décrit pas une étude."
+  ]
+ },
+ {
+  "id": "baie-miracle",
+  "type": "fruit",
+  "nom": "Baie miracle",
+  "soustitre": "Synsepalum dulcificum, Afrique de l'Ouest",
+  "terrain": "tropicale",
+  "accroche": "Elle vous demande ce que vous comptez manger après.",
+  "ouverture": "Ne me goûtez pas pour moi. Seule je ne vaux presque rien, et vous seriez déçu pour de mauvaises raisons. Dites-moi plutôt ce que vous avez de plus acide sur vous. Là, on aura une conversation.",
+  "sujets": [
+   {
+    "cles": [
+     "nom",
+     "appelle",
+     "qui es tu",
+     "baie",
+     "miracle",
+     "synsepalum",
+     "arbuste",
+     "taille",
+     "ou pousse"
+    ],
+    "reponse": "Synsepalum dulcificum, famille des sapotacées, un arbuste d'un mètre quatre-vingt à quatre mètres cinquante, en Afrique de l'Ouest tropicale. Je fais deux centimètres de long. C'est tout ce qu'il y a à dire sur mon corps, et vous voyez bien que ça ne vaut pas le déplacement. Posez la bonne question maintenant.",
+    "ouvre": [
+     "effet"
+    ],
+    "source": "Wikipédia en anglais, Synsepalum dulcificum (famille Sapotaceae, Afrique de l'Ouest tropicale, arbuste de 1,8 à 4,5 m, baie de 2 cm), en.wikipedia.org/wiki/Synsepalum_dulcificum, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "effet",
+     "change",
+     "transforme",
+     "acide",
+     "sucre",
+     "langue",
+     "comment",
+     "pourquoi",
+     "proteine"
+    ],
+    "reponse": "Je ne suis pas un goût, je suis ce qui change le goût. Ma pulpe porte la miraculine, une glycoprotéine de vingt-quatre mille six cents daltons, cent quatre-vingt-onze acides aminés, treize virgule neuf pour cent de sucres. Elle se colle à votre récepteur du sucré, celui qu'on nomme hT1R2 hT1R3, et elle y reste sans rien déclencher. Puis vous mordez dans quelque chose d'acide, l'acidité réveille la protéine posée là, et votre récepteur du sucré s'allume alors que rien de sucré n'est entré. Le citron n'a pas changé. C'est vous qui avez changé.",
+    "ouvre": [
+     "duree",
+     "loi"
+    ],
+    "source": "Wikipédia en anglais, Miraculin (glycoprotéine de 24,6 kilodaltons, 191 acides aminés, 13,9 pour cent de sucres en masse ; se lie aux récepteurs du sucré ; acidification intracellulaire et activation du récepteur humain hT1R2 hT1R3, résidus His30 et His60 impliqués), en.wikipedia.org/wiki/Miraculin, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "duree",
+     "combien de temps",
+     "dure",
+     "minutes",
+     "heures",
+     "apres",
+     "arrete",
+     "fin"
+    ],
+    "reponse": "Je vais vous décevoir sur ce point : personne n'est d'accord. Une source dit environ trente minutes, le temps que la salive emporte la protéine. Une autre dit une à deux heures. Ce qui est constant, c'est la façon dont ça finit : l'effet tient tant que vos papilles ne sont pas revenues à un pH neutre, et il s'arrête quand elles y reviennent. Alors ne me demandez pas une durée. Demandez-moi combien de citrons il vous reste.",
+    "ouvre": [
+     "loi"
+    ],
+    "source": "Wikipédia en anglais, Synsepalum dulcificum (effet jusqu'à environ 30 minutes, jusqu'à ce que la salive emporte la protéine) et Wikipédia en anglais, Miraculin (l'effet peut durer une à deux heures ; il persiste jusqu'à ce que les papilles perçoivent un pH neutre), consultés le 2026-09-06. Les deux sources se contredisent sur la durée, la contradiction est citée telle quelle."
+   },
+   {
+    "cles": [
+     "loi",
+     "interdit",
+     "autorise",
+     "vendre",
+     "europe",
+     "etats unis",
+     "fda",
+     "reglement",
+     "sucrant"
+    ],
+    "reponse": "J'ai un casier. En mille neuf cent soixante-quatorze, l'agence américaine du médicament refuse la miraculine comme additif alimentaire, et l'entreprise qui voulait la vendre coule dans les mois qui suivent. En Europe il a fallu attendre le douze novembre deux mille vingt et un : un règlement d'exécution autorise mes fruits séchés, à sept dixièmes de gramme par jour maximum en complément alimentaire, pour les adultes seulement, femmes enceintes et allaitantes exclues, avec cinq ans d'exclusivité pour la société qui a déposé le dossier. Un fruit qui rend le citron sucré, ça ne se range pas facilement dans une case administrative.",
+    "ouvre": [
+     "gout"
+    ],
+    "source": "Règlement d'exécution (UE) 2021/1974 de la Commission du 12 novembre 2021 autorisant la mise sur le marché des fruits séchés de Synsepalum dulcificum en tant que nouvel aliment ; demandeur Medicinal Gardens S.L., Madrid ; dose maximale 0,7 g par jour en complément alimentaire, adultes uniquement, femmes enceintes et allaitantes exclues ; protection des données de cinq ans à compter du 5 décembre 2021. EUR-Lex, eur-lex.europa.eu/eli/reg_impl/2021/1974/oj, consulté le 2026-09-06. Pour 1974 : Wikipédia en anglais, Miraculin (l'usage de la miraculine comme additif alimentaire a été refusé en 1974 par la FDA), consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "gout",
+     "gouter",
+     "croquer",
+     "manger",
+     "saveur",
+     "bon",
+     "degustation",
+     "quel gout"
+    ],
+    "reponse": "Vous insistez. Très bien, goûtez-moi seule, et retenez bien ce que vous ne sentez pas : c'est ça, le sujet.\n\n[DEGUSTATION]\nAXES sur 10 : sucre 2, acide 1, amer 1, astringence 2, umami 0, piquant 0, gras 0, jutosité 3. Odeur 1. Aromatique 2.\nTEXTURE : fibreux, résistance 3. Une fine chair autour d'un gros noyau.\nODEUR : rien. C'est déjà une information.\nATTAQUE : un sucre faible et lointain, un fond de compote allongée d'eau.\nCORPS : il n'y a presque pas de chair. Le noyau prend la place et vous mâchez autour.\nFINALE : le goût s'arrête net. La bouche, elle, ne revient pas comme avant. Persistance 0 s pour le fruit, axe final aucun.\nANCRES : sucre comme un grain de raisin blanc pas mûr (-1).\nTROIS GOÛTEURS, PERSONNAGES FICTIFS. Tous les axes perçus tombent sous le seuil : c'est le seul fruit du monde sur lequel le panel n'a presque rien à dire.\nNox, corbeau : il ne la touche pas. Il ne mange pas ce qu'il ne connaît pas, et il prétend tout connaître ici.\nKesh, poulpe : il double l'amertume comme toujours. Deux fois rien fait encore rien. Il n'a pas de phrase.\nLe marché : il n'a pas d'ancre à proposer. Il dit que ce n'est pas un fruit qu'on compare, c'est un fruit qu'on prend avant un autre.",
+    "ouvre": [],
+    "source": "NON VERIFIE. Les huit axes chiffrés, la séquence, l'ancre et les trois réactions sont de la fiction assumée. Seul point sourcé et volontairement pauvre : la pulpe est décrite comme légèrement sucrée, Wikipédia en anglais, Synsepalum dulcificum et Miraculin, consultés le 2026-09-06."
+   }
+  ],
+  "sources": [
+   "Wikipédia en anglais, Miraculin, https://en.wikipedia.org/wiki/Miraculin, consulté le 2026-09-06",
+   "Wikipédia en anglais, Synsepalum dulcificum, https://en.wikipedia.org/wiki/Synsepalum_dulcificum, consulté le 2026-09-06",
+   "Règlement d'exécution (UE) 2021/1974 de la Commission du 12 novembre 2021, https://eur-lex.europa.eu/eli/reg_impl/2021/1974/oj, consulté le 2026-09-06"
+  ],
+  "doutes": [
+   "Les axes de goût, la séquence et les réactions sont inventés, comme pour les trois autres fruits.",
+   "La durée de l'effet est contradictoire entre deux pages Wikipédia (environ 30 minutes contre une à deux heures). Le sujet duree assume la contradiction au lieu de trancher. Avant publication, aller chercher une revue scientifique sur la miraculine pour donner une fourchette défendable, ou laisser la contradiction telle quelle en la sourçant mieux.",
+   "Les données moléculaires (24,6 kDa, 191 acides aminés, hT1R2 hT1R3, His30 et His60) viennent de Wikipédia, pas de l'article de biochimie d'origine. Les chiffres sont stables dans la littérature mais la source citée reste secondaire. À remplacer par une référence primaire.",
+   "La date de 1974 pour le refus de la FDA vient de Wikipédia. La décision elle-même n'a pas été retrouvée dans une source officielle américaine. À vérifier au Federal Register avant de la publier comme un fait.",
+   "L'affirmation que l'entreprise a fait faillite dans les mois suivants vient d'un article de vulgarisation, pas d'une source primaire. Elle a été gardée sous une forme atténuée dans le sujet loi. À retirer si personne ne la source.",
+   "Le règlement (UE) 2021/1974 est le seul fait de cette entité dont la source est primaire et vérifiée mot pour mot."
+  ]
+ },
+ {
+  "id": "cherimole",
+  "type": "fruit",
+  "nom": "Chérimole",
+  "soustitre": "Annona cherimola, vallées d'altitude andines",
+  "terrain": "montagne",
+  "accroche": "Elle ne descend pas plus bas que vous.",
+  "ouverture": "Non, je ne suis pas un fruit des tropiques, et si vous m'emmenez en plaine chaude je ne donnerai rien. Il me faut de l'altitude et des nuits fraîches. On m'a nommée pour cette exigence, bien avant de me manger.",
+  "sujets": [
+   {
+    "cles": [
+     "nom",
+     "appelle",
+     "qui es tu",
+     "cherimole",
+     "anone",
+     "chirimuya",
+     "graines froides",
+     "quechua"
+    ],
+    "reponse": "Chérimole, du quechua chirimuya, ce qui veut dire graines froides. Le nom parle de mes graines, pas de ma chair : elles germent là où il fait frais, en altitude, et c'est cette contrainte qu'on a jugée digne d'être inscrite dans mon nom. Un auteur américain a écrit en mille huit cent soixante-six que j'étais le fruit le plus délicieux connu des hommes. C'est très aimable. Ça ne dit toujours rien de mes graines.",
+    "ouvre": [
+     "altitude"
+    ],
+    "source": "Wikipédia en anglais, Cherimoya (nom dérivé du quechua chirimuya, graines froides, en référence à la germination en altitude ; Mark Twain a décrit la chérimole comme the most delicious fruit known to men dans une publication de 1866 au Sacramento Daily Union), en.wikipedia.org/wiki/Cherimoya, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "altitude",
+     "montagne",
+     "andes",
+     "haut",
+     "froid",
+     "ou",
+     "pousse",
+     "origine",
+     "perou",
+     "equateur"
+    ],
+    "reponse": "On me dit indigène des vallées interandines de l'Équateur, de la Colombie et de la Bolivie, entre mille quatre cents et deux mille mètres, et je ne réussis pas dans les basses terres tropicales. Là-dessus je dois être honnête avec vous : des travaux de génétique placent plutôt mon origine au Honduras et au Guatemala. Les sources ne disent pas la même chose. Je ne vais pas choisir à leur place pour vous faire plaisir.",
+    "ouvre": [
+     "pollinisation"
+    ],
+    "source": "Julia F. Morton, Fruits of Warm Climates, 1987, notice Cherimoya (indigène des vallées interandines d'Équateur, de Colombie et de Bolivie ; prospère entre 1 400 et 2 000 m ; ne réussit pas dans les basses terres tropicales), hort.purdue.edu/newcrop/morton/cherimoya.html, consulté le 2026-09-06. Wikipédia en anglais, Cherimoya (des recherches génétiques situent l'origine au Honduras et au Guatemala), consulté le 2026-09-06. Les deux sources divergent, la divergence est citée telle quelle."
+   },
+   {
+    "cles": [
+     "pollinisation",
+     "feconde",
+     "main",
+     "pinceau",
+     "fleur",
+     "aide",
+     "reproduction",
+     "insecte"
+    ],
+    "reponse": "Ma fleur ne peut pas se féconder toute seule, parce que mes organes mâles et femelles ne mûrissent pas en même temps. Alors on vient avec un pinceau. On prend le pollen d'une fleur ouverte la veille et on le pose sur mes stigmates pendant une fenêtre de six à huit heures, quand ils sont blancs et collants. Passé ce moment, la journée est perdue. Vous trouvez ça fragile. Moi je constate qu'on se déplace, pinceau à la main, pour que j'existe.",
+    "ouvre": [
+     "graines"
+    ],
+    "source": "Julia F. Morton, Fruits of Warm Climates, 1987, notice Cherimoya (pollinisation naturelle insuffisante car les structures mâles et femelles de chaque fleur ne mûrissent pas simultanément ; pollinisation manuelle pendant une fenêtre de 6 à 8 heures quand les stigmates sont blancs et collants, avec du pollen collecté sur des fleurs ouvertes la veille), hort.purdue.edu/newcrop/morton/cherimoya.html, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "graine",
+     "noyau",
+     "pepin",
+     "noir",
+     "avaler",
+     "poison",
+     "danger",
+     "toxique",
+     "broyer"
+    ],
+    "reponse": "Mettez-les de côté et ne les écrasez pas. Mes graines sont dures, brunes ou noires, en forme de haricot, et elles portent des alcaloïdes. Zéro virgule quinze gramme de la résine jaune sombre qu'on en tire suffit à provoquer des pupilles dilatées, une photophobie intense, des nausées et des vomissements. Avalée entière, une graine traverse. Broyée sous la dent, c'est une autre affaire. Je vous préviens une fois.",
+    "ouvre": [
+     "gout"
+    ],
+    "source": "Julia F. Morton, Fruits of Warm Climates, 1987, notice Cherimoya (graines nombreuses, dures, brunes ou noires, en forme de haricot ; 0,15 g de la résine jaune sombre isolée des graines produit pupilles dilatées, photophobie intense, vomissements et nausées, effets de type atropinique ; doses plus élevées, vomissements sévères), hort.purdue.edu/newcrop/morton/cherimoya.html, consulté le 2026-09-06."
+   },
+   {
+    "cles": [
+     "gout",
+     "gouter",
+     "croquer",
+     "manger",
+     "saveur",
+     "bon",
+     "degustation",
+     "quel gout",
+     "cuillere"
+    ],
+    "reponse": "À la cuillère, jamais à la main, et pas trop froide. Vous verrez tout de suite pourquoi on a fait tout ce chemin avec un pinceau.\n\n[DEGUSTATION]\nAXES sur 10 : sucre 8, acide 3, amer 1, astringence 1, umami 1, piquant 0, gras 4, jutosité 7. Odeur 5 (banane, fleur blanche). Aromatique 8 (banane, poire, chewing-gum).\nTEXTURE : crémeux, résistance 1. Elle se mange à la cuillère, des noyaux durs partout.\nODEUR : douce et courte, entre la banane et la fleur blanche.\nATTAQUE : le sucre arrive sans acide pour l'arrêter, la chair cède avant les dents.\nCORPS : crémeux au point qu'on oublie que c'est un fruit.\nFINALE : le sucre tombe vite. Ce qui reste, ce sont les noyaux qu'on met de côté. Persistance 15 s, axe final sucre.\nANCRES : texture comme une crème dessert (=), sucre comme une poire très mûre (+2).\nTROIS GOÛTEURS, PERSONNAGES FICTIFS.\nMite, roussette : elle finit le fruit et cherche le suivant. C'est le seul jugement qu'elle rende.\nGivre, renard polaire : il dit que ça ressemble à de la graisse de phoque sucrée. Personne ne relève.\nLe marché : crème dessert pour la texture, poire très mûre pour le sucre, deux crans au-dessus.",
+    "ouvre": [],
+    "source": "NON VERIFIE. Les huit axes chiffrés, la séquence, les ancres et les trois réactions sont de la fiction assumée. Deux descripteurs seulement sont sourcés : chair blanc neige et juteuse, saveur délicieuse et sous-acide (Julia F. Morton, Fruits of Warm Climates, 1987, notice Cherimoya) et chair crémeuse blanche évoquant banane, ananas, papaye, pêche et fraise (Wikipédia en anglais, Cherimoya), consultés le 2026-09-06."
+   }
+  ],
+  "sources": [
+   "Julia F. Morton, Fruits of Warm Climates, 1987, notice Cherimoya, https://hort.purdue.edu/newcrop/morton/cherimoya.html, consulté le 2026-09-06",
+   "Wikipédia en anglais, Cherimoya, https://en.wikipedia.org/wiki/Cherimoya, consulté le 2026-09-06"
+  ],
+  "doutes": [
+   "Les axes de goût, la séquence et les réactions sont inventés, comme pour les trois autres fruits.",
+   "L'origine géographique est contradictoire : Morton dit vallées interandines d'Équateur, Colombie et Bolivie, Wikipédia cite des travaux de génétique qui pointent le Honduras et le Guatemala. Le sujet altitude assume la contradiction. Avant publication, retrouver l'étude génétique citée et la citer directement, sinon retirer la seconde moitié de la réponse.",
+   "Les fourchettes d'altitude varient selon les sources : 1 400 à 2 000 m chez Morton, 700 à 2 400 m sur Wikipédia. Seule la fourchette de Morton est citée. À harmoniser.",
+   "La citation de Mark Twain, le fruit le plus délicieux connu des hommes, 1866, Sacramento Daily Union, n'a pas été lue dans l'original. Elle circule beaucoup, ce qui est exactement le profil d'une citation déformée. À vérifier dans les archives du journal ou à retirer.",
+   "Morton, 1987, est une source ancienne mais primaire pour l'horticulture. Les chiffres de toxicité des graines (0,15 g de résine) sont repris tels quels ; ils devraient être recoupés avec une source toxicologique récente avant de publier un avertissement de sécurité, puisque c'est un sujet de santé.",
+   "Le terrain montagne est en statut chantier dans la conception des terrains. La chérimole ne sera pas dessinée tant que ce terrain n'est pas ouvert. Si le lancement doit se faire sur les quatre terrains ouverts, il faut soit ouvrir montagne, soit déplacer cette entité, ce qui serait faux géographiquement.",
+   "Le lien annonacine et parkinsonisme atypique est évoqué par Wikipédia pour le genre Annona. Il n'a pas été écrit dans les sujets : c'est une allégation de santé, elle exige une source médicale primaire, pas une encyclopédie."
+  ]
+ },
+ {
+  "id": "islande",
+  "type": "pays",
+  "nom": "Islande",
+  "soustitre": "Île de l'Atlantique Nord, posée sur la dorsale médio-atlantique",
+  "terrain": "banquise",
+  "accroche": "Il ne se presse pas, il n'a jamais eu à le faire.",
+  "ouverture": "Vous êtes arrivé ici en quelques heures. Moi, je m'écarte de moi-même de deux centimètres par an, et je ne suis pas fini. Posez vos questions vite si vous voulez, je répondrai à mon rythme.",
+  "sujets": [
+   {
+    "cles": [
+     "presentation",
+     "qui es tu",
+     "ou",
+     "situe",
+     "geologie",
+     "dorsale",
+     "volcan",
+     "fissure"
+    ],
+    "reponse": "Je suis assis sur la dorsale médio-atlantique, la couture où la plaque nord-américaine et la plaque eurasienne s'écartent l'une de l'autre. La dorsale s'ouvre de l'ordre de deux centimètres par an, et là où elle s'ouvre, de la roche neuve monte remplir le vide. Cela veut dire que ma moitié ouest et ma moitié est ne vont pas au même endroit. Vous ne visitez pas un pays terminé. Vous visitez un chantier lent.",
+    "ouvre": [
+     "glace",
+     "langue"
+    ],
+    "source": "Encyclopædia Britannica, Mid-Atlantic Ridge, https://www.britannica.com/place/Mid-Atlantic-Ridge, consulté le 2026-09-06"
+   },
+   {
+    "cles": [
+     "glace",
+     "glacier",
+     "vatnajokull",
+     "renard",
+     "froid",
+     "moustique",
+     "banquise",
+     "animaux"
+    ],
+    "reponse": "Environ un dixième de ma surface est sous glacier. Le plus grand, le Vatnajökull, faisait à peu près 7 600 kilomètres carrés en 2023, pour un volume estimé autour de 3 000 kilomètres cubes en 2017. Un seul mammifère terrestre est venu ici sans que personne l'amène, le renard polaire, arrivé à la fin de la dernière glaciation, il y a environ dix mille ans. Tous les autres, le renne, le vison, la souris, sont montés à bord de quelque chose. Et en octobre 2025 on a trouvé trois moustiques chez moi, les premiers, dans un jardin au nord de Reykjavík.",
+    "ouvre": [
+     "chaleur",
+     "table"
+    ],
+    "source": "Náttúrufræðistofnun (Institut islandais d'histoire naturelle), Glaciers, https://www.natt.is/en/geology/water/glaciers ; Náttúrufræðistofnun, Mammals, https://www.natt.is/en/fauna/mammals ; Yale Environment 360, Mosquitoes Found in Iceland for the First Time, https://e360.yale.edu/digest/iceland-mosquitoes. Consultés le 2026-09-06"
+   },
+   {
+    "cles": [
+     "chaleur",
+     "geothermie",
+     "chauffage",
+     "energie",
+     "eau chaude",
+     "electricite",
+     "chaud"
+    ],
+    "reponse": "Vous m'appelez la terre de glace, et je chauffe 90 pour cent de mes logements et bâtiments avec de l'eau puisée dans mon propre sous-sol, distribuée par réseau. Les 10 pour cent restants sont chauffés à l'électricité, produite elle aussi ici. Pour cette électricité, la géothermie fournit environ 30 pour cent et l'hydraulique le reste. Ce n'est pas une vertu, c'est une géographie. Je suis chaud dessous parce que je suis fendu.",
+    "ouvre": [
+     "table"
+    ],
+    "source": "Green by Iceland (Íslandsstofa), Geothermal energy, https://www.greenbyiceland.com/geothermal-energy, consulté le 2026-09-06"
+   },
+   {
+    "cles": [
+     "langue",
+     "islandais",
+     "nom",
+     "prenom",
+     "mot",
+     "parler",
+     "tolva",
+     "ordinateur"
+    ],
+    "reponse": "Ici on ne porte pas de nom de famille dans le cas général : on porte le prénom d'un parent, suivi de fils ou de fille. Un comité des noms de personnes existe depuis 1991, et un prénom doit tenir dans ma grammaire, c'est-à-dire avoir un génitif, et s'écrire avec mon seul alphabet. Le registre officiel des prénoms en comptait autour de 4 300 en 2023. Et quand l'ordinateur est arrivé, on ne l'a pas emprunté : on a fabriqué tölva, en collant tala, le nombre, et völva, la voyante.",
+    "ouvre": [
+     "table"
+    ],
+    "source": "Wikipedia, Icelandic Naming Committee, https://en.wikipedia.org/wiki/Icelandic_Naming_Committee ; Wiktionary, tölva, https://en.wiktionary.org/wiki/t%C3%B6lva. Consultés le 2026-09-06"
+   },
+   {
+    "cles": [
+     "table",
+     "manger",
+     "cuisine",
+     "skyr",
+     "morue",
+     "poisson",
+     "peche",
+     "gout",
+     "exporte"
+    ],
+    "reponse": "Le skyr n'est pas un yaourt, quoi qu'en dise l'étiquette chez vous. On ajoute de la présure au lait écrémé en même temps que les ferments, on égoutte, et ce qui reste est techniquement un fromage frais. Pour le reste, je vis de la mer : en 2024 j'ai exporté un peu plus de 624 000 tonnes de produits de la mer, pour 347 milliards de couronnes. La morue à elle seule pèse 143 milliards de couronnes cette année-là, c'est mon espèce la plus chère.",
+    "ouvre": [],
+    "source": "Hagstofa Íslands (Statistics Iceland), Export of fisheries products 2024, https://www.statice.is/publications/news-archive/fisheries/export-of-fisheries-products-2024/ ; Wikipedia, Skyr, https://en.wikipedia.org/wiki/Skyr. Consultés le 2026-09-06"
+   }
+  ],
+  "sources": [
+   "Náttúrufræðistofnun, Glaciers, https://www.natt.is/en/geology/water/glaciers, consulté le 2026-09-06",
+   "Náttúrufræðistofnun, Mammals, https://www.natt.is/en/fauna/mammals, consulté le 2026-09-06",
+   "Green by Iceland (Íslandsstofa), Geothermal energy, https://www.greenbyiceland.com/geothermal-energy, consulté le 2026-09-06",
+   "Hagstofa Íslands (Statistics Iceland), Export of fisheries products 2024, https://www.statice.is/publications/news-archive/fisheries/export-of-fisheries-products-2024/, consulté le 2026-09-06",
+   "Encyclopædia Britannica, Mid-Atlantic Ridge, https://www.britannica.com/place/Mid-Atlantic-Ridge, consulté le 2026-09-06",
+   "Wikipedia, Icelandic Naming Committee, https://en.wikipedia.org/wiki/Icelandic_Naming_Committee, consulté le 2026-09-06",
+   "Wiktionary, tölva, https://en.wiktionary.org/wiki/t%C3%B6lva, consulté le 2026-09-06",
+   "Yale Environment 360, Mosquitoes Found in Iceland for the First Time, https://e360.yale.edu/digest/iceland-mosquitoes, consulté le 2026-09-06"
+  ],
+  "doutes": [
+   "Les deux centimètres par an sont la valeur communément donnée pour l'ouverture de la dorsale médio-atlantique, pas une mesure GPS islandaise que j'aurais lue moi-même. Avant publication, remplacer par un chiffre de Veðurstofa Íslands ou de l'Université d'Islande, avec l'année de mesure.",
+   "Le skyr décrit comme fromage frais vient de Wikipedia. La source solide serait la réglementation islandaise ou l'autorité alimentaire MAST. Le fait est robuste mais la source est faible pour un site qui affiche ses sources.",
+   "Le comité des noms et l'étymologie de tölva viennent de Wikipedia et Wiktionary. Les sources primaires sont la loi islandaise sur les noms de personnes (lög um mannanöfn) et l'Institut Árni Magnússon. À remplacer avant mise en ligne.",
+   "Le Vatnajökull est très souvent présenté comme le plus grand glacier d'Europe. L'institut islandais lui-même précise que la calotte de l'île Severny, en Nouvelle-Zemble, est plus grande. Cette phrase n'a donc pas été écrite, et il ne faut pas l'ajouter.",
+   "Le système patronymique est écrit ici comme fils ou fille. Un suffixe -bur existe aussi pour les personnes enregistrées avec un marqueur de genre X. Vérifier avant de laisser la formulation binaire.",
+   "La surface du Vatnajökull est datée 2023 et son volume 2017. Ne jamais réunir ces deux chiffres sous une seule année : ils rétrécissent."
+  ]
+ },
+ {
+  "id": "indonesie",
+  "type": "pays",
+  "nom": "Indonésie",
+  "soustitre": "Archipel d'Asie du Sud-Est, 17 380 îles nommées et référencées en 2024",
+  "terrain": "tropicale",
+  "accroche": "Elle vous demandera de quel endroit vous parlez.",
+  "ouverture": "Vous prononcez mon nom au singulier. Je vous laisse faire, mais sachez que vous parlez à dix-sept mille trois cent quatre-vingts îles nommées, et que ce nombre a encore bougé l'an dernier.",
+  "sujets": [
+   {
+    "cles": [
+     "presentation",
+     "qui es tu",
+     "ou",
+     "situe",
+     "iles",
+     "archipel",
+     "combien",
+     "taille"
+    ],
+    "reponse": "Mon agence géospatiale en a recensé 17 380 en 2024, nommées et pourvues de coordonnées. Elles étaient 16 771 en 2020, 17 024 en 2022, 17 374 en 2023. Ce n'est pas moi qui grandis, c'est la mesure qui s'affine : on trouve, on nomme, on inscrit. Méfiez-vous de qui vous donne mon chiffre sans vous donner l'année qui va avec.",
+    "ouvre": [
+     "ligne",
+     "langue"
+    ],
+    "source": "Badan Informasi Geospasial (BIG), relayé par ANTARA News, Indonesia's geospatial agency identifies 63 new islands in 2024, https://en.antaranews.com/news/337912/indonesias-geospatial-agency-identifies-63-new-islands-in-2024, consulté le 2026-09-06"
+   },
+   {
+    "cles": [
+     "ligne",
+     "wallace",
+     "frontiere",
+     "bali",
+     "lombok",
+     "faune",
+     "separation",
+     "borneo"
+    ],
+    "reponse": "Il passe en moi une frontière que personne n'a tracée, la ligne de Wallace. Elle monte par le détroit de Lombok, entre Bali et Lombok, puis par le détroit de Macassar, entre Bornéo et Célèbes, et se prolonge au sud de Mindanao. À l'ouest, mes îles tenaient au continent asiatique quand la mer était basse, et les bêtes y sont venues à pied. À l'est, jamais : l'eau y est trop profonde, et la faune y appartient à l'autre moitié du monde. Quelques dizaines de kilomètres d'eau suffisent à tout changer.",
+    "ouvre": [
+     "betes"
+    ],
+    "source": "Encyclopædia Britannica, Wallace Line, https://www.britannica.com/science/Wallace-Line, consulté le 2026-09-06"
+   },
+   {
+    "cles": [
+     "betes",
+     "animaux",
+     "dragon",
+     "komodo",
+     "fleur",
+     "rafflesia",
+     "corail",
+     "especes",
+     "recif"
+    ],
+    "reponse": "Le dragon de Komodo ne vit nulle part ailleurs qu'ici : Komodo, Rinca, Gili Motang, Nusa Kode, et quelques côtes de Florès. Il est classé en danger depuis 2021, avec moins de 1 400 adultes au total. Chez moi pousse aussi la Rafflesia arnoldii, la plus grande fleur simple du monde, près d'un mètre de large, sans tige, sans feuille et sans racine : elle vit à l'intérieur des lianes du genre Tetrastigma et n'en sort que pour fleurir. Et mes eaux tiennent dans le Triangle de corail, où l'on recense près de 600 espèces de coraux constructeurs, les trois quarts de celles du monde.",
+    "ouvre": [
+     "table"
+    ],
+    "source": "Wikipedia, Komodo dragon (citant l'évaluation UICN 2021), https://en.wikipedia.org/wiki/Komodo_dragon ; Encyclopædia Britannica, monster flower, https://www.britannica.com/plant/monster-flower ; WWF, Coral Triangle facts, https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/coraltrianglefacts/. Consultés le 2026-09-06"
+   },
+   {
+    "cles": [
+     "langue",
+     "parler",
+     "indonesien",
+     "javanais",
+     "dialecte",
+     "mots",
+     "bahasa"
+    ],
+    "reponse": "Ma langue d'État est l'indonésien, inscrit à l'article 36 de la Constitution de 1945. Elle se parle partout chez moi, mais elle n'est la langue première que d'une partie de mes habitants : c'est d'abord une langue de rencontre, apprise pour se parler d'une île à l'autre. À côté d'elle, l'agence de la langue a recensé 718 langues régionales entre 1991 et 2019, sur 2 560 zones d'enquête, dialectes non comptés. La plus grande par le nombre de locuteurs est le javanais, et ce n'est pas elle qui est écrite dans ma Constitution.",
+    "ouvre": [
+     "table"
+    ],
+    "source": "Constitution de 1945 de la République d'Indonésie, article 36, https://www.wipo.int/edocs/lexdocs/laws/en/id/id048en.pdf ; Badan Pengembangan Bahasa dan Perbukuan, chiffre de 718 langues relayé par Databoks Katadata, https://databoks.katadata.co.id/en/demographics/statistics/68620cb79b9e2/indonesia-has-718-regional-languages-their-distribution-by-province. Consultés le 2026-09-06"
+   },
+   {
+    "cles": [
+     "table",
+     "manger",
+     "cuisine",
+     "tempe",
+     "soja",
+     "fermentation",
+     "gout",
+     "plat"
+    ],
+    "reponse": "Le tempe est né chez moi, à Java, d'un accident utile : le champignon Rhizopus pousse sur les feuilles dans lesquelles on emballait les aliments, et il a pris sur des graines de soja qu'on avait laissées là. Il les lie en un bloc assez ferme pour se couper au couteau. Le mot apparaît dans un manuscrit javanais, le Serat Centhini, dont le récit se situe au début des années 1600. Ce n'est pas un remplacement de viande. C'est un aliment qui existait bien avant qu'on ait besoin de le comparer à autre chose.",
+    "ouvre": [],
+    "source": "Ratnaningsih et al., History, manufacture, nutritional content, bioactive components of tempeh, Australian Journal of Crop Science, https://www.cropj.com/Ratnaningsih_19_07_2025_839_852.pdf ; Scientific Reports, The effect of the use of commercial tempeh starter on the diversity of Rhizopus tempeh in Indonesia, https://www.nature.com/articles/s41598-021-03308-6. Consultés le 2026-09-06"
+   }
+  ],
+  "sources": [
+   "Badan Informasi Geospasial (BIG) via ANTARA News, https://en.antaranews.com/news/337912/indonesias-geospatial-agency-identifies-63-new-islands-in-2024, consulté le 2026-09-06",
+   "Encyclopædia Britannica, Wallace Line, https://www.britannica.com/science/Wallace-Line, consulté le 2026-09-06",
+   "Encyclopædia Britannica, monster flower (Rafflesia arnoldii), https://www.britannica.com/plant/monster-flower, consulté le 2026-09-06",
+   "WWF, Coral Triangle facts, https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/coraltrianglefacts/, consulté le 2026-09-06",
+   "Wikipedia, Komodo dragon, citant l'évaluation UICN 2021, https://en.wikipedia.org/wiki/Komodo_dragon, consulté le 2026-09-06",
+   "Constitution de 1945 de la République d'Indonésie, article 36, https://www.wipo.int/edocs/lexdocs/laws/en/id/id048en.pdf, consulté le 2026-09-06",
+   "Badan Pengembangan Bahasa dan Perbukuan, 718 langues régionales, relayé par Databoks Katadata, https://databoks.katadata.co.id/en/demographics/statistics/68620cb79b9e2/indonesia-has-718-regional-languages-their-distribution-by-province, consulté le 2026-09-06",
+   "Ratnaningsih et al., Australian Journal of Crop Science, https://www.cropj.com/Ratnaningsih_19_07_2025_839_852.pdf, consulté le 2026-09-06",
+   "Scientific Reports, Rhizopus tempeh diversity in Indonesia, https://www.nature.com/articles/s41598-021-03308-6, consulté le 2026-09-06"
+  ],
+  "doutes": [
+   "Trois pages n'ont pas pu être ouvertes par mon outil, elles ont renvoyé une erreur 403 : la fiche UICN du dragon de Komodo, la page Britannica sur la Rafflesia, et la page WWF sur le Triangle de corail. Les chiffres viennent des extraits de résultats de recherche qui citent ces pages. Les rouvrir à la main avant publication : moins de 1 400 adultes, un mètre de large, près de 600 espèces de coraux.",
+   "La largeur du détroit de Lombok, souvent donnée à 35 kilomètres, a été retirée de la réponse faute de source primaire. Ne pas la remettre sans une source hydrographique.",
+   "Le nombre d'îles change chaque année. La réponse est datée 2024. Reprendre le chiffre de l'année en cours au moment de la mise en ligne, et garder la série des années précédentes qui est l'intérêt de la réponse.",
+   "Le Serat Centhini : la datation du manuscrit et celle du récit qu'il raconte sont deux choses différentes. La phrase dit dont le récit se situe, elle ne dit pas que le manuscrit date de 1600. Ne pas raccourcir.",
+   "Le chiffre de 718 langues est du Badan Bahasa mais relayé par un média de données. Citer directement le site du Badan Bahasa avant publication.",
+   "Le nom Nusa Kode et le nom Gili Dasami désignent parfois le même lieu selon les sources. Vérifier la liste exacte des îles à dragons auprès du Komodo Survival Program avant de la publier telle quelle.",
+   "Le fait que le javanais compte plus de locuteurs natifs que l'indonésien est solide, mais le chiffre précis n'a pas été écrit dans la réponse, exprès. Ne pas en ajouter un sans source de recensement (BPS)."
+  ]
+ }
+]

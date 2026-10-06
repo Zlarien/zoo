@@ -1,0 +1,7 @@
+node_modules
+dist
+.vercel
+.env
+.env.*
+_ARCHIVE/rl.html
+_travail/post-linkedin.txt

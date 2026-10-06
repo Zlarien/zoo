@@ -1,0 +1,485 @@
+[
+ {
+  "id": "durian",
+  "verdict": "publiable apres corrections",
+  "problemes": [
+   "BLOQUANT - Extrait non verbatim (sujet precurseur, source 2). La fiche cite \"Concentrations (621-9600 μg/kg) in the same range but below the methionine concentrations (16100-30200 μg/kg).\" comme une phrase autonome avec majuscule initiale. La phrase reelle de l'abstract PMID 31825619 est : \"Quantitation of ethionine in samples of different varieties (Monthong, Krathum, Chanee, and Kanyao) showed concentrations (621-9600 μg/kg) in the same range but below the methionine concentrations (16100-30200 μg/kg).\" Le fragment a ete tronque en tete et recapitalise : c'est une frontiere de phrase fabriquee.",
+   "BLOQUANT - Deux cles de 3 caracteres : \"nom\" (sujet identite) et \"adn\" (sujet genome). La regle interdit 3 caracteres ou moins.",
+   "BLOQUANT - Chiffres et taxons non couverts par un extrait. Le sujet identite affirme \"famille des Malvaceae, ordre des Malvales\" alors que le seul extrait GBIF cite est \"Durio zibethinus L.\". Verification faite : la reponse de l'API contient bien \"family\":\"MALVACEAE\" et \"order\":\"MALVALES\", donc c'est reparable, mais en l'etat deux affirmations taxonomiques n'ont aucun extrait en face.",
+   "SUBSTANTIEL - Citation selective sur le chiffre phare. Le sujet odeur met en avant l'ethanethiol a 480000 comme aboutissement de la mesure. Le meme abstract (PMID 28024392) donne dans la meme phrase l'ethyl (2S)-2-methylbutanoate (fruity ; OAV 1700000), soit 3,5 fois plus, et conclut que l'odeur globale peut etre imitee par deux composes seulement, dont cet ester fruite. Une entite dont la these est \"la mesure et pas la legende\" qui ne cite que la molecule soufree fait exactement la legende qu'elle denonce.",
+   "CONTRADICTION INTERNE - faitsEcartes affirme que l'OAV 480000 vaut pour le cultivar Monthong et \"n'est pas etendue aux autres varietes\". La reponse du sujet odeur ne nomme jamais Monthong et conclut \"Voila ce qu'on a mesure sur moi\". La restriction est declaree dans les ecartes et violee dans le texte. Idem pour les 44, 41 et 14 composes : tous issus de la meme etude Monthong (titre verifie : Durio zibethinus L. 'Monthong').",
+   "CONTRADICTION INTERNE - faitsEcartes affirme : \"Le lieu precis de l'etude sur la pollinisation par les roussettes : non verifie dans la page ouverte, donc aucune ile ni aucun pays ne sont nommes.\" C'est faux. La page PMID 29152168 ouverte donne le lieu (Tioman Island, Peninsular Malaysia) et l'espece (Pteropus hypomelanus) des le titre et l'abstract. L'ecarte se trompe sur sa propre source.",
+   "GRAPHE - Le sujet odeur a ouvre:[\"precurseur\",\"culture\"] mais culture a requiert:[\"odeur\",\"genome\"]. Depuis odeur, culture s'affiche mais reste verrouille tant que genome n'est pas fait : lien mort au premier passage. Tous les ids pointes existent bien et identite a bien un requiert vide.",
+   "GENERALISATION - Le sujet culture transforme une etude sur quatre arbres en fleurs d'une seule ile en enonce general sur la production du durian, et \"on ne me produit pas sans aide\" surinterprete une etude qui mesure un effet positif sur la nouaison, pas une dependance obligatoire.",
+   "AUTORITE TAXONOMIQUE CONTESTEE - \"nomme par Linne\" repose sur l'abbreviation \"L.\" de GBIF, mais la source Plants 2025 citee par la fiche elle-meme ecrit \"Durio zibethinus Murr.\". GBIF fait foi, mais l'affirmation est posee comme incontestee alors que le corpus de la fiche se contredit.",
+   "VOIX - Les sujets genome et culture retombent en recitation d'abstract a la premiere personne (\"On a lu mon genome\", \"Une etude sur mes visiteurs floraux a conclu que\"). L'ironie seche et le ton blinde annonces dans le champ ton tiennent dans accroche, ouverture et odeur, puis s'eteignent.",
+   "MINEUR - \"Mais la premiere chose qu'on remarque chez moi n'est jamais ma forme\" est une affirmation sur la perception humaine sans aucune mesure derriere, dans une entite qui se reclame de la mesure.",
+   "CONFORME - Aucun tiret cadratin ni demi-cadratin (verifie par grep sur l'integralite de la prose). Aucune cle accentuee ni avec majuscule. Aucune source tertiaire : GBIF est une base taxonomique de reference et les six autres sont des abstracts PubMed primaires, aucun Wikipedia. Les six URL citees s'ouvrent toutes et correspondent au contenu annonce. Sujet pays sans objet."
+  ],
+  "corrections": [
+   {
+    "sujet": "precurseur",
+    "avant": "\"extrait\":\"Concentrations (621-9600 μg/kg) in the same range but below the methionine concentrations (16100-30200 μg/kg).\"",
+    "apres": "\"extrait\":\"showed concentrations (621-9600 μg/kg) in the same range but below the methionine concentrations (16100-30200 μg/kg)\"",
+    "pourquoi": "Un extrait doit apparaitre mot pour mot dans la source. La version actuelle a coupe le debut de phrase (\"Quantitation of ethionine in samples of different varieties (Monthong, Krathum, Chanee, and Kanyao) showed...\") et remis une majuscule, fabriquant une phrase qui n'existe pas dans l'abstract PMID 31825619."
+   },
+   {
+    "sujet": "identite",
+    "avant": "\"cles\":[\"durian\",\"durio\",\"zibethinus\",\"identite\",\"presentation\",\"nom\",\"famille\",\"botanique\",\"espece\",\"arbre\"]",
+    "apres": "\"cles\":[\"durian\",\"durio\",\"zibethinus\",\"identite\",\"presentation\",\"appellation\",\"famille\",\"botanique\",\"espece\",\"arbre\"]",
+    "pourquoi": "\"nom\" fait exactement 3 caracteres, en dessous du plancher autorise. \"appellation\" couvre la meme intention sans declencher de faux positifs sur les mots courts."
+   },
+   {
+    "sujet": "genome",
+    "avant": "\"cles\":[\"genome\",\"genetique\",\"genes\",\"adn\",\"sequence\",\"methionine gamma lyase\",\"ethylene\",\"expansion\",\"biologie\"]",
+    "apres": "\"cles\":[\"genome\",\"genetique\",\"genes\",\"sequence\",\"sequencage\",\"methionine gamma lyase\",\"ethylene\",\"expansion\",\"biologie\"]",
+    "pourquoi": "\"adn\" fait 3 caracteres. Il est retire et remplace par \"sequencage\", qui couvre la meme zone semantique et reste au-dessus du plancher."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Reponse : \"Je m'appelle Durio zibethinus, nomme par Linne, et je suis range dans la famille des Malvaceae, ordre des Malvales.\" Source GBIF avec un seul extrait : \"Durio zibethinus L.\"",
+    "apres": "Reponse : \"Je m'appelle Durio zibethinus et la base taxonomique de reference me range dans la famille des Malvaceae, ordre des Malvales.\" Et on ajoute a la source GBIF deux extraits pris dans la meme reponse d'API : \"family\":\"MALVACEAE\" et \"order\":\"MALVALES\", en gardant \"Durio zibethinus L.\"",
+    "pourquoi": "Deux affirmations taxonomiques n'avaient aucun extrait en face. Les valeurs existent dans la reponse GBIF ouverte, il suffit de les citer. \"Nomme par Linne\" saute au passage : c'est une deduction faite a partir de l'abbreviation \"L.\", et une des sources de la fiche elle-meme (Plants 2025) ecrit \"Durio zibethinus Murr.\". Autant ne pas trancher une querelle d'autorite qui n'apporte rien a la voix."
+   },
+   {
+    "sujet": "odeur",
+    "avant": "Une analyse par dilution d'extrait d'arome a trouve 44 composes odorants dans ma chair, dont 41 ont pu etre identifies. Quatorze de ces 41 portent une architecture soufree du type alcane-1,1-dithiol ou 1-(alkylsulfanyl)alcane-1-thiol. Quand on a mesure leur puissance relative, l'ethanethiol, decrit comme oignon pourri, atteint une valeur d'activite odorante de 480000. Voila ce qu'on a mesure sur moi. Le reste, ce sont des adjectifs que les gens ajoutent.",
+    "apres": "Une analyse par dilution d'extrait d'arome, menee sur la variete Monthong, a trouve 44 composes odorants dans ma chair, dont 41 ont pu etre identifies. Quatorze de ces 41 portent une architecture soufree du type alcane-1,1-dithiol ou 1-(alkylsulfanyl)alcane-1-thiol. Puis on a calcule leur puissance relative, et c'est la que personne ne me suit. Le compose le plus puissant qu'on ait mesure chez moi n'est pas soufre : c'est un ester fruite, l'ethyl 2-methylbutanoate, a 1700000 de valeur d'activite odorante. Mon ethanethiol, l'oignon pourri dont tout le monde parle, arrive derriere, a 480000. On me resume par ma pire molecule et ce n'est meme pas la premiere.",
+    "pourquoi": "La fiche selectionnait le chiffre qui confirme la reputation et taisait le plus grand chiffre de la meme phrase de l'abstract PMID 28024392, qui la contredit. Pour une entite dont toute la these est \"la mesure et pas la legende\", c'etait le defaut le plus grave de la fiche, et le corriger rend le sujet plus fort au lieu de l'affaiblir. Le cultivar Monthong est nomme, ce que les faitsEcartes exigeaient deja sans que le texte le fasse. Ajouter en source, meme URL deja citee : extrait \"ethyl (2S)-2-methylbutanoate (fruity; OAV 1700000)\"."
+   },
+   {
+    "sujet": "culture",
+    "avant": "On me cultive, mais on ne me produit pas sans aide. Une etude sur mes visiteurs floraux a conclu que seules les chauves-souris avaient des interactions mutualistes avec mes fleurs, et que les roussettes avaient un effet positif sur la formation de mes fruits murs.",
+    "apres": "On me cultive, mais je ne me feconde pas tout seul. Sur l'ile de Tioman, en Malaisie peninsulaire, une etude de mes visiteurs floraux a conclu que seules les chauves-souris avaient des interactions mutualistes avec mes fleurs, et que les roussettes avaient un effet positif sur la formation de mes fruits murs. Quatre arbres, une ile, une saison : c'est une mesure, pas une loi universelle, et je vous la donne avec ses bords.",
+    "pourquoi": "Deux corrections d'un coup. Le lieu est verifiable dans la source deja citee (le titre nomme Tioman et Pteropus hypomelanus), donc l'ecarte qui pretend le contraire tombe. Et l'etude portait sur un echantillon minuscule : la generaliser a la production mondiale du durian etait le genre d'exageration que cette entite est censee corriger chez les autres. Avouer la portee limitee est exactement sa voix."
+   },
+   {
+    "sujet": "faitsEcartes",
+    "avant": "\"Le lieu precis de l'etude sur la pollinisation par les roussettes : non verifie dans la page ouverte, donc aucune ile ni aucun pays ne sont nommes.\"",
+    "apres": "Entree supprimee et remplacee par : \"L'etendue de la pollinisation par les roussettes hors de Tioman : l'etude ouverte porte sur quatre arbres d'une seule ile, aucune extrapolation a l'ensemble des vergers de durian n'est faite ici.\"",
+    "pourquoi": "L'ecarte affirmait une absence d'information demontrable comme fausse : la page citee donne l'ile et le pays des son titre. Un contre-verificateur qui ouvre la source voit immediatement que la fiche n'a pas lu ce qu'elle cite. Le vrai risque a signaler n'etait pas le lieu, c'etait la generalisation."
+   },
+   {
+    "sujet": "faitsEcartes",
+    "avant": "\"L'OAV de 480000 pour l'ethanethiol est une valeur mesuree sur un cultivar Monthong, pas une valeur universelle du durian : elle n'est pas etendue aux autres varietes.\"",
+    "apres": "Meme entree, elargie : \"Les 44 composes odorants, les 41 identifies, les 14 soufres et les OAV proviennent tous d'etudes sur le cultivar Monthong. Le cultivar est nomme dans la reponse et aucune de ces valeurs n'est presentee comme universelle au durian.\"",
+    "pourquoi": "La restriction etait declaree dans les ecartes mais jamais appliquee au texte, qui disait \"voila ce qu'on a mesure sur moi\" sans nommer la variete. Et elle ne visait que l'OAV alors que les 44, 41 et 14 viennent de la meme etude Monthong (titre verifie : Durio zibethinus L. 'Monthong'). Une regle qu'on ecrit et qu'on n'applique pas est pire qu'une regle absente."
+   },
+   {
+    "sujet": "odeur",
+    "avant": "\"ouvre\":[\"precurseur\",\"culture\"]",
+    "apres": "\"ouvre\":[\"precurseur\"]",
+    "pourquoi": "culture exige requiert:[\"odeur\",\"genome\"]. Ouvert depuis odeur, il apparait mais reste verrouille jusqu'a ce que genome soit fait : lien mort au premier passage. genome ouvre deja culture au bon moment, la chaine identite, odeur, precurseur, genome, culture se suffit."
+   }
+  ]
+ },
+ {
+  "id": "fruit-baobab",
+  "verdict": "publiable apres corrections",
+  "problemes": [
+   "BLOQUANT. Le sujet sechage affirme \"Aucune ligne ne parle de sechage\". C'est dementi par le document meme qu'il cite. La decision s'intitule \"Baobab dried fruit pulp\", l'article 1 dit \"Baobab dried fruit pulp as specified in the Annex\", l'annexe est intitulee \"Typical nutritional components of Baobab dried fruit pulp\", et la ligne de specification s'appelle mot pour mot \"Moisture (loss on drying)\". Le mot sechage est partout dans la source.",
+   "BLOQUANT. L'accroche \"personne ne m'a mis au four\" et la chute \"aucun d'eux n'a eu besoin de me secher non plus\" affirment une absence de sechage qu'aucune des huit pages ouvertes ne soutient. C'est une negation inventee, et elle porte toute l'identite de l'entite. La fiche a d'ailleurs elle-meme ecarte, a juste titre, la causalite \"sechage sur l'arbre\" : elle la reintroduit par l'accroche.",
+   "Le vrai paradoxe, source et plus fort, a ete manque : le titre officiel dit \"dried\", et l'article 2 interdit ce mot sur l'etiquette en imposant \"Baobab fruit pulp\". Le texte donne le sec d'une main et le retire de l'autre.",
+   "Sujet composition : \"le texte europeen ne me decrit pas en moyennes mais en fourchettes de specification, ce qui n'est pas la meme chose qu'une valeur nutritionnelle\". L'annexe titre litteralement cette table \"Typical nutritional components\". La nuance est bonne, la formulation contredit le mot de la source.",
+   "Extrait non verbatim : \"10.02 ± 0.07%\". La source (Polymers, PMC12115207) ecrit \"...are 10.02 ± 0.07, 4.09 ± 0.21, 7.13 ± 0.19, 4.82 ± 0.52, 7.50 ± 0.52, and 66.53 ± 0.52%, respectively.\" Le signe % ne suit pas 10.02, il clot l'enumeration.",
+   "Trois extraits de l'annexe europeenne ajoutent un deux-points absent de la source : \"Protein (g/100 g): 2,03-3,24\", \"Total carbohydrate (g/100 g): 78,3-78,9\", \"Total sugars (as glucose): 16,9-25,3\". La source est un tableau a deux cellules. Les extraits Ash et Foreign matter sont, eux, exacts.",
+   "Le chiffre 16,26 pour cent est affirme sans extrait qui le porte : la source citee pour lui est la phrase qualitative \"significantly higher than what has previously been reported in the literature\", pas le Tableau 13. Et la fiche omet que Heliyon attribue elle-meme cette valeur a l'altitude et a la pluviometrie du lieu de prelevement, ce qui affaiblit la lecture \"on ne m'a pas seche\".",
+   "\"Deux articles repetent que j'en aurais presque dix fois plus qu'une orange\" : verifie et vrai (Foods 2021 PMC8065946 et Foods 2023 PMC9913908, tous deux avec renvoi bibliographique, refs [9] et [14]), mais un seul des deux figure dans les sources. Un fait chiffre affirme sans son extrait.",
+   "Deux poids deux mesures dans le sujet chiffres. La fiche disqualifie le 466 mg parce qu'il est \"un seul point, sans fourchette ni methode\", puis oppose 22,54 % et 57,3 g comme s'ils valaient mieux. Verification faite : les deux sont eux aussi de seconde main, Foods 2023 les attribue a sa reference [54] et Nutrients a sa reference [22]. Ni l'un ni l'autre n'a mesure.",
+   "\"Le demandeur etait PhytoTrade Africa, a Londres\" : fait exact (article 3 et considerant 1) mais aucun extrait de la liste ne le porte.",
+   "Voix. Le ton annonce (lent, sec, narquois, mineral) tient dans identite et europe, et decroche dans composition et chiffres : \"Attention a la facon de me lire\", \"exigez de la mefiance\", \"sans fourchette ni methode\" sont le vocabulaire d'un relecteur, pas d'un fruit. L'entite cesse de parler et recite sa propre contre-verification.",
+   "VERIFIE ET CONFORME, rien a corriger sur ces points : les 8 URL repondent ; aucune source tertiaire, aucun Wikipedia, tout est primaire (EUR-Lex) ou revu par les pairs via Europe PMC ; le graphe est sain (les 5 ids existent, identite a bien un requiert vide, aucun renvoi orphelin, aucun cycle) ; aucune cle de 3 caracteres ou moins, aucune accentuee, aucune majuscule ; zero tiret cadratin (le signe U+2212 present est le moins de \"mg·kg−1\", exige par la fidelite de l'extrait) ; sujet non concerne par les interdits pays.",
+   "VERIFIE ET EXACT dans faitsEcartes, ce qui est le meilleur du travail : la coquille \"1250-12,91\" existe bien telle quelle dans Foods 2023 ; le \">30%\" de fibres solubles de Plants 2025 est bien la ; \"baobab seeds can be considered the highest Fe source, with triple the content found in any of the pulps\" est exact et la valeur de la pulpe est bien absente. Les quatre autres extraits scientifiques (3793/37528/10805, ten times that of oranges, 466 mg/100 g, 16.1 et 57.3 g/100 g, 22.54 % et 22.04 %) sont mot pour mot."
+  ],
+  "corrections": [
+   {
+    "sujet": "accroche",
+    "avant": "J'arrive sec à l'usine, et personne ne m'a mis au four.",
+    "apres": "J'arrive sec à l'usine, et sur mon étiquette le mot sec n'a pas le droit de figurer.",
+    "pourquoi": "Aucune page ouverte n'établit qu'on ne me sèche pas : c'est une négation inventée. Le paradoxe de remplacement est, lui, entièrement sourcé dans le même document : titre \"Baobab dried fruit pulp\", article 2 \"the designation ... shall be 'Baobab fruit pulp'\". Plus vrai et plus mordant."
+   },
+   {
+    "sujet": "sechage",
+    "avant": "Aucune ligne ne parle de séchage.",
+    "apres": "Aucune ligne ne décrit d'étape de séchage dans le procédé. Et pourtant le mot est partout ailleurs : je m'appelle Baobab dried fruit pulp au titre comme à l'article premier, et ma teneur en eau y porte le nom de perte à la dessiccation.",
+    "pourquoi": "L'affirmation actuelle est fausse contre sa propre source. \"Moisture (loss on drying)\" et trois occurrences de \"dried\" sont dans le texte cité. Ce qui est vrai, c'est que la description du procédé (\"cracked open ... separated ... milled ... packaged\") ne contient aucune étape de séchage. La distinction sauve l'idée et supprime l'erreur."
+   },
+   {
+    "sujet": "sechage",
+    "avant": "Personne dans ces pages ne m'a regardé sécher, mais aucun d'eux n'a eu besoin de me sécher non plus.",
+    "apres": "Personne dans ces pages ne m'a regardé sécher. Ce qu'ils font, c'est mesurer ce qu'il me reste d'eau, et ils ne tombent pas d'accord.",
+    "pourquoi": "La seconde moitié de la phrase affirme une absence de besoin que rien ne soutient. La version corrigée dit exactement ce que les trois sources montrent et rien de plus."
+   },
+   {
+    "sujet": "sechage",
+    "avant": "une autre de 2024 trouve 16,26 pour cent en disant elle-même que c'est plus haut que la littérature",
+    "apres": "une autre de 2024 trouve 16,26 pour cent, dit elle-même que c'est plus haut que la littérature, et met cela sur le compte de l'altitude et de la pluie là où elle a ramassé ses fruits",
+    "pourquoi": "Deux choses. Le chiffre 16,26 n'a pas d'extrait qui le porte : ajouter \"Moisture (%) 16.26 ± 0.11\" du Tableau 13. Et l'explication donnée par les auteurs est omise alors qu'elle est dans la phrase suivante de la source ; l'omettre laisse croire que l'écart soutient la thèse du non-séchage."
+   },
+   {
+    "sujet": "composition",
+    "avant": "le texte européen ne me décrit pas en moyennes mais en fourchettes de spécification, ce qui n'est pas la même chose qu'une valeur nutritionnelle mesurée sur un fruit",
+    "apres": "le texte européen range ces fourchettes sous le titre Typical nutritional components, et garde un second tableau, Analytical specifications, où il ne reprend que mon eau, mes cendres et mes corps étrangers. Ce sont des bornes de lot commercial, pas la mesure d'un fruit cueilli",
+    "pourquoi": "L'annexe intitule littéralement cette table \"Typical nutritional components of Baobab dried fruit pulp\". Nier que ce soient des valeurs nutritionnelles contredit le mot de la source. La vraie distinction, elle sourcée, est entre les deux tableaux de l'annexe."
+   },
+   {
+    "sujet": "sechage (source)",
+    "avant": "extrait : \"10.02 ± 0.07%\"",
+    "apres": "extrait : \"The results reveal that the moisture content, crude fat, crude protein, ash, crude fiber, and carbohydrates are 10.02 ± 0.07, 4.09 ± 0.21, 7.13 ± 0.19, 4.82 ± 0.52, 7.50 ± 0.52, and 66.53 ± 0.52%, respectively.\"",
+    "pourquoi": "Pas mot pour mot. Le % accolé à 10.02 n'existe pas dans Polymers PMC12115207 : il clôt l'énumération après 66.53. Un extrait doit se copier, pas se recomposer."
+   },
+   {
+    "sujet": "composition (sources)",
+    "avant": "\"Protein (g/100 g): 2,03-3,24\", \"Total carbohydrate (g/100 g): 78,3-78,9\", \"Total sugars (as glucose): 16,9-25,3\"",
+    "apres": "Retirer les deux-points : la source est un tableau, \"Protein (g/100 g)\" et \"2,03-3,24\" sont deux cellules distinctes.",
+    "pourquoi": "Verbatim strict. Les extraits \"Ash (g/100 g) 5,5-6,6\" et \"Foreign matter Not more than 0,2 %\" sont corrects et montrent la bonne forme : les trois autres ont été ponctués après coup."
+   },
+   {
+    "sujet": "chiffres (sources)",
+    "avant": "\"deux articles répètent\" avec un seul article en source",
+    "apres": "Ajouter le second extrait, Foods 2023 (PMC9913908) : \"The fruit pulp has a vitamin C value nearly 10 times that of oranges, along with carbohydrates and a high concentration of pectin\"",
+    "pourquoi": "Le \"deux\" est vérifié et vrai, les deux articles renvoient bien à une référence tierce ([9] et [14]) sans avoir mesuré. Mais un fait affirmé doit porter son extrait, surtout quand il sert à disqualifier une rumeur."
+   },
+   {
+    "sujet": "chiffres",
+    "avant": "mes fibres changent de camp selon les auteurs, 22,54 pour cent de solubles chez les uns, 57,3 grammes pour cent grammes chez les autres",
+    "apres": "mes fibres changent de camp selon les auteurs, 22,54 pour cent de solubles chez les uns, 57,3 grammes pour cent grammes chez les autres. Et regardez d'où ils les tiennent : ni l'un ni l'autre ne les a mesurées, chacun les recopie d'un troisième",
+    "pourquoi": "Vérifié dans les deux textes : Foods 2023 attribue le 22,54 à sa référence [54], Nutrients attribue le 57,3 à sa [22]. La fiche rejette le 466 mg pour \"absence de méthode\" et brandit ensuite deux chiffres qui ont le même défaut. Le dire renforce la position au lieu de l'affaiblir."
+   },
+   {
+    "sujet": "europe (source)",
+    "avant": "\"Le demandeur était PhytoTrade Africa, à Londres.\" sans extrait correspondant",
+    "apres": "Ajouter l'extrait de l'article 3 : \"This Decision is addressed to PhytoTrade Africa, London Office, Unit W215, Holywell Centre, 1 Phipp Street, London EC2A 4PS, United Kingdom.\"",
+    "pourquoi": "Le fait est exact, il est simplement orphelin : aucune des trois sources listées pour ce sujet ne le contient."
+   },
+   {
+    "sujet": "ton",
+    "avant": "\"Attention à la façon de me lire\", \"Sur la vitamine C, exigez de la méfiance\", \"un seul point, sans fourchette ni méthode\"",
+    "apres": "Reformuler dans la voix minérale annoncée : \"On m'a rangé dans un tableau avant de m'avoir goûté\", \"Ce chiffre-là, personne ne l'a pesé, il se recopie\", \"Un seul point, et rien autour\".",
+    "pourquoi": "Le ton promis est lent, sec et narquois. Il tient dans identite et europe, il décroche dans composition et chiffres où c'est le vérificateur qui parle avec son vocabulaire de méthode. L'entité doit porter la méfiance, pas la commenter."
+   }
+  ]
+ },
+ {
+  "corrections": [
+   {
+    "sujet": "identite",
+    "avant": "Je viens de l'est de l'ile, la ou le volcan surveille les vergers et refroidit les nuits.",
+    "apres": "Je viens de l'est de l'ile, dans des vergers ou l'ecart entre le jour et la nuit fait tout le travail.",
+    "pourquoi": "Contradiction interne : la fiche ecarte explicitement toute causalite volcanique dans faitsEcartes, puis fait refroidir les nuits par le volcan. Aucune source ouverte n'attribue le refroidissement nocturne a l'Etna."
+   },
+   {
+    "sujet": "identite",
+    "avant": "se cachent trois familles seulement : Tarocco, Moro et Sanguinello",
+    "apres": "le cahier des charges nomme les Tarocco, les Moro et les Sanguinello",
+    "pourquoi": "« seulement » est une clause d'exclusivite non couverte : les extraits ouverts listent des cultivars Tarocco et Moro, jamais une phrase disant que la liste est limitee a trois groupes."
+   },
+   {
+    "sujet": "cultivars",
+    "avant": "et les Sanguinello",
+    "apres": "soit ajouter un extrait du cahier des charges nommant les cultivars Sanguinello, soit retirer la mention",
+    "pourquoi": "Aucun des trois extraits de ce sujet ne contient le mot Sanguinello. Un des trois noms de famille cites n'a donc aucune source attachee, ni ici ni dans identite."
+   },
+   {
+    "sujet": "cultivars",
+    "avant": "extrait : \"Tarocco Comune, Tarocco Galice, Tarocco Gallo, Tarocco dal Muso, Tarocco Nucellare\"",
+    "apres": "extrait : \"Tarocco Comune, Tarocco Galice, Tarocco Gallo, Tarocco dal Muso, Tarocco Nucellare 57-1E-1, Tarocco Nucellare 61-1E-4\"",
+    "pourquoi": "La coupe tombe au milieu d'un nom de cultivar et fabrique une variete inexistante appelee « Tarocco Nucellare ». Le texte JO C 369 ecrit Tarocco Nucellare 57-1E-1 et Tarocco Nucellare 61-1E-4. Verifie sur la page."
+   },
+   {
+    "sujet": "chimie",
+    "avant": "extrait : \"cyanidin 3-glucoside was the main component\"",
+    "apres": "extrait : \"Cyanidin 3-glucoside was the main component, with lesser amounts of the monoglucosides and diglucosides\"",
+    "pourquoi": "L'article Molecules ecrit la phrase avec une majuscule en debut de phrase. Un extrait doit etre mot pour mot, casse comprise, sinon la verification automatique echoue."
+   },
+   {
+    "sujet": "igp",
+    "avant": "Le 6 novembre 2013, la Commission a approuve les modifications du cahier des charges pour Arancia Rossa di Sicilia (IGP), Italie, classe 1.6, fruits, legumes et cereales frais ou transformes.",
+    "apres": "Le 6 novembre 2013, Bruxelles a valide mon cahier des charges. Rangee dans la classe des fruits frais, sous le nom Arancia Rossa di Sicilia.",
+    "pourquoi": "Recitation de metadonnees administratives a la premiere personne. Un fruit ne dit pas « classe 1.6, fruits, legumes et cereales frais ou transformes » : c'est une ligne d'annexe lue a voix haute, pas une voix."
+   },
+   {
+    "sujet": "cultivars",
+    "avant": "jusqu'a des lignees precises comme Moro Comune, Moro di Lentini ou Moro Nucellare 58-8D-1",
+    "apres": "jusqu'a des lignees numerotees que seuls les pepinieristes savent prononcer, Moro di Lentini par exemple",
+    "pourquoi": "Meme defaut de voix : le code 58-8D-1 recite dans une reponse parlee casse le personnage. Le detail peut rester dans l'extrait de source, pas dans la bouche du fruit."
+   },
+   {
+    "sujet": "igp",
+    "avant": "\"ouvre\":[\"cultivars\"] alors que cultivars porte \"ouvre\":[\"igp\"]",
+    "apres": "retirer \"cultivars\" du champ ouvre de igp",
+    "pourquoi": "Boucle d'ouverture mutuelle igp <-> cultivars. cultivars est deja ouvert par froid : l'arete de igp vers cultivars ne debloque jamais rien et cree un cycle dans le graphe."
+   },
+   {
+    "sujet": "igp",
+    "avant": "cles : indication, protegee, appellation, label, europe, reglement, protection",
+    "pourquoi": "Le mot le plus evident pour ce sujet, IGP, est injouable : trois caracteres et majuscules, donc interdit comme cle. Sans une cle de repli, le sujet est presque inatteignable au clavier.",
+    "apres": "ajouter \"indication geographique\", \"arancia rossa\" et \"cahier des charges\""
+   },
+   {
+    "sujet": "faitsEcartes",
+    "avant": "18 communes de la province de Catane, 10 de Syracuse",
+    "apres": "18 communes de la province de Catane, 9 de Syracuse, 3 d'Enna",
+    "pourquoi": "Chiffre faux. La page JO C 369 ouverte ce jour donne 9 communes pour Siracusa, pas 10. Un chiffre errone dans faitsEcartes discredite tout le bloc d'honnetete."
+   }
+  ],
+  "id": "orange-sanguine-sicile",
+  "problemes": [
+   "Aucune source morte : les 5 URL de reference ouvrent et le contenu correspond au titre annonce. Les 5 extraits testables retrouves mot pour mot ou en prefixe exact.",
+   "BLOQUANT LEGER, contradiction interne : identite fait « refroidir les nuits » par le volcan, alors que faitsEcartes rejette explicitement toute causalite volcanique. La fiche se contredit elle-meme.",
+   "Claim non couverte : « trois familles seulement ». Aucun extrait ouvert n'affirme que la liste des groupes varietaux se limite a trois.",
+   "Claim non sourcee : les Sanguinello sont nommes dans identite et dans cultivars sans qu'aucun extrait des deux sujets ne contienne ce mot.",
+   "Extrait non verbatim : « cyanidin 3-glucoside was the main component » commence par une majuscule dans Molecules.",
+   "Extrait tronque au milieu d'un nom propre : « Tarocco Nucellare » n'existe pas, le texte dit Tarocco Nucellare 57-1E-1 et 61-1E-4.",
+   "Chiffre faux dans faitsEcartes : 10 communes de Syracuse annoncees, la page en donne 9.",
+   "Graphe : tous les id de ouvre et requiert existent, le premier sujet a bien un requiert vide. Mais cycle igp <-> cultivars, arete redondante.",
+   "Cles : aucune accentuee, aucune majuscule, aucune de 3 caracteres ou moins. En revanche le sujet igp n'a aucune cle contenant son propre nom utilisable.",
+   "Zero tiret cadratin dans toute la fiche.",
+   "Zero source tertiaire : que du EUR-Lex et du peer-review sur PMC. Wikipedia absent.",
+   "Voix : bonne dans froid, chimie et l'ouverture, mais elle deraille en recitation de fiche dans igp (classe 1.6, intitule d'annexe) et dans cultivars (code Moro Nucellare 58-8D-1).",
+   "Point fort a garder : la precision d'honnetete sur les 10 degres est exacte. Verifie sur la page du Plant Journal, le traitement etait bien une conservation post-recolte a 5, 10 et 20 degres en obscurite constante, pas une temperature de nuit au verger.",
+   "Point fort a garder : « Moro donnait le jus le plus rouge de deux des trois parcelles » est exact, plots 1 et 2 sur 3, Lentini en Italie puis Orihuela et Huelva en Espagne.",
+   "Detail mineur : la reference Molecules ne porte pas d'annee, l'article est de 2022 ; celle du Plant Journal non plus, il est de 2024."
+  ],
+  "verdict": "publiable apres corrections"
+ },
+ {
+  "id": "acai",
+  "verdict": "publiable apres corrections",
+  "problemes": [
+   "ERREUR DE CALCUL, BLOQUANTE (recolte). La fiche dit noyau = 85 pour cent, puis conclut 'vous mangez le quinzieme d'un fruit'. Un quinzieme vaut 6,7 pour cent. La pulpe vaut 15 pour cent, soit un septieme. La source (Foods 2026, foods15111967) dit explicitement pulpe 15 pour cent / graine 85 pour cent. La phrase de chute du sujet est fausse, et elle est fausse par un facteur deux.",
+   "CLE DE 3 CARACTERES (varzea). La cle 'eau' viole la regle des cles. En plus d'etre trop courte elle est generique au point de capturer des questions qui n'ont rien a voir avec la plaine inondable. A supprimer, pas a raccourcir ailleurs.",
+   "OUVERTURE NON SOURCEE, TROIS AFFIRMATIONS SUR TROIS FRAGILES. 'Je ne suis pas une baie' : aucune des onze pages ouvertes ne qualifie le fruit de drupe, et la source la plus citee (Foods 2026) ecrit elle-meme 'acai berry' a trois reprises. 'Je ne suis pas sucre' : la fiche ecarte explicitement les donnees USDA dans faitsEcartes, il ne reste donc rien derriere cette phrase. 'Je ne fais maigrir personne' : la meta-analyse citee mesure le profil lipidique, jamais le poids, et l'affaire FTC sanctionne une publicite mensongere, pas une inefficacite mesuree. Une entite qui declare ne dire que ce qui a ete mesure ouvre sur trois choses non mesurees dans son propre corpus.",
+   "PROMESSE MORTE. L'ouverture met le sucre sur la table, aucun sujet ne le traite et aucune cle 'sucre' n'existe. La question la plus previsible apres cette ouverture ne trouve aucune reponse.",
+   "CATEGORIE NON SOURCEE. Le champ categorie affirme 'drupe de palmier amazonien'. Botaniquement defendable, mais aucune source ouverte ne porte le mot drupe. Meme trou que ci-dessus, en haut de fiche.",
+   "SUR-ATTRIBUTION (chagas). La fiche ecrit 'la source d'infection principalement suspectee lors d'une flambee'. La phrase citee du CDC 2019 est un enonce general sur la transmission orale en Amazonie, pas la description de la flambee. L'article decrit bien une flambee de 10 patients, mais dans une autre phrase, non citee. Le rattachement est ajoute par la fiche.",
+   "GRAPHE INCOHERENT. varzea ouvre 'marketing', mais marketing requiert 'recolte'. Un joueur qui suit identite puis varzea puis marketing voit un sujet ouvert qu'il ne peut pas satisfaire. Toutes les cibles existent, la topologie est fausse.",
+   "AMBIGUITE DE PERIMETRE (recolte). '96 pour cent' (part nationale du Para) et '90 a 95 pour cent' (part mondiale du Bresil) se suivent sans que le premier dise de quel total il parle. Le second perd aussi son millesime : la source le date de 2025.",
+   "REFERENCE TROMPEUSE (identite). Les 35 stipes sont attribues a un article dont le titre annonce Euterpe precatoria. La phrase citee concerne bien E. oleracea, verifie, mais aucun lecteur qui ouvre le lien ne le devinera. Le ref doit le dire.",
+   "EXTRAITS SYSTEMATIQUEMENT DESACCENTUES. 'acai' pour acai avec cedille, 'Para' pour Para accentue, 'igapos', et le tiret demi-cadratin de '90-95%' remplace par un trait d'union. Aucun extrait n'est donc strictement mot pour mot. La convention est coherente et lisible, mais elle doit etre assumee, pas subie.",
+   "VOIX QUI DECROCHE PAR ENDROITS. L'ensemble tient, la chute de varzea est la meilleure ligne de la fiche. Mais un palmier qui prononce 'une certitude de preuve jugee faible a tres faible par GRADE' recite une fiche, il ne parle plus.",
+   "TRACABILITE. faitsEcartes invoque un 'Foods 2024' absent de pagesOuvertes, et deux pages ouvertes (PMC12751509, PMC11431067) ne servent nulle part. Rien de faux, mais le journal de bord ne se recoupe pas avec lui-meme."
+  ],
+  "corrections": [
+   {
+    "sujet": "recolte",
+    "avant": "Autrement dit, vous mangez le quinzieme d'un fruit qui vient presque tout entier du meme endroit.",
+    "apres": "Autrement dit, vous mangez les quinze pour cent d'un fruit qui vient presque tout entier du meme endroit.",
+    "pourquoi": "85 pour cent de noyau laisse 15 pour cent de pulpe, soit un septieme, pas un quinzieme. La source dit noir sur blanc que la pulpe represente 15 pour cent de la masse. L'erreur divise la part comestible par plus de deux."
+   },
+   {
+    "sujet": "varzea",
+    "avant": "\"cles\":[\"varzea\",\"igapo\",\"inondable\",\"estuaire\",\"amazone\",\"habitat\",\"foret\",\"biodiversite\",\"pousse\",\"plaine\",\"eau\"]",
+    "apres": "\"cles\":[\"varzea\",\"igapo\",\"inondable\",\"estuaire\",\"amazone\",\"habitat\",\"foret\",\"biodiversite\",\"pousse\",\"plaine\",\"inondation\"]",
+    "pourquoi": "'eau' fait trois caracteres, sous le plancher, et capture des questions etrangeres au sujet. 'inondation' garde l'intention sans le bruit."
+   },
+   {
+    "sujet": "ouverture",
+    "avant": "Je ne suis pas une baie, je ne suis pas sucre, et je ne fais maigrir personne.",
+    "apres": "Je ne suis pas ce que le mot baie laisse croire, et aucune des etudes que je cite ne m'a vu faire perdre un gramme a qui que ce soit.",
+    "pourquoi": "Trois affirmations, zero source. Aucune page ouverte ne dit drupe, les donnees de sucre sont ecartees par la fiche elle-meme, et aucune etude citee ne mesure le poids. La version corrigee dit exactement ce que le corpus autorise : un silence des mesures, pas une refutation."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Et ce que vous appelez une baie est une petite drupe sombre: le mot baie est deja une inexactitude.",
+    "apres": "Et ce que vous appelez une baie, la litterature que je cite l'appelle un petit fruit sombre a noyau unique, ce noyau qui fait 85 pour cent de ma masse.",
+    "pourquoi": "Le mot drupe n'apparait dans aucune des onze pages ouvertes, et Foods 2026 ecrit lui-meme 'acai berry'. La correction garde la rectification, mais l'appuie sur le seul fait reellement mesure et deja cite : le noyau."
+   },
+   {
+    "sujet": "categorie",
+    "avant": "\"categorie\":\"Fruit tropical, drupe de palmier amazonien\"",
+    "apres": "\"categorie\":\"Fruit tropical a noyau, palmier amazonien\"",
+    "pourquoi": "Meme trou que ci-dessus. Le noyau est source, le terme drupe ne l'est pas."
+   },
+   {
+    "sujet": "chagas",
+    "avant": "En 2019 encore, une equipe decrivait une boisson faite de ma pulpe comme la source d'infection principalement suspectee lors d'une flambee.",
+    "apres": "En 2019 encore, une equipe designait la boisson faite de ma pulpe comme la source d'infection principalement suspectee de la transmission orale en Amazonie bresilienne.",
+    "pourquoi": "L'extrait cite est un enonce general, pas la description de la flambee. La flambee de dix patients existe dans l'article mais dans une phrase non citee. On ne fait pas dire a une source ce qu'une phrase voisine dit."
+   },
+   {
+    "sujet": "marketing",
+    "avant": "Sur le cerveau, une revue de 2023 conclut qu'a ce jour aucune etude clinique n'a evalue l'activite neuropharmacologique des Euterpe.",
+    "apres": "Sur le cerveau, une revue de 2023 conclut qu'a sa date aucune etude clinique n'avait evalue l'activite neuropharmacologique des Euterpe.",
+    "pourquoi": "La revue date de 2023 et la fiche est consultee en 2026. 'A ce jour' au present transforme un etat des lieux de 2023 en verite d'aujourd'hui, ce qui est le glissement exact que cette entite pretend combattre."
+   },
+   {
+    "sujet": "recolte",
+    "avant": "Le seul Etat du Para en fournit environ 96 pour cent, et le Bresil environ 90 a 95 pour cent de la production mondiale.",
+    "apres": "Le seul Etat du Para en fournit environ 96 pour cent a lui seul a l'echelle bresilienne, et le Bresil environ 90 a 95 pour cent de la production mondiale en 2025.",
+    "pourquoi": "Le 96 pour cent est une part nationale, non mondiale, et rien ne le dit. Le 90 a 95 pour cent est explicitement date de 2025 dans la source, la date tombe a la citation."
+   },
+   {
+    "sujet": "varzea",
+    "avant": "\"ouvre\":[\"recolte\",\"marketing\"]",
+    "apres": "\"ouvre\":[\"recolte\"]",
+    "pourquoi": "marketing requiert recolte. Le faire ouvrir par varzea cree un sujet visible et non satisfaisable pour qui passe par la plaine inondable. recolte ouvre deja marketing, le chemin existe."
+   },
+   {
+    "sujet": "identite",
+    "avant": "\"ref\":\"Plants (MDPI), Systematic Review of the State of Knowledge About Acai-Do-Amazonas (Euterpe precatoria Mart., Arecaceae), 2025, DOI 10.3390/plants14152439\"",
+    "apres": "\"ref\":\"Plants (MDPI), Systematic Review of the State of Knowledge About Acai-Do-Amazonas (Euterpe precatoria Mart., Arecaceae), 2025, DOI 10.3390/plants14152439, passage comparatif portant sur E. oleracea\"",
+    "pourquoi": "Verifie : la phrase des 35 stipes concerne bien E. oleracea. Mais le titre annonce l'espece voisine, et un lecteur qui ouvre le lien conclura a une confusion d'espece. Le ref doit desamorcer le doute."
+   },
+   {
+    "sujet": "marketing",
+    "avant": "avec une certitude de preuve jugee faible a tres faible par GRADE",
+    "apres": "et les auteurs jugent eux-memes leur niveau de preuve faible a tres faible",
+    "pourquoi": "Le sigle GRADE fait basculer la voix de l'entite vers la lecture d'abstract. Le fait reste entier, la voix revient."
+   }
+  ]
+ },
+ {
+  "id": "islande",
+  "verdict": "publiable apres corrections",
+  "problemes": [
+   "Les 10 URL citees en sources ouvrent toutes et le contenu correspond. Aucun lien mort, aucune source tertiaire, aucun Wikipedia. Verifie une par une : natt.is/en/land-survey, /geology, /fauna, /flora-funga, statice.is population Q2 2026, statice.is fish-catch-in-july-2026, statice.is news-archive, orkustofnun.is/en. Ce point ne bloque pas.",
+   "Trois 'extrait' ne sont PAS verbatim : ce sont des resumes reformates en listes markdown, pas du texte de la page. Sujet energie ('**Electricity Production Statistics**\\n- Hydro: 14.195 GWh...'), sujet peche source 2 ('**12-Month Period (August 2025 - July 2026):**\\n- Total catch...'), sujet peche source 3 ('**July 2026:**\\n\"Total catch...\"'). Les chiffres sont bons, la forme de l'extrait ment sur ce que la page ecrit.",
+   "Ambiguite decimale non traitee sur l'energie : la page affiche '14.195 GWh' et '5.916 GWh'. En francais cela se lit quatorze virgule cent quatre-vingt-quinze. C'est presque certainement 14 195 GWh et 5 916 GWh en notation islandaise a point separateur de milliers, et le '5 GWh' du vent a cote rend l'incoherence visible. L'entite recopie sans voir le probleme et construit dessus un jugement ('l'ecart n'est pas mince') dont elle ne connait pas l'ordre de grandeur.",
+   "Sur-lecture dans energie : la source dit seulement que l'agence de l'environnement et de l'energie a commence ses operations le 1er janvier 2025. Elle ne dit nulle part que c'est elle qui tient les statistiques d'electricite. 'qui tient ces comptes a ma place' ajoute un fait.",
+   "Inference non sourcee dans especes : 'l'essentiel de ma vie est dans l'eau'. Les chiffres ne le portent pas. Les 2 000 especes comptees sont 'eau douce ET terrestres' melangees, et les deux tiers de champignons et algues incluent des champignons qui ne sont pas aquatiques. La conclusion depasse les totaux.",
+   "Comparaison mondiale sans source dans geologie : 'ce qui fait de moi une jeune parmi les terres emergees'. La page donne 16 millions d'annees, aucune comparaison avec les autres terres emergees. Meme chose, plus legerement, dans l'ouverture avec 'une jeune terre'.",
+   "Perte de precision dans l'ouverture : 'mes sediments de surface en ont 15 000' alors que la source dit 'around 15,000 years or younger'. Le sujet geologie garde bien 'ou moins', l'ouverture le perd et transforme un plafond en age.",
+   "Attribution partielle dans peche : la fiche fait venir la hausse de 8 % 'surtout du pelagique'. La source dit +20 % sur le pelagique et -6 % sur le demersal. L'inference tient, mais elle est ecrite comme un fait et la moitie demersale de la phrase source est coupee.",
+   "Traceabilite : plusieurs faitsEcartes citent des pages en erreur (deux fiches UNESCO en 403, la page pays IEA en 403, la page manuscripts d'Arni Magnusson en 404) qui n'apparaissent pas dans pagesOuvertes. On ne peut pas verifier ces echecs.",
+   "Verifications structurelles toutes propres, aucun probleme : les 5 ids sont uniques, chaque 'ouvre' et chaque 'requiert' pointe vers un id existant de l'entite, identite a bien un requiert vide, les 5 sujets sont atteignables. Aucune cle de 3 caracteres ou moins (la plus courte est 'pays', 4), aucune accentuee, aucune majuscule. Zero tiret cadratin dans tout le fichier. Aucun sujet interdit : pas de conflit, pas de colonisation, pas de religion. La 'zone economique exclusive' vient telle quelle de la source et sert un decompte d'especes, ce n'est pas une revendication. La cle 'frontiere' retombe sur une reponse tectonique, c'est une bonne esquive.",
+   "Voix : c'est bien une voix, pas une fiche recitee. 'ce qui me parait modeste pour tout le bruit que je fais', 'je ne tiens pas en place', 'Je refuse de vous donner l'annee' sont des positions, pas des faits deguises. Le sujet peche est le plus faible, plus recitatif, mais il se rattrape sur sa derniere ligne.",
+   "Faits ecartes verifies par sondage : la page volcans du Vedurstofa ne contient effectivement ni nombre de systemes volcaniques actifs ni frequence moyenne d'eruption. L'ecartement est honnete, pas un alibi."
+  ],
+  "corrections": [
+   {
+    "sujet": "energie",
+    "avant": "\"extrait\": \"**Electricity Production Statistics**\\n- Hydro: 14.195 GWh\\n- Geothermal: 5.916 GWh\\n- Wind: 5 GWh\"",
+    "apres": "Remplacer par les libelles tels qu'ils apparaissent sur la page, sans mise en forme ajoutee : \"Hydro: 14.195 GWh\", \"Geothermal: 5.916 GWh\", \"Wind: 5 GWh\", eventuellement en trois sources distinctes.",
+    "pourquoi": "Le titre '**Electricity Production Statistics**' et la structure en liste a puces n'existent pas sur la page, c'est un artefact de lecture. Un extrait doit etre citable mot pour mot."
+   },
+   {
+    "sujet": "peche",
+    "avant": "\"extrait\": \"**12-Month Period (August 2025 - July 2026):**\\n- Total catch: 1,062 thousand tonnes, up 8% from previous period\\n- Pelagic catch: Up 20%, \\\"largely driven by capelin\\\"\"",
+    "apres": "\"extrait\": \"In the 12-month period, from August 2025 to July 2026, the total catch was 1,062 thousand tonnes, an 8% increase from the preceding 12-month period. There was a 20% increase in the pelagic catch, largely driven by capelin while the demersal catch decreased by 6% between periods.\"",
+    "pourquoi": "Ce sont les phrases reelles de la page, verifiees. La version en puces reformule et coupe le -6 % du demersal."
+   },
+   {
+    "sujet": "peche",
+    "avant": "Troisieme source, la page d'index news-archive, avec l'extrait \"**July 2026:**\\n\\\"Total catch in July was nearly 42 thousand tonnes\\\"\".",
+    "apres": "Supprimer cette troisieme source, ou la reduire a l'extrait reel \"Total catch in July was nearly 42 thousand tonnes\".",
+    "pourquoi": "Elle ne sert qu'a redoubler un chiffre deja source par la page dediee, et son extrait est lui aussi reformate. Une source de bruit affaiblit les deux autres."
+   },
+   {
+    "sujet": "energie",
+    "avant": "c'est l'hydraulique qui passe devant : 14.195 GWh, contre 5.916 GWh pour la geothermie et 5 GWh pour le vent",
+    "apres": "c'est l'hydraulique qui passe devant. Ma page affiche 14.195 GWh pour l'hydraulique et 5.916 GWh pour la geothermie, avec un point dont je ne sais pas s'il separe des milliers ou des decimales, et 5 GWh pour le vent. Je vous donne les nombres tels qu'ils sont ecrits.",
+    "pourquoi": "En francais '14.195 GWh' se lit quatorze virgule cent quatre-vingt-quinze. La page utilise vraisemblablement le point comme separateur de milliers, mais rien ne le dit, et le '5 GWh' du vent rend l'incoherence visible. Une entite qui refuse deja d'inventer une annee doit refuser aussi de trancher une notation."
+   },
+   {
+    "sujet": "energie",
+    "avant": "c'est une nouvelle agence de l'environnement et de l'energie qui tient ces comptes a ma place",
+    "apres": "une nouvelle agence de l'environnement et de l'energie a commence ses operations. Ce que devient ce tableau chez elle, je ne le sais pas.",
+    "pourquoi": "La source dit seulement que l'agence a demarre le 1er janvier 2025. Attribuer la tenue des statistiques d'electricite est un ajout, et c'est le seul endroit de la fiche ou l'entite comble un trou au lieu de le montrer."
+   },
+   {
+    "sujet": "especes",
+    "avant": "Autrement dit, l'essentiel de ma vie est dans l'eau, ou prend la forme de choses discretes que personne ne photographie.",
+    "apres": "Autrement dit, mes plus gros totaux ne sont pas ceux qu'on vient voir : la mer en compte plus que la terre ferme, et les deux tiers de ma flore et de ma funga sont des champignons et des algues.",
+    "pourquoi": "'L'essentiel de ma vie est dans l'eau' n'est porte par aucun chiffre : les 2 000 especes melangent eau douce et terrestre, et les champignons comptes dans les deux tiers ne sont pas aquatiques. La reformulation garde la meme idee sans depasser la source."
+   },
+   {
+    "sujet": "geologie",
+    "avant": "ce qui fait de moi une jeune parmi les terres emergees",
+    "apres": "Supprimer la comparaison. Garder : \"Ma roche la plus vieille qui affleure a environ 16 millions d'annees.\"",
+    "pourquoi": "Aucune page ouverte ne compare l'age de l'Islande a celui des autres terres emergees. C'est un classement implicite sans source, du meme ordre que les superlatifs deja ecartes plus bas dans la fiche."
+   },
+   {
+    "sujet": "ouverture",
+    "avant": "mes sediments de surface en ont 15 000",
+    "apres": "mes sediments de surface en ont 15 000 ou moins",
+    "pourquoi": "La source ecrit 'around 15,000 years or younger'. Le sujet geologie garde le plafond, l'ouverture le transforme en age exact. Deux formulations differentes du meme fait dans un meme document est une incoherence interne."
+   },
+   {
+    "sujet": "peche",
+    "avant": "cette hausse vient surtout du pelagique, le capelan en tete",
+    "apres": "le pelagique a pris 20 % sur la periode, le capelan en tete, pendant que le demersal reculait de 6 %",
+    "pourquoi": "La source donne deux mouvements opposes chiffres. La fiche n'en garde qu'un et le convertit en explication du total, ce que la page n'ecrit pas. Donner les deux chiffres est a la fois plus exact et plus dans le ton comptable de l'entite."
+   },
+   {
+    "sujet": "pagesOuvertes",
+    "avant": "Liste de 19 URL qui ne contient ni les deux fiches UNESCO, ni la page pays IEA, ni la page manuscripts d'Arni Magnusson, alors que faitsEcartes invoque leurs erreurs 403 et 404.",
+    "apres": "Ajouter ces URL a pagesOuvertes, marquees comme ayant echoue, ou retirer la mention du code d'erreur des faitsEcartes.",
+    "pourquoi": "Un fait ecarte au motif d'une page inaccessible n'est verifiable que si l'adresse est donnee. En l'etat ces quatre ecartements reposent sur une parole invérifiable."
+   }
+  ]
+ },
+ {
+  "id": "japon",
+  "verdict": "publiable apres corrections",
+  "problemes": [
+   "BLOQUANT, extrait fabrique (forets). La phrase citee \"Japan has 35 national parks distributed across eight regions: Hokkaido, Tohoku, Kanto, Chubu, Kinki, Chugoku & Shikoku, and Kyushu.\" n'existe nulle part sur https://www.env.go.jp/en/nature/nps/park/parks/index.html. La page est vivante et liste bien 35 parcs numerotes de 1 Rishiri-Rebun-Sarobetsu a 35 Iriomote-Ishigaki, sous des titres de section Hokkaido Region, Tohoku Region, Kanto Region, Chubu Region, Kinki Region, Chugoku & Shikoku Regions, Kyushu Region, mais aucune phrase declarative. L'extrait s'auto-denonce en plus : il annonce huit regions et en enumere sept.",
+   "BLOQUANT, chiffre coupe de son qualificatif (seismes). La phrase source complete de la JMA est : マグニチュード５以上で地震回数を表１と比べてみると、日本及びその周辺では、世界で起こっている地震のほぼ1/10にあたる数の地震が発生していることが分かります。 Le rapport d'un dixieme ne vaut QUE pour la comparaison des magnitudes 5 et plus. L'extrait a ete coupe juste apres le qualificatif, et la reponse ecrit \"pres d'un dixieme des seismes qui se produisent sur la planete\" sans aucun seuil. C'est le fait gonfle, exactement ce que faitsEcartes pretendait avoir evite sur le perimetre geographique.",
+   "BLOQUANT, extrait fabrique (seismes). \"Average annual earthquakes (2014-2023): M6.0-6.9: 17\" n'apparait pas sur la page JMA, qui est integralement en japonais. Le texte reel est 表２ 日本及びその周辺の地震回数（１年間の平均）※2014年～2023年の気象庁の震源データをもとに算出しています puis la ligne M6.0 - 6.9  17. La valeur 17 est juste, la citation est une traduction inventee.",
+   "MAJEUR, source vieille de 29 ans presentee au present (forets). https://www.env.go.jp/en/nature/biodiv/index.html n'est pas une page \"Biodiversity and Wildlife\" du ministere : c'est une brochure archivee, State of Global Environment at a Glance: Wildlife Conservation in Japan, Wildlife Protection Division, Nature Conservation Bureau, Environment Agency, datee March 1997. L'Environment Agency n'est devenue ministere qu'en 2001. La citation est verbatim, mais le ref est faux et la reponse dit \"le ministere de l'Environnement resume\" au present. Preuve de l'obsolescence : la meme brochure ecrit \"more than 3,900 islands\", ce que la fiche contredit ailleurs avec ses 14 000 ilots de 2025.",
+   "MOYEN, extrait reconstruit (fruits). L'extrait du tableau 5.2 met libelles et nombres sur une meme ligne. Dans le PDF, les libelles et les blocs de chiffres sont des objets textuels separes : aucune chaine contigue de ce genre n'existe dans le document, et pdftotext les apparie faux. J'ai reconstruit le tableau objet par objet : les quatre valeurs 2023 retenues sont exactes (mandarines 682, pommes 604, poires japonaises 183, raisin 167) et l'ordre 2019-2023 est bon. Le fait tient, la citation ne tient pas telle quelle.",
+   "MOYEN, partition qui ne boucle pas (forets). 13,55 plus 10,09 font 23,64 millions d'hectares, pas 25,02. Il manque 1,38 million d'hectares que ni la source ni la fiche ne ventilent. Le manuel a la meme faiblesse, mais la fiche l'aggrave en enchainant les deux nombres comme s'ils partageaient le total. Un lecteur qui additionne prend la fiche en defaut.",
+   "MOYEN, graphe incoherent. seismes.ouvre contient \"saisons\", mais saisons.requiert vaut [\"fruits\"], que seismes ne debloque pas. Un joueur passant par seismes voit saisons s'ouvrir puis rester verrouille. Le reste du graphe est sain : les 5 id existent, identite a bien un requiert vide, aucun renvoi vers un id absent.",
+   "MOYEN, voix. Le champ ton promet un locuteur qui \"s'interrompt pour signaler ce qu'il ignore\" : aucune des cinq reponses ne le fait une seule fois. Et deux reponses sur cinq deleguent leur autorite a une institution nommee a voix haute, \"L'agence meteorologique le formule sans detour\" et \"le ministere de l'Environnement resume l'effet de mon isolement\". Un pays qui cite ses propres agences comme un rapporteur, c'est la note de bas de page lue a la premiere personne. Le sujet forets est le plus recitatif de la fiche.",
+   "MINEUR, monoculture de sources. Les cinq references viennent toutes d'organismes d'Etat japonais (Statistics Bureau, JMA, ministere de l'Environnement). Pour une entite pays c'est une source unique deguisee en cinq. Cela vaut aussi pour \"la mer du Japon\", nom donne par la seule partie japonaise, employe deux fois sans recul.",
+   "MINEUR, singularisation. \"une chaine de montagnes me coupe du nord au sud\" alors que la source dit \"a series of mountain ranges running from north to south\". Le pluriel de la source porte l'explication du contraste entre les deux facades, la fiche l'ecrase.",
+   "VERIFIE CONFORME, pour memoire. Les 8 autres extraits sont bien mot pour mot dans le PDF 2025 (14 000 ilots et 377 976 km2, trois quarts de relief, world's newest mobile belt, 25,02 / 13,55 / 10,09, 9.50 trillion yen et 5.5 percent, les trois passages climat). Aucune source tertiaire ni Wikipedia. Aucune cle de 3 caracteres ou moins, aucune cle accentuee, aucune cle avec majuscule sur les 35 cles. Aucun tiret cadratin dans tout le JSON. Aucun sujet interdit : ni conflit, ni colonisation, ni revendication territoriale, ni religion."
+  ],
+  "corrections": [
+   {
+    "sujet": "forets",
+    "avant": "{\"type\":\"reference\",\"extrait\":\"Japan has 35 national parks distributed across eight regions: Hokkaido, Tohoku, Kanto, Chubu, Kinki, Chugoku & Shikoku, and Kyushu.\",\"ref\":\"Ministry of the Environment of Japan, National Parks of Japan\"}",
+    "apres": "{\"type\":\"reference\",\"extrait\":\"1 Rishiri-Rebun-Sarobetsu ... 35 Iriomote-Ishigaki ; sections : Hokkaido Region, Tohoku Region, Kanto Region, Chubu Region, Kinki Region, Chugoku & Shikoku Regions, Kyushu Region\",\"ref\":\"Ministry of the Environment of Japan, Overview of National Parks, liste numerotee de 35 parcs repartie en sept sections regionales\"}",
+    "pourquoi": "La phrase citee n'existe pas sur la page. Le chiffre de 35 est exact, il se lit dans la numerotation 1 a 35, et les regions sont sept, pas huit. On cite ce que la page contient reellement, une liste, et on le dit."
+   },
+   {
+    "sujet": "seismes",
+    "avant": "L'agence meteorologique le formule sans detour : le Japon et ses environs concentrent pres d'un dixieme des seismes qui se produisent sur la planete.",
+    "apres": "Comptez les secousses de magnitude 5 et plus, comparez au total mondial : pres d'un dixieme se produisent chez moi et dans mes environs.",
+    "pourquoi": "La source restreint explicitement le rapport aux magnitudes 5 et plus. Sans ce seuil la phrase devient fausse et gonflee. L'extrait doit etre rallonge en amont pour inclure le qualificatif マグニチュード５以上で地震回数を表１と比べてみると."
+   },
+   {
+    "sujet": "seismes",
+    "avant": "{\"extrait\":\"Average annual earthquakes (2014-2023): M6.0-6.9: 17\"}",
+    "apres": "{\"extrait\":\"表２ 日本及びその周辺の地震回数（１年間の平均）※2014年～2023年の気象庁の震源データをもとに算出しています / M6.0 - 6.9 : 17\"}",
+    "pourquoi": "La page JMA est en japonais, cette chaine anglaise n'y figure pas. La valeur 17 est correcte et verifiee sur le tableau 2, seule la citation etait inventee."
+   },
+   {
+    "sujet": "forets",
+    "avant": "J'abrite en plus trente-cinq parcs nationaux, et le ministere de l'Environnement resume l'effet de mon isolement : une grande diversite d'especes comparee a des pays de taille et de latitude semblables.",
+    "apres": "J'abrite en plus trente-cinq parcs nationaux. Sur ce que mon isolement produit, je n'ai qu'un texte de 1997 sous la main : une grande diversite d'especes comparee a des pays de taille et de latitude semblables. Personne ne l'a rechiffre depuis, et je n'irai pas plus loin.",
+    "pourquoi": "La page est une brochure de mars 1997 signee Environment Agency, pas une position actuelle du ministere. Dater la citation la sauve et remplit au passage la promesse du champ ton, qui annonce une entite qui signale ce qu'elle ignore et ne le fait nulle part ailleurs."
+   },
+   {
+    "sujet": "forets",
+    "avant": "{\"ref\":\"Ministry of the Environment of Japan, Biodiversity and Wildlife\"}",
+    "apres": "{\"ref\":\"Environment Agency of Japan, Wildlife Protection Division, State of Global Environment at a Glance: Wildlife Conservation in Japan, mars 1997, page archivee sur le site du ministere de l'Environnement\"}",
+    "pourquoi": "Le titre reel de la page et son auteur ne sont pas ceux du ref. Laisser \"Biodiversity and Wildlife\" cache une source de 29 ans qui, dans le meme paragraphe, annonce 3 900 iles la ou la fiche en cite 14 000."
+   },
+   {
+    "sujet": "forets",
+    "avant": "La part naturelle en represente 13,55 millions d'hectares, et 10,09 millions d'hectares ont ete plantes par des mains humaines.",
+    "apres": "La part naturelle en represente 13,55 millions d'hectares, 10,09 millions ont ete plantes par des mains humaines, et le manuel laisse le reste sans etiquette.",
+    "pourquoi": "13,55 plus 10,09 font 23,64, pas 25,02. Le trou de 1,38 million d'hectares existe dans la source. Le nommer vaut mieux que de laisser le lecteur additionner et attraper la fiche en faute."
+   },
+   {
+    "sujet": "fruits",
+    "avant": "{\"extrait\":\"Fruits / Mandarins ... 747 766 749 682 682 / Apples ... 702 763 662 737 604 / Grapes ... 173 163 165 163 167 / Japanese pears ... 210 171 185 197 183\"}",
+    "apres": "{\"type\":\"reference\",\"extrait\":\"Table 5.2 Agricultural Harvest (Thousand tons), colonnes 2019 a 2023, reconstruction : dans le PDF les libelles et les blocs de chiffres sont des objets textuels distincts. Mandarins 747 766 749 682 682 ; Apples 702 763 662 737 604 ; Grapes 173 163 165 163 167 ; Japanese pears 210 171 185 197 183.\"}",
+    "pourquoi": "Aucune ligne de ce format n'existe comme chaine contigue dans le PDF. Reconstruction verifiee objet par objet : l'appariement libelle-valeurs est bon et les quatre chiffres 2023 de la fiche sont exacts. L'extrait doit s'annoncer comme une reconstruction, pas comme une citation."
+   },
+   {
+    "sujet": "seismes",
+    "avant": "\"ouvre\":[\"forets\",\"saisons\"]",
+    "apres": "\"ouvre\":[\"forets\"]",
+    "pourquoi": "saisons requiert fruits, que seismes ne debloque pas. En l'etat, seismes annonce une porte qui reste fermee. Le chemin reel est identite, puis seismes ou forets, puis fruits, puis saisons."
+   },
+   {
+    "sujet": "saisons",
+    "avant": "une chaine de montagnes me coupe du nord au sud",
+    "apres": "une succession de chaines de montagnes me coupe du nord au sud",
+    "pourquoi": "La source dit a series of mountain ranges. Le pluriel n'est pas un detail de style : c'est lui qui explique le contraste entre la facade mer du Japon et la facade Pacifique dont la phrase suivante depend."
+   }
+  ]
+ }
+]

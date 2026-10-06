@@ -1,0 +1,612 @@
+[
+ {
+  "id": "hyene-tachetee",
+  "verdict": "publiable apres corrections",
+  "faux": [
+   "Le nombre de 26 hyenes analysees dans l etude Mathevon 2010. Le papier retient 17 individus pour l analyse (minimum 20 notes par animal). 26 est l effectif TOTAL de la colonie de Berkeley (14 femelles adultes, 10 males adultes, 2 subadultes), pas la taille de l echantillon. Le chiffre 26 vient de la couverture presse (Berkeley News, 30/03/2010 : la colonie forte de 26 membres), pas des resultats. Le papier lui-meme et le resume grand public de l Acoustical Society of America donnent 17.",
+   "Les machoires probablement les plus fortes de tous les mammiferes rapportees a la taille. C est une croyance populaire que ADW repete et que la mesure a refutee : Wroe, McHenry et Thomason, Bite club, Proceedings of the Royal Society B, 2005, calculent un quotient de force de morsure corrige de la masse et placent le diable de Tasmanie a 181 contre 124 pour la hyene tachetee. Le mot probablement ne sauve pas l affirmation : elle n est plus indeterminee, elle est tranchee dans l autre sens. A couper.",
+   "L idee que le rang ne se perd jamais (et que je ne perdrai rien non plus). Les inversions de rang sont documentees chez les femelles adultes : Strauss et Holekamp, PNAS 2019, montrent que les coalitions permettent de renverser une dominante, et que pres de la moitie des femelles de la population etudiee ont ete touchees par une inversion de rang au cours de leur vie. L heritage maternel du rang est exact, sa permanence ne l est pas."
+  ],
+  "douteux": [
+   "Les 70 pour cent de proies tuees par le clan au Kalahari. La phrase existe telle quelle sur ADW, mais je n ai retrouve aucune source primaire donnant 70. Les chiffres publies par Mills sur le Kalahari sont autres : 49,2 pour cent des grands mammiferes sur lesquels les hyenes ont ete observees en train de se nourrir avaient ete tues par elles, et 77,5 pour cent de leur nourriture. La litterature recente (Holekamp et Dloniak 2010) donne une fourchette de 60 a 95 pour cent selon les sites. Le 70 est donc un arrondi de tertiaire, pas un resultat. Soit on cite la fourchette avec sa source, soit on coupe le chiffre.",
+   "Les masses 45 a 60 kilos pour le male et 55 a plus de 70 pour la femelle. Sourcees a ADW seul, aucune confirmation trouvee dans un travail mesure. Le dimorphisme est reel et bien etabli dans le bon sens, mais les etudes de terrain (Swanson et al., Journal of Mammalogy 2013, Masai Mara) decrivent des femelles legerement plus grandes, ce qui cadre mal avec l ecart de dix kilos que ces fourchettes suggerent. Je n ai pas pu acceder aux masses mesurees, l article est payant. Ecart de magnitude non confirme.",
+   "Les femelles passent avant les males, pose comme une regle absolue. Vullioud et al., Social support drives female dominance in the spotted hyaena, Nature Ecology and Evolution 2019, montrent que la dominance femelle ne vient ni du sexe ni de la masse mais du soutien social, et que dans beaucoup de contextes une femelle native et un male natif ont des chances de gagner comparables : l avantage femelle apparait surtout face aux immigrants, qui sont presque toujours des males. Le motif observe est vrai, la cause donnee dans la reponse est fausse et l absolu est trop fort.",
+   "Le clitoris se rompt pour laisser passer le petit, formule au present general. Les travaux consultes situent la rupture a la PREMIERE mise bas : le tissu cartilagineux distal se dechire pour former l ouverture, avec une mortalite elevee des primipares, et les naissances suivantes passent par cette ouverture deja formee. ADW ne precise pas, la litterature si. Je n ai pas pu confirmer qu il se rompt a chaque naissance.",
+   "La fourchette de trois a quatre-vingts individus par clan et le lien avec le cratere du Ngorongoro. Reprise mot pour mot d ADW, aucune source primaire retrouvee derriere. A garder seulement avec la mention explicite d ADW, ou a remplacer par un travail de terrain identifie.",
+   "Il sort quand j ai peur ou quand je suis excitee. L excitation n apparait dans aucune des sources : Mathevon et al. 2010 decrivent le gloussement comme emis surtout pendant l alimentation en competition sur une meme proie, comme une vocalisation de soumission devant un dominant, et notent que leurs sujets glous saient par frustration (l os etant maintenu hors de portee) plutot que par harcelement ou poursuite. Berkeley News parle de conflit ou de situation de stress. La peur est approchante, l excitation n est pas confirmee."
+  ],
+  "corrections": [
+   {
+    "avant": "des chercheurs ont analysé les gloussements de vingt-six d'entre nous",
+    "apres": "des chercheurs ont analysé les gloussements de dix-sept d'entre nous, dans une colonie captive de Californie",
+    "pourquoi": "Le papier retient 17 individus pour l analyse. 26 est l effectif de la colonie de Berkeley, chiffre de presse. La mention captive est ajoutee parce que le resultat n a pas ete obtenu en savane, et une hyene de savane qui raconte une etude de captivite sans le dire ment par omission."
+   },
+   {
+    "avant": "Mes mâchoires sont probablement les plus fortes de tous les mammifères rapportées à ma taille, alors ce qui reste par terre, je suis souvent la seule à pouvoir l'ouvrir.",
+    "apres": "Mes mâchoires ouvrent des os que personne d'autre ici ne peut ouvrir, alors ce qui reste par terre, je suis souvent la seule à pouvoir m'en servir.",
+    "pourquoi": "Le superlatif rapporte a la taille est refute par la mesure (Wroe et al. 2005, quotient de force de morsure : 181 pour le diable de Tasmanie contre 124 pour la hyene tachetee). La capacite a briser l os est elle bien documentee et suffit a la scene. On perd un superlatif, on garde un fait."
+   },
+   {
+    "avant": "Ce qui veut dire que je n'ai rien gagné, et que je ne perdrai rien non plus.",
+    "apres": "Ce qui veut dire que je n'ai rien gagné au départ. Le garder est une autre affaire : il arrive qu'on renverse une dominante, mais jamais seule.",
+    "pourquoi": "Les inversions de rang existent et passent par les coalitions (Strauss et Holekamp, PNAS 2019). La phrase d origine affirme une permanence fausse. La version corrigee garde le ton et ajoute le mecanisme reel, qui est plus interessant."
+   },
+   {
+    "avant": "Ici la question ne se pose pas comme chez vous. Les femelles passent avant les mâles",
+    "apres": "Ici la question ne se pose pas comme chez vous. Ce ne sont pas les muscles qui décident, c'est le nombre de dos derrière vous. Les femelles restent dans le clan où elles sont nées, les mâles partent et arrivent ailleurs sans personne. C'est comme ça qu'elles passent devant.",
+    "pourquoi": "Vullioud et al. 2019 : la dominance femelle vient du soutien social, pas du sexe ni de la masse, et l avantage est surtout net face aux immigrants, qui sont des males. La cause donnee dans la version d origine (elles passent avant parce qu elles sont plus lourdes) est celle que ce travail a explicitement ecartee."
+   },
+   {
+    "avant": "Dans le Kalahari on a compté : soixante-dix pour cent de ce que nous mangions venait de nos propres prises.",
+    "apres": "Là où on a compté, entre soixante et quatre-vingt-quinze pour cent de ce que nous mangions venait de nos propres prises, selon l'endroit.",
+    "pourquoi": "Le 70 pour cent est une reformulation de tertiaire (ADW) que je n ai retrouvee dans aucune source primaire ; les chiffres publies sur le Kalahari sont 49,2 et 77,5 selon la facon de compter. La fourchette 60 a 95, qui est celle de la litterature de synthese, est plus honnete et reste spectaculaire."
+   },
+   {
+    "avant": "Il sort quand j'ai peur ou quand je suis excitée, jamais quand je trouve quelque chose drôle.",
+    "apres": "Il sort quand je suis en tension, coincée à une carcasse devant plus fort que moi, jamais quand je trouve quelque chose drôle.",
+    "pourquoi": "L excitation n est dans aucune source. Le gloussement est decrit comme emis en competition alimentaire, par frustration, et comme un signal de soumission devant un dominant. La correction dit exactement ce que la source dit."
+   },
+   {
+    "avant": "Mon clitoris est allongé, il ressemble à un pénis et il peut entrer en érection. Je mets bas à travers, et il se rompt pour laisser passer le petit.",
+    "apres": "Mon clitoris est allongé, il ressemble à un pénis et il peut entrer en érection. Je mets bas à travers. La première fois, il se déchire pour laisser passer le petit, et beaucoup d'entre nous n'y survivent pas.",
+    "pourquoi": "La rupture est documentee a la premiere mise bas, avec une mortalite elevee des primipares ; les naissances suivantes empruntent l ouverture deja formee. La formulation d origine laisse croire a une rupture a chaque naissance, ce que je n ai pas pu confirmer."
+   },
+   {
+    "avant": "sujets sans champ requiert (les quatre ouvre : clan, chasse, rire, naissance)",
+    "apres": "ajouter requiert aux sujets vises, par exemple requiert: [\"rang\"] sur le sujet clan, ou retirer les quatre ouvre",
+    "pourquoi": "Verification faite dans moteur.js : ouvre ne sert qu a remplir sujetsOuverts, et seul un sujet portant requiert peut etre verrouille. Or grep sur animaux.js ne trouve aucun requiert, dans aucun animal. Les quatre ouvre de cette entite ne verrouillent donc rien : les cinq sujets sont accessibles d emblee et la construction en couches n existe pas. Ce n est pas un probleme de veracite, mais l entite est ecrite pour un mecanisme qui ne tourne pas."
+   },
+   {
+    "avant": "cles courtes : cri, male, rire",
+    "apres": "cri, male et rire a remplacer ou doubler par des formes plus longues (crie, un male, ricanement)",
+    "pourquoi": "trouverSujet fait un q.includes(cle) sur la question normalisee, sans frontiere de mot. cri matche decrire et critique, male matche animale et malade, rire matche sourire. Risque de reponse hors sujet. Le reste passe : toutes les cles sont en minuscules, sans accent, sans caractere special, les quatre ouvre pointent vers des sujets existants de la meme entite, et aucun tiret cadratin ni demi-cadratin n apparait dans le texte (verifie par script)."
+   }
+  ]
+ },
+ {
+  "id": "boeuf-musque",
+  "verdict": "publiable apres corrections",
+  "faux": [
+   "Sujet nom : « nos parents les plus proches sont les moutons et les chèvres ». Faux au sens strict. Le bœuf musqué appartient à la sous-famille des Caprinae, qui contient moutons et chèvres, mais ses parents VIVANTS les plus proches d'après la génétique sont les gorals du genre Naemorhedus, et les Capricornis, pas Ovis ni Capra. ADW écrit « closest relatives are members of the Caprinae subfamily », une phrase de niveau sous-famille que la réponse a resserrée à tort. Sources : Wikipedia Muskox section taxonomy, en.wikipedia.org/wiki/Muskox ; Animal Diversity Web fiche Ovibos moschatus. Consulte le 2026-09-06.",
+   "Sujet troupeau : « L'été nous nous défaisons, cinq parfois, parce que la nourriture ne supporte pas la foule ». La causalité est inversée par rapport aux sources. ADW dit que la taille du groupe varie avec la disponibilité du fourrage et que l'été, la végétation étant abondante pendant la courte saison de croissance, de petits groupes trouvent seuls de quoi manger. S'y ajoute l'expulsion des autres mâles par le mâle dominant en période de rut. Aucune source ne dit que la nourriture d'été manque. Sources : Animal Diversity Web fiche Ovibos moschatus ; Wikipedia Muskox section behaviour. Consulte le 2026-09-06.",
+   "Sujet disparition : « des hommes sont allés chercher les nôtres au Groenland de l'Est, et trente et un individus ont été amenés sur l'île de Nunivak en 1935 et 1936 ». La phrase fait croire que les trente et un venaient directement du Groenland. Ils venaient de Fairbanks. Le fait établi : 34 animaux capturés au Groenland de l'Est à l'été 1930, vapeur transatlantique, quarantaine de 33 jours à Athenia dans le New Jersey, train jusqu'à Seattle, bateau jusqu'à Seward, chemin de fer jusqu'à Fairbanks le 5 novembre 1930. Le noyau de 31 n'est posé sur Nunivak qu'en 1935 et 1936. Sources : Alaska Department of Fish and Game Muskox Species Profile, adfg.alaska.gov/index.cfm?adfg=muskox.main ; Geophysical Institute UAF, The Muskox Odyssey From Greenland to Alaska via New Jersey, gi.alaska.edu. Consulte le 2026-09-06.",
+   "Sujet disparition : « Nous sommes revenus par bateau ». Incomplet au point d'induire en erreur. Le retour a mêlé vapeur, quarantaine terrestre, train jusqu'à Seattle, bateau jusqu'à Seward et chemin de fer jusqu'à Fairbanks, avant un dernier transfert vers Nunivak. Le bateau n'est qu'un maillon. Source : Geophysical Institute UAF, The Muskox Odyssey, gi.alaska.edu, consulte le 2026-09-06."
+  ],
+  "douteux": [
+   "« on la dit huit fois plus chaude que la laine ordinaire ». Formule d'origine commerciale, reprise par ADW et par les vendeurs de qiviut sans mesure ni protocole cité. Un test comparatif indépendant, Dreaming Robots 2020, conclut l'inverse : le qiviut n'y atteint même pas la chaleur de la mérinos. Aucune mesure publiée de conductivité thermique n'a été trouvée. La prudence « on la dit » ne sauve pas l'affirmation : fait fascinant non sourcé, à couper.",
+   "« la génétique l'a tranché tard ». ADW écrit seulement « recent genetic studies », sans nommer d'étude ni de date. Aucune étude ni année identifiable n'a pu être trouvée pour dater ce basculement. À couper tant que la référence exacte manque.",
+   "La date de disparition en Alaska. Quatre versions coexistent : ADW écrit « late 1800's » ; l'Alaska Department of Fish and Game, l'agence de l'État, écrit « by the 1920s, muskoxen had vanished from Alaska » ; Wikipedia écrit « late 19th or early 20th century » ; un article de Rangifer situe les dernières mises à mort documentées dans le nord-ouest de l'Alaska vers 1858, avec des troupeaux résiduels possibles dans l'est des Brooks Range jusqu'aux années 1890, sans preuve matérielle. Retenir « la fin du dix-neuvième siècle » seul contredit la source la plus autorisée sur l'Alaska.",
+   "Le chiffre de 31 sur Nunivak n'est pas stable entre sources secondaires. Le Geophysical Institute écrit que 27 animaux ont été transportés et qu'une population de 31 s'est établie en 1935 et 1936 ; les rapports de gestion de l'ADF and G écrivent « thirty-one muskoxen were introduced from Greenland to Nunivak Island in Unit 18 during 1935 to 1936 ». Le PDF primaire de l'ADF and G n'a pas pu être lu, son contenu est revenu en binaire non extractible. Le 31 reste utilisable, l'écart 27 contre 31 reste à trancher sur document primaire.",
+   "« elle reste accrochée aux buissons derrière nous ». Cohérent avec ADW, qui dit que le duvet est perdu au printemps à travers les jarres, et avec la pratique documentée de ramassage du qiviut mué. Aucune source primaire consultée ne décrit précisément les buissons. À garder seulement si une source de terrain le confirme.",
+   "Contrôle des chiffres de troupeau : dix à vingt en moyenne, cinq l'été, soixante l'hiver sont confirmés par ADW. Wikipedia donne une autre fourchette, douze à vingt-quatre l'hiver et huit à vingt l'été, et une autre source cite jusqu'à soixante-quinze l'hiver. La réponse s'aligne sur ADW, ce qui est défendable, mais elle présente comme unique une fourchette qui varie selon les auteurs."
+  ],
+  "corrections": [
+   {
+    "avant": "Nous ne sommes pas des bœufs : nos parents les plus proches sont les moutons et les chèvres, la génétique l'a tranché tard.",
+    "apres": "Nous ne sommes pas des bœufs : nous appartenons à la sous-famille des Caprinés, celle des moutons et des chèvres, et non à celle des bovins.",
+    "pourquoi": "Les parents vivants les plus proches sont les gorals du genre Naemorhedus, pas les moutons ni les chèvres. La formulation de niveau sous-famille est la seule que les sources soutiennent. La mention de la génétique tombe faute d'étude et de date identifiables."
+   },
+   {
+    "avant": "Elle est plus fine que le cachemire, et on la dit huit fois plus chaude que la laine ordinaire.",
+    "apres": "Elle est plus fine que le cachemire, autour de onze à quatorze microns contre quatorze à dix-neuf pour lui.",
+    "pourquoi": "La finesse est mesurable et confirmée. Le rapport de huit fois plus chaud est une formule commerciale sans protocole, contredite par un test indépendant. Un fait non mesuré ne se publie pas, même précédé de « on dit »."
+   },
+   {
+    "avant": "L'été nous nous défaisons, cinq parfois, parce que la nourriture ne supporte pas la foule.",
+    "apres": "L'été nous nous défaisons, cinq parfois : la végétation revient partout et un petit groupe se nourrit très bien seul, pendant que le mâle dominant écarte les autres mâles.",
+    "pourquoi": "Les sources décrivent l'abondance estivale comme la cause de la dispersion, pas la pénurie, et ajoutent le rut. La causalité écrite était inventée."
+   },
+   {
+    "avant": "À la fin du dix-neuvième siècle, la pression de chasse et les variations du climat ont eu raison des troupeaux d'ici.",
+    "apres": "Entre la fin du dix-neuvième siècle et les années mille neuf cent vingt, la pression de chasse et les variations du climat ont eu raison des troupeaux d'ici.",
+    "pourquoi": "ADW dit fin des années 1800, l'Alaska Department of Fish and Game dit disparus dès les années 1920. La fourchette est la seule formulation qui ne contredit aucune des deux."
+   },
+   {
+    "avant": "Puis des hommes sont allés chercher les nôtres au Groenland de l'Est, et trente et un individus ont été amenés sur l'île de Nunivak en 1935 et 1936 pour recommencer. Nous sommes revenus par bateau, ce n'est pas une histoire dont on se vante.",
+    "apres": "Puis des hommes sont allés chercher les nôtres au Groenland de l'Est : trente-quatre capturés à l'été 1930, un océan en vapeur, une quarantaine dans le New Jersey, un train jusqu'à Seattle, un autre bateau, un dernier chemin de fer, et Fairbanks en novembre. Cinq ans plus tard, trente et un ont été posés sur l'île de Nunivak, en 1935 et 1936, pour recommencer. Nous sommes revenus en cargaison, ce n'est pas une histoire dont on se vante.",
+    "pourquoi": "Le texte laissait croire que les trente et un venaient directement du Groenland et que le voyage s'était fait en bateau. Ils partaient de Fairbanks, et le trajet a mêlé vapeur, quarantaine, train et chemin de fer. La source de ce sujet doit citer le Geophysical Institute UAF en plus de l'ADF and G."
+   },
+   {
+    "avant": "source du sujet nom : Animal Diversity Web seule",
+    "apres": "source du sujet nom : Animal Diversity Web fiche Ovibos moschatus, plus Wikipedia Muskox section taxonomy pour la parenté avec les gorals, consulte le 2026-09-06",
+    "pourquoi": "ADW ne dit pas ce que la réponse lui fait dire. La correction de la phrase impose d'ajouter la source qui documente la parenté réelle."
+   }
+  ]
+ },
+ {
+  "corrections": [
+   {
+    "avant": "cles: [\"tete\",\"cou\",\"tourne\",\"regarde\",\"vertebre\",\"bouge\"] et cles: [\"algues\",\"vert\",\"couleur\",\"pelage\",\"poil\",\"sale\",\"habite\"]",
+    "apres": "Retirer \"cou\" du sujet vertebres (garder \"nuque\", \"vertebre\", \"tourne\", \"tete\") et retirer \"vert\" du sujet algues (garder \"verte\", \"algues\", \"couleur\", \"pelage\").",
+    "pourquoi": "BUG CONFIRME, rejoue avec le vrai code de moteur.js. Le matcher fait q.includes(cle), sans frontiere de mot. \"De quelle couleur es-tu ?\" contient \"cou\" et part sur la reponse VERTEBRES au lieu des algues. \"Tu manges beaucoup ?\" contient \"cou\" et part aussi sur les vertebres. Et \"vert\" est inclus dans \"vertebre\", donc les deux sujets se disputent chaque question sur le cou. Le visiteur recoit une reponse hors sujet des la deuxieme question, c'est le defaut le plus visible de l'entite."
+   },
+   {
+    "avant": "cles: [...,\"mite\",...] (sujet papillons) et [...,\"bas\",...] (sujet descente) et [...,\"habite\",...] (sujet algues)",
+    "apres": "Remplacer \"mite\" par \"papillon de nuit\", supprimer \"bas\", et deplacer \"habite\" hors du sujet algues.",
+    "pourquoi": "BUG CONFIRME au test. \"Quelle est ta limite ?\" et \"Tu m'imites ?\" tombent tous les deux sur le sujet papillons, parce que \"mite\" est une sous-chaine de \"limite\" et de \"imites\". \"bas\" est une sous-chaine trop commune. Et \"Ou habites-tu ?\" renvoie la reponse sur les algues, alors qu'aucun sujet ne parle d'habitat : le visiteur recoit une non-reponse."
+   },
+   {
+    "avant": "Mon estomac est divisé en plusieurs compartiments, comme celui d'une vache, avec des micro-organismes dedans",
+    "apres": "Mon estomac est divisé en plusieurs compartiments, comme celui de beaucoup d'animaux à sabots, avec des micro-organismes dedans",
+    "pourquoi": "La source citee (ADW) ecrit exactement \"Similar to many ungulates, their stomachs are multi-compartmentalized\", jamais \"vache\". Et l'article de 2021 qui refute Pauli reproche precisement a cette equipe d'avoir teste la digestion des algues avec un inoculum ruminal de vache \"sans tenir compte des differences entre le systeme digestif de la vache et celui du paresseux\". Ecrire \"comme une vache\" fait dire a la source ce qu'elle ne dit pas et reprend l'analogie que la litterature critique."
+   },
+   {
+    "avant": "C'est ce qui me permet de tourner la tête d'environ deux cent soixante-dix degrés sans déplacer le reste de moi.",
+    "apres": "On dit souvent que je tourne la tête de deux cent soixante-dix degrés. La seule mesure publiée que je connaisse porte sur des squelettes, et elle donne plus de deux cent quarante degrés. Disons : beaucoup, et sans déplacer le reste de moi.",
+    "pourquoi": "Le chiffre de 270 vient d'ADW et de la vulgarisation, jamais d'une mesure. Le seul travail qui mesure vraiment l'amplitude (Proceedings B 2023, PMC10618861) trouve une capacite de roulis cumulee de plus de 240 degres sur deux specimens de Bradypus variegatus, en precisant que c'est osteologique et donc peut-etre sous-estime. Le sujet a deja refuse ADW sur le nombre de vertebres, il ne peut pas le garder ici sans se contredire."
+   },
+   {
+    "avant": "Je mange des feuilles, surtout celles des cécropias.",
+    "apres": "Je mange des feuilles, et souvent celles des cécropias.",
+    "pourquoi": "ADW ecrit \"feeds primarily on trees in the genus Cecropia\", mais les etudes de terrain sur l'espece montrent un regime plus large : chez Bradypus variegatus flaccidus au Venezuela, trois familles vegetales representent 77 pour cent des observations d'alimentation. \"Surtout\" transforme une observation d'ADW en exclusivite."
+   },
+   {
+    "avant": "source du sujet papillons : Pauli J. et al. ... Hypothese contestee dans la litterature.",
+    "apres": "Ajouter la reference du rejet : Why sloths defecate on the ground: rejection of the mutualistic model, Revista de Biologia Tropical, 2021, scielo.sa.cr/scielo.php?script=sci_arttext&pid=S1659-42662021000100015",
+    "pourquoi": "La reponse affirme \"elle est discutee, tous les chercheurs ne la suivent pas\". C'est une affirmation factuelle, et elle n'a pas de source dans l'entite. Le papier de 2021 existe et la soutient : il releve que 83 pour cent des echantillons digestifs de B. variegatus de Pauli ne contenaient aucun reste d'algue, et que B. variegatus ne se leche pas. Sans cette reference, la phrase la plus prudente du sujet est justement la seule non sourcee."
+   },
+   {
+    "avant": "C'est le moment où je risque le plus de me faire tuer",
+    "apres": "C'est le moment qui m'expose le plus aux prédateurs",
+    "pourquoi": "ADW ecrit \"greatly increases vulnerability to predation\". Le superlatif \"le plus de me faire tuer\" sous-entend une comparaison chiffree des causes de mortalite que la source citee ne fait pas. La formulation corrigee dit exactement ce que la source dit."
+   }
+  ],
+  "douteux": [
+   "La rotation de 270 degres. Aucune mesure publiee ne la donne : ADW l'affirme sans reference, la vulgarisation la repete, et le seul article qui mesure l'amplitude cervicale des paresseux (Proceedings B 2023, deux Bradypus variegatus a 8 vertebres cervicales) trouve plus de 240 degres de roulis cumule sur le squelette. A publier attribue ou pas du tout.",
+   "La primaute des cecropias dans le regime. ADW l'ecrit, les etudes de terrain sur l'espece montrent un regime plus diversifie. Confirme comme aliment important, non confirme comme aliment principal.",
+   "Le compte de vertebres pour cet individu precis. Le genre Bradypus va de 8 a 10, avec 9 comme valeur la plus frequente : c'est confirme par Varela-Lasheras. Mais pour Bradypus variegatus les specimens publies donnent 8 (deux specimens dans Proceedings B 2023) ou 9 (Varela-Lasheras). Faire dire \"huit, neuf, parfois dix\" a un individu de cette espece est defendable pour le genre, pas pour elle.",
+   "Le mecanisme complet Pauli : papillons vers la crotte, retour sur le pelage, azote, algues, ingestion. La source de vulgarisation de la Royal Society decrit bien la boucle, mais l'etape \"en mourant ils enrichissent mes poils en azote\" n'a pas ete verifiee sur le texte integral de l'article. Le conditionnel \"que je mangerais\" doit rester.",
+   "L'espece exacte des papillons du pelage n'est pas nommee, et c'est bien. Ne pas la nommer plus tard sans verification espece par espece pour Bradypus variegatus.",
+   "Le lien URL de la source vertebres. bmcecolevol.biomedcentral.com redirige vers link.springer.com puis vers une page d'authentification. Le texte integral est accessible librement sur pmc.ncbi.nlm.nih.gov/articles/PMC5992679/ : preferer cette adresse, sinon le lecteur qui verifie tombe sur un mur."
+  ],
+  "faux": [
+   "\"comme celui d'une vache\". La source citee pour ce sujet, la fiche ADW de Bradypus variegatus, ecrit \"Similar to many ungulates, their stomachs are multi-compartmentalized\". Elle ne parle pas de vache, et le paresseux n'est pas un ruminant : il ne regurgite pas. La comparaison bovine est exactement celle que l'article de 2021 reproche a Pauli et al. Le fait est mal attribue a sa source.",
+   "La reponse d'accueil et le sujet vertebres ne peuvent pas etre atteints correctement en l'etat : le moteur fait une comparaison par sous-chaine, et la cle \"cou\" capture \"couleur\" et \"beaucoup\". Verifie en rejouant le vrai trouverSujet de moteur.js : \"De quelle couleur es-tu ?\" renvoie la reponse sur les vertebres. L'entite ne se comporte pas comme ses cles le promettent."
+  ],
+  "id": "paresseux-gorge-brune",
+  "verdict": "publiable apres corrections"
+ },
+ {
+  "id": "baudroie-abyssale",
+  "verdict": "publiable apres corrections",
+  "faux": [
+   "Sujet male : \"la femelle en fait couramment soixante-dix-sept\". 77 cm n est pas une taille courante, c est le MAXIMUM de longueur standard releve pour une femelle metamorphosee (evaluation IUCN Red List, Munroe T., Costa M., Kobyliansky S. et Arnold R., Ceratias holboelli, 2015, citee par en.wikipedia.org/wiki/Kr%C3%B8yer's_deep_sea_angler_fish). FishBase donne par ailleurs une longueur totale maximale publiee de 120 cm. Transformer un maximum en taille courante est faux.",
+   "Sujet male : \"il atteint seize centimetres\". Aucune source primaire ne donne 16 cm. L evaluation IUCN 2015 donne 14,5 cm pour le male. Pietsch (Dimorphism, parasitism, and sex revisited, Ichthyological Research, 2005) donne 1,3 cm pour le plus grand male libre connu et 11,8 cm pour le plus grand male parasite connu de Ceratias holboelli. Le 16 cm vient d une page Wikipedia simple English, source derivee, et n est corrobore nulle part ailleurs.",
+   "Sujet immunite : \"l immunite que tous les vertebres etaient censes garder\". L immunite adaptative a RAG, immunoglobulines, recepteurs T et CMH est propre aux vertebres A MACHOIRES. Les lamproies et les myxines n ont ni Ig, ni RAG1 et RAG2, ni CMH de classe I ou II : elles utilisent des recepteurs lymphocytaires variables (VLR) a repetitions riches en leucine. Source : Evolution of adaptive immune recognition in jawless vertebrates, PMC2823822, et Variable lymphocyte receptors in hagfish, PNAS, 2005. \"Tous les vertebres\" est faux."
+  ],
+  "douteux": [
+   "Sujet noir, plage de profondeur 400 a 4400 metres : deux sources serieuses se contredisent. FishBase annonce 400 a 4400 m, l evaluation IUCN 2015 annonce 150 a 3400 m. Seule la partie \"le plus souvent entre 400 et 2000\" est confirmee par les deux. Je n ai PAS pu ouvrir FishBase directement : quatre miroirs testes, fishbase.se en timeout DNS, fishbase.mnhn.fr en 403, fishbase.org.cn en connexion refusee. La plage 400 a 4400 ne repose donc que sur un extrait de resultat de recherche. Le marqueur NON VERIFIE deja pose sur ce sujet est justifie : en l etat, ce sujet ne se publie pas.",
+   "Sujet immunite, portee de la perte d anticorps : Swann et al. 2020 trouve le gene aicda indetectable chez dix especes pratiquant l attache TEMPORAIRE OU DEFINITIVE. La perte de la maturation d affinite n est donc pas propre aux lignees a attache definitive. Ce sont les alterations du CMH, la perte de CD8 et le plus souvent de CD4, et les mutations de rag1 et rag2, qui sont liees a l attache definitive. La phrase actuelle rattache les deux pertes au seul groupe definitif : imprecis.",
+   "Sujet bacteries, \"des baudroies tres differentes hebergent les memes\" : l etude eLife 2019 trouve UNE seule espece symbiote partagee, Candidatus Enterovibrio escacola, chez cinq genres appartenant a quatre familles, plus une seconde espece, Candidatus Enterovibrio luxaltus, associee exclusivement a Cryptopsaras couesii. Le pluriel \"les memes\" gonfle le resultat. A noter aussi : Ceratias holboelli n a pas ete echantillonne dans cette etude, seulement Ceratias uranoscopus et un Ceratias sp.",
+   "Sujet immunite, \"Le votre rejetterait l autre en quelques jours\" : le rejet de premiere intention d une greffe de peau allogenique chez l humain survient vers 10 a 13 jours (Janeway, Immunobiology, NCBI Bookshelf NBK27163), certaines sources citant 7 a 10 jours pour la rupture vasculaire. \"Quelques jours\" est court. A remplacer par un chiffre sourcable.",
+   "Cle \"ou\" dans le sujet noir : deux lettres, elle matchera presque toutes les questions francaises (\"ou est\", \"ou vis-tu\", \"ou bien\"). Meme ponderee par la longueur dans moteur.js, elle tirera des questions sans rapport vers ce sujet. Probleme de qualite, pas de veracite."
+  ],
+  "corrections": [
+   {
+    "avant": "Chez Ceratias holboelli il atteint seize centimètres quand la femelle en fait couramment soixante-dix-sept.",
+    "apres": "Chez Ceratias holboelli, le plus grand mâle libre jamais mesuré faisait un centimètre et trois millimètres, et le plus grand mâle déjà soudé onze centimètres huit. La femelle, elle, monte jusqu'à soixante-dix-sept centimètres.",
+    "pourquoi": "Les deux chiffres actuels sont faux ou non sources. 16 cm ne figure dans aucune source primaire (IUCN 2015 donne 14,5 cm), et 77 cm est un maximum, pas une taille courante. Les chiffres de Pietsch 2005 (1,3 cm libre, 11,8 cm attache) sont a la fois sources et bien plus frappants que le 16 cm invente. Source a mettre dans le champ source : Pietsch T.W., Dimorphism, parasitism, and sex revisited: modes of reproduction among deep-sea ceratioid anglerfishes, Ichthyological Research, 2005, link.springer.com/article/10.1007/s10228-005-0286-2, plus IUCN Red List, Munroe T. et al., Ceratias holboelli, 2015, pour le maximum femelle de 77 cm. Si Pietsch ne peut pas etre ouvert en texte integral avant publication, replier sur la seule version IUCN : \"le mâle atteint quatorze centimètres et demi, la femelle soixante-dix-sept au maximum\"."
+   },
+   {
+    "avant": "Ceratias holboelli, une de mes proches, a été trouvée entre quatre cents et quatre mille quatre cents mètres, le plus souvent entre quatre cents et deux mille.",
+    "apres": "Ceratias holboelli, une de mes proches, a été trouvée entre cent cinquante et trois mille quatre cents mètres, le plus souvent entre quatre cents et deux mille.",
+    "pourquoi": "La plage 400 a 4400 vient de FishBase, que je n ai pas pu ouvrir directement (timeout DNS, 403, connexion refusee sur trois miroirs). L evaluation IUCN 2015, elle, est citee verbatim par Wikipedia et donne 150 a 3400 m, le plus souvent 400 a 2000. On retient la plage citable et on abandonne celle qu on ne peut pas verifier. Source : IUCN Red List, Munroe T., Costa M., Kobyliansky S., Arnold R., Ceratias holboelli, 2015. Le marqueur NON VERIFIE tombe alors."
+   },
+   {
+    "avant": "l'immunité que tous les vertébrés étaient censés garder",
+    "apres": "l'immunité que tous les vertébrés à mâchoires étaient censés garder",
+    "pourquoi": "Erreur factuelle. Les lamproies et les myxines, qui sont des vertebres, n ont ni immunoglobulines, ni RAG1 et RAG2, ni CMH : elles utilisent des recepteurs lymphocytaires variables a repetitions riches en leucine. L immunite adaptative decrite ici est une invention des gnathostomes. Source : Evolution of adaptive immune recognition in jawless vertebrates, PMC2823822."
+   },
+   {
+    "avant": "la fabrication d'anticorps précis, le développement des cellules qui attaquent l'étranger",
+    "apres": "la fabrication d'anticorps précis a disparu chez toutes celles qui s'attachent, même le temps d'une saison, et le développement des cellules qui attaquent l'étranger chez celles qui s'attachent pour de bon",
+    "pourquoi": "Swann et al. 2020 separe les deux pertes : le gene aicda est indetectable chez dix especes a attache temporaire OU definitive, alors que les alterations du CMH, la perte de CD8 et de CD4 et les mutations de rag1 et rag2 concernent les especes a attache definitive. La phrase actuelle rattache les deux au seul groupe definitif."
+   },
+   {
+    "avant": "Le vôtre rejetterait l'autre en quelques jours.",
+    "apres": "Le vôtre rejetterait l'autre en une dizaine de jours.",
+    "pourquoi": "Le rejet de premiere intention d une greffe de peau allogenique chez l humain survient vers 10 a 13 jours. \"Quelques jours\" sous-estime. Source : Janeway, Immunobiology, Responses to alloantigens and transplant rejection, NCBI Bookshelf NBK27163."
+   },
+   {
+    "avant": "et des baudroies très différentes hébergent les mêmes",
+    "apres": "et cinq genres de baudroies, répartis dans quatre familles séparées depuis des millions d'années, hébergent la même",
+    "pourquoi": "L etude eLife 2019 identifie UNE espece symbiote partagee, Candidatus Enterovibrio escacola, chez cinq genres de quatre familles, et une seconde espece propre a Cryptopsaras couesii. Le pluriel \"les memes\" laisse croire a plusieurs symbiotes partages. La formulation corrigee est plus precise ET plus impressionnante. Reste vrai que Ceratias holboelli n a pas ete echantillonne : ce sujet ne cite aucun chiffre d espece, donc pas de probleme."
+   },
+   {
+    "avant": "\"cles\":[\"noir\",\"profondeur\",\"fond\",\"metres\",\"ou\",\"soleil\",\"abysse\"]",
+    "apres": "\"cles\":[\"noir\",\"profondeur\",\"fond\",\"metres\",\"obscurite\",\"soleil\",\"abysse\",\"bathypelagique\"]",
+    "pourquoi": "La cle \"ou\" fait deux lettres et matchera \"ou est\", \"ou vis-tu\", \"ou bien\" dans presque toutes les questions posees au moteur, y compris celles qui visent un autre sujet. Elle capte du bruit. La remplacer par des cles discriminantes."
+   }
+  ]
+ },
+ {
+  "corrections": [
+   {
+    "avant": "Il y a des plants mâles et des plants femelles, et seuls les femelles donnent un fruit, ce qui veut dire que la moitié de ce que vous voyez ici ne donnera jamais rien.",
+    "apres": "Il y a des plants mâles et des plants femelles, et seuls les femelles donnent un fruit. Comptez les tiges en fleur autour de vous : sur 8 701 tiges fleuries relevées au Labrador, 38 pour cent seulement étaient femelles, et selon les stations la proportion descendait à 6 pour cent. La plupart de ce que vous voyez ne donnera jamais rien, pas la moitié.\n\nSource à ajouter au sujet : Sex ratio, flowering and fruit set in dioecious Rubus chamaemorus (Rosaceae) in Labrador, Canadian Journal of Botany, DOI 10.1139/B07-127 (rapport des sexes des tiges fleuries de 6 à 40 pour cent de femelles, 0,381 femelles sur 8 701 tiges).",
+    "pourquoi": "Le rapport des sexes de la plaquebière est biaisé en faveur des mâles dans toutes les populations mesurées. Ecrire la moitié invente un 50/50 qu aucune source ne donne, et c est le seul chiffre du sujet. La litterature donne le vrai nombre, il est plus fort que l approximation."
+   },
+   {
+    "avant": "Vous arrivez tard. Je mûris fin juillet, je suis finie début août, et entre les deux il n'y a pas de rattrapage.",
+    "apres": "Vous arrivez tard. En Laponie la cueillette commence début août et la saison ne tient pas le mois, et entre le début et la fin il n'y a pas de rattrapage.\n\nSource à ajouter : Arktiset Aromit ry, fiche Cloudberry, arktisetaromit.fi/en/natural-products/berries/wild-berries/cloudberry (la cueillette commence à la mi-juillet dans le sud de la Finlande, la récolte du nord de la Finlande commence début août).",
+    "pourquoi": "Les dates fin juillet à début août viennent de la fiche de l Université d Alaska Fairbanks, donc de l Alaska. L entite est declaree en Laponie finlandaise. L association finlandaise Arktiset Aromit dit que la recolte du nord de la Finlande COMMENCE debut aout. Dire je suis finie debut aout en Laponie est contredit par la seule source finlandaise serieuse trouvee."
+   },
+   {
+    "avant": "Je mûris de fin juillet à début août, et le bon moment pour me ramasser est le milieu ou la fin de l'été selon l'endroit.",
+    "apres": "En Alaska je mûris de fin juillet à début août. En Finlande, la cueillette part de la mi-juillet dans le sud et de début août dans le nord, chez moi. Le bon moment change de deux semaines d'une année à l'autre.\n\nSources : University of Alaska Fairbanks, fiche Cloudberries, pour l Alaska. Arktiset Aromit ry, fiche Cloudberry, pour la Finlande.",
+    "pourquoi": "Une seule phrase melange une donnee d Alaska et un cadre finlandais sans le dire. Separer les deux geographies est le minimum, sinon la source ne couvre pas l affirmation."
+   },
+   {
+    "avant": "L'insecte qui vient chez moi ne trouve rien, il repart déçu, et c'est comme ça qu'il me féconde.",
+    "apres": "L'insecte qui vient chez moi ne trouve pas de pollen et presque pas de nectar, il repart déçu, et c'est comme ça qu'il me féconde.",
+    "pourquoi": "Le resume de l article Oecologia dit que les fleurs femelles ne produisent aucun pollen mais contiennent de tres petites quantites de nectar. Ne trouve rien va plus loin que la source. Un mot suffit a le corriger."
+   },
+   {
+    "avant": "On m'a mise en pot tout l'hiver sans sucre, et je n'ai pas tourné. [...] Un fruit qui vit trois semaines et qui tient six mois dans un bocal.",
+    "apres": "On m'a mise en pot sans sucre, écrasée dans mon propre jus et gardée au frais, et je n'ai pas tourné. [...] Un fruit qui ne tient pas le mois sur la tourbière et qui ne fermente pas dans un bocal.\n\nSources : University of Alaska Fairbanks, fiche Cloudberries (teneur naturellement elevee en acide benzoique, se conserve sans s alterer ni fermenter plus longtemps qu on ne l attend). Arktiset Aromit ry, fiche Cloudberry (conservee ecrasee dans son propre jus et stockee au frais).",
+    "pourquoi": "Six mois et tout l hiver sont des durees qu aucune des deux sources ne donne. Elles disent plus longtemps qu on ne l attend et sans fermentation, jamais un nombre de mois. C est un chiffre invente dans un sujet par ailleurs bien source."
+   },
+   {
+    "avant": "Elle ne sera plus là dans trois semaines. (accroche) et : Un fruit qui dure trois semaines et qui finit gravé dans du métal",
+    "apres": "Accroche : Dans un mois il n'y aura plus rien à ramasser. Sujet nom : Un fruit dont la saison ne tient pas le mois et qui finit gravé dans du métal.",
+    "pourquoi": "Trois semaines ne vient que de blogs de voyage. Les sources serieuses parlent d une saison courte sans la chiffrer, et l entite elle-meme decrit ailleurs une fenetre fin juillet debut aout, soit environ deux semaines. Le chiffre se contredit tout seul et n a pas de source."
+   },
+   {
+    "avant": "Je pousse sur une tige de cinq à vingt centimètres",
+    "apres": "Je pousse sur une tige de dix à vingt-cinq centimètres\n\nSource à substituer : Arktiset Aromit ry, fiche Cloudberry (10 à 25 cm de haut, deux feuilles, une fleur solitaire).",
+    "pourquoi": "Cinq a vingt centimetres est la conversion de deux a huit pouces de la fiche d Alaska. Pour une plante presentee comme laponne, la mesure finlandaise fait foi. Minnesota Wildflowers donne encore autre chose, 20 a 30 cm : la fourchette depend de la region, donc il faut citer la region que l entite revendique."
+   },
+   {
+    "avant": "Ajoutez à ça cent cinquante-huit milligrammes de vitamine C pour cent grammes, plus que n'importe quelle autre baie d'Alaska.",
+    "apres": "Ajoutez à ça la vitamine C. En Alaska on m'a mesurée à cent cinquante-huit milligrammes pour cent grammes, plus que n'importe quelle autre baie de là-bas. En Finlande on dit plutôt que soixante-quinze grammes de moi couvrent la ration d'une journée, ce qui met la barre plus bas. Choisissez votre tourbière.\n\nSources : University of Alaska Fairbanks, fiche Cloudberries (158 mg pour 100 g ou environ 2/3 de tasse, plus que toute autre baie d Alaska). Arktiset Aromit ry, fiche Cloudberry (75 g couvrent le besoin journalier).",
+    "pourquoi": "Le 158 mg est correctement attribue a l UAF, mais c est une donnee d Alaska collee sur un fruit laponne, et la source finlandaise implique environ 100 mg pour 100 g avec un apport journalier de 75 mg. Fineli est inaccessible (403), donc l ecart n a pas pu etre tranche. Tant qu il n est pas tranche, il faut nommer la geographie de chaque chiffre."
+   },
+   {
+    "avant": "[DEGUSTATION]\\nAXES sur 10 : sucre 4, acide 7, amer 2, astringence 3, umami 0, piquant 0, gras 1, jutosité 6. Odeur 4 [...] Persistance 20 s [...] ANCRES : acide comme une groseille à maquereau (=), sucre comme une framboise (-2).",
+    "apres": "Couper tous les chiffres du bloc. Garder la description qualitative et les trois goûteurs fictifs, clairement étiquetés fiction, et remplacer les axes par : ce que les sources disent, ferme je suis acide, ambre je suis plus douce et plus molle. Le reste, c'est ma parole, pas une mesure.\n\nSi MZ veut garder des axes chiffres, il doit les gouter lui-meme et signer le releve, ou citer un panel sensoriel publie. Aucun des deux n existe aujourd hui.",
+    "pourquoi": "Les huit axes sur 10, la persistance en secondes et les deux ancres sont des nombres inventes, l entite le reconnait elle-meme dans son champ source. La regle de MZ est zero chiffre invente. Un chiffre marque NON VERIFIE reste un chiffre publie : il se recopiera dans un post ou une capture d ecran sans son avertissement. Il faut le couper, pas l etiqueter."
+   }
+  ],
+  "douteux": [
+   "158 mg de vitamine C pour 100 g. Le chiffre est bien dans la fiche UAF (table Vitamin C, colonne \"Berry 100 grams or approx. 2/3 cup\"), donc l attribution est honnete. Mais c est une mesure alaskienne posee sur un fruit declare laponne, et Arktiset Aromit implique environ 100 mg pour 100 g. Fineli (fiche 449) renvoie 403, impossible de trancher. A recouper avant publication.",
+   "\"plus que n importe quelle autre baie d Alaska\". La phrase est verbatim dans la fiche UAF, donc citee correctement. Mais l eglantier (Rosa acicularis) pousse en Alaska et titre 400 a 2000 mg pour 100 g. La phrase ne tient que si on refuse le cynorhodon comme baie, ce que l UAF ne precise pas. Vraie citation, affirmation fragile.",
+   "La cle \"mure arctique\" pour Rubus chamaemorus. Le nom est atteste en francais europeen (Wiktionnaire, Sysbio Lille, la fiche francaise d Arktiset Aromit), mais Rubus arcticus porte le meme nom vernaculaire. Risque de confusion d espece si le site accueille un jour la ronce arctique. Preferer plaquebiere et ronce des tourbieres comme cles principales.",
+   "La restriction de cueillette reservee aux habitants dans certaines communes de Laponie. Le doute de l entite est confirme : plusieurs sources touristiques l affirment, aucun texte de loi n a ete trouve, Finlex non consulte. La decision de ne PAS l ecrire dans les sujets etait la bonne, ne pas la rouvrir sans le texte.",
+   "Le terrain \"banquise\". La plaquebiere est une plante de tourbiere et de toundra. La banquise est de la glace de mer, ou rien ne pousse. Ce n est pas un fait faux publie, mais un classement qui va produire une incoherence visible des qu un visiteur regardera le decor. Renommer le terrain en Toundra et tourbieres, ou deplacer l entite.",
+   "\"Les autres baies foncent en murissant.\" Generalisation non sourcee. Vraie pour beaucoup de baies, pas pour toutes. La partie sourcee est seulement mon eclaircissement vers peche ou ambre. A retourner en premiere personne, sans parler des autres.",
+   "La duree de vie du fruit, quelle qu elle soit. Aucune source serieuse ne chiffre la fenetre. Les 2 a 3 semaines viennent de blogs de voyage. Toute formulation chiffree est a eviter."
+  ],
+  "faux": [
+   "\"la moitie de ce que vous voyez ici ne donnera jamais rien\". Faux. Le rapport des sexes des tiges fleuries de Rubus chamaemorus est biaise en faveur des males dans toutes les populations mesurees : de 6 a 40 pour cent de femelles selon les stations, 0,381 femelles sur 8 701 tiges fleuries au Labrador (Canadian Journal of Botany, DOI 10.1139/B07-127). Ce n est pas la moitie, c est nettement moins.",
+   "\"Je murrs fin juillet, je suis finie debut aout\" pour un fruit declare en Laponie finlandaise. Faux dans ce cadre geographique. Ces dates sont celles de l Alaska (fiche UAF). Arktiset Aromit ry, l association finlandaise des aromes arctiques, ecrit que la recolte du nord de la Finlande COMMENCE debut aout, la mi-juillet ne valant que pour le sud du pays. L entite annonce donc sa fin au moment ou sa saison demarre chez elle.",
+   "\"L insecte qui vient chez moi ne trouve rien\". Faux au sens strict. Le resume de Agren, Elmqvist et Tunlid (Oecologia 1986, 70:332-338, DOI 10.1007/BF00379493) dit que les fleurs femelles ne produisent aucun pollen ET contiennent de tres petites quantites de nectar. Il trouve tres peu, pas rien.",
+   "\"tient six mois dans un bocal\" et \"On m a mise en pot tout l hiver\". Aucune source ne donne de duree. L UAF ecrit seulement \"may keep without spoiling or fermenting for longer than expected\", Arktiset Aromit ecrit \"conservee ecrasee dans son propre jus et stockee au frais\". Six mois est un nombre fabrique, dans un sujet qui par ailleurs cite bien sa source.",
+   "Le bloc [DEGUSTATION] dans son entier pour ce qui est chiffre : les huit axes sur 10, la persistance de 20 s, les ancres (=) et (-2). L entite le reconnait elle-meme dans son champ source. Ce ne sont pas des faits marques non verifies, ce sont des mesures inventees mises en forme de mesures. La regle est : pas publie."
+  ],
+  "id": "plaquebiere",
+  "verdict": "publiable apres corrections"
+ },
+ {
+  "id": "pain-de-singe",
+  "verdict": "publiable apres corrections",
+  "faux": [
+   "\"je pèse environ deux cent cinquante grammes\" : chiffre de Wikipédia FR, sans source primaire, contredit par les mesures de terrain. Étude Kenya 2019 (Forests, Trees and Livelihoods 28(4)) : poids médian 155 g à l'intérieur des terres, 376 g sur la côte. Étude Éthiopie : moyenne 316,8 plus ou moins 112,17 g. Aucun corpus mesuré ne tombe sur 250 g.",
+   "\"vingt à trente de long\" présenté comme un fait plat : la même étude Kenya donne une longueur médiane de 14,2 cm à l'intérieur des terres et 22,1 cm sur la côte. Un fruit de 14 cm ne rentre pas dans la fourchette annoncée.",
+   "\"ce duvet gratte\" : vient du mot urticant, présent uniquement dans Wikipédia FR. SANBI PlantZAfrica, Useful Tropical Plants et les revues de composition décrivent des poils veloutés brun jaunâtre, sans aucune propriété irritante. Sensation inventée à partir d'un mot isolé.",
+   "\"qui devient beige en mûrissant\" : les descriptions botaniques donnent une coque virant au brun gris ou au brun olive à maturité. Beige n'apparaît que dans Wikipédia FR.",
+   "\"On m'appelle pain de singe, parce que les singes se servent avant vous\" : l'étymologie est affirmée comme un fait. Elle est explicitement discutée dans la littérature ethnobotanique (Rashford, Journal of Ethnobiology 14(2), Africa's Baobab Tree: Why Monkey Names?), qui propose une autre explication. Ce qui est sourcé, c'est que singes et babouins mangent le fruit (SANBI), pas que le nom vienne de là.",
+   "\"Onze à douze grammes d'eau pour cent grammes de pulpe\" attribué au fruit : c'est une spécification de produit commercialisé inscrite dans l'annexe de la décision européenne, pas une mesure du fruit. La mesure sur fruits réels (PMC5694876) donne 8,81 à 9,93 g pour 100 g. Le fruit est plus sec que la fourchette réglementaire, la phrase dit le contraire de la réalité mesurée.",
+   "\"l'acidité reste sur les côtés de la langue\" : reprend la carte des zones gustatives de la langue, mythe démenti. L'acide n'est pas perçu spécifiquement sur les côtés. Une dégustation peut être fictive, une physiologie fausse ne peut pas être publiée.",
+   "Champ doutes, \"L'écart vient sans doute des provenances\" : hypothèse inventée et fausse. PMC5694876 donne justement l'écart entre provenances (8,89 en Afrique australe à 9,82 en Afrique de l'Est), bien plus petit que l'écart avec le chiffre européen. La différence est de nature, pas d'origine géographique."
+  ],
+  "douteux": [
+   "\"dix centimètres de diamètre\" : aucune source indépendante trouvée. SANBI donne seulement une capsule souvent supérieure à 120 mm, sans distinguer longueur et diamètre. À sourcer ou à retirer.",
+   "Tout le bloc DEGUSTATION : huit axes chiffrés, persistance 40 s, résistance 2, séquence attaque corps finale. Aucun panel sensoriel consulté. C'est assumé dans le champ source, mais le lecteur ne voit jamais ce champ. Il lit des nombres et croit à des mesures.",
+   "\"elle boit la salive\", \"la bouche se vide au lieu de se remplir\" : effet asséchant plausible pour une pulpe à 9 g d'eau, mais aucune mesure d'astringence ni de flux salivaire n'existe dans les sources consultées.",
+   "\"Avant cette date, vendre ce que je suis était illégal ici\" : correct sur le fond, le règlement 258/97 imposait une autorisation préalable avant mise sur le marché, mais le mot illégal écrase la nuance entre absence d'autorisation et interdiction.",
+   "La coque ligneuse, la pulpe blanche amylacée et la présence autour des graines reposent sur Wikipédia FR, confirmées de façon convergente par SANBI (dry powdery off-white substance, graines noires réniformes). Faits peu risqués mais toujours sans source primaire agronomique. Le PDF CIRAD 531802 renvoie une erreur 418 et n'a pas pu être lu.",
+   "Le champ source cite \"pulpe séchée de fruit de baobab\" alors que le texte français officiel dit pulpe de fruit de baobab déshydratée, et que la dénomination de vente imposée par l'article 2 est simplement pulpe de fruit de baobab.",
+   "La teneur en vitamine C reste non chiffrée, ce qui est le bon réflexe. À noter : l'étude Kenya relève un coefficient de variation de 36 pour cent sur la vitamine C entre arbres. Un chiffre unique sera de toute façon faux."
+  ],
+  "corrections": [
+   {
+    "avant": "Je fais dix centimètres de diamètre pour vingt à trente de long, et je pèse environ deux cent cinquante grammes.",
+    "apres": "Ma taille et mon poids, personne ne peut vous les donner en un chiffre. Au Kenya on a pesé et mesuré les fruits arbre par arbre : quatorze centimètres et cent cinquante cinq grammes en médiane à l'intérieur des terres, vingt-deux centimètres et trois cent soixante seize grammes sur la côte. Le même fruit, deux fois plus lourd d'une région à l'autre.",
+    "pourquoi": "Les 250 g et le 20 à 30 cm viennent de Wikipédia FR sans source primaire et sont contredits par les mesures de terrain publiées (Forests, Trees and Livelihoods 28(4), 2019, 71 arbres au Kenya). Le diamètre de 10 cm n'est confirmé nulle part, il disparaît."
+   },
+   {
+    "avant": "Ma coque est ligneuse, couverte d'un fin duvet jaune vert qui devient beige en mûrissant, et ce duvet gratte.",
+    "apres": "Ma coque est ligneuse, couverte d'un fin duvet qui me rend veloutée au toucher, verdâtre puis brun gris quand je mûris.",
+    "pourquoi": "Le caractère urticant n'existe que dans Wikipédia FR, aucune description botanique ne le reprend. La couleur à maturité est décrite comme brun gris ou brun olive par SANBI PlantZAfrica et les revues de composition, pas beige. On garde le velouté, qui est sourcé partout."
+   },
+   {
+    "avant": "On m'appelle pain de singe, parce que les singes se servent avant vous.",
+    "apres": "On m'appelle pain de singe. Ce qui est établi, c'est que les singes et les babouins me décrochent et me mangent. Que le nom vienne de là, tout le monde le répète, mais des ethnobotanistes en doutent.",
+    "pourquoi": "La consommation par les primates est sourcée (SANBI : blown off by wind or gets collected by monkeys, baboons or people). L'étymologie causale est contestée dans Rashford, Journal of Ethnobiology 14(2), Africa's Baobab Tree: Why Monkey Names?. On publie le fait, pas la déduction."
+   },
+   {
+    "avant": "Comptez vous-même. Onze à douze grammes d'eau pour cent grammes de pulpe, c'est la spécification que l'Europe a inscrite noir sur blanc quand elle m'a autorisée.",
+    "apres": "Comptez vous-même. Sur les fruits mesurés à travers l'Afrique, huit virgule huit à neuf virgule neuf grammes d'eau pour cent grammes de pulpe. L'Europe, elle, tolère onze à douze pour la poudre qu'elle autorise à la vente. Je suis plus sèche que ce que le papier accepte.",
+    "pourquoi": "Un plafond réglementaire pour un produit emballé n'est pas la teneur en eau d'un fruit. La mesure sur pulpe brute (PMC5694876) est 8,81 à 9,93 g pour 100 g. En l'état la phrase donne au lecteur un chiffre plus humide que la réalité, en s'appuyant sur l'autorité d'un texte de loi qui ne dit pas ça."
+   },
+   {
+    "avant": "La formule sur les singes qui se servent avant vous est une image, pas un fait de comportement animal observé.",
+    "apres": "L'écart entre les deux chiffres d'humidité n'est pas un écart de provenance : ce sont deux objets différents, une fourchette réglementaire pour une poudre mise en sachet d'un côté, une mesure de pulpe brute de l'autre. Entre provenances, l'écart mesuré n'est que de 8,89 à 9,82.",
+    "pourquoi": "Deux corrections dans le champ doutes. D'une part le sans doute des provenances est une explication inventée et démentie par l'étude elle-même. D'autre part la ligne sur les singes devient fausse : le comportement EST observé et documenté par SANBI, c'est l'étymologie qui ne l'est pas."
+   },
+   {
+    "avant": "FINALE : l'acidité reste sur les côtés de la langue et la poudre colle au palais.",
+    "apres": "FINALE : l'acidité reste longtemps et la poudre colle au palais.",
+    "pourquoi": "La carte des zones gustatives de la langue est un mythe démenti depuis les années soixante-dix. Le reste du bloc est de la fiction assumée, celle-ci est une erreur de physiologie qui se lit comme un fait."
+   },
+   {
+    "avant": "[DEGUSTATION]",
+    "apres": "[DEGUSTATION, FICHE INVENTEE]",
+    "pourquoi": "Le champ source dit NON VERIFIE, mais le visiteur ne voit jamais ce champ. Il lit acide 7, persistance 40 s, résistance 2, et il les prend pour des mesures. La mention de fiction n'apparaît aujourd'hui qu'en bas, et seulement pour les trois goûteurs."
+   },
+   {
+    "avant": "ma pulpe séchée peut être mise sur le marché comme nouvel ingrédient alimentaire",
+    "apres": "ma pulpe déshydratée peut être mise sur le marché comme nouvel ingrédient alimentaire, sous le nom de vente pulpe de fruit de baobab",
+    "pourquoi": "Mot exact du texte français de la décision, et l'article 2 impose la dénomination pulpe de fruit de baobab. Quand on cite un acte juridique on cite ses mots."
+   },
+   {
+    "avant": "Nutritional variation in baobab (Adansonia digitata L.) fruit pulp and seeds based on Africa geographical regions, PMC5694876 (humidité de la pulpe 8,81 à 9,93 g pour 100 g)",
+    "apres": "Nutritional variation in baobab (Adansonia digitata L.) fruit pulp and seeds based on Africa geographical regions, PMC5694876 (humidité de la pulpe 8,81 à 9,93 g pour 100 g), consulté le 2026-09-06 ; Fruit morphological diversity and productivity of baobab (Adansonia digitata L.) in coastal and lower eastern Kenya, Forests, Trees and Livelihoods 28(4), 2019, 71 arbres, longueur médiane 22,1 cm côte contre 14,2 cm intérieur, poids médian 376 g contre 155 g, consulté le 2026-09-06 ; SANBI PlantZAfrica, Adansonia digitata, pza.sanbi.org/adansonia-digitata, consulté le 2026-09-06",
+    "pourquoi": "Les deux sources qui remplacent les chiffres de Wikipédia doivent figurer dans le tableau des sources, avec leur date de consultation comme les autres."
+   }
+  ]
+ },
+ {
+  "id": "baie-miracle",
+  "verdict": "publiable apres corrections",
+  "faux": [
+   "Sujet duree : \"l'effet tient tant que vos papilles ne sont pas revenues a un pH neutre, et il s'arrete quand elles y reviennent\". Le mecanisme de fin est faux. La miraculine reste accrochee au recepteur et se rallume a CHAQUE bouchee acide ; ce qui met fin a la session, c'est la salive qui decroche la proteine (Wikipedia EN Synsepalum dulcificum : \"This effect lasts until the protein is washed away by saliva (up to about 30 minutes)\" ; revue PMC11489218 : \"until salivary amylase dissociates the miraculin from taste receptors\"). Le retour au pH neutre eteint seulement la bouchee en cours, pas l'effet. La phrase de Wikipedia EN Miraculin (\"an effect remaining until the taste buds perceive a neutral pH\") a ete sur-lue.",
+   "Sujet duree : le paragraphe se contredit lui-meme. Il dit d'abord \"environ trente minutes, le temps que la salive emporte la proteine\" (mecanisme correct) puis affirme que la constante est le retour au pH neutre (autre mecanisme, incompatible). Les deux ne peuvent pas etre vrais ensemble.",
+   "Sujet loi : \"l'agence americaine du medicament refuse la miraculine comme additif alimentaire\". La FDA a fait l'inverse : en 1974 elle a REFUSE le statut GRAS (reconnu sur comme sur) et a CLASSE les substances tirees du fruit miracle comme additifs alimentaires, imposant des essais de securite couteux qui n'ont jamais ete finances (Wikipedia EN Synsepalum dulcificum : \"the Food and Drug Administration classified the berry as a food additive and required evidence of safety\" ; Atlas Obscura : \"the FDA abruptly announced that miraculin would be considered a food additive, requiring extensive and expensive testing\"). La formulation actuelle, qui vient de la phrase ambigue de Wikipedia EN Miraculin (\"The use of miraculin as a food additive was denied in 1974\"), se lit a l'envers. En prime, la FDA n'est pas \"l'agence americaine du medicament\", c'est l'agence des aliments ET des medicaments, et ici c'est le volet aliments qui agit."
+  ],
+  "douteux": [
+   "La faillite de l'entreprise \"dans les mois qui suivent\" : deux recits serieux se contredisent. Atlas Obscura dit que dans le climat economique de 1974 le financement etait impossible et que la societe a plie ; botany.one dit que \"years of testing miraculin eventually bankrupted the Miralin Company\". Le delai n'est etabli par aucune source. A couper ou a reduire a \"n'y a pas survecu\", sans duree.",
+   "Toute la chaine 1974 repose sur des sources secondaires : Wikipedia EN Miraculin cite un livre grand public (Gollner, The Fruit Hunters), Wikipedia EN Synsepalum cite la BBC et The Week. L'avis du Federal Register de 1974 n'a pas ete retrouve. Un article evoque un avis FDA disant qu'il n'y avait pas assez d'information pour une determination GRAS, sans lien vers le document. Tant que ce document n'est pas trouve, la date de 1974 est du journalisme, pas un fait verifie.",
+   "Wikipedia se contredit sur la periode : l'article Synsepalum dulcificum date la tentative de commercialisation americaine \"In the 1980s\", alors que le meme article dit que la pilule de miraculine etait vendue \"for a time in the 1970s\" et que l'article Miraculin date le refus de 1974. Cette incoherence n'est pas resolue.",
+   "La masse moleculaire n'est pas unique dans la litterature. 24,6 kDa est la valeur de la SOUS-UNITE (Theerasilp et Kurihara, JBC 1988) ; l'etat natif est un tetramere fait de deux dimeres (Kurihara 1992, Igeta 1991), et la revue PMC11489218 donne 24 000 a 45 000 Da pour cette raison. Le chiffre est citable mais pas sans le mot sous-unite.",
+   "Duree de l'effet : aucune valeur unique n'est defendable. La revue PMC11489218 donne 30 s a 2 h ; Wikipedia EN Synsepalum donne jusqu'a environ 30 min ; Wikipedia EN Miraculin donne 1 a 2 h. Les trois sources s'accordent en revanche sur ce qui fait varier la duree : concentration de miraculine, temps de contact avec la langue, concentration d'acide (Koizumi 2011, Sanematsu 2016). C'est cette dependance qui est publiable, pas un chiffre.",
+   "STRUCTURE : les quatre ids de ouvre (\"effet\", \"duree\", \"loi\", \"gout\") ne debloquent rien. Dans moteur.js, ouvre ne fait qu'ajouter un id a etat.sujetsOuverts, et un sujet n'est verrouille que s'il porte un champ requiert (ligne 61). Aucun sujet de cette entite ne porte requiert, aucun sujet ne porte d'id non plus. Les ids se lisent seulement comme la premiere cle du sujet vise, donc ils pointent bien vers des sujets existants de la meme entite, mais les couches annoncees ne fonctionnent pas : les cinq sujets sont accessibles des la premiere question. A corriger dans les donnees (ajouter requiert) ou a assumer.",
+   "Bloc DEGUSTATION : les huit axes, la texture, l'attaque, le corps, la finale, l'ancre et les trois goutteurs restent inventes. Cas particulier a surveiller, \"ODEUR : rien\", presente comme une information : aucune source consultee ne decrit l'odeur de la baie, ni son absence. C'est une invention presentee comme un constat."
+  ],
+  "corrections": [
+   {
+    "avant": "Ce qui est constant, c'est la façon dont ça finit : l'effet tient tant que vos papilles ne sont pas revenues à un pH neutre, et il s'arrête quand elles y reviennent.",
+    "apres": "Ce qui est constant, c'est la façon dont ça finit : je reste accrochée à vos récepteurs et je me rallume à chaque bouchée acide, jusqu'à ce que votre salive finisse par me décrocher. Entre deux bouchées, quand votre bouche revient au neutre, le sucré s'éteint. Ça ne veut pas dire que je suis partie.",
+    "pourquoi": "Le mécanisme de fin était faux. Ce qui termine l'effet, c'est le lessivage de la protéine par la salive, pas le retour au pH neutre. Sources : Wikipédia EN Synsepalum dulcificum, \"This effect lasts until the protein is washed away by saliva\" ; revue PMC11489218, \"until salivary amylase dissociates the miraculin from taste receptors\"."
+   },
+   {
+    "avant": "Je vais vous décevoir sur ce point : personne n'est d'accord. Une source dit environ trente minutes, le temps que la salive emporte la protéine. Une autre dit une à deux heures.",
+    "apres": "Je vais vous décevoir sur ce point : il n'y a pas de chiffre. Les mesures publiées vont de quelques secondes à deux heures, et la fourchette la plus souvent citée est trente minutes à deux heures. Trois choses font varier ça : combien de moi vous avez pris, combien de temps je suis restée sur votre langue, et à quel point ce que vous mangez ensuite est acide.",
+    "pourquoi": "Remplace une opposition entre deux pages Wikipédia par une source de revue et par les facteurs de variation, qui eux font consensus. Sources : revue PMC11489218 (30 s à 2 h) ; Koizumi et al., PNAS 2011, 108(40), 16819 et Sanematsu et al., Scientific Reports 2016, 6, 22807, cités par Wikipédia EN Miraculin pour la dépendance à la concentration, au temps de contact et à l'acidité. Résout aussi le doute n°2 de la fiche."
+   },
+   {
+    "avant": "En mille neuf cent soixante-quatorze, l'agence américaine du médicament refuse la miraculine comme additif alimentaire, et l'entreprise qui voulait la vendre coule dans les mois qui suivent.",
+    "apres": "En mille neuf cent soixante-quatorze, l'agence américaine des aliments et des médicaments tranche contre moi : elle refuse de me reconnaître comme sûre d'office et me range parmi les additifs alimentaires, ce qui impose des essais de sécurité coûteux. La société américaine qui s'apprêtait à me vendre ne les a jamais financés, et elle n'y a pas survécu.",
+    "pourquoi": "Deux corrections. Un, la FDA n'a pas refusé la miraculine COMME additif, elle l'a classée EN additif en lui refusant le statut GRAS : la phrase d'origine se lisait à l'envers. Deux, \"dans les mois qui suivent\" n'est établi par aucune source et deux récits se contredisent sur le délai, donc la durée saute. Sources : Wikipédia EN Synsepalum dulcificum (\"classified the berry as a food additive and required evidence of safety\") ; Atlas Obscura, The Miracle Sugar Substitute The FDA Won't Let You Have. Tant que l'avis du Federal Register de 1974 n'est pas retrouvé, ce sujet reste sourcé au journalisme : soit on l'assume par écrit, soit on retire l'année."
+   },
+   {
+    "avant": "Ma pulpe porte la miraculine, une glycoprotéine de vingt-quatre mille six cents daltons, cent quatre-vingt-onze acides aminés, treize virgule neuf pour cent de sucres. Elle se colle à votre récepteur du sucré, celui qu'on nomme hT1R2 hT1R3, et elle y reste sans rien déclencher.",
+    "apres": "Ma pulpe porte la miraculine. Chaque sous-unité pèse vingt-quatre mille six cents daltons, compte cent quatre-vingt-onze acides aminés et porte treize virgule neuf pour cent de sucres en masse ; dans la baie je circule par paquets de deux ou de quatre. Je me colle à votre récepteur du sucré, celui qu'on nomme hT1R2 hT1R3, et tant que votre bouche est neutre je ne l'allume pas : je le bouche.",
+    "pourquoi": "Un, 24,6 kDa est la masse de la sous-unité : l'état natif est un tétramère de deux dimères, et c'est pour ça qu'une revue donne 24 000 à 45 000 Da. Sans le mot sous-unité, le chiffre entre en conflit avec la littérature. Deux, \"sans rien déclencher\" sous-estime un effet documenté : à pH neutre la miraculine bloque le récepteur (Wikipédia EN Synsepalum dulcificum, \"At neutral pH, miraculin binds and blocks the receptors\"), ce qui rend le contraste plus fort, pas plus faible."
+   },
+   {
+    "avant": "source du sujet effet : \"Wikipédia en anglais, Miraculin (glycoprotéine de 24,6 kilodaltons, 191 acides aminés, 13,9 pour cent de sucres en masse ; ...), en.wikipedia.org/wiki/Miraculin, consulté le 2026-09-06.\"",
+    "apres": "Theerasilp S, Kurihara Y, Journal of Biological Chemistry 1988, 263(23), 11536 (purification, 24,6 kDa pour la sous-unité, 13,9 pour cent de sucres en masse). Theerasilp S et al., Journal of Biological Chemistry 1989, 264(12), 6655 (séquence complète, 191 acides aminés). Koizumi A et al., PNAS 2011, 108(40), 16819 (le récepteur humain hT1R2 hT1R3 porte la sucrosité induite par l'acide). Ito K et al., Biochemical and Biophysical Research Communications 2007, 360(2), 407 (His30 et His60). Sanematsu K et al., Scientific Reports 2016, 6, 22807 (l'acidification intracellulaire est requise pour l'activation complète). Igeta H et al., BBA 1991, 1079(3), 303 et Kurihara Y, Crit Rev Food Sci Nutr 1992, 32(3), 231 (état natif tétramérique).",
+    "pourquoi": "Répond au doute n°3 de la fiche : les chiffres moléculaires étaient sourcés à Wikipédia. Les références primaires existent et sont citées par Wikipédia elle-même, il n'y a aucune raison de garder une source secondaire sur le seul sujet où la donnée est dure."
+   },
+   {
+    "avant": "[DEGUSTATION]\\nAXES sur 10 : sucre 2, acide 1, amer 1, astringence 2, umami 0, piquant 0, gras 0, jutosité 3. Odeur 1. Aromatique 2.",
+    "apres": "[DEGUSTATION. TOUT CE BLOC EST ÉCRIT, PAS MESURÉ.]\\nAXES sur 10 : sucre 2, acide 1, amer 1, astringence 2, umami 0, piquant 0, gras 0, jutosité 3. Odeur 1. Aromatique 2.",
+    "pourquoi": "Aujourd'hui seuls les trois goûteurs sont marqués fictifs, à la fin du bloc. Les lignes AXES, TEXTURE, ODEUR et FINALE se lisent comme des mesures, avec des nombres, et un visiteur les prendra pour des données. Le marqueur doit ouvrir le bloc, pas le fermer. C'est la seule façon de garder ce bloc sans mentir."
+   },
+   {
+    "avant": "CORPS : il n'y a presque pas de chair. Le noyau prend la place et vous mâchez autour.\\n...\\nODEUR : rien. C'est déjà une information.",
+    "apres": "CORPS : il n'y a presque pas de chair. Une seule graine, de la taille d'un grain de café, dans un fruit de deux centimètres : elle prend la place et vous mâchez autour. Ça, ce n'est pas de la mise en scène, c'est mesurable.\\n...\\n(supprimer la ligne ODEUR)",
+    "pourquoi": "Deux mouvements inverses. Le noyau est un fait sourçable qu'on gagne à sortir du flou : Wikipédia EN Synsepalum dulcificum, d'après Duke, \"Each fruit contains one seed about the size of a coffee bean\", pour un fruit de 2 cm. À l'inverse, \"ODEUR : rien\" est présenté comme un constat alors qu'aucune source consultée ne décrit l'odeur de la baie : une absence affirmée est une affirmation. Elle saute."
+   }
+  ]
+ },
+ {
+  "id": "cherimole",
+  "verdict": "publiable apres corrections",
+  "faux": [
+   "Sujet pollinisation : \"Ma fleur ne peut pas se feconder toute seule.\" Morton ecrit \"inadequate natural pollination\" et \"hand-pollination is highly desirable\", pas impossible. La chérimole noue naturellement, mal. L'absolu est faux.",
+   "Sujet altitude : la fourchette de mille quatre cents a deux mille metres est attachee a l'Equateur, la Colombie ET la Bolivie. Chez Morton ce sont deux phrases distinctes : l'aire indigene cite les trois pays, la fourchette 1 400 a 2 000 m ne vaut que pour la Colombie et l'Equateur. Morton donne d'ailleurs 1 200 a 2 500 m au Guatemala. Conflation de deux enonces.",
+   "Sujet pollinisation, ouvre:[\"graines\"] : aucun sujet de l'entite ne porte la cle \"graines\" au pluriel. La premiere cle du sujet cible est \"graine\". Lien mort, verifie en rejouant la convention de animaux.js et la fonction repondre() de moteur.js.",
+   "Ouverture : \"On m'a nommee pour cette exigence, bien avant de me manger.\" Aucune source ne soutient que le nom precede la consommation, et il existe des travaux archeologiques sur la consommation de la cherimole dans le Perou ancien. Chronologie fabriquee.",
+   "Sujet nom, cadrage de la citation de Twain : la phrase source est \"the pride of the islands, the most delicious fruit known to men, cherimoya, was not in season\". Citer la louange en coupant \"was not in season\" transforme une reputation rapportee sur un fruit qu'il n'avait pas sous la main en verdict de degustation. L'attribution, la date et les mots sont exacts, le cadrage est faux."
+  ],
+  "douteux": [
+   "Etymologie quechua chirimuya = \"graines froides\", et la raison donnee (germination en altitude fraiche). Une seule source, Wikipedia en anglais. Aucune source lexicographique quechua trouvee. La glose circule beaucoup, ce qui est exactement le profil d'une etymologie populaire. A garder seulement avec \"on dit que\", ou a sourcer mieux.",
+   "\"Avalee entiere, une graine traverse.\" Absente de Morton, absente de Wikipedia, aucune source trouvee. Affirmation de securite sanitaire : charge de la preuve maximale, donc a couper.",
+   "\"pas trop froide\" comme consigne de service. Aucune source, et l'usage courant recommande au contraire de la servir fraiche.",
+   "Le chiffre de zero virgule quinze gramme de resine est confirme mot pour mot chez Morton 1987, mais Morton est une compilation horticole, pas une source toxicologique. Non recoupe dans une base toxicologique. Publiable avec l'attribution explicite a Morton, jamais presente comme un seuil de securite.",
+   "La citation de Twain n'a pas ete lue dans l'original : twainquotes.com renvoie 403, la California Digital Newspaper Collection renvoie 403, l'edition Gutenberg testee ne contient pas le mot. Plusieurs sources secondaires independantes donnent la meme phrase complete avec la date du 25 octobre 1866, ce qui est solide mais reste secondaire.",
+   "Tout le bloc DEGUSTATION (huit axes chiffres, sequence, ancres, trois gouteurs) est de la fiction, l'entite le declare. Seuls \"chair blanc neige, juteuse, saveur delicieuse et sous-acide\" (Morton) et les descripteurs de Wikipedia sont sources. Coherent avec les autres fruits, mais ca reste du contenu invente sur une page qui affiche des sources ailleurs.",
+   "Aucun des cinq sujets ne porte de champ requiert. Dans moteur.js, ouvre alimente sujetsOuverts et seul requiert verrouille un sujet : les quatre liens ouvre sont donc inertes. La progression en couches annoncee par la conception n'existe pas pour cette entite.",
+   "La cle \"insecte\" figure dans le sujet pollinisation mais la reponse ne parle jamais d'insectes. Un visiteur qui pose la question recoit un hors sujet, alors que Morton fournit la phrase (\"Few insects visit the flowers\")."
+  ],
+  "corrections": [
+   {
+    "avant": "Ma fleur ne peut pas se féconder toute seule, parce que mes organes mâles et femelles ne mûrissent pas en même temps. Alors on vient avec un pinceau.",
+    "apres": "Ma pollinisation naturelle est mauvaise : mes organes mâles et femelles ne mûrissent pas en même temps, et peu d'insectes visitent mes fleurs. Alors on vient avec un pinceau.",
+    "pourquoi": "Morton écrit \"A problem with the cherimoya is inadequate natural pollination\" et \"hand-pollination is highly desirable\", jamais que l'autofécondation est impossible. \"Few insects visit the flowers\" est aussi chez Morton et donne enfin une réponse à la clé insecte, aujourd'hui présente sans contenu."
+   },
+   {
+    "avant": "On me dit indigène des vallées interandines de l'Équateur, de la Colombie et de la Bolivie, entre mille quatre cents et deux mille mètres, et je ne réussis pas dans les basses terres tropicales.",
+    "apres": "On me dit indigène des vallées interandines de l'Équateur, de la Colombie et de la Bolivie. En Colombie et en Équateur, je pousse naturellement entre mille quatre cents et deux mille mètres. Et je ne réussis pas dans les basses terres tropicales.",
+    "pourquoi": "Chez Morton ce sont deux énoncés séparés. La fourchette ne couvre que la Colombie et l'Équateur : l'étendre à la Bolivie est une conflation. Au Guatemala Morton donne 1 200 à 2 500 m, ce qui montre bien que la fourchette est régionale et non spécifique."
+   },
+   {
+    "avant": "Wikipédia en anglais, Cherimoya (des recherches génétiques situent l'origine au Honduras et au Guatemala), consulté le 2026-09-06.",
+    "apres": "Larrañaga N., Albertazzi F. J., Fontecha G. et al., A Mesoamerican origin of cherimoya (Annona cherimola Mill.): implications for the conservation of plant genetic resources, Molecular Ecology, 2017, DOI 10.1111/mec.14157, PMID 28437594 (1 765 accessions, neuf marqueurs microsatellites, diversité génétique la plus élevée au Honduras et au Guatemala, origine mésoaméricaine contraire aux rapports antérieurs).",
+    "pourquoi": "Le doute demandait de retrouver l'étude génétique avant publication. Elle existe, elle est primaire et à comité de lecture. La divergence avec Morton devient un désaccord entre deux sources solides, ce qui justifie enfin de la citer telle quelle au lieu d'opposer un livre à une encyclopédie."
+   },
+   {
+    "avant": "\"ouvre\":[\"graines\"]",
+    "apres": "\"ouvre\":[\"graine\"]",
+    "pourquoi": "Aucun sujet ne porte la clé \"graines\" au pluriel. La première clé du sujet cible est \"graine\" au singulier. Vérifié par script contre la convention de animaux.js : le lien est mort tel quel. Ajouter aussi \"requiert\" sur les sujets enchaînés, sinon ouvre ne verrouille rien dans moteur.js."
+   },
+   {
+    "avant": "Avalée entière, une graine traverse. Broyée sous la dent, c'est une autre affaire.",
+    "apres": "Broyée sous la dent, c'est une autre affaire.",
+    "pourquoi": "\"Avalée entière, une graine traverse\" n'est ni chez Morton ni chez Wikipédia et n'a pas été trouvée ailleurs. C'est une affirmation de sécurité sanitaire non sourcée dans un avertissement de danger : elle se coupe, elle ne se nuance pas."
+   },
+   {
+    "avant": "Un auteur américain a écrit en mille huit cent soixante-six que j'étais le fruit le plus délicieux connu des hommes. C'est très aimable.",
+    "apres": "Un auteur américain a écrit en mille huit cent soixante-six que j'étais l'orgueil des îles et le fruit le plus délicieux connu des hommes. Il écrivait ça depuis Hawaï, où je n'étais pas de saison. Il ne m'avait pas goûtée. C'est très aimable quand même.",
+    "pourquoi": "La phrase source complète est \"the pride of the islands, the most delicious fruit known to men, cherimoya, was not in season\". Couper la restriction transforme une réputation rapportée en verdict de dégustation. La version honnête est en plus meilleure dans la voix du fruit."
+   },
+   {
+    "avant": "On m'a nommée pour cette exigence, bien avant de me manger.",
+    "apres": "On m'a nommée pour cette exigence, pas pour mon goût.",
+    "pourquoi": "Rien ne soutient que le nom précède la consommation, et il existe des travaux archéologiques sur la consommation de la chérimole dans le Pérou ancien. La correction garde l'idée du sujet nom et ne date plus rien."
+   },
+   {
+    "avant": "Source du sujet graines : Morton 1987 (graines nombreuses, dures, brunes ou noires, en forme de haricot ; 0,15 g de la résine jaune sombre...).",
+    "apres": "Ajouter à cette source la phrase qui couvre les alcaloïdes : Morton 1987, Cherimoya, \"The seeds contain several alkaloids: caffeine, (+)-reticuline, (-)-anonaine, liriodenine, and lanuginosine.\"",
+    "pourquoi": "L'affirmation \"elles portent des alcaloïdes\" est vraie et vérifiée, mais la source citée ne couvrait que la résine et la description des graines. Un fait vrai sans sa source reste non publiable. Ne jamais y ajouter l'annonacine : c'est une acétogénine, pas un alcaloïde, et le lien parkinsonisme relève d'une allégation de santé qui exige une source médicale."
+   },
+   {
+    "avant": "À la cuillère, jamais à la main, et pas trop froide.",
+    "apres": "À la cuillère, jamais à la main.",
+    "pourquoi": "\"Pas trop froide\" n'a aucune source et contredit l'usage courant, qui est de la servir fraîche. Une consigne de service inventée placée juste à côté de faits sourcés contamine la crédibilité du reste."
+   }
+  ]
+ },
+ {
+  "id": "islande",
+  "verdict": "publiable apres corrections",
+  "faux": [
+   "Sujet glace : \"en octobre 2025 on a trouve trois moustiques chez moi, les premiers\". Faux tel quel. Yale Environment 360, la source citee par l'entite elle-meme, ecrit que ce sont les premiers reperes sur le sol islandais mais que des moustiques avaient deja ete trouves auparavant sur des bateaux et des avions entrants (un specimen a Keflavik). Les trois de Kidafell sont les premiers en milieu naturel, pas les premiers en Islande.",
+   "Champ terrain : \"banquise\". Faux. La banquise est de la glace de mer. Les 10 % de surface glacee de l'Islande sont des calottes et des glaciers terrestres (jokull), aucune banquise permanente. L'erreur est repetee dans les cles du sujet glace, ou le mot \"banquise\" declenche une reponse sur les glaciers et confirme la confusion au visiteur.",
+   "Source du sujet presentation : Britannica, Mid-Atlantic Ridge, citee pour appuyer \"la dorsale s'ouvre de l'ordre de deux centimetres par an\" en Islande. La page ne peut pas soutenir cette affirmation : elle traite de la dorsale medio-atlantique dans son ensemble, pas de la mesure islandaise. Le taux geodesique publie pour l'Islande est de 17 a 19 mm/an (Drouin et al. 2019, Geophysical Research Letters ; Arnadottir et al. 2009, Geophysical Journal International). La page Britannica m'a de plus renvoye un HTTP 403 : son contenu n'a pas pu etre verifie."
+  ],
+  "douteux": [
+   "\"il y a environ dix mille ans\" pour l'arrivee du renard polaire. Nattufraedistofnun, la source citee, ecrit seulement \"depuis la derniere periode glaciaire\", sans chiffre. Les dix mille ans viennent de sites touristiques, et la fin de la derniere glaciation est plutot datee autour de 11 700 ans. Non confirme par la source citee.",
+   "\"Le skyr n'est pas un yaourt, quoi qu'en dise l'etiquette chez vous.\" Le fond est largement soutenu (presure ajoutee au lait ecreme, egouttage, fromage frais acide) par Wikipedia, America's Test Kitchen et plusieurs sources laitieres. Mais la seule source citee est Wikipedia, et la charge contre l'etiquette est contestable : dans l'UE le skyr est legalement commercialise comme produit laitier fermente. L'etiquette n'est pas juridiquement fausse. Source primaire manquante (MAST, reglementation islandaise ou Matis).",
+   "\"Le registre officiel des prenoms en comptait autour de 4 300 en 2023.\" Seule source : Wikipedia. Non confirme par Thjodskra, qui ne publie pas ce total sur sa page anglaise. D'autres decomptes donnent des valeurs differentes (environ 1 888 masculins et 1 991 feminins, soit pres de 3 900, et 4 866 selon un autre agregateur en 2026). Le chiffre depend de la methode de comptage et n'est pas verifiable en l'etat.",
+   "\"Un comite des noms de personnes existe depuis 1991.\" Le present tient : Thjodskra decrit encore aujourd'hui le comite comme rattache au ministere de la Justice. Mais un projet de loi d'abolition est en circulation depuis 2020 et n'a pas ete tranche dans ce que j'ai pu lire. A revalider a la date de mise en ligne, sinon la phrase peut devenir fausse sans que personne ne s'en apercoive.",
+   "Etymologie de tolva (tala plus volva). Confirmee par Wiktionary, qui l'attribue a Sigurdur Nordal en 1965. Wiktionary n'est pas une source primaire et l'attribution du forgeage est discutee ailleurs. L'entite ne nomme personne, ce qui la protege, mais la source reste faible pour un site qui affiche ses sources. Institut Arni Magnusson a la place.",
+   "\"la geothermie fournit environ 30 pour cent et l'hydraulique le reste\". Confirme mot pour mot par Green by Iceland, la source citee. Mais d'autres sources donnent une fourchette de 25 a 30 pour cent, et la part varie d'une annee a l'autre. Le chiffre n'est pas date dans la reponse : il faudrait une annee, sinon il vieillira en silence."
+  ],
+  "corrections": [
+   {
+    "avant": "Et en octobre 2025 on a trouvé trois moustiques chez moi, les premiers, dans un jardin au nord de Reykjavík.",
+    "apres": "Et en octobre 2025 on a trouvé trois moustiques chez moi, dans un jardin de Kiðafell, à Kjós, à une trentaine de kilomètres au nord de Reykjavík. Deux femelles et un mâle, de l'espèce Culiseta annulata. Les premiers trouvés dehors, sur ma terre : avant eux, on n'en avait attrapé que sur des bateaux et des avions qui arrivaient.",
+    "pourquoi": "\"Les premiers\" est faux sans la qualification : la source citée par l'entité elle-même précise que des moustiques avaient déjà été trouvés sur des bateaux et des avions entrants. La correction ajoute aussi le lieu exact et l'espèce, qui sont dans la source et qui rendent le fait vérifiable."
+   },
+   {
+    "avant": "\"terrain\":\"banquise\"",
+    "apres": "\"terrain\":\"glacier\"",
+    "pourquoi": "La banquise est de la glace de mer. L'Islande n'en a pas de permanente : ses 10 pour cent de surface glacée sont des calottes glaciaires terrestres. Un site qui affiche ses sources ne peut pas ranger l'Islande sous une catégorie géographiquement fausse."
+   },
+   {
+    "avant": "\"cles\":[\"glace\",\"glacier\",\"vatnajokull\",\"renard\",\"froid\",\"moustique\",\"banquise\",\"animaux\"]",
+    "apres": "\"cles\":[\"glace\",\"glacier\",\"vatnajokull\",\"renard\",\"froid\",\"moustique\",\"calotte\",\"animaux\"]",
+    "pourquoi": "Même raison. Aujourd'hui, un visiteur qui tape \"banquise\" reçoit une réponse sur les glaciers et repart en croyant que c'est la même chose. Le mot doit sortir des clés."
+   },
+   {
+    "avant": "La dorsale s'ouvre de l'ordre de deux centimètres par an",
+    "apres": "La dorsale s'ouvre chez moi de dix-sept à dix-neuf millimètres par an, c'est mesuré au GPS et au radar sur tout mon territoire",
+    "pourquoi": "Le chiffre publié pour l'Islande est 17 à 19 mm/an (Drouin et al. 2019, Geophysical Research Letters ; Árnadóttir et al. 2009, Geophysical Journal International). Les deux centimètres sont la valeur ronde de la dorsale en général, pas ma mesure. Remplacer aussi la source Britannica par ces deux références, la page Britannica renvoyant de surcroît un 403 et ne parlant pas de l'Islande."
+   },
+   {
+    "avant": "Moi, je m'écarte de moi-même de deux centimètres par an, et je ne suis pas fini.",
+    "apres": "Moi, je m'écarte de moi-même de moins de deux centimètres par an, et je ne suis pas fini.",
+    "pourquoi": "Même correction dans l'ouverture, qui affirme les deux centimètres sans le \"de l'ordre de\" du sujet. La valeur mesurée est en dessous."
+   },
+   {
+    "avant": "on porte le prénom d'un parent, suivi de fils ou de fille.",
+    "apres": "on porte le prénom d'un parent, suivi de fils ou de fille, et depuis 2019 de bur, enfant, pour ceux qui sont enregistrés hors des deux genres.",
+    "pourquoi": "La formulation binaire est incomplète depuis la loi islandaise sur l'autonomie de genre de 2019, qui a ouvert le suffixe -bur aux personnes enregistrées comme non binaires. Sur un sujet linguistique et juridique, une omission de ce type se lit comme une erreur."
+   },
+   {
+    "avant": "le renard polaire, arrivé à la fin de la dernière glaciation, il y a environ dix mille ans.",
+    "apres": "le renard polaire, ici depuis la dernière période glaciaire.",
+    "pourquoi": "L'institut islandais, la source citée, ne donne aucun chiffre : il écrit seulement \"depuis la dernière période glaciaire\". Les dix mille ans viennent de sites touristiques et sont en dessous de la datation usuelle de la fin de la glaciation. Couper le chiffre plutôt que le sourcer à un office de tourisme."
+   },
+   {
+    "avant": "Le skyr n'est pas un yaourt, quoi qu'en dise l'étiquette chez vous.",
+    "apres": "Le skyr ressemble à un yaourt et se mange comme un yaourt, mais il ne s'en fabrique pas comme un.",
+    "pourquoi": "L'affirmation de départ attaque l'étiquette, or dans l'Union européenne le skyr est légalement vendu comme produit laitier fermenté : l'étiquette n'est pas fausse. La reformulation garde le fait vérifié, le procédé, et abandonne le jugement invérifiable. Remplacer aussi la source Wikipedia par une source technique ou réglementaire islandaise."
+   },
+   {
+    "avant": "\"source\":\"Green by Iceland (Íslandsstofa), Geothermal energy, ... consulté le 2026-09-06\"",
+    "apres": "Ajouter l'année du chiffre dans la réponse elle-même, par exemple : \"Pour cette électricité, la géothermie fournit environ 30 pour cent et l'hydraulique le reste.\" devient \"Pour cette électricité, la géothermie fournit environ 30 pour cent et l'hydraulique le reste, dans les chiffres les plus récents publiés par Íslandsstofa.\"",
+    "pourquoi": "Le mix électrique bouge d'une année à l'autre. Un pourcentage sans année vieillit sans que personne ne s'en aperçoive, et le site affiche des sources : il doit afficher aussi les millésimes, comme il le fait déjà proprement pour le Vatnajökull et pour les exportations 2024."
+   }
+  ]
+ },
+ {
+  "id": "indonesie",
+  "verdict": "publiable apres corrections",
+  "faux": [
+   "OUVERTURE : \"ce nombre a encore bouge l'an dernier\". Le chiffre 17 380 est le decompte de 2024, annonce en mai 2025. En septembre 2026, \"l'an dernier\" designe 2025, ou rien n'a ete publie. La phrase est fausse aujourd'hui et le redeviendra chaque annee.",
+   "SUJET ligne : \"la faune y appartient a l'autre moitie du monde\" (a l'est de la ligne). Britannica et le resume de reference disent l'inverse : a l'ouest la faune est d'origine asiatique, a l'est c'est un MELANGE d'especes asiatiques et australiennes. La Wallacea est une zone de transition, pas le domaine australien. L'affirmation est une erreur de biogeographie, pas une simplification.",
+   "SUJET langue : \"La plus grande par le nombre de locuteurs est le javanais\". En nombre total de locuteurs, c'est l'indonesien qui domine largement, environ 260 millions langue seconde comprise, contre environ 84 millions pour le javanais. Le javanais n'est premier que sur les locuteurs NATIFS. Ecrit sans ce mot, l'enonce est faux.",
+   "SOURCE article 36 : l'URL https://www.wipo.int/edocs/lexdocs/laws/en/id/id048en.pdf renvoie HTTP 404. La source ne prouve rien. Le CONTENU de l'article 36 est lui exact, verifie mot pour mot sur le JDIH du ministere indonesien des Finances : \"Bahasa Negara ialah Bahasa Indonesia\".",
+   "SOURCE dragon de Komodo : la page Wikipedia \"Komodo dragon\" citee ne contient PAS le chiffre de moins de 1 400 adultes, et elle liste \"Gili Dasami\" la ou la reponse ecrit \"Nusa Kode\". La source citee ne soutient pas les deux elements pour lesquels elle est citee. Le chiffre et la liste d'iles sont vrais, mais par d'autres sources."
+  ],
+  "douteux": [
+   "SUJET table : \"Le tempe est ne chez moi, a Java, d'un accident utile\". L'origine par contamination accidentelle depuis les feuilles d'emballage est une HYPOTHESE, pas un fait etabli. Les sources ecrivent \"suggesting that it may have been the result of accidental contamination\" et \"some food historians theorize\". Presente a l'indicatif sans reserve, c'est un fait fabrique.",
+   "SUJET table : la datation du Serat Centhini. Le manuscrit a ete ecrit vers 1815 sur ordre du futur Pakubuwana V. Le recit se situe sous le regne de Sultan Agung, 1613-1645. La reponse ne mentionne que le recit : un lecteur en conclura qu'il existe un texte de 1600 attestant le tempe, ce qui est faux.",
+   "718 langues regionales : le site du Badan Bahasa est injoignable depuis ici (DNS mort sur badanbahasa.kemdikbud.go.id, connexion refusee sur badanbahasa.kemendikdasmen.go.id). Le chiffre 718 sur 2 560 zones d'enquete depuis 1991 est corrobore par Kompas, Tribratanews Polri et Databoks, et il est toujours a 718 en fevrier 2026. Solide mais sans source primaire ouvrable.",
+   "Triangle de corail : la page WWF citee renvoie HTTP 403, impossible a ouvrir. Le chiffre est corrobore par Earth.org qui reprend mot pour mot la formulation WWF : \"nearly 600 species of reef-building corals, 75% of the world's coral species\". Wikipedia, citant Veron, donne \"more than 76% of the world's shallow-water reef-building coral species\". Le decompte WWF exact est 605 sur 798.",
+   "Source Ratnaningsih et al. (cropj.com) : le PDF existe et se telecharge, mais son texte n'a pas pu etre extrait pour verifier qu'il porte bien les affirmations sur le Serat Centhini et sur les feuilles d'emballage. A ouvrir a la main avant publication, ou remplacer par Shurtleff et Aoyagi, History of Tempeh, https://www.soyinfocenter.com/pdf/148/Temp.pdf, qui est l'ouvrage de reference et qui donne explicitement 1815 et le regne 1613-45.",
+   "SUJET ligne : \"une frontiere que personne n'a trace\" suivi immediatement du nom de Wallace. Alfred Russel Wallace l'a bel et bien tracee en 1859. La figure de style se mord la queue. Pas un mensonge factuel, mais a reformuler."
+  ],
+  "corrections": [
+   {
+    "avant": "et que ce nombre a encore bougé l'an dernier.",
+    "apres": "et que ce nombre a encore bougé en 2024, la dernière fois qu'on les a comptées.",
+    "pourquoi": "17 380 est le décompte de 2024, publié en mai 2025. En 2026, « l'an dernier » est faux. Une date fixe ne pourrit pas, une date relative pourrit chaque janvier."
+   },
+   {
+    "avant": "À l'est, jamais : l'eau y est trop profonde, et la faune y appartient à l'autre moitié du monde.",
+    "apres": "À l'est, jamais : l'eau y est trop profonde, et la faune y mêle des espèces venues d'Asie et des espèces venues d'Australie.",
+    "pourquoi": "Britannica : à l'ouest la faune est d'origine asiatique, à l'est c'est un mélange asiatique et australien. La Wallacea est une zone de transition. Dire « l'autre moitié du monde » est une erreur de biogéographie."
+   },
+   {
+    "avant": "La plus grande par le nombre de locuteurs est le javanais, et ce n'est pas elle qui est écrite dans ma Constitution.",
+    "apres": "La plus grande par le nombre de locuteurs natifs est le javanais, et ce n'est pas elle qui est écrite dans ma Constitution.",
+    "pourquoi": "En locuteurs totaux, l'indonésien écrase le javanais (environ 260 millions contre 84 millions). Le javanais n'est premier que sur la langue maternelle. Un seul mot manquant rend la phrase fausse."
+   },
+   {
+    "avant": "Le tempe est né chez moi, à Java, d'un accident utile : le champignon Rhizopus pousse sur les feuilles dans lesquelles on emballait les aliments, et il a pris sur des graines de soja qu'on avait laissées là.",
+    "apres": "Le tempe est né chez moi, à Java. L'hypothèse retenue par les historiens de l'alimentation est celle d'un accident utile : le champignon Rhizopus vit sur les feuilles dans lesquelles on emballait les aliments, hibiscus, bananier ou teck, et il aurait pris sur des graines de soja emballées là. C'est une hypothèse, pas une certitude.",
+    "pourquoi": "Les sources écrivent « suggesting that it may have been the result of accidental contamination » et « some food historians theorize ». Une hypothèse racontée à l'indicatif devient un fait inventé."
+   },
+   {
+    "avant": "Le mot apparaît dans un manuscrit javanais, le Serat Centhini, dont le récit se situe au début des années 1600.",
+    "apres": "Le mot apparaît dans un manuscrit javanais, le Serat Centhini, écrit vers 1815, dont le récit se situe sous le règne de Sultan Agung, entre 1613 et 1645.",
+    "pourquoi": "Sans la date d'écriture, le lecteur croit qu'il existe un texte de 1600 attestant le tempe. Les deux dates doivent voyager ensemble, sinon la phrase ment par omission."
+   },
+   {
+    "avant": "où l'on recense près de 600 espèces de coraux constructeurs, les trois quarts de celles du monde.",
+    "apres": "où l'on recense près de 600 espèces de coraux constructeurs d'eau peu profonde, plus des trois quarts de celles du monde.",
+    "pourquoi": "Wikipedia citant Veron : « more than 76% of the world's shallow-water reef-building coral species ». Le décompte WWF est 605 sur 798. Sans « d'eau peu profonde » la catégorie est trop large, et « les trois quarts » passe sous le chiffre réel."
+   },
+   {
+    "avant": "Constitution de 1945 de la République d'Indonésie, article 36, https://www.wipo.int/edocs/lexdocs/laws/en/id/id048en.pdf",
+    "apres": "Undang-Undang Dasar 1945, Pasal 36, « Bahasa Negara ialah Bahasa Indonesia », texte intégral sur le JDIH du ministère indonésien des Finances, https://jdih.kemenkeu.go.id/api/download/fulltext/1945/UUDTAHUN~1945UUD.HTM",
+    "pourquoi": "L'URL WIPO renvoie 404. Le lien de remplacement s'ouvre et rend l'article 36 mot pour mot. Une source qu'on ne peut pas ouvrir ne vaut rien."
+   },
+   {
+    "avant": "Wikipedia, Komodo dragon (citant l'évaluation UICN 2021), https://en.wikipedia.org/wiki/Komodo_dragon",
+    "apres": "IUCN World Heritage Outlook, Komodo National Park, https://worldheritageoutlook.iucn.org/node/1051 pour le statut En danger 2021 et le « total adult population estimated to contain fewer than 1,400 individuals » ; Komodo Survival Program, Distribution, https://komododragon.org/distribution/ pour la liste des îles",
+    "pourquoi": "La page Wikipedia citée ne porte ni le chiffre de moins de 1 400 adultes ni le nom Nusa Kode (elle écrit Gili Dasami). Les deux liens de remplacement s'ouvrent tous les deux et disent exactement ce que la réponse affirme. Le KSP confirme Komodo, Rinca, Nusa Kode, Gili Motang, plus les côtes ouest et nord de Florès, et exclut Padar : la liste de la réponse est juste."
+   },
+   {
+    "avant": "Badan Pengembangan Bahasa dan Perbukuan, chiffre de 718 langues relayé par Databoks Katadata, https://databoks.katadata.co.id/...",
+    "apres": "Badan Pengembangan dan Pembinaan Bahasa, 718 langues régionales sur 2 560 zones d'enquête depuis 1991, chiffre inchangé en février 2026, relayé par Kompas, https://www.kompas.id/artikel/ada-718-bahasa-daerah-di-indonesia/ et par Tribratanews Polri, https://tribratanews.polri.go.id/blog/nasional-3/kemendikbudristek-identifikasi-dan-validasi-718-bahasa-daerah-dan-778-dialek-71139. Site du Badan Bahasa injoignable depuis la France au 06/09/2026.",
+    "pourquoi": "Le doute demandait la source primaire : elle ne répond pas (DNS mort sur kemdikbud, connexion refusée sur kemendikdasmen). Deux relais indépendants valent mieux qu'un, et l'indisponibilité doit être écrite noir sur blanc plutôt que masquée."
+   }
+  ]
+ }
+]
