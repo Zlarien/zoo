@@ -1,0 +1,92 @@
+{
+ "chaine_de_production": [
+  "1. FIGER L ALLOWLIST DE SOURCES AVANT D ECRIRE UNE LIGNE. Fichier sources-autorisees.md a la racine du Zoo. Trois rangs. Rang A citable seul : article a comite de lecture, agence d Etat (ADF and G, SANBI, FDA, IUCN, Fineli), texte reglementaire, table de composition nationale. Rang B citable a deux : ouvrage de reference, universite, association professionnelle nationale. Rang C jamais citable, seulement piste a remonter : Wikipedia toutes langues, Animal Diversity Web, presse, blogs. ADW et Wikipedia FR ont produit a eux seuls 250 g, 26 hyenes, 158 mg, 270 degres, 16 cm, 70 pour cent, beige, urticant. Les interdire en source est la mesure a plus fort rendement de toute la liste.",
+  "2. LOTS DE 6, JAMAIS 60. Un lot par session. Un lot ne demarre pas tant que le lot precedent n est pas vert au validateur et visible a l ecran. Six entites, c est ce qui tient dans une relecture humaine de 15 minutes a la fin.",
+  "3. ETAPE SOURCE D ABORD, ECRITURE ENSUITE. C est l inversion centrale. Aujourd hui le flux est ecrire puis verifier puis corriger, et 100 pour cent des fiches reviennent. Nouveau flux : pour chaque entite, produire d abord faits/<id>.md, un tableau a cinq colonnes, fait, valeur, source rang A ou B, citation exacte en langue originale, date de consultation. Aucune phrase redigee a cette etape. C est la qu on jette les chiffres qui ne survivent pas, avant qu ils aient coute une mise en scene.",
+  "4. PLANCHER ET PLAFOND DE FAITS. Une entite entre avec 3 faits sources minimum, sinon elle ne rentre pas et reste dans une liste d attente. Aucun sujet ne porte plus d un chiffre. Une entite de 3 sujets justes vaut mieux qu une de 5 dont 2 inventes : la plaquebiere et le pain de singe sont exactement ce cas.",
+  "5. ETAPE MISE EN BOUCHE, EN AVEUGLE. Celui qui redige ne recoit QUE le tableau de faits, jamais les sources brutes, jamais l article. Il n a droit qu a la premiere personne, au liant et au ton. Interdictions ecrites en tete de sa consigne : ajouter un chiffre, ajouter un pourquoi, ajouter un superlatif, ajouter une geographie, transformer un maximum en moyenne. Ces cinq gestes couvrent 25 des 28 faux releves.",
+  "6. REGLE DU MAXIMUM ET DE LA MEDIANE. Tout chiffre recopie doit porter sa nature dans le tableau de faits : max, min, mediane, moyenne, plage, plafond reglementaire. Le passage du tableau au texte conserve le mot. 77 cm de la baudroie et 250 g du pain de singe sont la meme erreur commise deux fois, un maximum ou une specification devenus une taille courante.",
+  "7. REGLE DE GEOGRAPHIE. Chaque fait porte la zone ou il a ete mesure. Si la zone du fait n est pas celle que l entite revendique, deux issues seulement : nommer les deux zones dans la phrase, ou couper le fait. La plaquebiere laponne recitant des dates d Alaska, la hyene de savane racontant une etude en captivite a Berkeley : meme faute, invisible a la relecture rapide.",
+  "8. PASSAGE AU VALIDATEUR AUTOMATIQUE. Gratuit, instantane, non negociable. Rien ne passe a l etape suivante tant qu il est rouge. Voir la liste du champ validateur. Il attrape les chiffres non couverts, les cles qui matchent des sous-chaines, les sources incompletes, les liens morts.",
+  "9. PASSE ADVERSARIALE SUR CE QUE LE SCRIPT NE PEUT PAS VOIR. Un agent, une consigne unique, deux cibles : toute phrase qui explique POURQUOI, toute phrase qui COMPARE. Il ne verifie rien d autre. C est la classe boeuf musque (la nourriture ne supporte pas la foule), hyene (les femelles passent avant les males), pain de singe (l ecart vient sans doute des provenances). Le fait est vrai, la cause est fabriquee, et aucun regex ne la voit.",
+  "10. VERIFICATION CROISEE UNIQUEMENT SUR LES CHIFFRES SURVIVANTS. Ne plus verifier des fiches entieres, ca a coute plus cher que l ecriture. Ne verifier que la colonne valeur du tableau de faits, une source independante par chiffre. Le budget de verification devient proportionnel au nombre de chiffres publies, pas au nombre de mots.",
+  "11. ARBITRAGE DE MZ, 10 MINUTES PAR LOT, SUR LES DOUTEUX SEULEMENT. Il ne relit pas les fiches. Il lit une liste de lignes du type garder attribue, couper, aller chercher. Les 40 douteux du lot pilote auraient demande environ 25 minutes a ce format.",
+  "12. GEL. Une entite validee est figee. Toute reecriture ulterieure d une reponse casse le lien extrait vers source et fait retomber le sujet en non publie au validateur suivant. C est voulu : c est le garde-fou contre la source qui survit a la phrase qu elle couvrait.",
+  "13. PUBLICATION DU LOT ET RAPPORT. A la fin de chaque lot, le validateur ecrit RAPPORT.md : entites publiees, sujets refuses et pourquoi, chiffres coupes. Ce fichier est la memoire du projet et il remplace toute discussion sur ce qui a deja ete tranche."
+ ],
+ "etat_pilote": "\"Sur les 10 pilotes annonces, 7 fiches sont arrivees dans ce contexte, dont 6 completes et 1 tronquee. Je ne compte pas les 3 manquantes. Verdict : 0 publiable en l etat, 7 sur 7 publiables apres corrections. Le taux de fiche propre du premier coup est de zero. Compte des faits : 28 faux averes, 40 douteux, 46 corrections redigees sur les 6 fiches completes, soit environ 4,7 faux et 6,7 douteux par entite. Les faux ne sont pas des fautes de frappe : 250 g pour un fruit dont la mediane mesuree est 155 g ou 376 g selon la region, 26 hyenes analysees la ou l etude en retient 17, la FDA lue a l envers, la carte des zones gustatives de la langue, six mois de conservation qu aucune source ne donne. Neuf classes d erreur reviennent partout : le chiffre de source tertiaire (Wikipedia, ADW) recopie comme un fait primaire, present dans 7 fiches sur 7 ; le maximum ou le plafond reglementaire transforme en valeur courante ; la causalite inventee pour lier deux faits vrais ; le superlatif jamais mesure ; le chiffre pris dans une geographie et colle sur une autre ; le bloc degustation entierement chiffre sans une seule mesure, dans 100 pour cent des fruits ; le mecanisme physiologique faux ; le texte de loi lu a l envers ; et les cles trop courtes qui matchent des sous-chaines. Ce dernier point est confirme sur le code : animaux.js contient deja os, age, vie, sol, toi, zoo, et grep ne trouve aucun requiert, donc les couches annoncees n existent pas. Projection sur 60 entites au regime actuel : environ 280 faits faux publies et 400 douteux a arbitrer, soit un cout de verification superieur au cout d ecriture, ce qui est exactement ce qui vient de se passer. Le chiffre qui decide tout : le probleme n est pas la vitesse d ecriture, c est l ordre. Tant que l ecriture precede le sourcage, chaque entite ajoutee ajoute quatre erreurs.\"",
+ "ordre_de_construction": [
+  {
+   "livrable": "verifier.html plus verifier.js, ouverts par double-clic, qui chargent le monde et affichent un rapport rouge et vert par entite et par sujet. Il tourne sur les 3 animaux actuels et sur les fiches pilotes. Il DOIT sortir rouge ce soir la : s il sort vert, c est lui qui est faux. Aucun contenu ecrit dans cette session.",
+   "titre": "Session 1. Le validateur, avant tout le reste"
+  },
+  {
+   "livrable": "moteur.js corrige et monde.js en place. Quatre changements exacts : frontiere de mot sur la comparaison de cles (qb = espace plus q plus espace), sujet.id obligatoire, etat.ouverts indexe par entite au lieu de sujetsOuverts remis a zero a chaque clic, et espece devenu categorie aux 3 endroits. Les 3 animaux migres tels quels, aucun texte reecrit, plus requiert rempli pour que les couches existent enfin. Le site s ouvre au double-clic exactement comme avant, mais le validateur passe au vert.",
+   "titre": "Session 2. Le moteur et le schema, sans une ligne de contenu"
+  },
+  {
+   "livrable": "Les 7 entites pilotes corrigees selon les 46 corrections deja redigees, chargees dans monde/, validateur vert, visibles a l ecran. Tous les blocs de degustation chiffres supprimes. Et dans la meme session : le dossier pousse en ligne. Un site de 7 entites justes en ligne vaut mieux qu un site de 60 sur le disque, et la mise en ligne est le goulot connu.",
+   "titre": "Session 3. Les pilotes corrigees, et la mise en ligne"
+  },
+  {
+   "livrable": "terrains.js et decor.js avec DEUX terrains seulement, savane et banquise. Le ruban en DOM, la camera qui glisse sur 3 ecrans, le PRNG a graine pour le decor, le cache du degrade de ciel. On voit un monde qui defile et deux climats qui ne se ressemblent pas. Les 7 autres terrains restent declares et fermes.",
+   "titre": "Session 4. Deux terrains, pas quatre"
+  },
+  {
+   "livrable": "Le site utilisable au doigt sur son propre telephone, teste via python -m http.server sur le reseau local. Seuil tap contre drag a 8 px et 250 ms, touch-action none sur le canvas, overscroll-behavior none sur body, setPointerCapture, decalageY quand le panneau s ouvre. Plus les deux terrains restants, tropicale et ocean. La moitie du public arrive de LinkedIn au doigt : sans cette session, tout le reste ne sert a personne.",
+   "titre": "Session 5. Le tactile, et deux terrains de plus"
+  },
+  {
+   "livrable": "gouteurs.js avec les 6 palais non humains et degustation.js avec la sequence en 4 phases, le bouton PASSER visible a t egale zero, et le lien pourquoi qui deplie le calcul. ZERO axe chiffre affiche tant qu aucune source sensorielle n existe : la sequence, les ancres verbales et les 3 reactions suffisent a la scene. Demonstration sur un seul fruit.",
+   "titre": "Session 6. La degustation, sans un seul chiffre"
+  },
+  {
+   "livrable": "12 entites nouvelles produites par la chaine en deux lots de 6, validateur vert, en ligne. Le monde passe de 7 a 19. C est la premiere session qui mesure vraiment le cout reel d une entite. Si un lot prend plus de 50 minutes, la chaine est encore fausse et on la corrige avant le lot suivant, on n empile pas.",
+   "titre": "Session 7. Le premier lot produit par la chaine"
+  },
+  {
+   "livrable": "pont.py en FastAPI avec CORSMiddleware sur 127.0.0.1:7860, jeton et plafond d appels, la page servie par python -m http.server sur 127.0.0.1:5500, vocal.js dans un fichier separe jamais pousse en ligne, et le garde-fou qui n injecte meme pas la balise script quand location.hostname n est pas local. Preuve de fin de session : une video de 40 secondes de MZ qui parle a un animal, publiable telle quelle.",
+   "titre": "Session 8. Le vocal, isole et demontre"
+  }
+ ],
+ "validateur": [
+  "Chaque id d entite est unique dans tout le monde, tous types confondus. Duplicat egale echec bruyant du chargement.",
+  "Chaque sujet porte un id non vide, unique dans son entite.",
+  "Chaque valeur de ouvre et de requiert pointe vers un sujet qui existe, local ou de la forme entite:sujet. Cible inconnue egale echec.",
+  "Chaque sujet a au moins une entree dans sources. Tableau vide egale publie false.",
+  "Toute source de type reference a ref non vide, url non vide et consulte au format AAAA-MM-JJ. Champ manquant egale publie false.",
+  "Toute source de type non_verifie force publie false, avec un console.warn nommant le sujet.",
+  "Pour une entite de type pays, une source de type fiction dans un sujet force publie false.",
+  "Tout extrait different de l etoile doit apparaitre mot pour mot dans reponse. reponse.includes(extrait) faux egale publie false.",
+  "Detection de nombre en chiffres : toute occurrence de [0-9] dans reponse exige qu une source de type reference couvre l extrait qui la contient. Sinon publie false.",
+  "Detection de nombre en toutes lettres : liste fermee de deux a quatre-vingt-dix-neuf plus cent, mille, million, milliard, demi, moitie, tiers, quart. Meme exigence que la regle precedente. C est elle qui bloque deux cent cinquante grammes, vingt-six, six mois, trois semaines.",
+  "Detection d unite : regex sur kg, g, mg, cm, mm, km, metre, degre, pour cent, %, seconde, minute, heure, jour, semaine, mois, an, annee. Meme exigence de source reference.",
+  "Detection de date ou de periode : regex sur un millesime a quatre chiffres, siecle, annees suivi de quatre chiffres. Meme exigence de source reference.",
+  "Detection de superlatif : regex sur le plus, la plus, les plus, le seul, la seule, aucun autre, n importe quel, jamais, toujours, record, unique, premier. Exige une source reference, sinon publie false.",
+  "Detection de causalite : regex sur parce que, car, a cause de, grace a, ce qui veut dire, c est pourquoi, donc, s explique par, sans doute, probablement, il arrive que. Ne bloque pas seul, mais sort dans une liste de relecture humaine obligatoire avant publication du lot.",
+  "Detection d allegation de sante ou de danger : regex sur vitamine, antioxydant, bon pour, soigne, guerit, toxique, mortel, comestible, dangereux, allergi, irritant. Exige une source reference. Pour toxique et mortel, exige en plus que le champ danger soit rempli avec sa propre source non vide.",
+  "Pour un fruit avec un bloc degustation : si un axe de profil est non null, exige au moins une source de type reference dans profilSources. Sinon le bloc gout entier est masque et signale.",
+  "Interdit absolu de champ note, score, etoile, moyenne, rating ou pouce dans une degustation. Presence egale echec du chargement.",
+  "Chaque cle normalisee fait au moins 4 caracteres. Rejette os, age, vie, sol, toi, zoo, ou, cri, bas, cou, vert, mite, male, rire. Les six premieres sont deja dans animaux.js aujourd hui.",
+  "Chaque cle est testee en sous-chaine contre un lexique francais embarque d environ deux mille mots courants normalises. Si la cle est sous-chaine d un mot qui n est pas elle-meme, echec en nommant le mot fautif. C est ce qui attrape cou dans beaucoup et couleur, age dans image et cage, os dans propose, mite dans limite.",
+  "Collision inter-sujets d une meme entite : si une cle du sujet A est sous-chaine d une cle du sujet B, echec. C est vert dans vertebre.",
+  "Chaque cle est en minuscules, sans accent, sans caractere hors a-z, 0-9 et espace, sinon elle ne matchera jamais apres normaliser().",
+  "Simulation de trafic : pour chaque sujet publie, generer une question canonique par cle et verifier que trouverSujet renvoie bien ce sujet. Le nombre de sujets non atteignables doit valoir zero.",
+  "Simulation croisee : pour chaque cle, verifier qu elle ne fait pas gagner un autre sujet de la meme entite. Tout croisement sort dans le rapport.",
+  "Zero caractere U+2014 tiret cadratin et zero U+2013 demi-cadratin dans tout champ texte de tout fichier de donnees.",
+  "Aucun texte publie ne contient de nom d association ni la chaine Cyber Saclay-Team.",
+  "Chaque entite declare un terrain qui existe dans ZOO.TERRAINS. Terrain inconnu egale echec.",
+  "Une entite qui se retrouve avec zero sujet publie recoit publie false, n est pas dessinee, et est listee comme entite muette dans le rapport.",
+  "Tout lien vers un id inconnu ou non publie est supprime, jamais affiche mort. Si un couple reciproque est ecrit dans les deux sens a la main, echec : l inverse doit etre calcule.",
+  "Coherence geographique : si une source porte une zone et que l entite declare un terrain ou un pays d une autre zone, warning obligatoire dans le rapport. C est la classe plaquebiere laponne citant l Alaska.",
+  "Chaque valeur de silhouette correspond a une fonction existante de ZOO.SILHOUETTES et a une entree de POSITION_YEUX, sinon l entite est dessinee sans yeux sans que personne le voie.",
+  "Sortie : un fichier RAPPORT.md ecrit a chaque passage, listant par entite les sujets publies, les sujets refuses avec leur raison, les chiffres coupes, et les warnings de causalite a relire. Deux lignes en console, pas plus."
+ ],
+ "verites": [
+  "Le taux d erreur mesure est de 100 pour cent, pas de 20. Zero fiche sur 7 est passee sans correction, environ 4,7 faux par fiche. Au regime actuel, 60 entites, ce sont environ 280 faits faux mis en ligne sous une promesse de veracite. Le probleme n est pas la vitesse d ecriture, c est l ordre : ecrire puis sourcer produit des fiches qui reviennent toutes. Tant que cet ordre n est pas inverse, chaque entite ajoutee ajoute quatre erreurs, et ajouter des entites rend le site pire, pas meilleur.",
+  "La verification a coute plus cher que l ecriture, et c est le prix normal de la regle chaque fait porte sa source. Il faut choisir maintenant, pas plus tard. Soit MZ paie ce prix et le site est petit, lent a grossir et juste. Soit il coupe les faits et le site devient de la fiction assumee, animaux qui parlent, aucune pretention documentaire, et il grossit dix fois plus vite. Les deux tiennent debout. Le melange, non, et c est exactement la position actuelle : des chiffres qui ressemblent a des mesures avec un champ NON VERIFIE que le visiteur ne voit jamais.",
+  "Le bloc degustation chiffre est a jeter en entier, partout, tout de suite. Huit axes sur dix multiplies par soixante fruits, ce sont 480 nombres qu aucune source ne portera jamais. Marquer NON VERIFIE ne protege de rien : un chiffre publie se recopie dans une capture d ecran, dans un post, dans un commentaire, et il perd son avertissement au premier partage. La sequence en quatre phases, les ancres verbales et les six gouteurs non humains suffisent a la scene et ne mentent sur rien.",
+  "Bunny. Ce projet-ci est plus agreable que Bunny et c est exactement ce qui le rend dangereux. Ecrire un corbeau qui parle donne un retour immediat, construire un site 3D non. Le Zoo a 16 heures devant lui avant d etre impressionnant, et Bunny n a toujours aucun code applicatif. Si les deux prennent les memes heures, le Zoo gagnera sans que la decision soit jamais prise, par simple plaisir. Regle a poser maintenant : aucune session Zoo dans une semaine ou la session Bunny n a pas eu lieu.",
+  "Ce qui impressionne dans le site des muscles et des os, c est une couverture finie et complete, pas une conversation. Le corps humain a 206 os, on peut les faire tous. Le monde n a pas un nombre fini d animaux et de fruits : la promesse tous les animaux est intenable et un visiteur la testera en trente secondes avec le premier animal qui lui passe par la tete. Il faut une frontiere declaree et atteignable, ecrite sur la page d accueil, du type les habitants de neuf terrains, et la tenir. Sans cette frontiere, plus le site grossit, plus il a l air incomplet."
+ ]
+}

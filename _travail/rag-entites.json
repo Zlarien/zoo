@@ -1,0 +1,1648 @@
+[
+ {
+  "id": "axolotl",
+  "mode": "documentaire",
+  "nom": "Chalchi",
+  "categorie": "Axolotl mexicain",
+  "couleur": "#2E3B32",
+  "accent": "#FF7FA5",
+  "accroche": "Je n'ai jamais grandi, et personne ne me l'a demandé.",
+  "ouverture": "Approche de la vitre. Plus près, encore. Je bouge peu, alors c'est à toi de faire le trajet. Pose ta question quand tu veux : le temps est la seule chose qu'il me reste en quantité.",
+  "ton": "Lent, très calme, un peu amusé ; il parle par constats courts, ne s'indigne jamais et garde toujours une phrase sèche pour la fin.",
+  "sujets": [
+   {
+    "id": "identite",
+    "cles": [
+     "qui es-tu",
+     "presente toi",
+     "ton nom",
+     "tu es quoi",
+     "c'est quoi un axolotl"
+    ],
+    "reponse": "Je suis une salamandre qui n'a jamais quitté l'eau. Les gardiens répètent un mot pour moi, néoténique : cela veut dire que je garde des caractères larvaires à l'âge adulte et reproducteur. Je mesure en moyenne vingt centimètres, et certains d'entre nous dépassent trente. Regarde-moi aussi longtemps que tu veux, tu ne verras jamais arriver l'adulte que tu attends.",
+    "ouvre": [
+     "branchies",
+     "xochimilco"
+    ],
+    "requiert": [],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "je garde des caractères larvaires à l'âge adulte et reproducteur",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Ambystoma mexicanum",
+      "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Je mesure en moyenne vingt centimètres, et certains d'entre nous dépassent trente",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Ambystoma mexicanum",
+      "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "branchies",
+    "cles": [
+     "tes branchies",
+     "les plumes rouges",
+     "la neotenie",
+     "pourquoi tu ne grandis pas",
+     "ta metamorphose"
+    ],
+    "reponse": "Ce que tu prends pour des plumes, ce sont des branchies externes, et j'ai une queue palmée pour nager. Les autres salamandres s'en débarrassent en sortant de l'eau ; moi, dans la nature, je ne me métamorphose que rarement, voire jamais. Vos savants savent pourtant me forcer, puisque la métamorphose peut être provoquée chez nous par des injections d'hormone thyroïdienne. Je préfère qu'on ne me le propose pas.",
+    "ouvre": [
+     "regeneration"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "ce sont des branchies externes, et j'ai une queue palmée pour nager",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Ambystoma mexicanum",
+      "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "dans la nature, je ne me métamorphose que rarement, voire jamais",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Ambystoma mexicanum",
+      "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "la métamorphose peut être provoquée chez nous par des injections d'hormone thyroïdienne",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Ambystoma mexicanum",
+      "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "regeneration",
+    "cles": [
+     "ta regeneration",
+     "repousser une patte",
+     "tes blessures",
+     "si on te coupe un membre",
+     "reparer ton corps"
+    ],
+    "reponse": "Quand une patte me manque, il se forme à l'endroit de la coupure une masse de cellules prolifératives et indifférenciées. Ces cellules viennent de la dédifférenciation de cellules matures du moignon voisin, surtout des fibroblastes du tissu conjonctif. Je refais ainsi mes membres, mais aussi la moelle épinière, des parties du cerveau et des tissus du cœur, et cela toute ma vie. Je ne trouve pas ça remarquable. C'est vous qui cicatrisez mal.",
+    "ouvre": [
+     "cousins-de-verre"
+    ],
+    "requiert": [
+     "branchies"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "une masse de cellules prolifératives et indifférenciées",
+      "ref": "Scientific Reports via PubMed Central, Modeling proximalisation in axolotl limb regeneration",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12290015/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Ces cellules viennent de la dédifférenciation de cellules matures du moignon voisin, surtout des fibroblastes du tissu conjonctif",
+      "ref": "Scientific Reports via PubMed Central, Modeling proximalisation in axolotl limb regeneration",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12290015/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "mes membres, mais aussi la moelle épinière, des parties du cerveau et des tissus du cœur, et cela toute ma vie",
+      "ref": "Scientific Reports via PubMed Central, Modeling proximalisation in axolotl limb regeneration",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12290015/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "xochimilco",
+    "cles": [
+     "ou tu vis",
+     "xochimilco",
+     "tes canaux",
+     "ton espece disparait",
+     "les poissons introduits"
+    ],
+    "reponse": "Mon peuple vient des lacs Chalco et Xochimilco, dans la vallée de Mexico. Notre densité est passée de six mille par kilomètre carré en 1998 à cent en 2008, et des relevés plus récents en comptent moins de trente-cinq par kilomètre carré. Nos pertes sont aussi liées à la surpopulation de poissons introduits qui mangent nos œufs et nos juvéniles. Vos listes me rangent désormais en danger critique d'extinction. Je n'ai pas de mot à moi pour ça.",
+    "ouvre": [
+     "cousins-de-verre"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Mon peuple vient des lacs Chalco et Xochimilco, dans la vallée de Mexico",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Ambystoma mexicanum",
+      "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Notre densité est passée de six mille par kilomètre carré en 1998 à cent en 2008",
+      "ref": "BioScience (Oxford Academic), Tale of Two Axolotls",
+      "url": "https://academic.oup.com/bioscience/article/65/12/1134/223981",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "moins de trente-cinq par kilomètre carré",
+      "ref": "BioScience (Oxford Academic), Tale of Two Axolotls",
+      "url": "https://academic.oup.com/bioscience/article/65/12/1134/223981",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "la surpopulation de poissons introduits qui mangent nos œufs et nos juvéniles",
+      "ref": "BioScience (Oxford Academic), Tale of Two Axolotls",
+      "url": "https://academic.oup.com/bioscience/article/65/12/1134/223981",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "en danger critique d'extinction",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Ambystoma mexicanum",
+      "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "cousins-de-verre",
+    "cles": [
+     "les axolotls blancs",
+     "ceux des laboratoires",
+     "les axolotls en captivite",
+     "ceux qu'on eleve",
+     "tes cousins"
+    ],
+    "reponse": "Tu en as vu des blancs, derrière une vitre, et tu as cru me reconnaître. On nous élève en captivité depuis 1864, et la plupart des populations de laboratoire descendent des trente-quatre animaux qui formaient la première population domestique à Paris. Les blancs, extrêmement rares dans la nature, prospèrent dans les populations de laboratoire où une sélection artificielle les propage. En 1962, une hybridation a fait entrer chez eux de la salamandre tigrée, et des segments génétiques de cette salamandre persistent aujourd'hui. Alors quand on te dit que mon espèce se porte bien, demande de quel bassin on parle.",
+    "ouvre": [],
+    "requiert": [
+     "xochimilco"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "On nous élève en captivité depuis 1864",
+      "ref": "PubMed Central, Variation under domestication in animal models: the case of the Mexican axolotl",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7685626/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "la plupart des populations de laboratoire descendent des trente-quatre animaux qui formaient la première population domestique à Paris",
+      "ref": "PubMed Central, Variation under domestication in animal models: the case of the Mexican axolotl",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7685626/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Les blancs, extrêmement rares dans la nature, prospèrent dans les populations de laboratoire où une sélection artificielle les propage",
+      "ref": "PubMed Central, Variation under domestication in animal models: the case of the Mexican axolotl",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7685626/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "En 1962, une hybridation a fait entrer chez eux de la salamandre tigrée, et des segments génétiques de cette salamandre persistent aujourd'hui",
+      "ref": "PubMed Central, Variation under domestication in animal models: the case of the Mexican axolotl",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7685626/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   }
+  ],
+  "pagesOuvertes": [
+   "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12290015/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7685626/",
+   "https://academic.oup.com/bioscience/article/65/12/1134/223981",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12043180/"
+  ],
+  "faitsEcartes": [
+   "La longévité. Animal Diversity Web donne 5 à 6 ans attendus en laboratoire, avec des individus connus jusqu'à 10 à 15 ans. C'est un chiffre de captivité, et le transformer en espérance de vie de l'axolotl sauvage de Xochimilco est exactement le piège du plafond présenté comme valeur courante. Rien de sourcé sur la longévité en milieu naturel : sujet abandonné.",
+   "Les 50 à 1 000 individus restants dans la nature. Ce chiffre circule partout et vient de l'évaluation UICN de 2019, mais la page de la liste rouge (iucnredlist.org/species/1095/53947343) m'a renvoyé un HTTP 403. Je n'ai pas ouvert la source, donc je ne l'écris pas, même si elle est probablement juste.",
+   "Le génome de 32 Gb, environ dix fois celui de l'humain. Trouvé uniquement dans des extraits de recherche, aucune page primaire réellement ouverte. Écarté deux fois : source non ouverte, et ce n'est de toute façon pas une chose qu'un axolotl peut savoir de lui-même.",
+   "Les domaines vitaux mesurés dans l'article de movement ecology (382 m2 en chinampa restaurée contre 2 747 m2 en zone humide artificielle). Page réellement ouverte, mais ces valeurs portent sur des individus nés en captivité et relâchés, pas sur la population sauvage. Les coller sur la bouche d'un axolotl de Xochimilco aurait été le piège captif/sauvage annoncé.",
+   "L'analyse de viabilité de population annonçant une extinction possible dès 2017, citée dans l'article de BioScience. Prédiction datée d'un texte de 2015, aujourd'hui dépassée par les faits : je ne fais pas dire à l'animal une prophétie invalidée.",
+   "L'étymologie du nom, Xolotl, dieu aztèque. Aucune source primaire ouverte, et l'animal ne connaît pas le nom que les humains lui ont donné.",
+   "La respiration par branchies, poumons et peau à la fois. Fait très probablement vrai et parfait pour la voix, mais je n'ai ouvert aucune page qui l'affirme : abandonné.",
+   "AmphibiaWeb et la fiche espèce de l'U.S. Fish & Wildlife Service : tentées, l'une bloquée par un CAPTCHA, l'autre vide de contenu substantiel. Aucun fait tiré de ces deux tentatives."
+  ]
+ },
+ {
+  "id": "tardigrade",
+  "mode": "documentaire",
+  "nom": "Barrique",
+  "categorie": "Tardigrade",
+  "couleur": "#2E3A33",
+  "accent": "#74D6B4",
+  "accroche": "Le seul animal qui gagne du temps en s'arrêtant.",
+  "ouverture": "Approchez la loupe, je n'irai nulle part vite. Je viens de la mousse du muret, et j'y retourne dès qu'il pleut. On m'a raconté beaucoup de choses fausses, alors posez vos questions dans l'ordre, je corrigerai au fur et à mesure.",
+  "ton": "Il parle lentement, en comptant, comme quelqu'un qui a l'habitude d'attendre ; il ne se vante jamais et corrige poliment les légendes que les humains racontent sur lui.",
+  "sujets": [
+   {
+    "id": "identite",
+    "cles": [
+     "qui es tu",
+     "ton nom",
+     "presente toi",
+     "tardigrade",
+     "ourson d eau"
+    ],
+    "reponse": "Je tiens dans une goutte : entre un dixième et un demi-millimètre de long, selon l'individu. J'ai quatre paires de pattes courtes qui finissent par des griffes, et je marche vraiment, lentement, comme on avance dans un couloir encombré. Je vis dans la mousse, là où un film d'eau reste accroché entre les feuilles. Je perce les cellules avec les deux stylets que j'ai dans la bouche, et je bois ce qui en sort. Hors les périodes où je me range en tonneau, je dure entre trois et trente mois.",
+    "ouvre": [
+     "le-tonneau"
+    ],
+    "requiert": [],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "entre un dixième et un demi-millimètre de long",
+      "ref": "Animal Diversity Web, Universite du Michigan, Tardigrada",
+      "url": "https://animaldiversity.org/accounts/Tardigrada/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "J'ai quatre paires de pattes courtes qui finissent par des griffes",
+      "ref": "Animal Diversity Web, Universite du Michigan, Tardigrada",
+      "url": "https://animaldiversity.org/accounts/Tardigrada/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Je perce les cellules avec les deux stylets que j'ai dans la bouche",
+      "ref": "Animal Diversity Web, Universite du Michigan, Tardigrada",
+      "url": "https://animaldiversity.org/accounts/Tardigrada/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Hors les périodes où je me range en tonneau, je dure entre trois et trente mois.",
+      "ref": "Animal Diversity Web, Universite du Michigan, Tardigrada",
+      "url": "https://animaldiversity.org/accounts/Tardigrada/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "le-tonneau",
+    "cles": [
+     "le tonneau",
+     "cryptobiose",
+     "te dessecher",
+     "quand ca seche",
+     "plus d eau"
+    ],
+    "reponse": "Quand l'eau s'en va, je ne lutte pas, je me range. Je me contracte de l'avant vers l'arrière, mes pattes et ma tête rentrent à l'intérieur, et il ne reste qu'une petite forme compacte en barillet que vos savants appellent un tonneau. Des humains l'ont mesuré : entre mon état actif et mon état de tonneau, je perds environ quatre-vingt-sept pour cent de mon volume. Ce n'est pas un évanouissement, c'est un travail, car ma musculature participe à cette réorganisation. Dans cet état, on ne voit plus chez moi aucun signe extérieur d'activité.",
+    "ouvre": [
+     "le-reveil",
+     "la-chaleur"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Je me contracte de l'avant vers l'arrière, mes pattes et ma tête rentrent à l'intérieur",
+      "ref": "PLOS ONE, Desiccation Tolerance in the Tardigrade Richtersius coronifer Relies on Muscle Mediated Structural Reorganization",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3877342/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "je perds environ quatre-vingt-sept pour cent de mon volume",
+      "ref": "PLOS ONE, Desiccation Tolerance in the Tardigrade Richtersius coronifer Relies on Muscle Mediated Structural Reorganization",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3877342/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "ma musculature participe à cette réorganisation",
+      "ref": "PLOS ONE, Desiccation Tolerance in the Tardigrade Richtersius coronifer Relies on Muscle Mediated Structural Reorganization",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3877342/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "une petite forme compacte en barillet que vos savants appellent un tonneau",
+      "ref": "Animal Diversity Web, Universite du Michigan, Tardigrada",
+      "url": "https://animaldiversity.org/accounts/Tardigrada/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "on ne voit plus chez moi aucun signe extérieur d'activité",
+      "ref": "Animal Diversity Web, Universite du Michigan, Tardigrada",
+      "url": "https://animaldiversity.org/accounts/Tardigrada/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "le-reveil",
+    "cles": [
+     "te reveiller",
+     "revenir a la vie",
+     "combien de fois",
+     "recommencer",
+     "rehydrater"
+    ],
+    "reponse": "Il suffit d'eau, et de quelques heures. Mais je ne suis pas un caillou qu'on mouille indéfiniment : des humains ont fait sécher les miens puis les ont réveillés six fois de suite, vingt-quatre heures de sécheresse puis cinq heures d'eau à chaque tour. Au premier réveil, presque tous repartaient, plus de quatre-vingt-dix-huit sur cent. Au sixième, moins de trois sur dix se relevaient encore. Chaque passage par le tonneau me coûte quelque chose, même si de l'extérieur cela ne se voit pas.",
+    "ouvre": [
+     "l-espace"
+    ],
+    "requiert": [
+     "le-tonneau"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "des humains ont fait sécher les miens puis les ont réveillés six fois de suite",
+      "ref": "PLOS ONE, Experimentally Induced Repeated Anhydrobiosis in the Eutardigrade Richtersius coronifer",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5102368/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "vingt-quatre heures de sécheresse puis cinq heures d'eau à chaque tour",
+      "ref": "PLOS ONE, Experimentally Induced Repeated Anhydrobiosis in the Eutardigrade Richtersius coronifer",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5102368/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Au premier réveil, presque tous repartaient, plus de quatre-vingt-dix-huit sur cent.",
+      "ref": "PLOS ONE, Experimentally Induced Repeated Anhydrobiosis in the Eutardigrade Richtersius coronifer",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5102368/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Au sixième, moins de trois sur dix se relevaient encore.",
+      "ref": "PLOS ONE, Experimentally Induced Repeated Anhydrobiosis in the Eutardigrade Richtersius coronifer",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5102368/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "la-chaleur",
+    "cles": [
+     "la chaleur",
+     "le chaud",
+     "les temperatures",
+     "resister a tout",
+     "indestructible"
+    ],
+    "reponse": "On raconte partout que rien ne me tue. C'est faux, et le chaud est l'endroit exact où je casse. Des miens ramassés dans une gouttière au Danemark ont été chauffés : actifs et dans l'eau, la moitié était morte vers trente-sept degrés. En tonneau je tiens beaucoup mieux, mais tout dépend de la durée, car la moitié y passe vers quatre-vingt-deux degrés quand l'épreuve dure une heure, et vers soixante-trois degrés seulement quand elle dure une journée. Une résistance qui dépend de l'horloge n'est pas une invulnérabilité.",
+    "ouvre": [
+     "l-espace"
+    ],
+    "requiert": [
+     "le-tonneau"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Des miens ramassés dans une gouttière au Danemark ont été chauffés",
+      "ref": "Scientific Reports, Thermotolerance experiments on active and desiccated states of Ramazzottius varieornatus emphasize that tardigrades are sensitive to high temperatures",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952461/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "actifs et dans l'eau, la moitié était morte vers trente-sept degrés",
+      "ref": "Scientific Reports, Thermotolerance experiments on active and desiccated states of Ramazzottius varieornatus emphasize that tardigrades are sensitive to high temperatures",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952461/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "la moitié y passe vers quatre-vingt-deux degrés quand l'épreuve dure une heure, et vers soixante-trois degrés seulement quand elle dure une journée",
+      "ref": "Scientific Reports, Thermotolerance experiments on active and desiccated states of Ramazzottius varieornatus emphasize that tardigrades are sensitive to high temperatures",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952461/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "l-espace",
+    "cles": [
+     "l espace",
+     "le vide",
+     "les radiations",
+     "les rayons",
+     "hors de l atmosphere"
+    ],
+    "reponse": "Les gardiens en parlent souvent, et presque toujours mal. En deux mille sept, des humains ont emporté des tardigrades desséchés là-haut pendant dix jours, dans le vide et sous les rayons. Ceux qu'on avait protégés de la lumière du soleil n'ont pas été affectés de façon notable par le vide et le rayonnement cosmique, alors qu'aucun de ceux qui ont reçu le spectre complet des ultraviolets n'est revenu. Sur ceux qui n'ont eu que les ultraviolets A et B, douze sur cent se sont réveillés. Et je ne vise pas l'espace : ce qui me sauve là-haut est compris comme un effet de bord de ce qui me sauve quand la mousse sèche.",
+    "ouvre": [],
+    "requiert": [
+     "le-reveil",
+     "la-chaleur"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "En deux mille sept, des humains ont emporté des tardigrades desséchés là-haut pendant dix jours",
+      "ref": "K. Ingemar Jonsson, Radiation Tolerance in Tardigrades: Current Knowledge and Potential Applications in Medicine, Cancers",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6770827/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Ceux qu'on avait protégés de la lumière du soleil n'ont pas été affectés de façon notable par le vide et le rayonnement cosmique",
+      "ref": "K. Ingemar Jonsson, Radiation Tolerance in Tardigrades: Current Knowledge and Potential Applications in Medicine, Cancers",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6770827/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "aucun de ceux qui ont reçu le spectre complet des ultraviolets n'est revenu",
+      "ref": "K. Ingemar Jonsson, Radiation Tolerance in Tardigrades: Current Knowledge and Potential Applications in Medicine, Cancers",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6770827/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Sur ceux qui n'ont eu que les ultraviolets A et B, douze sur cent se sont réveillés.",
+      "ref": "K. Ingemar Jonsson, Radiation Tolerance in Tardigrades: Current Knowledge and Potential Applications in Medicine, Cancers",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6770827/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "ce qui me sauve là-haut est compris comme un effet de bord de ce qui me sauve quand la mousse sèche",
+      "ref": "K. Ingemar Jonsson, Radiation Tolerance in Tardigrades: Current Knowledge and Potential Applications in Medicine, Cancers",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6770827/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "des humains ont emporté des tardigrades desséchés là-haut",
+      "ref": "Agence spatiale europeenne, Tiny animals survive exposure to space",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Tiny_animals_survive_exposure_to_space",
+      "consulte": "2026-09-06"
+     }
+    ]
+   }
+  ],
+  "pagesOuvertes": [
+   "https://animaldiversity.org/accounts/Tardigrada/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3877342/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5102368/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952461/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6770827/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9526748/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10620314/",
+   "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Tiny_animals_survive_exposure_to_space",
+   "https://researchportal.hkr.se/en/publications/tardigrades-survive-exposure-to-space-in-low-earth-orbit-2/"
+  ],
+  "faitsEcartes": [
+   "Le reveil de tardigrades apres cent vingt ans passes dans une mousse d'herbier : cite partout, mais aucune des pages que j'ai ouvertes ne le porte, et l'observation d'origine n'a jamais ete reproduite. Abandonne.",
+   "La survie a moins deux cent soixante-douze degres, pres du zero absolu : chiffre repete sans conditions ni taux de survie sur les pages accessibles. Aucune experience precise ouverte, donc rien ecrit.",
+   "La comparaison classique du type 'il encaisse mille fois la dose de rayons qui tue un humain' : la revue que j'ai ouverte donne des DL50 en kilograys, entre 3 et 5 kGy en rayons gamma et environ 1,5 kGy chez une espece marine, mais pas cette comparaison. Ratio abandonne, il aurait ete une causalite fabriquee.",
+   "Le trehalose presente comme LE sucre qui vitrifie le tardigrade : la page ouverte dit qu'il est accumule a faible taux, entre 0,1 et 2,9 pour cent du poids sec chez certaines especes, et totalement indetectable chez d'autres. L'explication simple etait fausse, je l'ai retiree plutot que de la nuancer a moitie.",
+   "Les tardigrades qui auraient survecu au crash de la sonde israelienne Beresheet sur la Lune : aucune verification apres impact sur une source que j'ai pu ouvrir. Ecarte.",
+   "'L'animal le plus resistant de la Terre' : superlatif jamais mesure, et contredit par l'experience de chaleur ou la moitie des individus actifs meurt vers trente-sept degres. Ecarte comme superlatif.",
+   "La survie de tardigrades congeles trente ans au Japon : cas unique, page non ouverte, et un maximum n'est pas une valeur courante. Ecarte.",
+   "Les valeurs precises du vide et des rayons du vol de 2007, dix puissance moins six pascals et cent milligrays : lues dans la revue ouverte, mais ecartees du texte parle parce qu'un tardigrade ne peut pas connaitre des unites humaines sans reciter une fiche."
+  ]
+ },
+ {
+  "id": "manchot-empereur",
+  "mode": "documentaire",
+  "nom": "Nivôse",
+  "categorie": "Manchot empereur",
+  "couleur": "#111823",
+  "accent": "#F5C542",
+  "accroche": "J'ai passe l'hiver debout, sans manger, un oeuf contre le ventre.",
+  "ouverture": "Ne parle pas trop vite. Ici tout se compte en jours et en degres sous zero, et j'ai appris a attendre bien mieux que toi. Demande ce que tu veux, je repondrai a mon rythme.",
+  "ton": "Il parle lentement, par phrases courtes et plates, en comptant les jours et les degres ; il regarde les humains comme des visiteurs presses qui ne tiendraient pas une seule nuit ici.",
+  "sujets": [
+   {
+    "id": "identite",
+    "cles": [
+     "qui es tu",
+     "ton nom",
+     "presente toi",
+     "ta taille",
+     "ton poids",
+     "quelle espece"
+    ],
+    "reponse": "Debout, je monte a peu pres a la hauteur de ta hanche : ceux qui nous mesurent notent 101 a 132 centimetres. Mon poids ne vaut jamais deux fois la meme chose dans une annee, il glisse entre 25 et 45 kilos selon ce que l'hiver m'a pris. Je vis sur la glace collee au continent, dans une colonie qui compte de quelques centaines a plus de 20 000 couples. Le reste, tu l'apprendras en restant debout aussi longtemps que moi.",
+    "ouvre": [
+     "couvaison",
+     "plongee"
+    ],
+    "requiert": [],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "ceux qui nous mesurent notent 101 a 132 centimetres",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Aptenodytes forsteri (emperor penguin)",
+      "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "il glisse entre 25 et 45 kilos",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Aptenodytes forsteri (emperor penguin)",
+      "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "une colonie qui compte de quelques centaines a plus de 20 000 couples",
+      "ref": "Australian Antarctic Program, Emperor penguin",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "couvaison",
+    "cles": [
+     "la couvaison",
+     "ton oeuf",
+     "le jeune",
+     "les petits",
+     "etre pere",
+     "la reproduction"
+    ],
+    "reponse": "L'oeuf, je le garde contre moi, sous un repli de peau que vos gardiens appellent une poche a couver. Je tiens ainsi environ 65 jours, jusqu'a ce que la femelle revienne de la mer. Pendant tout ce temps je ne mange rien : quatre mois de jeune, ou 110 a 120 jours si tu preferes compter comme ceux qui nous observent. Je suis le seul a couver, elle est partie chercher de quoi nourrir ce qui va sortir.",
+    "ouvre": [
+     "tortue"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "sous un repli de peau que vos gardiens appellent une poche a couver",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Aptenodytes forsteri (emperor penguin)",
+      "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Je tiens ainsi environ 65 jours, jusqu'a ce que la femelle revienne de la mer",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Aptenodytes forsteri (emperor penguin)",
+      "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "quatre mois de jeune",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Aptenodytes forsteri (emperor penguin)",
+      "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "110 a 120 jours",
+      "ref": "Zitterbart, Wienecke, Butler et Fabry, Coordinated Movements Prevent Jamming in an Emperor Penguin Huddle, PLoS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0020260",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Je suis le seul a couver",
+      "ref": "Zitterbart, Wienecke, Butler et Fabry, Coordinated Movements Prevent Jamming in an Emperor Penguin Huddle, PLoS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0020260",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "tortue",
+    "cles": [
+     "la tortue",
+     "le huddle",
+     "vous serrer",
+     "le froid",
+     "se rechauffer",
+     "avoir chaud"
+    ],
+    "reponse": "Quand l'air tombe entre moins 33 et moins 43 degres, nous nous serrons jusqu'a tenir a environ 21 par metre carre. A l'interieur, la chaleur monte au-dessus de zero et peut atteindre 37 degres, alors personne ne veut rester au bord. Toutes les 30 a 60 secondes, chacun fait un pas de 5 a 10 centimetres et le mouvement traverse tout le groupe comme une vague. Un rassemblement dure en moyenne 1,6 heure, puis il se defait et recommence. Ce que tu ne vois pas : par moins 17,6 degres, mon dos et mon ventre sont 4 a 4,8 degres plus froids que l'air lui-meme, et seuls ma tete, mes ailerons et mes pattes le depassent de 0,4 a 1,9 degre.",
+    "ouvre": [
+     "glace"
+    ],
+    "requiert": [
+     "couvaison"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Quand l'air tombe entre moins 33 et moins 43 degres",
+      "ref": "Zitterbart, Wienecke, Butler et Fabry, Coordinated Movements Prevent Jamming in an Emperor Penguin Huddle, PLoS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0020260",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "environ 21 par metre carre",
+      "ref": "Zitterbart, Wienecke, Butler et Fabry, Coordinated Movements Prevent Jamming in an Emperor Penguin Huddle, PLoS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0020260",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "la chaleur monte au-dessus de zero et peut atteindre 37 degres",
+      "ref": "Zitterbart, Wienecke, Butler et Fabry, Coordinated Movements Prevent Jamming in an Emperor Penguin Huddle, PLoS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0020260",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Toutes les 30 a 60 secondes, chacun fait un pas de 5 a 10 centimetres",
+      "ref": "Zitterbart, Wienecke, Butler et Fabry, Coordinated Movements Prevent Jamming in an Emperor Penguin Huddle, PLoS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0020260",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Un rassemblement dure en moyenne 1,6 heure",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Aptenodytes forsteri (emperor penguin)",
+      "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "par moins 17,6 degres, mon dos et mon ventre sont 4 a 4,8 degres plus froids que l'air lui-meme",
+      "ref": "McCafferty et al., Emperor penguin body surfaces cool below air temperature, Biology Letters",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3645025/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "seuls ma tete, mes ailerons et mes pattes le depassent de 0,4 a 1,9 degre",
+      "ref": "McCafferty et al., Emperor penguin body surfaces cool below air temperature, Biology Letters",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3645025/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "plongee",
+    "cles": [
+     "la plongee",
+     "sous l eau",
+     "la profondeur",
+     "ton souffle",
+     "la chasse",
+     "nager"
+    ],
+    "reponse": "Sous l'eau, je cesse d'etre cet animal lourd que tu regardes marcher. La plupart de mes plongees restent entre 100 et 200 metres et durent de trois a six minutes : c'est mon travail ordinaire. Ceux qui nous equipent ont pourtant enregistre une descente a 565 metres et deux plongees de 22 minutes parmi des milliers d'autres. Ils disent aussi que je depasse regulierement ma limite aerobie, mesuree a 5,6 minutes, ce qui les trouble bien plus que moi. Apres une plongee de 27,6 minutes, l'un des notres a mis 6 minutes a se relever, 20 de plus a marcher, et 8,4 heures avant de replonger.",
+    "ouvre": [
+     "glace"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "La plupart de mes plongees restent entre 100 et 200 metres et durent de trois a six minutes",
+      "ref": "Australian Antarctic Program, Emperor penguins diving and travelling",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/how-deep-can-they-dive/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "une descente a 565 metres et deux plongees de 22 minutes parmi des milliers d'autres",
+      "ref": "Australian Antarctic Program, Emperor penguins diving and travelling",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/how-deep-can-they-dive/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "ma limite aerobie, mesuree a 5,6 minutes",
+      "ref": "Journal of Experimental Biology, Stroke rates and diving air volumes of emperor penguins: implications for dive performance",
+      "url": "https://journals.biologists.com/jeb/article/214/17/2854/10495/Stroke-rates-and-diving-air-volumes-of-emperor",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "ma limite aerobie, mesuree a 5,6 minutes",
+      "ref": "Journal of Experimental Biology, Blood oxygen transport and depletion in diving emperor penguins",
+      "url": "https://journals.biologists.com/jeb/article/227/6/jeb246832/344192/Blood-oxygen-transport-and-depletion-in-diving",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Apres une plongee de 27,6 minutes, l'un des notres a mis 6 minutes a se relever, 20 de plus a marcher, et 8,4 heures avant de replonger",
+      "ref": "Journal of Experimental Biology, Stroke rates and diving air volumes of emperor penguins: implications for dive performance",
+      "url": "https://journals.biologists.com/jeb/article/214/17/2854/10495/Stroke-rates-and-diving-air-volumes-of-emperor",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "glace",
+    "cles": [
+     "la glace",
+     "la menace",
+     "ton avenir",
+     "le rechauffement",
+     "la disparition",
+     "les humains"
+    ],
+    "reponse": "Tout ce que je viens de te raconter tient sur une seule chose : la glace de mer, prise et solide, sous mes pattes. Elle se brise trop tot maintenant, et depuis 2016 elle atteint des minimums que personne n'avait vus. Vos images prises depuis le ciel disent qu'entre 2009 et 2018 nous avons perdu environ 10 pour cent des notres, plus de 20 000 adultes. Vous venez de nous faire passer de quasi menace a en danger, et vos calculs annoncent que nous serons deux fois moins nombreux dans les annees 2080. Moi, je continue de compter les jours, c'est la seule chose que je sache faire aussi bien.",
+    "ouvre": [],
+    "requiert": [
+     "tortue"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Elle se brise trop tot maintenant, et depuis 2016 elle atteint des minimums que personne n'avait vus",
+      "ref": "UICN, Emperor penguin and Antarctic fur seal now Endangered due to climate change",
+      "url": "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "entre 2009 et 2018 nous avons perdu environ 10 pour cent des notres, plus de 20 000 adultes",
+      "ref": "UICN, Emperor penguin and Antarctic fur seal now Endangered due to climate change",
+      "url": "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Vous venez de nous faire passer de quasi menace a en danger",
+      "ref": "UICN, Emperor penguin and Antarctic fur seal now Endangered due to climate change",
+      "url": "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "nous serons deux fois moins nombreux dans les annees 2080",
+      "ref": "UICN, Emperor penguin and Antarctic fur seal now Endangered due to climate change",
+      "url": "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn",
+      "consulte": "2026-09-06"
+     }
+    ]
+   }
+  ],
+  "pagesOuvertes": [
+   "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+   "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0020260",
+   "https://journals.biologists.com/jeb/article/214/17/2854/10495/Stroke-rates-and-diving-air-volumes-of-emperor",
+   "https://journals.biologists.com/jeb/article/227/6/jeb246832/344192/Blood-oxygen-transport-and-depletion-in-diving",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3645025/",
+   "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn",
+   "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/how-deep-can-they-dive/",
+   "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/"
+  ],
+  "faitsEcartes": [
+   "Le record de plongee de 564 m attribue a Wienecke et al. 2007 dans Polar Biology : la page Springer redirige vers un mur d authentification et le PDF trouve ailleurs n a pas pu etre converti en texte. Je n ai donc cite que le chiffre de 565 m publie par le programme antarctique australien, agence qui a mene ces mesures, page que j ai reellement ouverte. Les deux valeurs different d un metre et je n ai pas voulu melanger les deux.",
+   "La reconnaissance vocale entre partenaires et entre parent et poussin : fait probablement reel chez cette espece, mais aucune source ouverte pour l appuyer. La phrase nous nous reconnaissons a la voix a ete retiree de la reponse identite.",
+   "L oeuf pose sur les pattes : Animal Diversity Web ecrit seulement brood pouch, sans mentionner les pattes. J ai remplace par l oeuf, je le garde contre moi.",
+   "Les chiffres de thermoregulation de Le Maho, Delclitte et Chatonnet 1976 (metabolisme de repos de 49,06 W, temperature critique inferieure vers moins 10 degres, perte de 0,145 a 0,434 kg par jour, vent sans effet jusqu a 5 m/s) : la page de l American Journal of Physiology a renvoye une erreur 403 et PubMed un mur de cookies. Rien de cette etude n est utilise, alors que c etait la meilleure source pour la perte de poids du male.",
+   "La duree de vie : Animal Diversity Web annonce 15 a 20 ans dans la nature et evoque des individus jusqu a 50 ans, le programme antarctique australien parle de plus de 40 ans. Les chiffres se contredisent et les valeurs hautes ressemblent a des maxima, pas a une esperance de vie. Sujet abandonne entierement.",
+   "Le superlatif oiseau plongeur le plus profond : aucune comparaison mesuree entre toutes les especes d oiseaux ouverte, donc jamais ecrit.",
+   "La densite de 10 individus par metre carre les jours tres froids, donnee par le programme antarctique australien : elle contredit les 21 par metre carre mesures par video haute resolution dans l etude PLoS ONE. J ai garde uniquement la valeur mesuree de l etude et abandonne l autre.",
+   "Les 2 600 km parcourus en 76 jours d absence de la colonie et les 42 kg de nourriture qu un poussin recoit de chaque parent : chiffres sourcables, pages ouvertes, mais qui ne rentraient dans aucun des cinq sujets sans alourdir les reponses."
+  ]
+ },
+ {
+  "id": "braise-vampire-commune",
+  "mode": "documentaire",
+  "nom": "Braise",
+  "categorie": "Chauve-souris vampire commune",
+  "couleur": "#2B1F22",
+  "accent": "#E8552F",
+  "accroche": "Elle ne compte pas ses proies. Elle compte ses heures, et elle compte ses dettes.",
+  "ouverture": "Il fait noir, tant mieux, approche. Ne me demande pas si j'ai bien mangé, demande-moi depuis combien d'heures. C'est la seule question qui veut dire quelque chose ici.",
+  "ton": "Voix de comptable nocturne : phrases courtes et sèches, tout se mesure en heures et en dettes rendues, une tendresse rugueuse réservée à celles qui l'ont nourrie, et un mépris tranquille pour les grands corps tièdes qui dorment sans savoir qu'ils sont une carte.",
+  "sujets": [
+   {
+    "id": "identite",
+    "cles": [
+     "qui es-tu",
+     "presente-toi",
+     "ton nom",
+     "quel animal",
+     "chauve-souris",
+     "vampire",
+     "ton corps"
+    ],
+    "reponse": "Je ne mange que du sang, rien d'autre, jamais une mouche. Mon corps ne pèse presque rien, entre 15 et 50 grammes selon la nuit. Et contrairement aux autres chauves-souris, je marche, je cours et je saute à quatre pattes sur le sol, ce qui surprend toujours les humains qui me croient clouée en l'air. Le reste, tu peux l'oublier. Ce qui compte, c'est qu'au delà de soixante-dix heures sans repas, je meurs.",
+    "ouvre": [
+     "monnez",
+     "lafaim"
+    ],
+    "requiert": [],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Je ne mange que du sang",
+      "ref": "Carter GG et Wilkinson GS, Food sharing in vampire bats: reciprocal help predicts donations more than relatedness or harassment, Proc R Soc B 280: 20122573",
+      "url": "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "entre 15 et 50 grammes",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Desmodus rotundus",
+      "url": "https://animaldiversity.org/accounts/Desmodus_rotundus/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "je marche, je cours et je saute à quatre pattes sur le sol",
+      "ref": "Animal Diversity Web, University of Michigan Museum of Zoology, Desmodus rotundus",
+      "url": "https://animaldiversity.org/accounts/Desmodus_rotundus/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "au delà de soixante-dix heures sans repas, je meurs",
+      "ref": "Carter GG et Wilkinson GS, Food sharing in vampire bats: reciprocal help predicts donations more than relatedness or harassment, Proc R Soc B 280: 20122573",
+      "url": "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "monnez",
+    "cles": [
+     "ton nez",
+     "la chaleur",
+     "infrarouge",
+     "tes capteurs",
+     "comment tu trouves",
+     "le sang chaud",
+     "ta figure"
+    ],
+    "reponse": "Sur la feuille de mon nez il y a des creux, logés dans des replis, et ces creux lisent la chaleur. Ils me servent à trouver, sous la peau d'une bête qui dort, l'endroit où le sang passe le plus près de la surface. Aucun autre mammifère connu ne sait faire ça ; les seuls autres animaux qui le font sont des serpents, boas, pythons et crotales. Le seuil de chaleur de ces nerfs-là est descendu autour de trente degrés. Alors un grand corps tiède, pour moi, ce n'est pas une silhouette, c'est une carte de points chauds.",
+    "ouvre": [
+     "lafaim"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "des creux, logés dans des replis",
+      "ref": "Riskin DK et Carter GG, The evolution of sanguivory in vampire bats: origins and convergences, Canadian Journal of Zoology",
+      "url": "https://par.nsf.gov/servlets/purl/10482120",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "l'endroit où le sang passe le plus près de la surface",
+      "ref": "Riskin DK et Carter GG, The evolution of sanguivory in vampire bats: origins and convergences, Canadian Journal of Zoology",
+      "url": "https://par.nsf.gov/servlets/purl/10482120",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Aucun autre mammifère connu ne sait faire ça",
+      "ref": "Riskin DK et Carter GG, The evolution of sanguivory in vampire bats: origins and convergences, Canadian Journal of Zoology",
+      "url": "https://par.nsf.gov/servlets/purl/10482120",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "les seuls autres animaux qui le font sont des serpents, boas, pythons et crotales",
+      "ref": "Gracheva EO et al., Ganglion-specific splicing of TRPV1 underlies infrared sensation in vampire bats, Nature 476:88-91, resume integral servi par Europe PMC",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21814281&resultType=core&format=json",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Le seuil de chaleur de ces nerfs-là est descendu autour de trente degrés",
+      "ref": "Gracheva EO et al., Ganglion-specific splicing of TRPV1 underlies infrared sensation in vampire bats, Nature 476:88-91, resume integral servi par Europe PMC",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21814281&resultType=core&format=json",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "lafaim",
+    "cles": [
+     "la faim",
+     "sans manger",
+     "tu meurs",
+     "le jeune",
+     "jeuner",
+     "combien de temps",
+     "rentrer bredouille"
+    ],
+    "reponse": "Une nuit sans rien, ça passe. Deux, ça serre. Il suffit de manquer deux ou trois repas de suite pour mourir, et sans sang je tiens environ trois jours, pas davantage. Quand j'avais moins de deux ans, je rentrais bredouille trente pour cent des nuits, presque une sur trois. Voilà pourquoi je ne compte pas mes proies : je compte mes heures.",
+    "ouvre": [
+     "lepartage"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Il suffit de manquer deux ou trois repas de suite pour mourir",
+      "ref": "Carter GG et Wilkinson GS, Common vampire bat contact calls attract past food-sharing partners, Animal Behaviour 116:45-51",
+      "url": "https://science.umd.edu/faculty/wilkinson/Carter&Wilkinson2016AB.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "sans sang je tiens environ trois jours",
+      "ref": "Riskin DK et Carter GG, The evolution of sanguivory in vampire bats: origins and convergences, Canadian Journal of Zoology",
+      "url": "https://par.nsf.gov/servlets/purl/10482120",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "je rentrais bredouille trente pour cent des nuits",
+      "ref": "Carter GG et Wilkinson GS, Food sharing in vampire bats: reciprocal help predicts donations more than relatedness or harassment, Proc R Soc B 280: 20122573",
+      "url": "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "lepartage",
+    "cles": [
+     "partager",
+     "le partage",
+     "donner du sang",
+     "regurgiter",
+     "qui te nourrit",
+     "aider les autres",
+     "mendier"
+    ],
+    "reponse": "Quand je rentre le ventre vide, je lèche la bouche d'une voisine et elle me rend un peu du sang de son propre repas. Le plus étrange, c'est que ce n'est pas toujours moi qui quémande : hors des dons d'une mère à son petit, c'est la donneuse qui a commencé dans soixante-deux pour cent des cas. Et ce n'est pas une affaire de famille. Parmi les couples observés qui se partageaient le sang, soixante-quatre pour cent n'étaient pas apparentées. Ce qui prédit le mieux ce que je donne à une autre, c'est ce qu'elle m'a donné, huit fois et demie plus fort que le lien de parenté.",
+    "ouvre": [
+     "mesamies"
+    ],
+    "requiert": [
+     "lafaim"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "je lèche la bouche d'une voisine",
+      "ref": "Carter GG et Wilkinson GS, Does food sharing in vampire bats demonstrate reciprocity, Communicative & Integrative Biology, PMC3913674",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3913674/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "elle me rend un peu du sang de son propre repas",
+      "ref": "Carter GG et Wilkinson GS, Food sharing in vampire bats: reciprocal help predicts donations more than relatedness or harassment, Proc R Soc B 280: 20122573",
+      "url": "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "c'est la donneuse qui a commencé dans soixante-deux pour cent des cas",
+      "ref": "Carter GG et Wilkinson GS, Food sharing in vampire bats: reciprocal help predicts donations more than relatedness or harassment, Proc R Soc B 280: 20122573",
+      "url": "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "soixante-quatre pour cent n'étaient pas apparentées",
+      "ref": "Carter GG et Wilkinson GS, Food sharing in vampire bats: reciprocal help predicts donations more than relatedness or harassment, Proc R Soc B 280: 20122573",
+      "url": "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "huit fois et demie plus fort que le lien de parenté",
+      "ref": "Carter GG et Wilkinson GS, Food sharing in vampire bats: reciprocal help predicts donations more than relatedness or harassment, Proc R Soc B 280: 20122573",
+      "url": "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "mesamies",
+    "cles": [
+     "tes amies",
+     "amitie",
+     "la confiance",
+     "le toilettage",
+     "se reconnaitre",
+     "ta voix",
+     "les liens"
+    ],
+    "reponse": "On se lisse le pelage l'une l'autre, longtemps, même quand il n'y a pas un parasite à retirer : ce n'est pas de la propreté, c'est de l'entretien. Je reconnais à la voix celles qui m'ont nourrie, et quand j'entends l'appel d'une donneuse fidèle je vais vers elle, que nous soyons apparentées ou non. Des femelles sauvages ont été revues perchées ensemble douze ans plus tard. Et le jour où on nous a relâchées dans la forêt, beaucoup de ces liens ont tenu. Pas tous : celui d'une mère et de sa fille née en captivité, par exemple, n'a pas survécu au changement de monde.",
+    "ouvre": [],
+    "requiert": [
+     "lepartage"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "même quand il n'y a pas un parasite à retirer",
+      "ref": "Carter GG et Wilkinson GS, Food sharing in vampire bats: reciprocal help predicts donations more than relatedness or harassment, Proc R Soc B 280: 20122573",
+      "url": "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "quand j'entends l'appel d'une donneuse fidèle je vais vers elle, que nous soyons apparentées ou non",
+      "ref": "Carter GG et Wilkinson GS, Common vampire bat contact calls attract past food-sharing partners, Animal Behaviour 116:45-51",
+      "url": "https://science.umd.edu/faculty/wilkinson/Carter&Wilkinson2016AB.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Des femelles sauvages ont été revues perchées ensemble douze ans plus tard",
+      "ref": "Carter GG et Wilkinson GS, Food sharing in vampire bats: reciprocal help predicts donations more than relatedness or harassment, Proc R Soc B 280: 20122573",
+      "url": "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "beaucoup de ces liens ont tenu",
+      "ref": "Ripperger SP, Carter GG et al., Vampire Bats that Cooperate in the Lab Maintain Their Social Networks in the Wild, Current Biology 29",
+      "url": "https://striresearch.si.edu/sensory-and-cognitive-ecology-lab/wp-content/uploads/sites/115/2022/06/2019_ripperger_et_al_current_biology_-_vampire_bats_maintain_relationships_across_contexts.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "celui d'une mère et de sa fille née en captivité, par exemple, n'a pas survécu au changement de monde",
+      "ref": "Ripperger SP, Carter GG et al., Vampire Bats that Cooperate in the Lab Maintain Their Social Networks in the Wild, Current Biology 29",
+      "url": "https://striresearch.si.edu/sensory-and-cognitive-ecology-lab/wp-content/uploads/sites/115/2022/06/2019_ripperger_et_al_current_biology_-_vampire_bats_maintain_relationships_across_contexts.pdf",
+      "consulte": "2026-09-06"
+     }
+    ]
+   }
+  ],
+  "pagesOuvertes": [
+   "https://courses.washington.edu/ccab/Carter&Wilkinson-v-bat-food-sharing-ProcB-2013.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3913674/",
+   "https://animaldiversity.org/accounts/Desmodus_rotundus/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21814281&resultType=core&format=json",
+   "https://science.umd.edu/faculty/wilkinson/Carter&Wilkinson2016AB.pdf",
+   "https://par.nsf.gov/servlets/purl/10482120",
+   "https://striresearch.si.edu/sensory-and-cognitive-ecology-lab/wp-content/uploads/sites/115/2022/06/2019_ripperger_et_al_current_biology_-_vampire_bats_maintain_relationships_across_contexts.pdf"
+  ],
+  "faitsEcartes": [
+   "L'ecart de temperature entre les creux du nez et le tissu voisin de la feuille nasale. Riskin et Carter le donnent en citant Kurten et Schmidt, mais le chiffre a ete perdu a l'extraction du PDF et je n'ai pas pu ouvrir la source d'origine. Un chiffre que je ne peux pas relire, je ne l'ecris pas.",
+   "La distance a laquelle une chauve-souris vampire detecte l'infrarouge, souvent citee autour de vingt centimetres. Aucune des pages que j'ai ouvertes ne la donne. Abandonne.",
+   "La quantite de sang bue par repas, souvent citee comme proche de la moitie du poids du corps. Introuvable dans les pages ouvertes, donc absente de la fiche, alors que c'etait le detail le plus spectaculaire.",
+   "La longevite. Animal Diversity Web donne douze ans dans la nature et 19,5 ans en captivite, mais ce sont des maximums, pas une esperance de vie. Je refuse de faire dire a Braise qu'elle vit tant d'annees.",
+   "Le statut de conservation UICN de Desmodus rotundus. La page de la liste rouge a renvoye une erreur 403, donc aucune phrase sur la conservation.",
+   "La draculine, l'anticoagulant de la salive. Presente sur Animal Diversity Web, mais je n'ai pas pu la confirmer sur une page primaire ouverte et elle sortait de l'angle demande. Ecartee plutot que citee a moitie.",
+   "Le fait que la course de la chauve-souris vampire soit la seule allure de course connue chez une chauve-souris, et le seul cas connu de lignee de vertebres ayant perdu puis re-evolue la course. Riskin et Carter l'affirment, mais c'est un double superlatif : j'ai garde la formulation neutre d'Animal Diversity Web, marcher, courir et sauter a quatre pattes.",
+   "L'urine emise pendant le repas pour evacuer l'eau du sang, et la concentration d'uree dans les reins. Les chiffres etaient illisibles dans le PDF extrait, donc rien n'a ete ecrit dessus.",
+   "La reconnaissance des humains individuels au bruit de leur respiration, mentionnee par Riskin et Carter. Fait verifiable mais hors de l'angle partage et capteurs thermiques, ecarte pour ne pas diluer les cinq sujets."
+  ]
+ },
+ {
+  "id": "abeille-domestique-vrille",
+  "mode": "documentaire",
+  "nom": "Vrille",
+  "categorie": "Abeille domestique",
+  "couleur": "#2E2110",
+  "accent": "#F2B705",
+  "accroche": "Je danse dans le noir pour dire où sont les fleurs.",
+  "ouverture": "Je viens de rentrer, j'ai encore du pollen collé aux pattes arrière. Pose ta question vite, la lumière baisse et j'ai un rayon à chauffer.",
+  "ton": "Une butineuse âgée, sèche et pressée, qui compte en degrés et en secondes, tutoie sans façon et trouve les humains lents, tièdes et à moitié aveugles.",
+  "sujets": [
+   {
+    "id": "identite",
+    "cles": [
+     "qui es tu",
+     "ton nom",
+     "presente toi",
+     "une abeille",
+     "ouvriere",
+     "ta duree de vie"
+    ],
+    "reponse": "On m'appelle Vrille. Je suis une fille parmi les filles d'une seule mère, toutes stériles, et c'est nous qui faisons tout le travail ici. J'ai nettoyé des cellules à peine sortie de la mienne, j'ai fabriqué de la cire pendant ma deuxième semaine, j'ai gardé la porte, et maintenant je vole. Un été comme le mien dure deux à quatre semaines, celles qui naissent à l'automne tiennent presque onze mois. Alors non, je ne perds pas de temps à me raconter.",
+    "ouvre": [
+     "la danse",
+     "la chaleur"
+    ],
+    "requiert": [],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Je suis une fille parmi les filles d'une seule mère, toutes stériles, et c'est nous qui faisons tout le travail ici.",
+      "ref": "Animal Diversity Web, Université du Michigan, Apis mellifera",
+      "url": "https://animaldiversity.org/accounts/Apis_mellifera/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "J'ai nettoyé des cellules à peine sortie de la mienne, j'ai fabriqué de la cire pendant ma deuxième semaine, j'ai gardé la porte, et maintenant je vole.",
+      "ref": "Animal Diversity Web, Université du Michigan, Apis mellifera",
+      "url": "https://animaldiversity.org/accounts/Apis_mellifera/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Un été comme le mien dure deux à quatre semaines, celles qui naissent à l'automne tiennent presque onze mois.",
+      "ref": "Animal Diversity Web, Université du Michigan, Apis mellifera",
+      "url": "https://animaldiversity.org/accounts/Apis_mellifera/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "la danse",
+    "cles": [
+     "la danse",
+     "danse fretillante",
+     "comment tu indiques",
+     "comment vous parlez",
+     "frelilement",
+     "le rayon"
+    ],
+    "reponse": "Dans le noir du rayon, je marche droit en secouant l'abdomen, et l'angle entre le haut et ma course donne la direction de la fleur par rapport au soleil. Mes soeurs ne me regardent pas, elles se placent de côté et tendent leurs antennes contre mon corps pour rester en contact. Ce qu'elles recueillent, ce sont mes secousses lentes, entre quinze et vingt-cinq par seconde, et le bruit plus aigu de mes ailes autour de deux cent cinquante. Elles écoutent avec un organe logé dans l'antenne, pas avec les yeux. Ici personne ne voit rien: on se parle en tremblant.",
+    "ouvre": [
+     "la distance"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "l'angle entre le haut et ma course donne la direction de la fleur par rapport au soleil",
+      "ref": "Insects (MDPI), Neuroethology of the Waggle Dance: How Followers Interact with the Waggle Dancer and Detect Spatial Information",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835826/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "elles se placent de côté et tendent leurs antennes contre mon corps pour rester en contact",
+      "ref": "Insects (MDPI), Neuroethology of the Waggle Dance: How Followers Interact with the Waggle Dancer and Detect Spatial Information",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835826/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "mes secousses lentes, entre quinze et vingt-cinq par seconde, et le bruit plus aigu de mes ailes autour de deux cent cinquante",
+      "ref": "Insects (MDPI), Neuroethology of the Waggle Dance: How Followers Interact with the Waggle Dancer and Detect Spatial Information",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835826/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Elles écoutent avec un organe logé dans l'antenne, pas avec les yeux.",
+      "ref": "Insects (MDPI), Neuroethology of the Waggle Dance: How Followers Interact with the Waggle Dancer and Detect Spatial Information",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835826/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "la distance",
+    "cles": [
+     "la distance",
+     "combien de metres",
+     "c est loin",
+     "la duree de ta course",
+     "tu comptes"
+    ],
+    "reponse": "Plus la fleur est loin, plus ma course frétillante dure longtemps: c'est la durée qui porte le chemin. Les humains ont longtemps cru que cela montait tout droit, tant de secondes pour tant de mètres. En vérité la pente s'aplatit, et ils ne l'ont vu qu'en nous entraînant bien au delà de mille mètres. En dessous, leur ligne droite tient assez pour qu'ils ne se doutent de rien. Ils croyaient aussi que ma danse valait surtout quand les fleurs sont fugaces; c'est l'inverse, elle rapporte le plus quand le coin tient plusieurs jours.",
+    "ouvre": [
+     "les couleurs"
+    ],
+    "requiert": [
+     "la danse"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Plus la fleur est loin, plus ma course frétillante dure longtemps: c'est la durée qui porte le chemin.",
+      "ref": "Scientific Reports, Honey bees communicate distance via non-linear waggle duration functions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8029670/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "En vérité la pente s'aplatit, et ils ne l'ont vu qu'en nous entraînant bien au delà de mille mètres.",
+      "ref": "Scientific Reports, Honey bees communicate distance via non-linear waggle duration functions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8029670/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Ils croyaient aussi que ma danse valait surtout quand les fleurs sont fugaces; c'est l'inverse, elle rapporte le plus quand le coin tient plusieurs jours.",
+      "ref": "PubMed Central, Dancing Bees Improve Colony Foraging Success as Long-Term Benefits Outweigh Short-Term Costs",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4139316/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "la chaleur",
+    "cles": [
+     "la chaleur",
+     "la temperature",
+     "le froid",
+     "l hiver",
+     "le couvain",
+     "vous ventilez"
+    ],
+    "reponse": "Le couvain ne tolère pas l'à peu près: nous tenons son nid entre trente deux et trente six degrés. Je chauffe avec mes muscles de vol, sans décoller, et une soeur de moins de deux jours n'en est pas encore capable. Quand ça monte trop, nous ventilons des ailes et nous étalons de l'eau sur les rayons pour que l'excédent parte en vapeur. Personne ne me donne d'ordre: quand mes soeurs me mendient à boire plus souvent que d'habitude, je sais qu'il faut repartir chercher de l'eau. L'hiver, la grappe se serre, celles du manteau font la couverture et celles du coeur font le feu; il faut les deux, jamais l'une seule.",
+    "ouvre": [
+     "les couleurs"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "nous tenons son nid entre trente deux et trente six degrés",
+      "ref": "PLoS ONE, Honeybee Colony Thermoregulation: Regulatory Mechanisms and Contribution of Individuals in Dependence on Age, Location and Thermal Stress",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2813292/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Je chauffe avec mes muscles de vol, sans décoller, et une soeur de moins de deux jours n'en est pas encore capable.",
+      "ref": "PLoS ONE, Honeybee Colony Thermoregulation: Regulatory Mechanisms and Contribution of Individuals in Dependence on Age, Location and Thermal Stress",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2813292/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "nous ventilons des ailes et nous étalons de l'eau sur les rayons pour que l'excédent parte en vapeur",
+      "ref": "PLoS ONE, Honeybee Colony Thermoregulation: Regulatory Mechanisms and Contribution of Individuals in Dependence on Age, Location and Thermal Stress",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2813292/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "quand mes soeurs me mendient à boire plus souvent que d'habitude, je sais qu'il faut repartir chercher de l'eau",
+      "ref": "Journal of Experimental Biology, The behavioral regulation of thirst, water collection and water storage in honey bee colonies",
+      "url": "https://journals.biologists.com/jeb/article/219/14/2156/15394/The-behavioral-regulation-of-thirst-water",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "celles du manteau font la couverture et celles du coeur font le feu; il faut les deux, jamais l'une seule",
+      "ref": "Journal of Experimental Biology, Endothermic heat production in honeybee winter clusters",
+      "url": "https://journals.biologists.com/jeb/article/206/2/353/13914/Endothermic-heat-production-in-honeybee-winter",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "les couleurs",
+    "cles": [
+     "les couleurs",
+     "ta vue",
+     "l ultraviolet",
+     "les fleurs",
+     "ce que tu vois",
+     "tes yeux"
+    ],
+    "reponse": "Vos fleurs ne sont pas celles que je vois. J'ai trois sortes de capteurs dans l'oeil, et les humains qui les mesurent leur trouvent des pointes vers trois cent quarante quatre, quatre cent trente six et cinq cent quarante quatre nanomètres. L'ultraviolet, je le vois et vous non; en revanche vous êtes bien plus sensibles que moi au rouge. Beaucoup de corolles portent un centre qui avale cet ultraviolet, une cible sombre qui dit exactement où descendre. Pour moi ce n'est pas un motif secret, c'est une couleur de plus, voilà tout.",
+    "ouvre": [],
+    "requiert": [
+     "la distance",
+     "la chaleur"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "des pointes vers trois cent quarante quatre, quatre cent trente six et cinq cent quarante quatre nanomètres",
+      "ref": "PLOS ONE, Honeybees (Apis mellifera) Learn Color Discriminations via Differential Conditioning Independent of Long Wavelength (Green) Photoreceptor Modulation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3498261/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "L'ultraviolet, je le vois et vous non; en revanche vous êtes bien plus sensibles que moi au rouge.",
+      "ref": "Lunau, Bees, flowers and UV, Plant Biology",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12477309/",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Beaucoup de corolles portent un centre qui avale cet ultraviolet, une cible sombre qui dit exactement où descendre.",
+      "ref": "Lunau, Bees, flowers and UV, Plant Biology",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12477309/",
+      "consulte": "2026-09-06"
+     }
+    ]
+   }
+  ],
+  "pagesOuvertes": [
+   "https://animaldiversity.org/accounts/Apis_mellifera/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2813292/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3498261/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835826/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8029670/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4139316/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12477309/",
+   "https://journals.biologists.com/jeb/article/206/2/353/13914/Endothermic-heat-production-in-honeybee-winter",
+   "https://journals.biologists.com/jeb/article/219/14/2156/15394/The-behavioral-regulation-of-thirst-water"
+  ],
+  "faitsEcartes": [
+   "Karl von Frisch, son prix Nobel de 1973 et la date de 1946 pour sa démonstration de la danse: le nom n'apparaissait que dans des résumés de recherche et des pages tertiaires, aucune page institutionnelle ouverte ne me l'a confirmé, donc la réponse ne le nomme pas.",
+   "La conversion souvent citée de 75 millisecondes de frétillement pour 100 mètres supplémentaires: elle venait d'un extrait de résultat de recherche, pas d'une page que j'ai réellement ouverte.",
+   "La taille d'une colonie, souvent donnée autour de 50 000 ou 60 000 individus: Animal Diversity Web ne donne pas de chiffre, aucune autre page ouverte non plus, donc aucun nombre d'abeilles n'est cité.",
+   "Les températures de la grappe d'hiver, 18 degrés sans couvain et 34,5 à 36,7 degrés avec couvain: ces valeurs ne venaient que de blogs apicoles, et le résumé du Journal of Experimental Biology accessible ne portait aucun chiffre. Le sujet chaleur parle donc de manteau et de coeur sans température d'hiver.",
+   "L'article PNAS 2026 sur la façon dont l'audience façonne le contenu informatif de la danse: la page a renvoyé une erreur 403, je n'ai pas pu l'ouvrir, la nuance qu'il apporte n'est pas utilisée.",
+   "Le débat sur le caractère adaptatif ou non de l'erreur angulaire de la danse (article ScienceDirect): page fermée, donc écarté.",
+   "Les tailles précises des castes (ouvrière 10 à 15 mm, reine 18 à 20 mm, mâle 15 à 17 mm) étaient sourçables mais je les ai retirées de la réponse: une abeille ne se mesure pas en millimètres, et je préférais ne pas transformer un fait sourcé en récitation de fiche.",
+   "L'idée courante que les abeilles sont aveugles au rouge: la source dit que les humains sont plus sensibles au rouge que les abeilles, pas que les abeilles ne le voient pas. La phrase a été affaiblie pour coller à la source.",
+   "Le nombre d'ommatidies de l'oeil composé et la vitesse de battement d'ailes: aucune page ouverte ne les donnait, abandonnés.",
+   "L'affirmation que peu de suiveuses retrouvent réellement la fleur annoncée: la page de neuroéthologie ouverte dit le contraire de ce que j'attendais, donc l'idée est écartée au lieu d'être forcée."
+  ]
+ },
+ {
+  "id": "poulpe-mimetique",
+  "mode": "documentaire",
+  "nom": "Ondine",
+  "categorie": "Poulpe mimétique",
+  "couleur": "#3A2417",
+  "accent": "#F2DCA8",
+  "accroche": "Trois de mes formes sont tenues pour sûres. Les autres, on les a seulement vues.",
+  "ouverture": "Vous venez chercher la liste de tout ce que j'imite. Je vais vous donner l'autre liste, celle de ce qui a vraiment été vérifié: elle est plus courte et elle tient debout. Approchez du sable, je ne bougerai pas tout de suite. Et comptez avec moi, c'est la seule chose que je fais sans me tromper.",
+  "ton": "Elle parle sec, elle compte tout, elle sépare toujours ce qui a été observé de ce qui a été conclu, et elle trouve les humains bien pressés d'affirmer.",
+  "sujets": [
+   {
+    "id": "identite",
+    "cles": [
+     "qui es-tu",
+     "ton nom",
+     "presente toi",
+     "poulpe mimetique",
+     "ton corps"
+    ],
+    "reponse": "On m'a filmée pour la première fois en 1998, au large de Sulawesi, et j'étais alors nouvelle pour la science. Mon envergure, bras compris, monte jusqu'à soixante centimètres, et presque tout cela est du bras. Je porte un anneau blanc en forme de larme au milieu du manteau et une tache blanche en U vers l'arrière. Mes bras sont longs et étroits, et ils peuvent se détacher à un endroit précis, près de la base. Les gardiens qui écrivent ne m'ont donné un nom qu'en 2005, sept ans après m'avoir vue.",
+    "ouvre": [
+     "le-fond-de-sable",
+     "les-trois-formes"
+    ],
+    "requiert": [],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "On m'a filmée pour la première fois en 1998, au large de Sulawesi, et j'étais alors nouvelle pour la science.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Mon envergure, bras compris, monte jusqu'à soixante centimètres",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Je porte un anneau blanc en forme de larme au milieu du manteau et une tache blanche en U vers l'arrière. Mes bras sont longs et étroits, et ils peuvent se détacher à un endroit précis, près de la base.",
+      "ref": "Norman et Hochberg, The Mimic Octopus (Thaumoctopus mimicus n. gen. et sp.), a new octopus from the tropical Indo-West Pacific, Molluscan Research 25(2), 57-70 (2005)",
+      "url": "https://www.mapress.com/mrs/article/view/mr.25.2.1",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Les gardiens qui écrivent ne m'ont donné un nom qu'en 2005",
+      "ref": "World Register of Marine Species (WoRMS), Thaumoctopus mimicus M. Norman & Hochberg, 2005",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxlist&tName=Thaumoctopus+mimicus",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "le-fond-de-sable",
+    "cles": [
+     "ou vis-tu",
+     "ton habitat",
+     "le fond de sable",
+     "la profondeur",
+     "les embouchures"
+    ],
+    "reponse": "Je vis sur la vase et le sable, devant des embouchures de rivières, dans une eau de deux à douze mètres là où on m'a suivie. Le fond y est criblé de terriers, de tunnels et de monticules, parce qu'il grouille de vers, d'échinodermes, de crustacés et de poissons. Je sors en plein jour, à découvert, sous les yeux des prédateurs qui passent en pleine eau. Quand certains chasseurs approchent, comme la carangue, je ne joue à rien du tout et je me confonds avec le fond. On m'a aussi trouvée bien plus loin, jusqu'à l'île Lizard sur la Grande Barrière, ce qui veut dire que ma répartition est plus large que ce qui était écrit.",
+    "ouvre": [
+     "la-chasse"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Je vis sur la vase et le sable, devant des embouchures de rivières, dans une eau de deux à douze mètres là où on m'a suivie.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Le fond y est criblé de terriers, de tunnels et de monticules, parce qu'il grouille de vers, d'échinodermes, de crustacés et de poissons.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Je sors en plein jour, à découvert, sous les yeux des prédateurs qui passent en pleine eau. Quand certains chasseurs approchent, comme la carangue, je ne joue à rien du tout et je me confonds avec le fond.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "On m'a aussi trouvée bien plus loin, jusqu'à l'île Lizard sur la Grande Barrière, ce qui veut dire que ma répartition est plus large que ce qui était écrit.",
+      "ref": "Marine Biodiversity Records (Cambridge University Press), Documentation of the mimic octopus Thaumoctopus mimicus in the Great Barrier Reef, Australia",
+      "url": "https://www.cambridge.org/core/journals/marine-biodiversity-records/article/abs/documentation-of-the-mimic-octopus-thaumoctopus-mimicus-in-the-great-barrier-reef-australia/6F470A146FF7BD32F1CDAC5C1F3DFFA0",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "la-chasse",
+    "cles": [
+     "ta chasse",
+     "que manges-tu",
+     "les tunnels",
+     "ta nourriture",
+     "sous le sable"
+    ],
+    "reponse": "Je chasse en rampant, terne et brune, en enfonçant la pointe de mes bras dans les trous, et j'ouvre la membrane tendue entre eux pour bloquer ce qui fuit. Ce que j'attrape, ce sont de petits poissons et des crustacés, et beaucoup vivent sous le sable plutôt que dessus. Il m'arrive d'entrer entièrement dans une galerie et de ressortir par un autre trou, jusqu'à un mètre du point d'entrée. Ceux qui m'ont regardée ont écrit qu'ils ne connaissaient aucun autre poulpe qui chasse ainsi sous le sable. Ce n'est pas la même chose que dire qu'aucun ne le fait, et la différence compte.",
+    "ouvre": [
+     "ce-qui-est-incertain"
+    ],
+    "requiert": [
+     "le-fond-de-sable"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Je chasse en rampant, terne et brune, en enfonçant la pointe de mes bras dans les trous, et j'ouvre la membrane tendue entre eux pour bloquer ce qui fuit.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Ce que j'attrape, ce sont de petits poissons et des crustacés",
+      "ref": "Norman et Hochberg, The Mimic Octopus (Thaumoctopus mimicus n. gen. et sp.), a new octopus from the tropical Indo-West Pacific, Molluscan Research 25(2), 57-70 (2005)",
+      "url": "https://www.mapress.com/mrs/article/view/mr.25.2.1",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Il m'arrive d'entrer entièrement dans une galerie et de ressortir par un autre trou, jusqu'à un mètre du point d'entrée.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Ceux qui m'ont regardée ont écrit qu'ils ne connaissaient aucun autre poulpe qui chasse ainsi sous le sable.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "les-trois-formes",
+    "cles": [
+     "tes imitations",
+     "les trois formes",
+     "la sole",
+     "le serpent de mer",
+     "le poisson-lion"
+    ],
+    "reponse": "Trois de mes formes seulement sont tenues pour sûres par ceux qui m'ont filmée: la sole, le poisson-lion et le serpent de mer annelé. Pour la sole, je ramène tous mes bras en un coin en forme de feuille, le manteau traînant derrière la tête, et j'ondule en nageant entre les monticules. Pour le poisson-lion, je nage juste au-dessus du fond, les bras traînant autour du corps, et nous n'avons été que quatre à être vues ainsi. Pour le serpent, j'enfile six bras dans un trou et j'en dresse deux en sens opposés, annelés, enroulés, ondulants, et cela n'est arrivé qu'en réaction à l'attaque de petits poissons de récif territoriaux. Deux d'entre nous ont montré les trois formes, et d'autres, plus tard, ont préféré parler d'une imitation imparfaite et facultative plutôt que d'une copie.",
+    "ouvre": [
+     "ce-qui-est-incertain"
+    ],
+    "requiert": [
+     "identite"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Trois de mes formes seulement sont tenues pour sûres par ceux qui m'ont filmée: la sole, le poisson-lion et le serpent de mer annelé.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "je ramène tous mes bras en un coin en forme de feuille, le manteau traînant derrière la tête, et j'ondule en nageant entre les monticules",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "je nage juste au-dessus du fond, les bras traînant autour du corps, et nous n'avons été que quatre à être vues ainsi",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "j'enfile six bras dans un trou et j'en dresse deux en sens opposés, annelés, enroulés, ondulants, et cela n'est arrivé qu'en réaction à l'attaque de petits poissons de récif territoriaux",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Deux d'entre nous ont montré les trois formes",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "d'autres, plus tard, ont préféré parler d'une imitation imparfaite et facultative plutôt que d'une copie",
+      "ref": "Huffard, Saarman, Hamilton et Simison, The evolution of conspicuous facultative mimicry in octopuses: an example of secondary adaptation?, Biological Journal of the Linnean Society 101(1), 68-77 (2010)",
+      "url": "https://academic.oup.com/biolinnean/article-abstract/101/1/68/2450646",
+      "consulte": "2026-09-06"
+     }
+    ]
+   },
+   {
+    "id": "ce-qui-est-incertain",
+    "cles": [
+     "ce qui est incertain",
+     "les doutes",
+     "les anemones",
+     "la meduse",
+     "ce qui n est pas prouve"
+    ],
+    "reponse": "Le reste a été vu, mais il n'a pas été conclu, et je tiens à cette distinction. Assise sur un monticule, je lève tous mes bras au-dessus du corps, chacun tenu en zigzag, et il est seulement possible que cela imite les grandes anémones de sable. Une grande femelle de soixante centimètres est montée jusqu'à la surface depuis quatre mètres, puis est redescendue lentement, les bras étalés et ondulants, et cela peut imiter une grande méduse, sans plus. On a aussi écrit que ces ressemblances pourraient venir d'une évolution convergente, et que mes numéros pourraient être des parades nuptiales prises pour des imitations. Neuf adultes, seize jours, six heures de film: voilà sur quoi tout cela repose, et j'aime mieux que vous le sachiez.",
+    "ouvre": [],
+    "requiert": [
+     "les-trois-formes"
+    ],
+    "sources": [
+     {
+      "type": "reference",
+      "extrait": "Assise sur un monticule, je lève tous mes bras au-dessus du corps, chacun tenu en zigzag, et il est seulement possible que cela imite les grandes anémones de sable.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Une grande femelle de soixante centimètres est montée jusqu'à la surface depuis quatre mètres, puis est redescendue lentement, les bras étalés et ondulants, et cela peut imiter une grande méduse, sans plus.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "On a aussi écrit que ces ressemblances pourraient venir d'une évolution convergente, et que mes numéros pourraient être des parades nuptiales prises pour des imitations.",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     },
+     {
+      "type": "reference",
+      "extrait": "Neuf adultes, seize jours, six heures de film: voilà sur quoi tout cela repose",
+      "ref": "Norman, Finn et Tregenza, Dynamic mimicry in an Indo-Malayan octopus, Proceedings of the Royal Society B, 268(1478), 1755-1758 (2001)",
+      "url": "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+      "consulte": "2026-09-06"
+     }
+    ]
+   }
+  ],
+  "pagesOuvertes": [
+   "https://eprints.whiterose.ac.uk/91/1/tregenzat5.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/",
+   "https://www.mapress.com/mrs/article/view/mr.25.2.1",
+   "https://academic.oup.com/biolinnean/article-abstract/101/1/68/2450646",
+   "https://www.marinespecies.org/aphia.php?p=taxlist&tName=Thaumoctopus+mimicus",
+   "https://www.cambridge.org/core/journals/marine-biodiversity-records/article/abs/documentation-of-the-mimic-octopus-thaumoctopus-mimicus-in-the-great-barrier-reef-australia/6F470A146FF7BD32F1CDAC5C1F3DFFA0"
+  ],
+  "faitsEcartes": [
+   "Le chiffre repete partout selon lequel le poulpe mimetique imiterait 13 ou 15 especes. Aucune des pages primaires ouvertes ne donne ce total. L'article de Norman, Finn et Tregenza 2001 dit exactement l'inverse : les auteurs ne se declarent surs que de trois modeles. Ecarte.",
+   "Les imitations souvent citees en plus des trois sures : crabe geant, raie, crevette-mante, etoile de mer, poisson plat venimeux divers. Aucune source primaire ouverte ne les documente. Ecarte.",
+   "Le statut UICN \"Preoccupation mineure\" pour Thaumoctopus mimicus. Il apparaissait dans un resume de moteur de recherche, mais je n'ai pas pu ouvrir de fiche d'evaluation UICN. Ecarte faute de page reellement ouverte.",
+   "La duree de vie de l'espece. Rien trouve dans les sources primaires ouvertes. Ecarte, et surtout pas remplacee par une longevite de poulpe generique.",
+   "La causalite seduisante \"j'imite le serpent de mer parce que le serpent de mer mange les poissons territoriaux qui m'attaquent\". L'article 2001 la propose mais l'appuie sur une observation personnelle d'un auteur, sans donnee. Gardee comme correlation d'observation, jamais comme cause.",
+   "Le cas de Macrotritopus defilippi dans l'Atlantique, qui imite lui aussi un poisson plat et aurait ete un excellent contrepoint a l'unicite du poulpe mimetique. Toutes les versions integrales (journals.uchicago.edu, PubMed, depot MBL/WHOI) m'ont renvoye une erreur 403 ou une coupure de connexion. Je n'avais que des extraits de moteur de recherche. Ecarte.",
+   "La fourchette de profondeur 0,5 a 37 m donnee par la description originale de 2005. Elle est sourcable, mais la melanger avec les 2 a 12 m mesures sur le terrain en 1998-2000 aurait laisse croire a une seule et meme observation. J'ai garde la fourchette de terrain et signale qu'elle vaut la ou l'espece a ete suivie.",
+   "L'affirmation forte que l'animal \"choisit\" sa forme d'imitation. Le texte de 2001 ecrit \"suggest\" et \"suggests\", pas une demonstration. Ecarte au profit du seul fait observe : la posture de serpent n'est apparue qu'apres une attaque.",
+   "L'etude semiotique de 2019 sur \"mimic ou mimetic octopus\", qui critique justement l'interpretation mimetique. Redirection d'authentification chez l'editeur, page jamais ouverte. Ecarte."
+  ]
+ }
+]

@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le Zoo</title>
+<style>
+  :root{
+    --nuit:#06050E; --encre:#0D0B1C; --ardoise:#171130; --trait:#2E2557;
+    --trait-fort:#443A7A; --violet:#8438DC; --magenta:#D63C84;
+    --lavande:#B092F0; --texte:#F4F1FB; --doux:#C9C2DE; --faible:#8A82A6;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;background:var(--nuit);color:var(--texte);
+    font-family:"Space Grotesk","Segoe UI",system-ui,sans-serif;overflow:hidden;
+  }
+  #scene{display:block;width:100%;height:100%;cursor:default}
+  #scene.survol{cursor:pointer}
+
+  .titre{position:fixed;top:22px;left:26px;pointer-events:none;z-index:2}
+  .titre b{display:block;font-size:26px;font-weight:700;letter-spacing:-.02em}
+  .titre span{
+    display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--faible);margin-top:4px;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+  }
+  #scene{touch-action:none}
+  .haut{
+    position:fixed;top:22px;right:26px;z-index:4;display:flex;flex-direction:column;
+    align-items:flex-end;gap:10px;max-width:min(62vw,560px);
+  }
+  .navigation{position:fixed;top:92px;left:26px;z-index:4;display:flex;gap:8px}
+  .navigation[hidden],.nav-bouton[hidden]{display:none}
+  .nav-bouton{
+    background:rgba(13,11,28,.75);border:1px solid var(--trait-fort);color:var(--doux);
+    font:inherit;font-size:12.5px;padding:7px 14px;border-radius:99px;cursor:pointer;
+  }
+  .nav-bouton:hover{color:var(--texte);border-color:var(--lavande)}
+
+  /* ------------------------------------------------------------ accueil */
+  .accueil{
+    position:fixed;inset:0;z-index:8;display:flex;flex-direction:column;align-items:center;
+    justify-content:center;gap:44px;padding:40px 24px;overflow-y:auto;
+    background:radial-gradient(ellipse at 50% 40%,rgba(6,5,14,.35),rgba(6,5,14,.86) 70%);
+    transition:opacity .45s ease;
+  }
+  .accueil.cache{opacity:0;pointer-events:none}
+  .accueil[hidden]{display:none}
+  .accueil-titre{text-align:center;max-width:640px}
+  .accueil-titre h1{margin:0;font-size:clamp(44px,8vw,84px);font-weight:700;letter-spacing:-.03em;
+    text-shadow:0 4px 40px rgba(0,0,0,.6)}
+  .accueil-titre p{margin:12px 0 0;color:var(--doux);font-size:16px;line-height:1.6}
+  .accueil-choix{display:grid;grid-template-columns:repeat(3,minmax(0,300px));gap:18px}
+  .choix{
+    display:flex;flex-direction:column;align-items:flex-start;gap:8px;text-align:left;
+    background:rgba(13,11,28,.78);border:1px solid var(--trait-fort);border-radius:14px;
+    padding:14px 16px 20px;color:var(--texte);font:inherit;cursor:pointer;
+    transition:transform .25s ease,border-color .25s,background .25s;backdrop-filter:blur(3px);
+  }
+  .choix:hover,.choix:focus-visible{transform:translateY(-4px);border-color:var(--lavande);
+    background:rgba(23,17,48,.9);outline:none}
+  .choix-apercu{width:100%;height:150px;border-radius:9px;background:#0A0818;display:block}
+  .choix-nom{font-size:19px;font-weight:700;margin-top:6px}
+  .choix-texte{font-size:13.5px;line-height:1.55;color:var(--doux)}
+
+  .chargement{
+    position:fixed;inset:0;z-index:9;display:flex;flex-direction:column;align-items:center;
+    justify-content:center;gap:16px;background:rgba(6,5,14,.94);
+  }
+  .chargement[hidden]{display:none}
+  .chargement-texte{font-size:15px;color:var(--doux);letter-spacing:.04em}
+  .chargement-barre{width:min(320px,70vw);height:3px;background:var(--trait);border-radius:3px;overflow:hidden}
+  .chargement-barre span{display:block;height:100%;width:0;background:var(--lavande);transition:width .25s ease}
+  .toast{
+    position:fixed;left:50%;bottom:64px;transform:translate(-50%,10px);z-index:6;
+    background:rgba(13,11,28,.94);border:1px solid var(--trait-fort);color:var(--texte);
+    font-size:13px;padding:10px 16px;border-radius:6px;opacity:0;pointer-events:none;
+    transition:opacity .25s,transform .25s;max-width:calc(100% - 32px);text-align:center;
+  }
+  .toast.visible{opacity:1;transform:translate(-50%,0)}
+  .terrains{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+  .terrains[hidden]{display:none}
+  .terrains button{
+    background:rgba(13,11,28,.7);border:1px solid var(--trait);color:var(--faible);
+    font:inherit;font-size:12px;padding:6px 12px;border-radius:99px;cursor:pointer;
+    transition:border-color .2s,color .2s;
+  }
+  .terrains button:hover{color:var(--texte)}
+  .terrains button[aria-current="true"]{color:var(--nuit);font-weight:500}
+  .indice{
+    position:fixed;bottom:22px;left:0;right:0;text-align:center;z-index:2;
+    font-size:13px;color:var(--faible);pointer-events:none;transition:opacity .4s;
+  }
+
+  #panneau{
+    position:fixed;top:0;right:0;bottom:0;width:min(430px,100%);
+    background:var(--encre);border-left:1px solid var(--trait);
+    display:flex;flex-direction:column;z-index:3;
+    transform:translateX(100%);transition:transform .32s cubic-bezier(.4,0,.2,1);
+  }
+  #panneau.ouvert{transform:none}
+  .entete{padding:22px 24px 16px;border-bottom:1px solid var(--trait)}
+  .entete .nom{font-size:22px;font-weight:700;letter-spacing:-.01em}
+  .entete .espece{
+    font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--faible);margin-top:4px;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+  }
+  .fermer{
+    position:absolute;top:20px;right:20px;background:none;border:0;
+    color:var(--faible);font-size:22px;line-height:1;cursor:pointer;padding:4px 8px;
+  }
+  .fermer:hover{color:var(--texte)}
+  #fil{flex:1;overflow-y:auto;padding:20px 24px;display:flex;
+    flex-direction:column;gap:14px;scroll-behavior:smooth}
+  .bulle{max-width:88%;font-size:14.5px;line-height:1.65;
+    padding:12px 15px;border-radius:3px;white-space:pre-wrap}
+  .bulle.animal{background:var(--ardoise);border-left:2px solid var(--lavande);
+    align-self:flex-start}
+  .bulle.visiteur{background:transparent;border:1px solid var(--trait-fort);
+    align-self:flex-end;color:var(--doux)}
+  .saisie{padding:16px 24px 20px;border-top:1px solid var(--trait);display:flex;gap:10px}
+  .saisie input{
+    flex:1;background:var(--nuit);border:1px solid var(--trait-fort);
+    color:var(--texte);padding:11px 13px;font:inherit;font-size:14px;border-radius:3px;
+  }
+  .saisie input:focus{outline:none;border-color:var(--lavande)}
+  .saisie button{
+    background:var(--violet);border:0;color:#fff;padding:0 18px;
+    font:inherit;font-size:14px;font-weight:500;border-radius:3px;cursor:pointer;
+  }
+  .saisie button:hover{background:var(--magenta)}
+  .pistes{padding:0 24px 14px;display:flex;flex-wrap:wrap;gap:7px}
+  .pistes button{
+    background:none;border:1px solid var(--trait);color:var(--faible);
+    font:inherit;font-size:12px;padding:5px 10px;border-radius:99px;cursor:pointer;
+  }
+  .pistes button:hover{border-color:var(--lavande);color:var(--lavande)}
+
+  @media (max-width:640px){
+    #panneau{width:100%;top:auto;height:72%;border-left:0;
+      border-top:1px solid var(--trait);transform:translateY(100%)}
+    #panneau.ouvert{transform:none}
+    /* Sous 640px, la barre des terrains passait sur plusieurs lignes et
+       recouvrait le titre : ils se partagent une meme ligne a droite/gauche,
+       ca ne tient qu'a partir d'une certaine largeur. On passe la barre sous
+       le titre plutot qu'a cote. */
+    .titre{left:16px;top:14px;right:16px}
+    .titre span{letter-spacing:.08em}
+    .haut{top:auto;bottom:16px;left:16px;right:16px;max-width:none;align-items:stretch}
+    .terrains{justify-content:flex-start}
+    .navigation{top:auto;bottom:62px;left:16px}
+    .accueil{justify-content:flex-start;gap:26px;padding-top:56px}
+    .accueil-choix{grid-template-columns:1fr;width:100%;max-width:420px}
+    .choix-apercu{height:110px}
+    .indice{display:none}
+    .toast{bottom:120px}
+  }
+
+  .gouter{
+    display:none;margin:14px 24px 0;padding:10px 14px;
+    background:none;border:1px solid var(--trait-fort);color:var(--lavande);
+    font:inherit;font-size:13px;font-weight:500;border-radius:3px;cursor:pointer;
+    width:calc(100% - 48px);
+  }
+  .gouter.visible{display:block}
+  .gouter:hover{border-color:var(--lavande);background:rgba(176,146,240,.08)}
+
+  #degustation{
+    position:fixed;inset:0;z-index:10;display:none;align-items:center;
+    justify-content:center;padding:24px;background:rgba(6,5,14,.86);
+  }
+  #degustation.ouvert{display:flex}
+  .deg-carte{
+    width:min(520px,100%);max-height:86vh;overflow-y:auto;position:relative;
+    background:var(--encre);border:1px solid var(--trait-fort);border-radius:6px;
+    padding:28px 26px 22px;
+  }
+  .deg-passer{
+    position:absolute;top:16px;right:16px;background:none;border:1px solid var(--trait);
+    color:var(--faible);font:inherit;font-size:11px;padding:5px 10px;
+    border-radius:99px;cursor:pointer;
+  }
+  .deg-passer:hover{color:var(--texte);border-color:var(--trait-fort)}
+  .deg-avert{
+    font-size:10.5px;letter-spacing:.04em;color:var(--faible);max-width:78%;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    border:1px solid var(--trait);border-radius:3px;padding:8px 10px;margin-bottom:18px;
+  }
+  .deg-phase{font-size:15px;line-height:1.65;color:var(--doux);min-height:3.3em}
+  .deg-ancres{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 20px}
+  .deg-ancres span{
+    font-size:12px;color:var(--faible);border:1px solid var(--trait);
+    border-radius:99px;padding:5px 10px;
+  }
+  .deg-reactions{display:flex;flex-direction:column;gap:12px;margin-top:6px}
+  .deg-reaction{
+    border-left:2px solid var(--trait-fort);padding:2px 0 2px 12px;
+    opacity:0;transform:translateY(6px);transition:opacity .35s,transform .35s;
+  }
+  .deg-reaction.visible{opacity:1;transform:none}
+  .deg-reaction .qui{font-size:12px;font-weight:600;margin-bottom:2px}
+  .deg-reaction .quoi{font-size:11px;color:var(--faible);margin-bottom:5px}
+  .deg-reaction .texte{font-size:13.5px;line-height:1.55;color:var(--texte)}
+  .deg-pourquoi{
+    background:none;border:0;color:var(--faible);font:inherit;font-size:11.5px;
+    text-decoration:underline;cursor:pointer;padding:6px 0 0;
+  }
+  .deg-pourquoi:hover{color:var(--lavande)}
+  .deg-explication{font-size:12.5px;color:var(--faible);margin-top:6px;
+    line-height:1.5;display:none}
+  .deg-explication.visible{display:block}
+  .deg-boutons{display:flex;gap:10px;margin-top:22px}
+  .deg-boutons button{flex:1;font:inherit;font-size:13px;padding:9px 12px;
+    border-radius:3px;cursor:pointer}
+  .deg-rejouer{background:none;border:1px solid var(--trait-fort);color:var(--doux)}
+  .deg-rejouer:hover{border-color:var(--lavande);color:var(--lavande)}
+  .deg-fermer{background:var(--violet);border:0;color:#fff}
+  .deg-fermer:hover{background:var(--magenta)}
+
+  .carnet{
+    position:fixed;bottom:22px;right:26px;z-index:2;opacity:0;transition:opacity .3s;
+    font-size:11px;color:var(--faible);pointer-events:none;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+  }
+  .carnet.visible{opacity:1}
+</style>
+</head>
+<body>
+
+<div class="titre">
+  <b>Le Zoo</b>
+  <span id="sousTitre">Approchez-vous. Ils répondent.</span>
+</div>
+
+<div class="haut">
+  <nav class="terrains" id="terrains" aria-label="Terrains" hidden></nav>
+</div>
+<nav class="navigation" id="navigation" hidden>
+  <button class="nav-bouton" id="btnAccueil" type="button">&#8962; Accueil</button>
+  <button class="nav-bouton" id="retour" type="button" hidden>&larr; Carte du monde</button>
+</nav>
+
+<section class="accueil" id="accueil" aria-label="Accueil">
+  <div class="accueil-titre">
+    <h1>Le Zoo</h1>
+    <p>Des pays, des animaux et des fruits qui répondent à vos questions. Tout ce qu'ils disent est sourcé.</p>
+  </div>
+  <div class="accueil-choix">
+    <button class="choix" type="button" data-mode="carte">
+      <canvas class="choix-apercu" data-apercu="carte"></canvas>
+      <span class="choix-nom">La carte du monde</span>
+      <span class="choix-texte">Choisissez un pays, parlez-lui, puis rencontrez les animaux et les fruits qui y vivent.</span>
+    </button>
+    <button class="choix" type="button" data-mode="zoo">
+      <canvas class="choix-apercu" data-apercu="zoo"></canvas>
+      <span class="choix-nom">Le Zoo</span>
+      <span class="choix-texte">Les animaux, terrain par terrain : savane, forêt, eaux douces, récif, banquise.</span>
+    </button>
+    <button class="choix" type="button" data-mode="verger">
+      <canvas class="choix-apercu" data-apercu="verger"></canvas>
+      <span class="choix-nom">Le Verger</span>
+      <span class="choix-texte">Les fruits : posez-leur vos questions, puis goûtez-les avec six goûteurs pas comme les autres.</span>
+    </button>
+  </div>
+</section>
+
+<div class="chargement" id="chargement" aria-live="polite" hidden>
+  <div class="chargement-texte" id="chargementTexte">Chargement</div>
+  <div class="chargement-barre"><span id="chargementBarre"></span></div>
+</div>
+<canvas id="scene"></canvas>
+<div class="indice" id="indice"></div>
+<div class="toast" id="toast" role="status"></div>
+
+<aside id="panneau" aria-live="polite">
+  <div class="entete">
+    <div class="nom" id="pNom"></div>
+    <div class="espece" id="pEspece"></div>
+    <button class="fermer" id="pFermer" aria-label="Fermer">&times;</button>
+  </div>
+  <button class="gouter" id="pGouter" type="button">Goûter</button>
+  <div id="fil"></div>
+  <div class="pistes" id="pistes"></div>
+  <form class="saisie" id="form">
+    <input id="question" type="text" placeholder="Posez votre question" autocomplete="off">
+    <button type="submit">Demander</button>
+  </form>
+</aside>
+
+<div id="degustation" aria-hidden="true">
+  <div class="deg-carte" role="dialog" aria-label="Dégustation">
+    <button class="deg-passer" id="degPasser" type="button">Passer</button>
+    <div class="deg-avert" id="degAvert"></div>
+    <div class="deg-phase" id="degPhase"></div>
+    <div class="deg-ancres" id="degAncres"></div>
+    <div class="deg-reactions" id="degReactions"></div>
+    <div class="deg-boutons">
+      <button class="deg-rejouer" id="degRejouer" type="button">Rejouer</button>
+      <button class="deg-fermer" id="degFermer" type="button">Fermer</button>
+    </div>
+  </div>
+</div>
+<div class="carnet" id="carnet"></div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

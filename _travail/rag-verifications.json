@@ -1,0 +1,394 @@
+[
+ {
+  "id": "axolotl",
+  "verdict": "publiable apres corrections",
+  "problemes": [
+   "Graphe incoherent : le sujet regeneration a ouvre:[cousins-de-verre], mais cousins-de-verre a requiert:[xochimilco]. Un joueur qui suit identite > branchies > regeneration voit cousins-de-verre s'ouvrir puis rester verrouille. C'est le seul defaut structurel, mais il casse une branche entiere du parcours.",
+   "Surgeneralisation de la source dans cousins-de-verre : PMC7685626 dit exactement 'tiger salamander genetic segments persist today among AGSC axolotls', c'est-a-dire chez les axolotls d'UN centre (Ambystoma Genetic Stock Center). La fiche ecrit 'des segments genetiques de cette salamandre persistent aujourd'hui' sans restriction, ce qui etend le fait a toutes les populations de laboratoire. Le mot AGSC a disparu au passage.",
+   "Datation floue dans xochimilco : 'des releves plus recents en comptent moins de trente-cinq' vient de l'article BioScience de 2015 ('recent data suggests that there are fewer than 35 axolotls per square kilometer'). Lu en 2026, 'plus recents' se comprend comme 'actuels'. Le chiffre est juste, l'implicature temporelle ne l'est pas.",
+   "Rupture de voix dans regeneration : c'est le seul sujet ou l'animal recite du vocabulaire d'histologie sans l'attribuer aux humains ('cellules proliferatives et indifferenciees', 'dedifferenciation de cellules matures', 'fibroblastes du tissu conjonctif'). Partout ailleurs la fiche attribue proprement ('Les gardiens repetent un mot pour moi', 'Vos savants savent', 'Vos listes me rangent'). Contradiction interne avec son propre faitsEcartes, qui rejette le genome au motif que 'ce n'est pas une chose qu'un axolotl peut savoir de lui-meme' : ici il sait le nom de ses fibroblastes.",
+   "Meme probleme, plus leger, dans xochimilco : 'Notre densite est passee de six mille par kilometre carre en 1998 a cent en 2008'. Un axolotl qui possede sa propre densite au km2 et une serie temporelle. Le fait est bon, l'enonciation ne l'est pas.",
+   "Source contradictoire avec elle-meme sur la taille (non bloquant, aucune correction demandee) : la prose d'Animal Diversity Web dit bien 'reach lengths on average of 20 cm, but can grow to more than 30 cm', ce qui couvre mot pour mot la fiche. Mais l'encadre de la meme page affiche 'Average length 23 cm' et 'Range length 30 cm (high)'. La fiche a choisi la prose, c'est defendable ; a savoir si un relecteur externe ouvre l'encadre.",
+   "Animal Diversity Web porte 5 des 12 citations, dont le statut UICN, qui y est relaye et non primaire. Ce n'est pas Wikipedia et ce n'est pas interdit, mais la fiche s'interdit ailleurs la liste rouge parce qu'elle n'a pas pu l'ouvrir, tout en en reprenant le verdict via un tiers. A assumer explicitement plutot qu'a masquer.",
+   "Verifie et sans defaut : les 4 URL citees repondent et disent bien ce qu'on leur fait dire ; les 12 extraits apparaissent tous mot pour mot dans les reponses ; aucun chiffre, date ni superlatif non couvert ; zero source tertiaire de type Wikipedia ; identite a bien requiert vide ; les 25 cles sont toutes en minuscules, sans accent, et toutes au-dessus de 3 caracteres ; zero tiret cadratin. La 5e page de pagesOuvertes (PMC12043180) existe et correspond bien a l'ecart declare sur les domaines vitaux."
+  ],
+  "corrections": [
+   {
+    "sujet": "regeneration",
+    "avant": "\"ouvre\":[\"cousins-de-verre\"]",
+    "apres": "\"ouvre\":[]",
+    "pourquoi": "cousins-de-verre exige xochimilco, que regeneration ne donne pas. Le sujet s'ouvrait sur un mur. xochimilco l'ouvre deja et satisfait sa condition : la branche reste atteignable, sans cul-de-sac."
+   },
+   {
+    "sujet": "cousins-de-verre",
+    "avant": "En 1962, une hybridation a fait entrer chez eux de la salamandre tigree, et des segments genetiques de cette salamandre persistent aujourd'hui.",
+    "apres": "En 1962, une hybridation a fait entrer chez eux de la salamandre tigree, et dans la souche d'elevage qui fournit les laboratoires, des segments genetiques de cette salamandre persistent aujourd'hui.",
+    "pourquoi": "La source restreint le fait aux axolotls de l'AGSC, un seul centre d'elevage. Sans cette restriction, la fiche etend une observation locale a toutes les populations captives. L'extrait de source doit etre reecrit a l'identique."
+   },
+   {
+    "sujet": "xochimilco",
+    "avant": "et des releves plus recents en comptent moins de trente-cinq par kilometre carre",
+    "apres": "et des releves cites en 2015 en comptaient deja moins de trente-cinq par kilometre carre",
+    "pourquoi": "Le chiffre vient d'un article de 2015. Ecrit sans date, il se lit comme un comptage d'aujourd'hui et fait dire a la source plus que ce qu'elle dit. L'extrait de source devient : 'des releves cites en 2015 en comptaient deja moins de trente-cinq par kilometre carre'."
+   },
+   {
+    "sujet": "xochimilco",
+    "avant": "Notre densite est passee de six mille par kilometre carre en 1998 a cent en 2008.",
+    "apres": "Ceux qui nous comptent disent six mille d'entre nous par kilometre carre en 1998, et cent en 2008.",
+    "pourquoi": "Un axolotl ne connait pas sa densite au kilometre carre. Attribuer le comptage aux humains, comme la fiche le fait deja tres bien avec 'Vos listes' et 'Vos savants', garde le chiffre et rend la voix coherente. L'extrait de source devient : 'six mille d'entre nous par kilometre carre en 1998, et cent en 2008'."
+   },
+   {
+    "sujet": "regeneration",
+    "avant": "Quand une patte me manque, il se forme a l'endroit de la coupure une masse de cellules proliferatives et indifferenciees. Ces cellules viennent de la dedifferenciation de cellules matures du moignon voisin, surtout des fibroblastes du tissu conjonctif.",
+    "apres": "Quand une patte me manque, il pousse a l'endroit de la coupure un bourgeon pale. Vos savants l'ouvrent et decrivent une masse de cellules proliferatives et indifferenciees, venues de la dedifferenciation de cellules matures du moignon voisin, surtout des fibroblastes du tissu conjonctif. Moi je sens juste que ca revient.",
+    "pourquoi": "Seul endroit de la fiche ou l'animal recite de l'histologie sans l'attribuer. Le detournement par 'Vos savants' est deja le procede utilise dans branchies pour l'hormone thyroidienne : il conserve les deux extraits mot pour mot, donc les deux sources restent valides, et il repare la contradiction avec le faitsEcartes qui rejette le genome au motif que l'animal ne peut pas le savoir."
+   }
+  ]
+ },
+ {
+  "corrections": [
+   {
+    "sujet": "accroche",
+    "avant": "Le seul animal qui gagne du temps en s'arrêtant.",
+    "apres": "Un animal qui gagne du temps en s'arrêtant.",
+    "pourquoi": "« Le seul » est un superlatif d'exclusivité faux et non mesuré. Le papier PLOS ONE cité par la fiche elle-même le contredit noir sur blanc : « Rotifers and tardigrades contract in the anterior-posterior direction... resulting in a compact body shape called a tun. » Les rotifères, nématodes et artémies font la même chose. Et la fiche écarte explicitement « l'animal le plus résistant de la Terre » comme superlatif non mesuré : elle s'applique sa propre règle partout sauf dans son accroche."
+   },
+   {
+    "sujet": "l-espace",
+    "avant": "Sur ceux qui n'ont eu que les ultraviolets A et B, douze sur cent se sont réveillés.",
+    "apres": "Sur ceux d'une des deux espèces embarquées qui n'ont eu que les ultraviolets A et B, douze sur cent se sont réveillés.",
+    "pourquoi": "La revue de Jönsson (Cancers 2019) écrit : « 12% of the M. tardigradum specimens exposed to UVA+B survived ». Le chiffre ne vaut que pour Milnesium tardigradum, pas pour les deux espèces du vol. La fiche transforme un résultat d'une espèce en résultat général. L'extrait de source doit être corrigé en même temps que la phrase."
+   },
+   {
+    "sujet": "l-espace",
+    "avant": "En deux mille sept, des humains ont emporté des tardigrades desséchés là-haut pendant dix jours, dans le vide et sous les rayons.",
+    "apres": "En deux mille sept, des humains ont emporté des tardigrades desséchés là-haut, et les ont laissés dix jours dans le vide et sous les rayons.",
+    "pourquoi": "Les deux sources du même sujet se contredisent sur la durée : Jönsson dit « exposed in space during 10 days », la page ESA dit « For 12 days in September 2007 ». Ce n'est pas la même chose (durée d'exposition contre durée de mission) mais un lecteur qui ouvre les deux liens voit une contradiction. Soit on reformule pour dire clairement « dix jours d'exposition », soit on retire la source ESA qui n'apporte rien que la revue ne porte déjà."
+   },
+   {
+    "sujet": "identite",
+    "avant": "J'ai quatre paires de pattes courtes qui finissent par des griffes",
+    "apres": "J'ai quatre paires de pattes courtes qui finissent par des griffes ou des coussinets, selon les miens",
+    "pourquoi": "Animal Diversity Web dit « four pairs of lobopodious legs terminating in adhesive pads, discs, or claws ». La source donne trois terminaisons possibles, la fiche n'en garde qu'une et la présente comme la règle. L'extrait cité ne couvre donc pas exactement ce qui est affirmé."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Je perce les cellules avec les deux stylets que j'ai dans la bouche, et je bois ce qui en sort.",
+    "apres": "Je perce les cellules avec les stylets que j'ai dans la bouche, et je bois ce qui en sort.",
+    "pourquoi": "Le nombre « deux » est un chiffre, et la page ADW ouverte dit seulement « piercing cell walls with their oral stylets », sans compte. Un chiffre non couvert par la source citée doit disparaître ou être sourcé ailleurs. Règle : aucun chiffre qui ne soit dans une source ouverte."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Je vis dans la mousse, là où un film d'eau reste accroché entre les feuilles.",
+    "apres": "(phrase inchangée, mais ajouter une entrée sources)",
+    "pourquoi": "L'habitat est la seule affirmation factuelle du sujet sans entrée dans « sources », alors que la page ADW la porte : « found in semi-aquatic habitats, such as water films and leaf litter » et « commonly associated with bryophytes (mosses) ». Trou de couverture facile à combler, pas une erreur de fond."
+   },
+   {
+    "sujet": "le-reveil",
+    "avant": "Il suffit d'eau, et de quelques heures.",
+    "apres": "Il suffit d'eau, et de quelques heures : dans leur expérience, cinq.",
+    "pourquoi": "« Quelques heures » est une durée avancée sans source. L'article PLOS ONE 2016 donne « 5 hours of rehydration », déjà cité plus bas dans le même sujet. Autant nommer la valeur qu'on a plutôt que de laisser une estimation flottante."
+   },
+   {
+    "sujet": "la-chaleur",
+    "avant": "Une résistance qui dépend de l'horloge n'est pas une invulnérabilité.",
+    "apres": "Tenez-moi une heure au chaud, je passe. Tenez-moi un jour, je casse plus bas. Ça n'est pas être invulnérable.",
+    "pourquoi": "La phrase actuelle est un aphorisme d'essayiste humain, pas une parole d'animal : construction abstraite, sujet nominal, métaphore d'horloge. C'est le seul endroit du texte où on entend clairement l'auteur et plus la bête. Le reste du ton (lent, qui compte, qui corrige) est bon, il faut juste redescendre cette ligne au concret."
+   },
+   {
+    "sujet": "l-espace",
+    "avant": "ce qui me sauve là-haut est compris comme un effet de bord de ce qui me sauve quand la mousse sèche",
+    "apres": "ce qui me sauve là-haut, c'est la même chose que ce qui me sauve quand la mousse sèche ; le reste n'est qu'un débordement",
+    "pourquoi": "« Est compris comme un effet de bord » est du passif de revue scientifique, la formule exacte du registre qu'on veut éviter dans une bouche d'animal. Le fond est bon et sourcé (« a by-product of adaptive protection »), c'est la voix qui décroche sur la dernière phrase du dernier sujet, l'endroit le plus visible."
+   }
+  ],
+  "id": "tardigrade",
+  "problemes": [
+   "ACCROCHE, faute la plus grave : « Le seul animal qui gagne du temps en s'arrêtant » est un superlatif d'exclusivité, non mesuré, et contredit par une source que la fiche cite elle-même (PLOS ONE PMC3877342 : « Rotifers and tardigrades contract in the anterior-posterior direction... resulting in a compact body shape called a tun »). La fiche écarte scrupuleusement « l'animal le plus résistant de la Terre » dans ses faitsEcartes, puis laisse passer le même type de superlatif dans sa première ligne visible. Incohérence interne.",
+   "l-espace : le « douze sur cent » est présenté comme valant pour tous les revenants, alors que Jönsson écrit « 12% of the M. tardigradum specimens exposed to UVA+B survived ». Le chiffre ne vaut que pour une des deux espèces embarquées. Généralisation non couverte par la source.",
+   "l-espace : contradiction entre les deux sources du même sujet sur la durée. Jönsson dit dix jours d'exposition, la page ESA citée juste en dessous dit « For 12 days in September 2007 ». La distinction exposition/mission n'est pas dite, le lecteur qui ouvre les deux liens voit une erreur.",
+   "identite : « deux stylets ». Le nombre est un chiffre non couvert. La page ADW ouverte dit seulement « piercing cell walls with their oral stylets », sans compte.",
+   "identite : « pattes courtes qui finissent par des griffes » durcit la source. ADW dit « terminating in adhesive pads, discs, or claws », trois possibilités, la fiche n'en garde qu'une et la donne comme la règle.",
+   "identite : la phrase d'habitat (« Je vis dans la mousse, là où un film d'eau reste accroché ») est la seule affirmation factuelle du sujet sans entrée dans sources, alors que ADW la porte. Trou de couverture.",
+   "le-reveil : « et de quelques heures » est une durée non sourcée, alors que la valeur exacte (cinq heures) est dans l'article déjà cité deux lignes plus bas.",
+   "Généralisation d'espèce, transversale : les 87 pour cent de volume et les six cycles viennent de Richtersius coronifer, les températures de Ramazzottius varieornatus, les douze pour cent de Milnesium tardigradum. Le personnage les prend tous à son compte comme « moi » et « les miens ». Le « des miens » atténue mais ne dit jamais que ce sont des espèces différentes. À surveiller si une fiche voisine cite d'autres chiffres pour les mêmes phénomènes.",
+   "Qualité de source : quatre des cinq sources de identite et deux de le-tonneau reposent sur Animal Diversity Web, une base encyclopédique universitaire, donc un agrégateur. Ce n'est pas Wikipedia et ce n'est pas interdit, mais c'est le maillon faible du dossier : tout le portrait physique de l'animal tient sur une seule page tertiaire, quand les quatre autres sujets tiennent sur des articles primaires.",
+   "Voix : deux décrochages nets vers le registre de l'essayiste ou de la revue. « Une résistance qui dépend de l'horloge n'est pas une invulnérabilité » (aphorisme abstrait) et « est compris comme un effet de bord » (passif académique), cette dernière étant la toute dernière phrase du dernier sujet, l'endroit le plus exposé. Le reste du ton tient bien.",
+   "Corrects, vérifiés, rien à redire : les cinq URL citées répondent et disent exactement ce que la fiche leur fait dire (0,1 à 0,5 mm, 3 à 30 mois, 87 ± 5 pour cent, 98,5 puis 28,6 pour cent sur six cycles de 24 h plus 5 h, LT50 37,1 °C actifs, 82,7 °C à une heure et 63,1 °C à vingt-quatre heures, gouttière de Nivå au Danemark, vol de 2007, aucun survivant au spectre UV complet). Les vingt extraits apparaissent tous mot pour mot dans les réponses. Le graphe est sain : tous les ouvre et requiert pointent vers des id existants, identite a bien un requiert vide, tous les sujets sont atteignables. Aucune clé de trois caractères ou moins, aucun accent, aucune majuscule dans les clés. Aucun tiret cadratin. Aucune source Wikipedia. La section faitsEcartes est le meilleur morceau du dossier."
+  ],
+  "verdict": "publiable apres corrections"
+ },
+ {
+  "id": "manchot-empereur",
+  "verdict": "publiable apres corrections",
+  "problemes": [
+   "Sources : les 8 URL sont vivantes et disent bien ce qu'on leur fait dire. J'ai verifie une par une : ADW donne 101 a 132 cm, 25 a 45 kg, 65 jours, 4 mois de jeune, 1,6 heure ; PLoS ONE donne -33 a -43, 21 par m2, 0 a 37 degres, 30-60 s, 5-10 cm, 110-120 jours, males seuls a couver ; AAP donne 100-200 m, 3-6 min, 565 m, deux plongees de 22 min, colonies de quelques centaines a plus de 20 000 couples ; JEB 214 donne ADL 5,6 min et la plongee de 27,6 min avec 6 min, 20 min et 8,4 h ; JEB 227 confirme 5,6 min ; Biology Letters donne -17,6, 4 a 4,8 et 0,4 a 1,9 ; l'UICN (9 avril 2026) donne quasi menace vers en danger, records bas depuis 2016, 10 pour cent et plus de 20 000 adultes entre 2009 et 2018, moitie moins dans les annees 2080. Aucun blocage de ce cote.",
+   "Extraits : les 21 extraits apparaissent tous mot pour mot dans la reponse de leur sujet. Rien a redire.",
+   "Chiffres non couverts : aucun. Chaque nombre, unite et date des cinq reponses est adosse a une source. Aucun superlatif non mesure, le piege de l'oiseau plongeur le plus profond a bien ete evite.",
+   "Wikipedia : absent. Mais Animal Diversity Web porte 6 extraits sur 21, dont les 65 jours, les quatre mois et les 101 a 132 cm. C'est une compilation encyclopedique redigee par des etudiants, donc une source tertiaire de fait. Le cas le plus faible est le 1,6 heure de rassemblement : c'est une mesure de recherche blanchie par un agregateur. Incoherence de standard au passage : la fiche rejette les 10 individus par m2 du programme australien parce qu'ils contredisent une mesure d'etude, mais accepte sans broncher un chiffre mesure qui lui arrive de seconde main.",
+   "Graphe casse : plongee annonce ouvre glace, mais glace exige requiert tortue, et tortue n'est atteignable que par couvaison. Le visiteur qui va identite puis plongee voit glace s'ouvrir et se cogne a un verrou. Tous les autres ids existent, identite a bien un requiert vide et les cinq sujets restent atteignables.",
+   "Cles : aucune de 3 caracteres ou moins, aucun accent, aucune majuscule. Deux reserves quand meme. La cle sous l eau n'attrapera pas le visiteur qui tape l'apostrophe. Et la cle le jeune, dans le sujet couvaison, entre en collision de sens avec la cle les petits du meme sujet : sans accent, le jeune se lit comme le petit.",
+   "Tiret cadratin : aucun, nulle part.",
+   "Contradiction interne, la plus grave de la fiche : couvaison enchaine je tiens ainsi environ 65 jours puis pendant tout ce temps je ne mange rien : quatre mois de jeune, ou 110 a 120 jours. 65 jours et 110 a 120 jours ne designent pas la meme periode, l'un est la couvaison, l'autre le jeune total. Presentes comme egaux, c'est faux et un visiteur attentif le voit.",
+   "Cadre incoherent : l'animal dit vivre sur la glace collee au continent, puis parle de vos gardiens. Il est en Antarctique ou au zoo. Choisir.",
+   "Voix : bonne dans l'ensemble, lente, qui compte, qui regarde l'humain de haut. Mais plongee et glace attribuent proprement leurs mesures a ceux qui nous equipent et a vos images prises depuis le ciel, tandis qu'identite recite un recensement en couples et tortue lache des dixiemes de degre sans dire d'ou ils viennent. Ces deux sujets basculent en fiche recitee a la premiere personne.",
+   "Detail d'usage : le sujet s'appelle tortue, la cle la tortue existe, et la reponse ne prononce jamais le mot. Le visiteur ne retrouve pas son mot dans la reponse."
+  ],
+  "corrections": [
+   {
+    "sujet": "plongee",
+    "avant": "\"ouvre\":[\"glace\"] dans plongee, alors que glace porte \"requiert\":[\"tortue\"]",
+    "apres": "\"ouvre\":[] dans plongee",
+    "pourquoi": "Le sujet promet d'ouvrir glace mais ne peut pas le deverrouiller : glace exige tortue, qui ne s'atteint que par couvaison. Soit on retire la promesse, soit on aligne glace sur \"requiert\":[] , mais laisser les deux en l'etat cree une porte fermee dans le parcours."
+   },
+   {
+    "sujet": "couvaison",
+    "avant": "Je tiens ainsi environ 65 jours, jusqu'a ce que la femelle revienne de la mer. Pendant tout ce temps je ne mange rien : quatre mois de jeune, ou 110 a 120 jours si tu preferes compter comme ceux qui nous observent.",
+    "apres": "Je le couve environ 65 jours, jusqu'a l'eclosion. Mon ventre, lui, est vide bien avant : en tout je reste 110 a 120 jours sans rien avaler, quatre mois pleins, si tu preferes compter comme ceux qui nous observent.",
+    "pourquoi": "65 jours est la couvaison, 110 a 120 jours est le jeune complet. La formule pendant tout ce temps les colle l'un sur l'autre et rend la fiche fausse. Penser a mettre a jour les extraits des sources concernees, celui qui commence par Je tiens ainsi environ 65 jours ne collerait plus mot pour mot. Le retour de la femelle n'est adosse a aucune source, il disparait."
+   },
+   {
+    "sujet": "couvaison",
+    "avant": "quatre mois de jeune (et la cle \"le jeune\")",
+    "apres": "quatre mois sans rien avaler (et la cle \"sans manger\")",
+    "pourquoi": "Sans accent, jeune se lit comme le petit et pas comme le jeune du male. La cle le jeune entre alors en collision directe avec la cle les petits du meme sujet, et l'ambiguite se paie deux fois : dans la recherche et dans la lecture."
+   },
+   {
+    "sujet": "couvaison",
+    "avant": "sous un repli de peau que vos gardiens appellent une poche a couver",
+    "apres": "sous un repli de peau que ceux qui nous observent appellent une poche a couver",
+    "pourquoi": "L'entite dit ailleurs vivre sur la glace collee au continent. Elle ne peut pas avoir de gardiens. Le reste de la fiche utilise deja ceux qui nous observent et ceux qui nous equipent, on s'aligne dessus."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Je vis sur la glace collee au continent, dans une colonie qui compte de quelques centaines a plus de 20 000 couples.",
+    "apres": "Je vis sur la glace collee au continent, dans un groupe dont je n'ai jamais vu le bout. Ceux qui nous comptent depuis le ciel disent de quelques centaines a plus de 20 000 couples selon l'endroit.",
+    "pourquoi": "Un manchot ne connait pas le nombre de couples de sa colonie. Tel quel, c'est un recensement recite a la premiere personne. L'extrait de source doit suivre : une colonie qui compte de quelques centaines a plus de 20 000 couples devient de quelques centaines a plus de 20 000 couples."
+   },
+   {
+    "sujet": "tortue",
+    "avant": "Ce que tu ne vois pas : par moins 17,6 degres, mon dos et mon ventre sont 4 a 4,8 degres plus froids que l'air lui-meme",
+    "apres": "Ce que tu ne vois pas, leurs cameras l'ont vu : par moins 17,6 degres, mon dos et mon ventre sont 4 a 4,8 degres plus froids que l'air lui-meme",
+    "pourquoi": "Des dixiemes de degre dans la bouche de l'animal, sans dire qui a mesure, c'est la fiche qui parle. Plongee et glace attribuent leurs chiffres, ce sujet doit faire pareil. L'extrait de source garde sa partie mot pour mot, elle est intacte apres la virgule."
+   },
+   {
+    "sujet": "tortue",
+    "avant": "Quand l'air tombe entre moins 33 et moins 43 degres, nous nous serrons jusqu'a tenir a environ 21 par metre carre.",
+    "apres": "Ce que vous appelez la tortue, pour nous c'est juste rester en vie. Quand l'air tombe entre moins 33 et moins 43 degres, nous nous serrons jusqu'a tenir a environ 21 par metre carre.",
+    "pourquoi": "Le sujet s'appelle tortue, la cle la tortue existe, et le mot n'apparait jamais dans la reponse. Le visiteur doit retrouver son mot des la premiere ligne."
+   },
+   {
+    "sujet": "plongee",
+    "avant": "cles: [\"la plongee\",\"sous l eau\",\"la profondeur\",\"ton souffle\",\"la chasse\",\"nager\"]",
+    "apres": "cles: [\"la plongee\",\"sous l'eau\",\"la profondeur\",\"ton souffle\",\"la chasse\",\"nager\"]",
+    "pourquoi": "Personne ne tape sous l eau avec un espace. Si le moteur ne normalise pas les apostrophes, cette cle ne sert a rien."
+   },
+   {
+    "sujet": "sources",
+    "avant": "Un rassemblement dure en moyenne 1,6 heure, source Animal Diversity Web",
+    "apres": "Remplacer par l'etude qui a mesure la duree des rassemblements, ou a defaut par le programme antarctique australien, agence qui mene ces observations",
+    "pourquoi": "Animal Diversity Web est une compilation encyclopedique redigee par des etudiants : une source tertiaire. Elle porte ici 6 extraits sur 21, et le 1,6 heure est une mesure de terrain qui arrive de seconde main. La fiche a deja rejete les 10 individus par m2 du programme australien au motif qu'une mesure d'etude primait : le meme standard doit s'appliquer ici."
+   }
+  ]
+ },
+ {
+  "id": "braise-vampire-commune",
+  "verdict": "publiable apres corrections",
+  "problemes": [
+   "FAUX, bloquant. monnez ecrit : 'les seuls autres animaux qui le font sont des serpents, boas, pythons et crotales'. La source Gracheva dit exactement : 'Among vertebrates, only vampire bats, boas, pythons and pit vipers are capable of detecting infrared radiation.' Le qualificatif 'Among vertebrates' a saute, et le passage de 'vertebres' a 'animaux' rend la phrase fausse. Riskin et Carter, source que la fiche cite elle-meme, dit le contraire noir sur blanc : 'Sanguivorous mosquitoes (culidae) are also sensitive to heat, and like vampire bats, use it as a cue in the final stages of approach and landing on a host.' La fiche se contredit avec sa propre bibliographie.",
+   "COMPARAISON NON SOURCEE. identite ecrit 'contrairement aux autres chauves-souris, je marche, je cours et je saute a quatre pattes'. Animal Diversity Web, la source citee, dit seulement 'Desmodus rotundus can walk, run, and hop quadrupedally along the ground' et ne compare a aucune autre espece. Pour la marche la comparaison est fausse : la chauve-souris a queue courte de Nouvelle-Zelande, Mystacina, est un marcheur connu et figure dans la bibliographie de Riskin. Seule la COURSE est unique, et c'est Riskin qui le dit : 'The running gait of vampire bats is the only known running gait of a bat.' Aggravant : faitsEcartes annonce avoir ecarte ce superlatif et avoir garde la formulation neutre d'ADW, puis le texte livre en reintroduit une version plus vague ET moins exacte. L'ecarte et le livre se contredisent.",
+   "CONTRADICTION INTERNE, chiffres. identite : 'au dela de soixante-dix heures sans repas, je meurs'. lafaim, sujet suivant : 'sans sang je tiens environ trois jours, pas davantage', soit soixante-douze heures. Les deux chiffres sont authentiquement sources (70 h dans Carter et Wilkinson 2013 ; 'vampires starve in ca. three days without food' dans Riskin et Carter) mais donner deux comptes differents de la meme limite detruit le seul personnage de la fiche, celui qui 'compte ses heures'. Une comptable ne donne pas deux totaux.",
+   "CONTRADICTION INTERNE, agent de l'action. lepartage ouvre sur 'je leche la bouche d'une voisine' (c'est moi qui quemande) puis enchaine trois mots plus loin sur 'ce n'est pas toujours moi qui quemande : c'est la donneuse qui a commence dans soixante-deux pour cent des cas'. Or le lechage de bouche EST l'acte d'initiation, fait par l'un ou par l'autre : Carter et Wilkinson definissent le comportement comme 'one bat clearly began licking a conspecific's mouth', classe comme initie par le receveur, le donneur ou inconnu. Les deux phrases decrivent le meme geste avec des agents opposes, sans la clause qui les reconcilie.",
+   "REGISTRE INCOHERENT. 'entre 15 et 50 grammes' est en chiffres arabes alors que TOUS les autres nombres de la fiche sont en lettres : soixante-dix heures, trente pour cent, soixante-deux pour cent, soixante-quatre pour cent, huit fois et demie, douze ans, trente degres. Deux chiffres nus au milieu d'une voix parlee sonnent comme un copier-coller de fiche.",
+   "RECITATION, pas de la parole animale. Trois passages sortent de la bouche d'un chercheur, pas d'une chauve-souris. Un : la liste taxonomique 'serpents, boas, pythons et crotales', avec un point-virgule, registre ecrit et savant. Deux : 'Le seuil de chaleur de ces nerfs-la est descendu autour de trente degres' : 'seuil de chaleur' est un mot d'instrument, elle ne lit pas une courbe d'activation TRPV1. Trois : 'huit fois et demie plus fort que le lien de parente' est une taille d'effet statistique, a moitie rattrapee par le cadre de la dette mais pas plus.",
+   "POINT DE VUE CASSE. lepartage dit 'Parmi les couples observes qui se partageaient le sang' et mesamies dit 'Des femelles sauvages ont ete revues perchees ensemble douze ans plus tard'. Observes par qui, revues par qui ? Ces deux tournures convoquent un observateur humain absent du recit et font raconter a Braise, de l'exterieur, une etude publiee qu'elle est censee vivre de l'interieur. 'On nous a relachees dans la foret' fonctionne, lui, parce que le 'on' est vecu.",
+   "DOUBLE STANDARD SUR LA SOURCE ADW. Animal Diversity Web est une compilation encyclopedique de comptes rediges par des etudiants, pas une source primaire, et elle porte seule deux faits de la fiche : la masse et la locomotion. Or faitsEcartes jette la draculine avec ce motif exact : 'Presente sur Animal Diversity Web, mais je n'ai pas pu la confirmer sur une page primaire ouverte.' Le meme niveau de preuve suffit pour deux faits gardes et ne suffit pas pour un fait jete. La locomotion peut etre re-sourcee sur Riskin, primaire ; la masse ne le peut pas, les chiffres de ce PDF sont illisibles a l'extraction.",
+   "CE QUI PASSE, verifie et non contestable. Les sept URL repondent. Les dix-neuf extraits apparaissent MOT POUR MOT dans leur reponse, sans exception. Chaque chiffre porteur a ete retrouve dans sa source citee : 15 a 50 g et locomotion quadrupede (ADW) ; 'feed only on blood and die after 70 h of fasting' et 'Donors initiated food sharing in 62 per cent of non-maternal food-sharing bouts' et 'Sixty-four per cent of sharing dyads were unrelated' et '8.5 times more important than relatedness' et 'under the age of 2 years fail to feed on 30 per cent of nights' et 'Wild female vampire bats have been observed still roosting together after 12 years' et l'allotoilettage 'uncorrelated with ectoparasite levels' (Carter et Wilkinson 2013) ; 'organs are located in pits within folds of the noseleaf' et 'host's warm blood-filled capillaries near the surface of the skin' et 'No other mammal is known to have this ability' et 'ca. three days without food' (Riskin et Carter) ; seuil TRPV1 'to about 30 degrees C' (Gracheva) ; 'can starve to death after missing only two to three nightly meals' et l'attraction vers les donneuses frequentes tenant sur les neuf essais ou l'appelante n'etait pas apparentee (Carter et Wilkinson 2016) ; 'many social relationships persisted from captivity to the wild' et 'enough to break the associations between mothers and their captive-born daughters' (Ripperger). Aucune source tertiaire type Wikipedia. Graphe valide : les cinq ouvre et les quatre requiert pointent tous vers un id existant, identite a bien un requiert vide. Aucune cle de trois caracteres ou moins, aucun accent, aucune majuscule dans les trente-cinq cles. Aucun tiret cadratin. Le genre feminin tient sur les cinq sujets."
+  ],
+  "corrections": [
+   {
+    "sujet": "monnez",
+    "avant": "Aucun autre mammifère connu ne sait faire ça ; les seuls autres animaux qui le font sont des serpents, boas, pythons et crotales.",
+    "apres": "Aucun autre mammifère connu ne sait faire ça. Chez les vertébrés, il n'y a que les serpents qui lisent la chaleur comme moi, les boas, les pythons et les crotales.",
+    "pourquoi": "Gracheva écrit 'Among vertebrates, only vampire bats, boas, pythons and pit vipers'. La fiche a perdu 'among vertebrates' et écrit 'animaux', ce qui rend la phrase fausse : Riskin et Carter, cité par la fiche elle-même, dit que le moustique détecte la chaleur et s'en sert pour approcher son hôte. Le point-virgule et la liste taxonomique sortent en plus de la voix parlée. Remplacer aussi l'extrait de cette source par 'il n'y a que les serpents qui lisent la chaleur comme moi, les boas, les pythons et les crotales'."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Et contrairement aux autres chauves-souris, je marche, je cours et je saute à quatre pattes sur le sol, ce qui surprend toujours les humains qui me croient clouée en l'air.",
+    "apres": "Et je marche, je cours et je saute à quatre pattes sur le sol, ce qui surprend toujours les humains qui me croient clouée en l'air. La course, aucune autre chauve-souris ne sait la faire.",
+    "pourquoi": "ADW ne compare à aucune autre espèce, et pour la marche la comparaison est fausse : Mystacina, la chauve-souris à queue courte de Nouvelle-Zélande, marche très bien. Seule la course est unique et c'est Riskin qui le dit : 'The running gait of vampire bats is the only known running gait of a bat.' Ajouter une source Riskin sur l'extrait 'La course, aucune autre chauve-souris ne sait la faire', et corriger la note de faitsEcartes qui prétend avoir écarté ce superlatif alors que le texte en gardait une version plus vague."
+   },
+   {
+    "sujet": "lafaim",
+    "avant": "Il suffit de manquer deux ou trois repas de suite pour mourir, et sans sang je tiens environ trois jours, pas davantage.",
+    "apres": "Il suffit de manquer deux ou trois repas de suite pour mourir. Soixante-dix heures, c'est mon plafond, pas une de plus.",
+    "pourquoi": "identite annonce soixante-dix heures, lafaim annonce trois jours, soit soixante-douze. Les deux chiffres sont sourcés mais un personnage dont tout le ton repose sur le fait qu'elle compte ses heures ne peut pas donner deux totaux. Garder l'heure, supprimer le jour, et retirer la source Riskin 'ca. three days' devenue sans objet dans ce sujet."
+   },
+   {
+    "sujet": "lepartage",
+    "avant": "Quand je rentre le ventre vide, je lèche la bouche d'une voisine et elle me rend un peu du sang de son propre repas. Le plus étrange, c'est que ce n'est pas toujours moi qui quémande : hors des dons d'une mère à son petit, c'est la donneuse qui a commencé dans soixante-deux pour cent des cas.",
+    "apres": "Quand je rentre le ventre vide, je lèche la bouche d'une voisine et elle me rend un peu du sang de son propre repas. Le plus étrange, c'est que souvent je n'ai rien eu à demander : elle est venue à moi. Hors des dons d'une mère à son petit, c'est la donneuse qui a commencé dans soixante-deux pour cent des cas.",
+    "pourquoi": "Le léchage de bouche est l'acte d'initiation lui-même, fait par l'un ou par l'autre : Carter et Wilkinson le classent comme initié par le receveur, le donneur ou inconnu. Écrire 'je lèche' puis 'ce n'est pas moi qui quémande' fait se contredire deux phrases voisines. La reformulation lève la contradiction et laisse intacts les deux extraits cités, qui restent mot pour mot dans le texte."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Mon corps ne pèse presque rien, entre 15 et 50 grammes selon la nuit.",
+    "apres": "Mon corps ne pèse presque rien, entre quinze et cinquante grammes selon la nuit.",
+    "pourquoi": "Tous les autres nombres de la fiche sont en lettres : soixante-dix, trente pour cent, soixante-deux, soixante-quatre, huit fois et demie, douze ans, trente degrés. Deux chiffres arabes au milieu d'une voix parlée sonnent comme un copier-coller. Changer l'extrait ADW en 'entre quinze et cinquante grammes' au même moment, sinon la source ne couvre plus rien."
+   },
+   {
+    "sujet": "monnez",
+    "avant": "Le seuil de chaleur de ces nerfs-là est descendu autour de trente degrés.",
+    "apres": "Ces nerfs-là s'allument bien plus bas que chez les autres, autour de trente degrés : à peine tiède, et c'est déjà assez pour moi.",
+    "pourquoi": "'Seuil de chaleur' est un mot d'instrument. Braise ne lit pas une courbe d'activation. Le chiffre reste, sourcé sur Gracheva, mais il change de bouche. Réduire l'extrait à 'autour de trente degrés' pour qu'il reste mot pour mot."
+   },
+   {
+    "sujet": "lepartage",
+    "avant": "Parmi les couples observés qui se partageaient le sang, soixante-quatre pour cent n'étaient pas apparentées.",
+    "apres": "Parmi celles qui se partagent le sang, soixante-quatre pour cent ne sont pas de la même famille.",
+    "pourquoi": "'Les couples observés' convoque un observateur humain absent du récit et fait raconter à Braise, de l'extérieur, une étude qu'elle est censée vivre. Même correction à faire dans mesamies : 'Des femelles sauvages ont été revues perchées ensemble douze ans plus tard' devient 'Il y a des femelles qui dorment encore côte à côte douze ans plus tard'. Réaligner les deux extraits sur le nouveau texte."
+   }
+  ]
+ },
+ {
+  "corrections": [
+   {
+    "sujet": "la danse",
+    "avant": "et le bruit plus aigu de mes ailes autour de deux cent cinquante",
+    "apres": "et le bruit plus aigu de mes ailes autour de deux cent soixante-cinq",
+    "pourquoi": "La source (PMC6835826) dit \"beating their wings at about 265 Hz\". Le chiffre 250 n'apparait dans aucune des 9 pages ouvertes : c'est un arrondi inventé. L'extrait de la source correspondante doit etre modifie mot pour mot de la meme facon, sinon il ne couvre plus rien."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Je suis une fille parmi les filles d'une seule mère, toutes stériles",
+    "apres": "Je suis une fille parmi les filles d'une seule mère, stériles à de rarissimes exceptions",
+    "pourquoi": "Animal Diversity Web dit \"The great majority of female A. mellifera in a hive are sterile workers\", pas \"toutes\". Le \"toutes\" est un absolu que la source refuse. Extrait de source a modifier en meme temps."
+   },
+   {
+    "sujet": "la distance",
+    "avant": "Les humains ont longtemps cru que cela montait tout droit, tant de secondes pour tant de mètres. En vérité la pente s'aplatit, et ils ne l'ont vu qu'en nous entraînant bien au delà de mille mètres. En dessous, leur ligne droite tient assez pour qu'ils ne se doutent de rien.",
+    "apres": "Au début c'est presque régulier, tant de secousses pour tant de chemin. Mais plus le trajet s'allonge, moins j'en rajoute: passé le millier de mètres ma course s'étire à peine. Tant qu'ils ne nous ont pas fait voler aussi loin, ils n'ont rien vu venir.",
+    "pourquoi": "Une abeille ne connait pas l'historiographie des protocoles d'entrainement d'avant 1990. Le passage raconte la méthodologie humaine au lieu du vécu de l'insecte: c'est la fiche à la première personne. La version corrigée garde exactement le meme fait sourcé (aplatissement de la pente au-delà d'environ 1 km, PMC8029670) en le disant depuis son corps. Extraits de source a realigner."
+   },
+   {
+    "sujet": "les couleurs",
+    "avant": "J'ai trois sortes de capteurs dans l'oeil, et les humains qui les mesurent leur trouvent des pointes vers trois cent quarante quatre, quatre cent trente six et cinq cent quarante quatre nanomètres.",
+    "apres": "J'ai trois sortes de capteurs dans l'oeil. Ceux qui m'ont ouverte pour les mesurer parlent de trois pointes: trois cent quarante quatre, quatre cent trente six, cinq cent quarante quatre. Ce sont leurs chiffres, pas les miens: moi je vois trois familles de lumière, voilà tout.",
+    "pourquoi": "Une butineuse pressée qui débite trois valeurs en nanomètres, c'est la récitation de fiche. Le fait reste (PMC3498261, verbatim 344/436/544 nm) mais il faut qu'elle le rende à ses mesureurs au lieu de le porter elle-meme. Le mot \"nanomètres\" disparait de sa bouche."
+   },
+   {
+    "sujet": "la danse",
+    "avant": "\"frelilement\"",
+    "apres": "\"fretillement\"",
+    "pourquoi": "Clé morte: \"frelilement\" est une faute de frappe que personne ne tapera jamais. Elle n'attrape aucune question réelle et gaspille un slot."
+   },
+   {
+    "sujet": "la chaleur",
+    "avant": "Personne ne me donne d'ordre: quand mes soeurs me mendient à boire plus souvent que d'habitude, je sais qu'il faut repartir chercher de l'eau.",
+    "apres": "Personne ne me donne d'ordre. Quand mes soeurs me mendient à boire plus souvent que d'habitude, je repars chercher de l'eau, sans savoir moi-meme si c'est leur insistance ou ma propre soif qui me pousse.",
+    "pourquoi": "Le JEB (219/14/2156) hedge explicitement: \"It is also possible, however, that water collectors are reactivated... as a response to sensations of personal thirst\". La fiche tranche là où la source ne tranche pas. La nuance rend en plus la voix meilleure."
+   },
+   {
+    "sujet": "identite",
+    "avant": "ref: Animal Diversity Web, Université du Michigan, Apis mellifera (3 sources sur 12)",
+    "apres": "remplacer par une source primaire ou institutionnelle de recherche sur la polyéthie temporelle et la longévité des ouvrières, ouverte et vérifiée avant citation",
+    "pourquoi": "ADW est une base encyclopédique d'accounts rédigés en grande partie par des étudiants sous relecture éditoriale: c'est du tertiaire, meme s'il porte un nom d'université. Toute l'identité de l'entité repose dessus. Le contenu est exact et vérifié sur la page, mais le statut de la source est le point faible du dossier."
+   }
+  ],
+  "id": "abeille-domestique-vrille",
+  "problemes": [
+   "CHIFFRE NON COUVERT (bloquant): la danse annonce des ailes \"autour de deux cent cinquante\". La seule source citée (PMC6835826) dit \"beating their wings at about 265 Hz\". Aucune des 9 pages ouvertes ne contient 250. Chiffre arrondi sans mandat.",
+   "SUR-AFFIRMATION: identite dit \"toutes stériles\". Animal Diversity Web dit \"The great majority of female A. mellifera in a hive are sterile workers\". L'absolu n'est pas dans la source.",
+   "SOURCE TERTIAIRE: Animal Diversity Web porte 3 des 12 sources, dont tout le sujet identite. C'est une base d'accounts encyclopédiques rédigés par des étudiants, hébergée par l'Université du Michigan: statut tertiaire, meme si ce n'est pas Wikipedia. Le contenu cité est exact mais l'assise est faible.",
+   "VOIX: le sujet la distance fait raconter à une abeille l'historiographie des protocoles d'entrainement humains (\"ils ne l'ont vu qu'en nous entraînant bien au delà de mille mètres\"). Une butineuse ne sait pas à quelle distance les chercheurs d'avant 1990 entrainaient leurs sujets. C'est de la fiche à la première personne.",
+   "VOIX: les couleurs fait réciter trois valeurs en nanomètres à un insecte. Le cadrage \"les humains qui les mesurent\" atténue mais ne sauve pas: le mot nanomètres dans la bouche d'une abeille est le marqueur exact du copier-coller déguisé.",
+   "NUANCE PERDUE: la chaleur affirme que la mendicité des soeurs est LE signal du besoin d'eau. Le JEB écarté à moitié: la source propose aussi la soif personnelle après régurgitation et dit que le déclencheur exact reste inconnu.",
+   "CLE MORTE: \"frelilement\" dans la danse est une faute de frappe pour \"fretillement\". Aucun joueur ne tapera ça.",
+   "MINEUR: \"Beaucoup de corolles portent un centre qui avale cet ultraviolet\" - la source Lunau parle du bull's eye UV comme du signal UV le plus proéminent, sans quantifier. \"Beaucoup\" est plausible mais non chiffré par la page. A garder tel quel, ne pas durcir.",
+   "POINTS VERIFIES ET PROPRES: les 9 URL s'ouvrent toutes et disent bien ce qu'on leur fait dire (angle par rapport au soleil, suiveuses latérales antennes au contact, 15-25 Hz, organe de Johnston, aplatissement non linéaire au-delà de ~1 km, bénéfice de la danse quand les patchs durent, 32-36 degrés, muscles de vol et seuil de deux jours, ventilation et eau étalée, manteau isolant + coeur endotherme tous deux nécessaires, 344/436/544 nm, UV vu par l'abeille et rouge mieux vu par l'humain, UV comme couleur et non comme signal secret). Les 12 extraits apparaissent tous MOT POUR MOT dans les réponses. Graphe cohérent: les 5 ids existent, identite a bien un requiert vide, les couleurs est atteignable par les deux branches, aucun orphelin. Toutes les clés font plus de 3 caractères, sans accent ni majuscule. Zéro tiret cadratin. La liste faitsEcartes est honnete et vérifiable (le résumé JEB du cluster d'hiver ne porte effectivement aucune température)."
+  ],
+  "verdict": "publiable apres corrections"
+ },
+ {
+  "corrections": [
+   {
+    "sujet": "les-trois-formes",
+    "avant": "Deux d'entre nous ont montré les trois formes, et d'autres, plus tard, ont préféré parler d'une imitation imparfaite et facultative plutôt que d'une copie.",
+    "apres": "Deux d'entre nous ont montré les trois formes. Pour la seule nage de sole, d'autres ont préféré parler plus tard d'une imitation imparfaite et facultative plutôt que d'une copie.",
+    "pourquoi": "Surextension de la source. L'abstract de Huffard 2010 restreint le propos au seul patron de nage de type poisson plat : \"a conspicuous primary defence mechanism (high-contrast colour pattern during 'flatfish swimming') that may involve facultative imperfect mimicry ... (Soleidae and Bothidae)\". La fiche l'applique aux trois formes, poisson-lion et serpent de mer compris. La source ne couvre pas la phrase telle qu'elle est ecrite. L'extrait devra etre reajuste au nouveau texte."
+   },
+   {
+    "sujet": "les-trois-formes",
+    "avant": "cela n'est arrivé qu'en réaction à l'attaque de petits poissons de récif territoriaux",
+    "apres": "cela n'est arrivé que quatre fois, chaque fois en réaction à l'attaque de petites demoiselles territoriales",
+    "pourquoi": "Deux problemes. D'abord Norman 2001 nomme les agresseurs : \"attacks by small territorial damselfishes (Amphiprion spp.)\", des demoiselles, pas des \"poissons de recif\" indetermines, et l'habitat decrit est du sable et de la vase devant des embouchures, pas un recif. Ensuite le papier ecrit \"On four occasions\" : l'entite donne le compte des individus pour le poisson-lion (quatre) mais escamote le compte des occurrences pour le serpent, alors que compter est toute sa raison d'etre."
+   },
+   {
+    "sujet": "ce-qui-est-incertain",
+    "avant": "Neuf adultes, seize jours, six heures de film: voilà sur quoi tout cela repose",
+    "apres": "Neuf adultes, seize jours, plus de six heures de film: voilà sur quoi tout cela repose",
+    "pourquoi": "Norman 2001 ecrit \"over 6 h of video footage\", une borne inferieure. La fiche l'aplatit en un chiffre exact. Un personnage dont l'accroche est de separer l'observe du conclu et de compter sans se tromper ne peut pas transformer un \"plus de\" en \"egal\" dans la phrase meme qui sert de garantie a tout le reste."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Mon envergure, bras compris, monte jusqu'à soixante centimètres, et presque tout cela est du bras.",
+    "apres": "Mon envergure, bras compris, monte jusqu'à soixante centimètres.",
+    "pourquoi": "\"presque tout cela est du bras\" est une quantification qui n'apparait dans aucune des deux sources et n'est couverte par aucun extrait. Norman 2001 donne \"arm span of up to 60 cm\" et Norman et Hochberg 2005 \"long narrow arms\" : aucun ne chiffre la part des bras dans l'envergure. Claim quantitatif ajoute sur une mesure sourcee."
+   },
+   {
+    "sujet": "identite",
+    "avant": "Les gardiens qui écrivent ne m'ont donné un nom qu'en 2005, sept ans après m'avoir vue. [source : World Register of Marine Species (WoRMS)]",
+    "apres": "Les gardiens qui écrivent ne m'ont donné un nom qu'en 2005, sept ans après m'avoir vue. [source : Norman et Hochberg, Molluscan Research 25(2), 57-70 (2005), extrait couvrant la phrase entiere]",
+    "pourquoi": "Deux problemes. WoRMS est un registre nomenclatural, une compilation, et il est ici redondant : la date de 2005 est portee par l'article primaire de Norman et Hochberg deja cite deux sources plus haut. Et \"sept ans après m'avoir vue\" tombe hors de tout extrait : un chiffre non couvert. Citer le primaire et etendre l'extrait a la phrase complete regle les deux."
+   },
+   {
+    "sujet": "le-fond-de-sable",
+    "avant": "[ref] Marine Biodiversity Records (Cambridge University Press), Documentation of the mimic octopus Thaumoctopus mimicus in the Great Barrier Reef, Australia",
+    "apres": "[ref] Coker, Documentation of the mimic octopus Thaumoctopus mimicus in the Great Barrier Reef, Australia, Marine Biodiversity Records 6 (2013)",
+    "pourquoi": "Seule reference de la fiche sans auteur ni annee ni volume, alors que les quatre autres portent la citation complete. La page s'ouvre et donne Darren J. Coker, 2013, volume 6. Une reference tronquee n'est pas verifiable au meme niveau que les autres."
+   },
+   {
+    "sujet": "le-fond-de-sable",
+    "avant": "On m'a aussi trouvée bien plus loin, jusqu'à l'île Lizard sur la Grande Barrière, ce qui veut dire que ma répartition est plus large que ce qui était écrit.",
+    "apres": "On a trouvé une seule d'entre nous bien plus loin, à l'île Lizard sur la Grande Barrière, à marée basse, un jour de juin 2012: une, ce qui suffit à dire que ma répartition est plus large que ce qui était écrit.",
+    "pourquoi": "L'abstract de Coker 2013 dit \"One adult was found\", premiere mention en eaux australiennes, lors d'une maree basse du 4 juin 2012. La fiche ecrit \"On m'a aussi trouvée\", formulation qui laisse croire a des observations repetees. Escamoter un n egal a 1 est exactement le travers que ce personnage est cense denoncer."
+   },
+   {
+    "sujet": "la-chasse",
+    "avant": "Ce que j'attrape, ce sont de petits poissons et des crustacés, et beaucoup vivent sous le sable plutôt que dessus. [extrait s'arretant a \"des crustacés\"]",
+    "apres": "[etendre l'extrait a la phrase entiere et l'appuyer sur Norman, Finn et Tregenza 2001, qui ecrit \"their prey are mainly subterranean crustaceans and fishes\"]",
+    "pourquoi": "La seconde moitie de la phrase, \"beaucoup vivent sous le sable plutôt que dessus\", tombe hors de tout extrait. Le fait est vrai et sourcable dans le papier de 2001, mais tel quel il n'est couvert par aucune source de la fiche."
+   },
+   {
+    "sujet": "identite",
+    "avant": "On m'a filmée pour la première fois en 1998, au large de Sulawesi",
+    "apres": "On m'a trouvée en 1998, au large de Sulawesi",
+    "pourquoi": "Norman 2001 ecrit \"was discovered in 1998 off the coast of Sulawesi\", et les plongees filmees courent d'octobre 1998 a octobre 2000. Le papier ne dit nulle part que la decouverte de 1998 fut un tournage. Decouverte et premier film sont deux actes distincts : l'entite qui separe l'observe du conclu ne peut pas les confondre."
+   },
+   {
+    "sujet": "ce-qui-est-incertain",
+    "avant": "[graphe] ce-qui-est-incertain est ouvert par la-chasse ET par les-trois-formes, mais requiert les-trois-formes",
+    "apres": "[graphe] soit retirer ce-qui-est-incertain du \"ouvre\" de la-chasse, soit vider le \"requiert\" de ce-qui-est-incertain",
+    "pourquoi": "Chemin mort. Un visiteur qui suit identite puis le-fond-de-sable puis la-chasse voit ce-qui-est-incertain s'ouvrir sans jamais avoir passe par les-trois-formes: le sujet est annonce et reste verrouille. Tous les ids pointes existent et le premier sujet a bien un requiert vide, mais cette branche est incoherente."
+   }
+  ],
+  "id": "poulpe-mimetique",
+  "problemes": [
+   "Surextension de source, le plus grave. Huffard 2010 ne parle d'imitation \"imparfaite et facultative\" que pour la nage de type poisson plat (\"high-contrast colour pattern during 'flatfish swimming'\"). La fiche etend ce jugement aux trois formes, poisson-lion et serpent de mer compris. La source ne dit pas ce qu'on lui fait dire.",
+   "Chiffre affaibli dans la phrase de garantie: Norman 2001 ecrit \"over 6 h of video footage\", la fiche ecrit \"six heures de film\". Une borne inferieure transformee en valeur exacte, dans la seule phrase censee dire sur quoi tout repose.",
+   "Compte manquant: le papier dit \"On four occasions\" pour la posture de serpent de mer. La fiche donne le compte pour le poisson-lion (quatre individus) mais tait celui du serpent. Une entite dont l'accroche est de tout compter laisse tomber un compte.",
+   "Modele mal nomme: \"petits poissons de récif territoriaux\" au lieu des \"small territorial damselfishes (Amphiprion spp.)\" du papier. Categorie floue et geographiquement fausse, l'habitat decrit etant du sable devant des embouchures.",
+   "Chiffre hors couverture: \"presque tout cela est du bras\" n'est dans aucune des deux sources de identite et dans aucun extrait. Quantification ajoutee par-dessus une mesure sourcee.",
+   "Chiffre hors couverture: \"sept ans après m'avoir vue\" tombe en dehors de l'extrait WoRMS, qui s'arrete a \"qu'en 2005\".",
+   "Texte hors couverture: \"et beaucoup vivent sous le sable plutôt que dessus\" (la-chasse) n'est couvert par aucun extrait, alors que le fait est disponible dans Norman 2001.",
+   "Source redondante et de rang faible: WoRMS, registre nomenclatural, est cite pour une date de nomination que porte deja l'article primaire Norman et Hochberg 2005 cite juste avant dans le meme sujet. Ce n'est pas Wikipedia, mais c'est un detour inutile par une compilation.",
+   "Reference incomplete: la source Cambridge n'a ni auteur ni annee ni volume, seule des cinq dans ce cas. Il s'agit de Coker, Marine Biodiversity Records 6 (2013).",
+   "Effectif escamote: l'observation australienne repose sur \"One adult was found\", a maree basse le 4 juin 2012. La fiche ecrit \"On m'a aussi trouvée\", qui suggere plusieurs observations.",
+   "Confusion decouverte / tournage: le papier dit \"discovered in 1998\", pas filmee en 1998. Les plongees filmees vont d'octobre 1998 a octobre 2000.",
+   "Chemin mort dans le graphe: ce-qui-est-incertain est ouvert par la-chasse mais requiert les-trois-formes. Un visiteur passant par identite, le-fond-de-sable, la-chasse le voit s'ouvrir et rester verrouille.",
+   "Imprecision anatomique mineure: \"un anneau blanc en forme de larme au milieu du manteau\" pour \"a white teardrop ring on the mid-dorsal mantle\". Le caractere dorsal disparait.",
+   "Ton: une seule phrase recite au lieu de parler, celle des marques du manteau. Un animal ne decrit pas ses propres taches par leur position diagnostique. Le reste de la voix tient: elle compte, elle distingue \"vu\" de \"conclu\", et la ligne \"Ce n'est pas la même chose que dire qu'aucun ne le fait\" est du vrai personnage, pas de la fiche recopiee."
+  ],
+  "verdict": "publiable apres corrections"
+ }
+]
